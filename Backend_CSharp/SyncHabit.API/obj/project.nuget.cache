@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yHvqrKtAHOg=",
+  "dgSpecHash": "j646qYHfSFw=",
   "success": true,
   "projectFilePath": "C:\\Users\\MehmetAli\\Desktop\\DERSS\\4.SINIF\\BAHAR_YARIYILI\\BitirmeTezi\\Backend_CSharp\\SyncHabit.API\\SyncHabit.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MehmetAli\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\MehmetAli\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\MehmetAli\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\MehmetAli\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\MehmetAli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\MehmetAli\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",

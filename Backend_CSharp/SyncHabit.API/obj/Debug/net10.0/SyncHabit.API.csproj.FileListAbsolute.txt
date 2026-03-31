@@ -317,3 +317,4 @@ C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSha
 C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\bin\Debug\net10.0\BCrypt.Net-Next.dll
