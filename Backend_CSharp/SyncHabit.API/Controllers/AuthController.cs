@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using SyncHabit.API.Data;
 using SyncHabit.API.DTOs;
 using SyncHabit.API.Models;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace SyncHabit.API.Controllers
 {
@@ -10,10 +14,12 @@ namespace SyncHabit.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(AppDbContext context)
+        public AuthController(AppDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         // 1. KAYIT OL (REGISTER) KAPISI
@@ -64,7 +70,34 @@ namespace SyncHabit.API.Controllers
                 return BadRequest("Hatalı şifre.");
             }
 
-            return Ok($"Giriş başarılı! Hoş geldin, {user.Username}.");
+            string token = CreateToken(user);
+            return Ok(token);
+        }
+
+        private string CreateToken(User user)
+        {
+            // Token içine gizleyeceğimiz küçük bilgiler (Adı ve ID'si)
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Username)
+            };
+
+            // appsettings'ten gizli anahtar çekiliyor
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("Jwt:Key").Value!));
+
+            // İmzalama algoritması
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+
+            // Token'ın oluşturulması (1 gün geçerli olacak)
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.Now.AddDays(1),
+                signingCredentials: creds
+            );
+
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            return jwt;
         }
     }
 }

@@ -2,9 +2,12 @@ using System.Net.WebSockets;
 using Microsoft.AspNetCore.Mvc;
 using SyncHabit.API.Data;
 using SyncHabit.API.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace SyncHabit.API.Controllers
 {
+    [Authorize]
     [Route("api/[Controller]")] //Adres: localhost:xxxx/api/task olacak
     [ApiController]
     public class TasksController : ControllerBase
@@ -21,18 +24,41 @@ namespace SyncHabit.API.Controllers
         [HttpGet]
         public IActionResult GetTasks()
         {
-            var tasks = _context.Tasks.ToList(); //Veritabanındaki tüm görevleri listele
-            return Ok(tasks); //200 OK koduyla geri gönder
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (userIdString == null)
+            {
+                return Unauthorized("Güvenlik ihlali: Geçerli bir kullanıcı bulunamadı.");
+            }
+
+            int myUserId = int.Parse(userIdString);
+            var myTasks = _context.Tasks.Where(t => t.CreatorId == myUserId).ToList();
+            return Ok(myTasks); //200 OK koduyla geri gönder
         }
 
         // 2. Kapı: Yeni görev ekle (POST İsteği)
         [HttpPost]
         public IActionResult AddTask([FromBody] TaskItem newTask)
         {
-            _context.Tasks.Add(newTask); // Yeni görevi veritabanına ekle
-            _context.SaveChanges(); // Değişiklikleri kaydet
+            // 1. Token'ın içinden giriş yapan kullanıcının ID'sini çek
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-            return Ok(newTask); // Eklenen görevi geri göster
+            if (userIdString == null)
+            {
+                return Unauthorized("Güvenlik ihlali: Geçerli bir kullanıcı bulunamadı.");
+            }
+
+            // 2. Görevi oluşturan kişinin ID'sini, Token'dan alınan ID ile eziyoruz
+            newTask.CreatorId = int.Parse(userIdString);
+
+            // şimdilik tarih otomatik atılıyor
+            newTask.CreatedAt = DateTime.Now;
+
+            //Veritabanına ekleme ve kaydetme 
+            _context.Tasks.Add(newTask);
+            _context.SaveChanges();
+
+            return Ok(newTask);
         }
     }
 }

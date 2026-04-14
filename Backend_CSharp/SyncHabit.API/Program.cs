@@ -1,31 +1,35 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using SyncHabit.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. Veritabanı bağlantımız (Bunu zaten harika bir şekilde eklemiştin)
+// Veritabanı bağlantısı
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 2. Yazdığımız Controller'ları (TasksController) sisteme tanıtıyoruz!
 builder.Services.AddControllers();
 
-// Senin başarıyla kurduğun Swagger ayarları
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//JWT KİMLİK DOĞRULAMA
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration.GetSection("Jwt:Key").Value!)),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    });
 
 var app = builder.Build();
 
-// Geliştirme ortamında Swagger'ı aç
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseAuthentication();
+app.UseAuthorization();
 
-// app.UseHttpsRedirection(); // Hata vermemesi için kapalı tutuyoruz
-
-// 3. Controller rotalarını dış dünyaya açıyoruz!
 app.MapControllers();
 
 app.Run();
