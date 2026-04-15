@@ -1,0 +1,40 @@
+@Host = http://localhost:5221
+
+### 1. LOGIN OL VE TOKEN AL
+POST {{Host}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "email": "example@mail.com",
+  "password": "159753"
+}
+
+### 2. TOKEN İLE GÖREV EKLE (Kilitli Kapı)
+POST {{Host}}/api/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2MjgwNzM4fQ.ZeTlNL-WteomSlQyBcDmfdAb_57r94p-C-OevhxVEX78FkCHh33aBLYZ7cfl0ZyBk3yQYh6iVo6NQ2vZUgxfdA
+
+{
+  "taskText": "Güvenlik açığını giderdim artık dışarıdan birisi doğrulama olmadan görev ekleyemez!",
+  "category": "Yazılım",
+  "difficultyScore": 90
+}
+
+### 3. SADECE BANA AİT GÖREVLERİ GETİR
+GET {{Host}}/api/tasks
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2Mjg1OTg0fQ.aA49RVvslphejsEJo2RRMU2AzvGUO2nN2GdY-l7DGK30aXZeBuljYZd1yfryB-n1VDZfML7pUXU1r_H996PbwQ
+
+### 4. GÖREV GÜNCELLE
+PUT {{Host}}/api/tasks/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2MjkwNTcxfQ.-rBzGTcL0_9LXhT66GebuJF0aIAXBKt_QUdr3k5C135_PqvjVJJHmgR9HbneJoRQZz7jA57hVSl4I_yAYM6Vvg
+
+{
+  "taskText": "Bu görev güncellendi!",
+  "category": "Eğitim",
+  "difficultyScore": 95
+}
+
+### 5. GÖREV SİL
+DELETE {{Host}}/api/tasks/3
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2MjkwOTE4fQ.jBCaLn2IcWvxTH9BAGnBMWt_ZbBsac-HHD4D68uX0di4vOB5ip_JWTxwbHxgRBGZyzJmyfPHLsx77VgNs4-Dvw
