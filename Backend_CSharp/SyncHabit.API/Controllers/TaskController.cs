@@ -1,4 +1,3 @@
-using System.Net.WebSockets;
 using Microsoft.AspNetCore.Mvc;
 using SyncHabit.API.Data;
 using SyncHabit.API.Models;
@@ -59,6 +58,42 @@ namespace SyncHabit.API.Controllers
             _context.SaveChanges();
 
             return Ok(newTask);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateTask(int id, [FromBody] TaskItem updatedTask)
+        {
+            var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)!.Value);
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == id && t.CreatorId == userId);
+
+            if (task == null)
+            {
+                return NotFound("Güncellenecek görev bulunamadı veya bu işlem için yetkiniz yok.");
+            }
+
+            task.TaskText = updatedTask.TaskText;
+            task.Category = updatedTask.Category;
+            task.DifficultyScore = updatedTask.DifficultyScore;
+
+            _context.SaveChanges();
+            return Ok("Görev başarıyla güncellendi");
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteTask(int id)
+        {
+            var userId = int.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)!.Value);
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == id && t.CreatorId == userId);
+
+            if (task == null)
+            {
+                return NotFound("Silinecek görev bulunamadı veya yetkiniz yok.");
+            }
+
+            _context.Tasks.Remove(task);
+            _context.SaveChanges();
+
+            return Ok("Görev başarıyla silindi.");
         }
     }
 }
