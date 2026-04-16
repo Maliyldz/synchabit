@@ -38,3 +38,15 @@ Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW
 ### 5. GÖREV SİL
 DELETE {{Host}}/api/tasks/3
 Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2MjkwOTE4fQ.jBCaLn2IcWvxTH9BAGnBMWt_ZbBsac-HHD4D68uX0di4vOB5ip_JWTxwbHxgRBGZyzJmyfPHLsx77VgNs4-Dvw
+
+### 6. KANIT (FOTOĞRAF) YÜKLE
+POST {{Host}}/api/upload
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2MzgyODA3fQ.iFvmHMOFhLAxDr8X9bRf5tz1yZZ3p7vMcmpgDqzATbhBw3sWDUn0uwhZX4OXjss3j2S5PnLnz2nxiQJb30dKeA
+Content-Type: multipart/form-data; boundary=Boundary123
+
+--Boundary123
+Content-Disposition: form-data; name="file"; filename="kanit.jpg"
+Content-Type: image/jpeg
+
+< ./kanit.jpg
+--Boundary123--

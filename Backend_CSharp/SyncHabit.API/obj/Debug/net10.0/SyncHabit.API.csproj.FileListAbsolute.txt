@@ -313,3 +313,5 @@ C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSha
 C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\obj\Debug\net10.0\SyncHabit.API.pdb
 C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\obj\Debug\net10.0\SyncHabit.API.genruntimeconfig.cache
 C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\obj\Debug\net10.0\ref\SyncHabit.API.dll
+C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\obj\Debug\net10.0\SyncHabit.API.sourcelink.json
+C:\Users\MehmetAli\Desktop\DERSS\4.SINIF\BAHAR_YARIYILI\BitirmeTezi\Backend_CSharp\SyncHabit.API\bin\Debug\net10.0\SyncHabit.API.staticwebassets.runtime.json
