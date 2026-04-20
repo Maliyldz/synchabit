@@ -12,5 +12,6 @@ namespace SyncHabit.API.Data
         // Veritabanında oluşacak tablolarımızın isimleri
         public DbSet<User> Users { get; set; }
         public DbSet<TaskItem> Tasks { get; set; }
+        public DbSet<Friendship> Friendships { get; set; }
     }
 }

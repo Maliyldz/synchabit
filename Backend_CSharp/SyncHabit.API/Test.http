@@ -1,5 +1,24 @@
 @Host = http://localhost:5221
 
+### 0. YENİ KULLANICI KAYDI (REGISTER)
+POST {{Host}}/api/Auth/register
+Content-Type: application/json
+
+{
+  "username": "IkinciKullanici",
+  "email": "test2@mail.com",
+  "password": "123456"
+}
+
+### 1. LOGIN OL VE TOKEN AL
+POST {{Host}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "email": "test2@mail.com",
+  "password": "123456"
+}
+
 ### 1. LOGIN OL VE TOKEN AL
 POST {{Host}}/api/Auth/login
 Content-Type: application/json
@@ -50,3 +69,15 @@ Content-Type: image/jpeg
 
 < ./kanit.jpg
 --Boundary123--
+
+### 7. ARKADAŞLIK İSTEĞİ GÖNDERME
+POST {{Host}}/api/friends/add/2
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2ODA0MTAyfQ.qtRHGEXAMfgf3Lk8Wa0djrMFCKvCX17d59FfRZE0SwETPfDD2bgDQSxsEIVs2UtHdQkeVDUx6of3YdgJaxwRew
+
+### 8. ARKADAŞLARIMI LİSTELE
+GET {{Host}}/api/friends
+Authorization: Bearer
+
+### 9. İSTEĞİ KABUL ET (requestId kısmına Friendships tablosundaki ID'yi yaz)
+POST {{Host}}/api/friends/accept/1
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSWtpbmNpS3VsbGFuaWNpIiwiZXhwIjoxNzc2ODA2NDE5fQ.-ghgUWFbK5MNmtpcXsqmXOUP8WM39GhPANfvJN01FblkBPZAy5DLhVexhhXfIljUX09lAgpsO7DmGb7k-d3b-g
