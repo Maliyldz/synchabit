@@ -8,5 +8,6 @@ namespace SyncHabit.API.Models
         public string Category { get; set; } = "Belirsiz";
         public int DifficultyScore { get; set; } = 0;
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public int? GroupId { get; set; } // Nullable: Grup görevi ise dolu olur
     }
 }

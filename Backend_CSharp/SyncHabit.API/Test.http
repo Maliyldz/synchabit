@@ -81,3 +81,24 @@ Authorization: Bearer
 ### 9. İSTEĞİ KABUL ET (requestId kısmına Friendships tablosundaki ID'yi yaz)
 POST {{Host}}/api/friends/accept/1
 Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSWtpbmNpS3VsbGFuaWNpIiwiZXhwIjoxNzc2ODA2NDE5fQ.-ghgUWFbK5MNmtpcXsqmXOUP8WM39GhPANfvJN01FblkBPZAy5DLhVexhhXfIljUX09lAgpsO7DmGb7k-d3b-g
+
+### 10. YENİ GRUP OLUŞTUR
+POST {{Host}}/api/groups
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2ODEwOTQ2fQ.Jm5T4Ghp09qQc9Pyi670jGY0U2yKxZPO1j873ehI39u0UegOhk9-s05_KsC6Cx1qR3d1TR2-ByQOIE8yL6uWAw
+Content-Type: application/json
+
+{
+  "name": "Sabah Erken Kalkanlar",
+  "description": "Her gün 07:00'de uyanan mühendisler grubu."
+}
+
+### 11. GRUBA ORTAK GÖREV (CHALLENGE) EKLE
+POST {{Host}}/api/groups/1/task
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzc2ODEwOTQ2fQ.Jm5T4Ghp09qQc9Pyi670jGY0U2yKxZPO1j873ehI39u0UegOhk9-s05_KsC6Cx1qR3d1TR2-ByQOIE8yL6uWAw
+Content-Type: application/json
+
+{
+  "taskText": "Grupça 50 sayfa kitap oku",
+  "category": "Eğitim",
+  "difficultyScore": 60
+}
