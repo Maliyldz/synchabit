@@ -416,3 +416,13 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Python Geçici Dosyaları
+__pycache__/
+*.pyc
+
+# Veri Seti
+dataset/
+test_images/
+test&egitim_sonuclari/
