@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SyncHabit.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6728702e58c2ef8e071393d3ad5f4261428efee9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc9eef3ef6f10edea56edc7d95da5254e619b7d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SyncHabit.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SyncHabit.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

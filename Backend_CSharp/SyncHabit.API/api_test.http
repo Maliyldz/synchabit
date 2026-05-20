@@ -1,0 +1,30 @@
+### Doğru kategori testi
+POST http://localhost:5221/api/TaskVerification/verify
+Content-Type: multipart/form-data; boundary=----MyBoundaryString
+
+------MyBoundaryString
+Content-Disposition: form-data; name="expectedCategory"
+
+kod_yazma
+------MyBoundaryString
+Content-Disposition: form-data; name="image"; filename="typing2.jpeg"
+Content-Type: image/jpeg
+
+< ./test_fotograflari/knitting2.jpg
+------MyBoundaryString--
+
+
+### Yanlış kategori testi (hile senaryosu)
+POST http://localhost:5221/api/TaskVerification/verify
+Content-Type: multipart/form-data; boundary=----MyBoundaryString
+
+------MyBoundaryString
+Content-Disposition: form-data; name="expectedCategory"
+
+gitar_calma
+------MyBoundaryString
+Content-Disposition: form-data; name="image"; filename="typing2.jpeg"
+Content-Type: image/jpeg
+
+< ./test_fotograflari/knitting2.jpg
+------MyBoundaryString--
