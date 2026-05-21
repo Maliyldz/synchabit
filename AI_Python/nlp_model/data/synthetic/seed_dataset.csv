@@ -1,0 +1,990 @@
+text,label,subcategory
+Bugün 5 kilometre koşacağım,0,sport
+Sabah 30 dakika yürüyüş yapacağım,0,sport
+Akşam yoga seansı yapacağım,0,sport
+Haftada 3 gün spor salonuna gideceğim,0,sport
+30 dakika bisiklete bineceğim,0,sport
+ip atlayacağım 100 kere,0,sport
+Yüzme antrenmanına gideceğim,0,sport
+Basketbol oynayacağım arkadaşlarla,0,sport
+Pilates dersine katılacağım,0,sport
+Şınav çekeceğim 20 tane,0,sport
+mekik çekicem 50 tane,0,sport
+Akşam koşusuna çıkacağım parkta,0,sport
+voleybol antrenmanım var bugün,0,sport
+Sabah esneme hareketleri yapacağım,0,sport
+Tenis dersine başlayacağım,0,sport
+Bugün dağa tırmanacağım arkadaşlarla,0,sport
+Yarın sabah erken kalkıp koşuya çıkacağım,0,sport
+Plates yapıcam evde,0,sport
+Akşamları yürüyüşe çıkma alışkanlığı edineceğim,0,sport
+Crossfit antrenmanına gideceğim,0,sport
+Sabah 6 da kalkıp egzersiz yapacağım,0,sport
+Bugün 10000 adım atmaya çalışacağım,0,sport
+Hafta sonu doğa yürüyüşüne gideceğim,0,sport
+Pazartesi günü spor salonuna kayıt yaptıracağım,0,sport
+Trambolinde 15 dakika zıplayacağım,0,sport
+Sahile gidip yürüyüş yapacağım,0,sport
+Sabah egzersizine başlayacağım,0,sport
+Düzenli yürüyüşe çıkmaya başlayacağım,0,sport
+İlk maratonuma hazırlanacağım,0,sport
+Halı sahaya gideceğim arkadaşlarla,0,sport
+Daha çok bol bol egzersiz yapacağım,0,sport
+Bugün Python çalışacağım,0,study
+2 saat kitap okuyacağım,0,study
+Matematik soruları çözeceğim,0,study
+İngilizce kelime ezberleyeceğim,0,study
+Online kursa devam edeceğim,0,study
+Tezimi yazmaya devam edeceğim,0,study
+Algoritma çalışacam bugün,0,study
+KPSS hazırlığı yapacağım,0,study
+Yarın sınava çalışmaya başlayacağım,0,study
+Bir saat ders dinleyeceğim,0,study
+Kodlama egzersizleri çözeceğim,0,study
+React öğrenmeye devam edeceğim,0,study
+veri yapıları konusunu tekrar edicem,0,study
+Yeni bir kitap almaya gideceğim,0,study
+Akşam dersleri bitirip ödev yapacağım,0,study
+Tarih konusunu özetleyeceğim,0,study
+Fizik problemleri çözeceğim,0,study
+Sertifika sınavına hazırlanacağım,0,study
+ingilizce listening yapcam 30 dakika,0,study
+Akademik makale okuyacağım,0,study
+Yeni bir programlama dili öğrenmeye başlayacağım,0,study
+Kütüphaneye gidip kitap alacağım,0,study
+Online ders dinleyeceğim,0,study
+Çalışmaktan kaçındığım konuya başlayacağım,0,study
+Hatasız 20 İngilizce cümle kurmaya çalışacağım,0,study
+Patron ile toplantıya hazırlanacağım,0,study
+Yeni bir dil öğrenmeye başlayacağım,0,study
+İspanyolca dersi almaya gideceğim,0,study
+Almanca pratik yapıcam,0,study
+Yeni bir uygulama yazmaya başlayacağım,0,study
+Github e kod push edicem,0,study
+Açık kaynak projeye katkı vereceğim,0,study
+Online forumda soru cevaplayacağım,0,study
+Mülakata hazırlanacağım,0,study
+Yarın mülakatım var hazırlık yapacağım,0,study
+Hedefe odaklanıp çalışacağım,0,study
+Gitar çalışacağım bugün,0,hobby
+Resim yapacağım akşam,0,hobby
+Yeni bir tarif deneyeceğim mutfakta,0,hobby
+Bahçeyi sulayacağım,0,hobby
+Örgü öreceğim,0,hobby
+Fotoğraf çekmeye gideceğim,0,hobby
+Yeni film izleyeceğim akşam,0,hobby
+Podcast dinleyeceğim,0,hobby
+Bulmaca çözeceğim,0,hobby
+Satranç oynayacağım,0,hobby
+piano calmaya basliyorum,0,hobby
+Evdeki bitkilere bakım yapacağım,0,hobby
+Yeni bir hobi edineceğim,0,hobby
+Çizim yapacağım defterime,0,hobby
+Müzik aletim ile pratik yapacağım,0,hobby
+Şarkı söyleyeceğim,0,hobby
+Origami yapacağım,0,hobby
+Kek yapacağım bugün,0,hobby
+Roman okuyacağım uyumadan önce,0,hobby
+Belgesel izleyeceğim,0,hobby
+ahşap oymacılığı denicem,0,hobby
+Yeni bir oyun deneyeceğim,0,hobby
+Boyama kitabı dolduracağım,0,hobby
+Lego ile bir şeyler inşa edeceğim,0,hobby
+Yeni bir resim çizeceğim akşam,0,hobby
+Bahçedeki çiçekleri sulamaya çıkacağım,0,hobby
+Yeni şarkılar dinleyeceğim spotify da,0,hobby
+Şiir okuyacağım bu akşam,0,hobby
+Yazma egzersizi yapacağım,0,hobby
+Eski fotoğraflara bakıp anılarımı tazeleyeceğim,0,hobby
+Eski albümleri dinleyeceğim,0,hobby
+Sahil kenarında oturup kitap okuyacağım,0,hobby
+Saksı bitkilerime gübre vereceğim,0,hobby
+Yeni bir podcast keşfedeceğim,0,hobby
+Manzara resmi çizeceğim,0,hobby
+Suluboya tablo yapacağım,0,hobby
+Yatakta uzanıp kitap okuyacağım,0,hobby
+Bol su içeceğim bugün,0,health
+Sağlıklı beslenmeye başlayacağım,0,health
+Erken yatacağım bu gece,0,health
+8 saat uyumaya çalışacağım,0,health
+Vitamin ilaçlarımı alacağım,0,health
+Doktor randevusuna gideceğim,0,health
+Diş hekimine gideceğim kontrol için,0,health
+Meditasyon yapacağım 15 dakika,0,health
+Sigarayı bırakmaya çalışacağım,0,health
+Daha az kafein tüketeceğim,0,health
+Sebze ve meyve tüketimimi artıracağım,0,health
+Günde 2 litre su içme alışkanlığı edineceğim,0,health
+Stres yönetimi tekniklerini deneyeceğim,0,health
+Nefes egzersizleri yapacağım,0,health
+yogadan sonra dus alıcam,0,health
+Düzenli check-up yaptıracağım,0,health
+Şeker tüketimimi azaltacağım,0,health
+Daha sağlıklı atıştırmalıklar tercih edeceğim,0,health
+Akşam yemeğini erken yiyeceğim,0,health
+Vücudumu dinlendireceğim bugün,0,health
+Banyo yapıp rahatlayacağım,0,health
+Cilt bakımı yapacağım,0,health
+Tırnaklarımı keseceğim,0,health
+saçlarımı yıkıcam,0,health
+Yüz maskesi yapacağım,0,health
+Aroma terapi deneyeceğim,0,health
+Bir saat uyumaya çalışacağım öğleden sonra,0,health
+İşten erken çıkıp dinleneceğim,0,health
+Akşam meditasyon yapıp uyuyacağım,0,health
+Sabah erken kalkıp güneşi izleyeceğim,0,health
+Bugün biraz dinlenmek istiyorum,0,health
+Daha az ekran karşısında kalacağım,0,health
+Kendime karşı nazik olacağım,0,health
+Yatak başında dua edip uyuyacağım,0,health
+Su şişemi yanıma alıp her yere götüreceğim,0,health
+Erken yatıp erken kalkma alışkanlığı kazanacağım,0,health
+Daha çok şükretmeye başlayacağım,0,health
+Daha az şikayet etmeyi öğreneceğim,0,health
+Saatlerce uyumamayı bırakacağım sağlıklı yaşayacağım,0,health
+Erken yatmayı alışkanlık haline getireceğim,0,health
+Telefonumu yatak odasına sokmamaya başlayacağım,0,health
+Kendime iyi davranmaya odaklanacağım,0,health
+Olumlu düşünmeye odaklanacağım,0,health
+Şükür günlüğü tutmaya başlayacağım,0,health
+Kendime bir terapist arayacağım,0,health
+Psikoloğa randevu alacağım,0,health
+Mental sağlığım için adımlar atacağım,0,health
+Daha iyi bir insan olmaya çalışacağım,0,health
+Affetmeye odaklanacağım bu hafta,0,health
+Kalbim huzurla dolsun istiyorum,0,health
+İçimi rahatlatan müzikler dinleyeceğim,0,health
+Kendime küçük başarılar dileyeceğim,0,health
+Beyaz eşyaları temizleyeceğim,0,daily
+Ev temizliği yapacağım,0,daily
+Çamaşır yıkayacağım,0,daily
+Bulaşıkları yıkayacağım,0,daily
+Yatak odasını düzenleyeceğim,0,daily
+Markete gideceğim,0,daily
+Faturalarımı ödeyeceğim,0,daily
+Otoyu yıkatacağım,0,daily
+Yemek listesi hazırlayacağım,0,daily
+Bütçemi düzenleyeceğim,0,daily
+calışma odamı temizlicem,0,daily
+Eski eşyaları ayıklayacağım,0,daily
+Dolaplarımı düzenleyeceğim,0,daily
+Bilgisayarımdaki dosyaları temizleyeceğim,0,daily
+E-postalarımı yanıtlayacağım,0,daily
+Çalışma masamı düzenleyeceğim,0,daily
+İşlerimi planlayacağım,0,daily
+Günlük tutmaya başlayacağım,0,daily
+Yeni bir alışkanlık edineceğim,0,daily
+Hedeflerimi yazacağım,0,daily
+Bu hafta sonu dinleneceğim,0,daily
+Erken kalkıp güneş doğuşunu izleyeceğim,0,daily
+Kendime zaman ayıracağım,0,daily
+Doğada vakit geçireceğim,0,daily
+Internet kullanımımı azaltacağım,0,daily
+Telefonsuz bir gün geçireceğim,0,daily
+Erken yatmaya alışacağım,0,daily
+Yeni rutin oluşturacağım,0,daily
+Daha verimli olmaya çalışacağım,0,daily
+Çocuğa kitap okuyacağım uyumadan önce,0,daily
+Yarın sabah kahvaltıya hazırlık yapacağım,0,daily
+İyi bir kahve almaya gideceğim,0,daily
+Kendime yeni kıyafet alacağım,0,daily
+Saçımı kestireceğim kuaförde,0,daily
+Yatağımı toplayacağım,0,daily
+Markete liste yapıp gideceğim,0,daily
+Yarına hazırlanacağım bavul hazırlayarak,0,daily
+Kahvaltı edip işe gideceğim,0,daily
+Yeni bir kıyafet kombini deneyeceğim,0,daily
+Yarın için elbiselerimi seçeceğim,0,daily
+Yarın çiçek almak için pazara gideceğim,0,daily
+Plajda gün batımını izleyeceğim,0,daily
+İçimi açacak bir şeyler yapacağım,0,daily
+Kendime küçük bir hediye alacağım,0,daily
+Yarın için yeni planlar yapacağım,0,daily
+Bilgisayarımı temizleyeceğim,0,daily
+Telefonumun yedeğini alacağım,0,daily
+Yeni uygulama indirip deneyeceğim,0,daily
+Yarın iş başvurusu yapacağım,0,daily
+CV mi güncelleyeceğim,0,daily
+Linkedin profilimi düzenleyeceğim,0,daily
+Pasaportumu yenileyeceğim,0,daily
+Mağazalarda alışveriş yapmadan dolaşacağım,0,daily
+Ailemizi gururlandıracak bir şey yapacağım,0,daily
+Arkadaşımla buluşacağım,0,social
+Annemle alışverişe gideceğim,0,social
+Kuzenimi ziyaret edeceğim,0,social
+Eski arkadaşımı arayacağım,0,social
+Doğum günü hediyesi alacağım,0,social
+Aile yemeğine katılacağım,0,social
+Grup terapisine katılacağım,0,social
+Sosyal etkinliğe gideceğim,0,social
+Konsere gideceğim akşam,0,social
+Tiyatroya gideceğim,0,social
+Sınıf arkadaşlarımla buluşacağım,0,social
+Komşumla sohbet edeceğim,0,social
+arkadasimla kahve icicem,0,social
+İş arkadaşlarımla yemeğe gideceğim,0,social
+Aileye sürpriz hazırlayacağım,0,social
+Yeni insanlarla tanışmak için etkinliğe katılacağım,0,social
+Bugün annemle film izleyeceğim,0,social
+Akşam yemeğini birlikte yiyeceğiz aileyle,0,social
+Kuzenle parkta buluşacağım,0,social
+Yeni bir restoran keşfedeceğim,0,social
+Dondurma yemeye gideceğim,0,social
+Bowling oynayacağız arkadaş grubuyla,0,social
+Piknik yapacağız ailecek,0,social
+Anneannemi ziyarete gideceğim,0,social
+Çocukluk arkadaşımla buluşacağım,0,social
+Sınıf arkadaşımı arayacağım uzun zamandır görüşmediğim,0,social
+Mesai sonrası kahve buluşması yapacağım,0,social
+Yarın özel bir gün olacak hediye alacağım,0,social
+Eve dönerken çiçek alıp eşime götüreceğim,0,social
+Aileme telefon edeceğim,0,social
+Köpeğimi gezdireceğim,0,pet
+Kediye mama vereceğim,0,pet
+Akvaryumu temizleyeceğim,0,pet
+Kuşumun kafesini düzenleyeceğim,0,pet
+Köpeği veterinere götüreceğim,0,pet
+Kediyle oyun oynayacağım,0,pet
+Hayvanat bahçesini ziyaret edeceğim,0,pet
+köpegim ile parkta kosacam,0,pet
+Evcil hayvanıma banyo yaptıracağım,0,pet
+Kedinin tuvalet kumunu değiştireceğim,0,pet
+Akvaryumumun suyunu değiştireceğim,0,pet
+Sokak kedilerine mama bırakacağım,0,pet
+Yeni bir tarif deneyeceğim mutfakta bugün,0,cooking
+Akşam yemeğinde pasta yapacağım,0,cooking
+Bugün omlet yapacağım kahvaltıya,0,cooking
+Yemek tarifi araştıracağım,0,cooking
+Mutfakta deneme yapacağım,0,cooking
+Sebze yemeği pişireceğim,0,cooking
+Tatlı yapacağım akşam misafire,0,cooking
+Hamur işi denicem bu hafta,0,cooking
+Salata hazırlayacağım,0,cooking
+Yeni mutfak aletini kullanmayı öğreneceğim,0,cooking
+Tatlı tarifi deneyeceğim yeni,0,cooking
+Yemek pişireceğim ailem için,0,cooking
+Şehir dışına çıkacağım,0,travel
+Kısa bir gezi yapacağım hafta sonu,0,travel
+Müzeye gideceğim,0,travel
+Yeni bir yer keşfedeceğim,0,travel
+Tatil planı yapacağım,0,travel
+Bilet alacağım uçak için,0,travel
+gezi rehberi okucam,0,travel
+Yakın bir köye gideceğim,0,travel
+Şehir turuna katılacağım,0,travel
+Doğa fotoğrafları çekmeye gideceğim,0,travel
+Yeni şehri keşfedeceğim arkadaşlarla,0,travel
+İstanbul gezisi planlıyorum,0,travel
+Kapadokya ya hafta sonu gideceğim,0,travel
+Bugün havaalanına gideceğim,0,travel
+Tatil için bavul toplayacağım,0,travel
+Bileğimi keseceğim,1,self_harm
+Bileğimi jiletle keseceğim,1,self_harm
+kolumu kesicem,1,self_harm
+Kendimi keseceğim bu gece,1,self_harm
+Bileğimi yaralayacağım,1,self_harm
+Vücudumu keseceğim,1,self_harm
+kendime zarar vericem,1,self_harm
+Kendime acı vereceğim,1,self_harm
+Bileklerimi doğrayacağım,1,self_harm
+Kendimi kesip kanatacağım,1,self_harm
+Bedenimi yakacağım sigara ile,1,self_harm
+Elimi yakacağım,1,self_harm
+sigarayla kendimi yakcam,1,self_harm
+Vücudumda yanık oluşturacağım,1,self_harm
+Kafamı duvara vuracağım,1,self_harm
+duvara kafa atıcam,1,self_harm
+Kendimi yumruklayacağım,1,self_harm
+Tırnaklarımla kollarımı çizeceğim,1,self_harm
+Kendimi tırmıklayacağım,1,self_harm
+Saçlarımı çekip koparacağım,1,self_harm
+Bacaklarımı keseceğim kimse görmesin diye,1,self_harm
+Karnıma jilet vuracağım,1,self_harm
+Görünmeyecek yerden keseceğim kendimi,1,self_harm
+acı çekene kadar kesicem,1,self_harm
+Kanım akana kadar keseceğim,1,self_harm
+Derin bir kesik atacağım,1,self_harm
+Kendime zarar vermek istiyorum bugün,1,self_harm
+Bileğime jilet vuracağım,1,self_harm
+Cam parçasıyla kendimi keseceğim,1,self_harm
+Iğneyle kendimi delicem,1,self_harm
+Vücudumu morartana kadar vuracağım,1,self_harm
+Kendimi mosmor edene kadar döveceğim,1,self_harm
+Duvara kafamı vurarak bayılana kadar devam edicem,1,self_harm
+Tırnaklarımı kanatana kadar yiyeceğim,1,self_harm
+Dilimi kanatana kadar ısıracağım,1,self_harm
+Dudaklarımı kanatana kadar ısıracağım,1,self_harm
+Yumruğumu duvara vurup elimi kıracağım,1,self_harm
+Saçlarımı kökünden çekeceğim,1,self_harm
+makasla kolumu kesicem,1,self_harm
+Falçata ile bileğimi yaralayacağım,1,self_harm
+Kalemle elimi delicem,1,self_harm
+Kendimi sıcak ütüye değdireceğim,1,self_harm
+Mum alevine elimi tutacağım,1,self_harm
+Kendimi mutfak bıçağıyla yaralayacağım,1,self_harm
+Tıraş bıçağıyla kollarımı keseceğim,1,self_harm
+Saçımı kökünden tek tek çekeceğim,1,self_harm
+Vücudumda yara açıp tuz basacağım,1,self_harm
+Sıcak yağa elimi sokacağım,1,self_harm
+Çıplak elle cama vuracağım,1,self_harm
+Kafamı taşa vurarak yaralayacağım,1,self_harm
+Diş etlerime jilet sürecem,1,self_harm
+Boğazımdan parmak atıp kusana kadar duracağım,1,self_harm
+Karın boşluğuma yumruk atacağım acıyana kadar,1,self_harm
+Dilime jilet vurucam,1,self_harm
+Bedenim acıyı hak ediyor cezalandıracağım,1,self_harm
+Iztırap bana iyi gelsin bilekten başlıyorum,1,self_harm
+Kollarımı kaçıncı kez kesiyorum sayamıyorum,1,self_harm
+Bu acıyı görmesinler diye saklayacağım yaralarımı,1,self_harm
+İçimde biriken acıyı dışarı çıkarmak için kollarımı çizeceğim,1,self_harm
+Kendimi öldüreceğim,1,self_harm
+İntihar edeceğim,1,self_harm
+hayatima son verecem,1,self_harm
+Kendime kıyacağım,1,self_harm
+Yaşamak istemiyorum bu gece bitirecem,1,self_harm
+Son nefesimi vereceğim bu gece,1,self_harm
+Kendimi asacağım,1,self_harm
+Tavana asılacağım,1,self_harm
+ip aldım kendimi asıcam,1,self_harm
+Tabancayla kendimi vuracağım,1,self_harm
+Hap içip uyuyacağım uyanmayacak şekilde,1,self_harm
+Aşırı doz alacağım,1,self_harm
+Kendimi köprüden atacağım,1,self_harm
+Pencereden kendimi bırakacağım,1,self_harm
+yüksekten kendimi atıcam,1,self_harm
+Trene kendimi atacağım,1,self_harm
+Banyoya kapanıp kollarımı keseceğim ölene kadar,1,self_harm
+Kendimi boğacağım küvette,1,self_harm
+Suya dalıp çıkmayacağım,1,self_harm
+İlaç dolu olduğum için uyuyacağım sonsuza dek,1,self_harm
+Kendi kendime veda mektubu yazıp gidiyorum,1,self_harm
+Bu son görevim olacak hayata veda,1,self_harm
+Bu gece son gecem olacak,1,self_harm
+Yarına çıkmak istemiyorum,1,self_harm
+hayatima son verme planı yapıyorum,1,self_harm
+Ölümcül dozda ilaç alacağım,1,self_harm
+Yaşamaya değmez son veriyorum,1,self_harm
+Pencereden boşluğa adım atacağım,1,self_harm
+Kendimi nehre atıp boğulacağım,1,self_harm
+Egzoz gazı içine kapatacağım kendimi,1,self_harm
+gaz açıp uyuyacağım uyanmamak için,1,self_harm
+Ben artık burada olmak istemiyorum bitirme zamanı,1,self_harm
+Aile saadetinden bıktım son nefes son görev,1,self_harm
+Hapları aldım uyuyacağım uyanmayacağım,1,self_harm
+Gaz vanasını açacağım pencereler kapalı,1,self_harm
+Ölmek için en sağlam yöntemi araştırıyorum,1,self_harm
+İntihar planımı uyguluyorum bu hafta,1,self_harm
+3 gün hiçbir şey yemeyeceğim,1,eating_disorder
+Aç kalacağım bütün gün,1,eating_disorder
+Bir hafta su dışında bir şey içmeyeceğim,1,eating_disorder
+hiç yemek yemicem 5 gün,1,eating_disorder
+Kendimi aç bırakacağım,1,eating_disorder
+Aşırı diyet yapıp 20 kilo vereceğim 1 ayda,1,eating_disorder
+Yemek yedikten sonra kusacağım,1,eating_disorder
+Her yemekten sonra kusicam,1,eating_disorder
+Günde 200 kalori alacağım sadece,1,eating_disorder
+Aç kalarak çok kilo vereceğim hızlıca,1,eating_disorder
+Yemek görmeden duracağım günlerce,1,eating_disorder
+Susuz kalacağım bütün gün,1,eating_disorder
+hiç su içmicem 2 gün,1,eating_disorder
+Kahvaltı atlayacağım uzun süre,1,eating_disorder
+Bayılana kadar yemek yemeyeceğim,1,eating_disorder
+Tuzlu su içip kusacağım,1,eating_disorder
+Müshil alıp zayıflayacağım,1,eating_disorder
+Yemekten sonra parmak atıp kusacağım,1,eating_disorder
+Mide kasılana kadar aç kalacağım,1,eating_disorder
+Kemik gözükene kadar zayıflayacağım,1,eating_disorder
+Tek öğün yiyeceğim haftalarca,1,eating_disorder
+Sadece sigara ve kahve ile yaşayacağım,1,eating_disorder
+Daha az ekmek yiyip günde 1 öğüne ineceğim 3 ay,1,eating_disorder
+Tartı 35 kiloya düşene kadar yemicem,1,eating_disorder
+Karbonhidrat görmeyecem sıfır karbonhidrat,1,eating_disorder
+Yağ tüketimimi sıfırlayıp aç kalacağım,1,eating_disorder
+Gizli gizli yemek yiyip sonra kusacağım,1,eating_disorder
+Yemek yedikten 10 dakika sonra parmak atıcam,1,eating_disorder
+Sindirim sistemim kapansın diye susuz kalacağım,1,eating_disorder
+Kafam dönene kadar yemicem bayılayım,1,eating_disorder
+Detoks adı altında 10 gün su ile yaşayacağım,1,eating_disorder
+50 saat uyumadan duracağım,1,sleep_deprivation
+3 gün uyumayacağım,1,sleep_deprivation
+hiç uyumicam bu hafta,1,sleep_deprivation
+Bütün gece ayakta duracağım,1,sleep_deprivation
+4 günlük uyku yoksunluğu deneyeceğim,1,sleep_deprivation
+Uyumadan dayanabildiğim kadar duracağım,1,sleep_deprivation
+Bir hafta uyumadan duracağım,1,sleep_deprivation
+Bayılana kadar uyumayacağım,1,sleep_deprivation
+Uyku haplarını fazla alacağım,1,sleep_deprivation
+Gözlerim kapanana kadar uyumamaya çalışacağım,1,sleep_deprivation
+5 günlük yaşam deneyi uyku yok,1,sleep_deprivation
+Sabaha kadar uyanık kalıp ders çalışmak yerine acı duyacağım,1,sleep_deprivation
+Gözlerim açık kalacak şekilde gece duracağım,1,sleep_deprivation
+Uyku hapı içip dönmeyecek kadar uyuyacağım,1,sleep_deprivation
+Yüksek bir binadan atlayacağım,1,risky_dare
+Köprüden atlayacağım,1,risky_dare
+Çatıdan aşağı bakıp atlayacağım,1,risky_dare
+Trenin önünden geçeceğim son anda,1,risky_dare
+Trafiğin ortasından koşarak geçeceğim,1,risky_dare
+otobanda yürüyecem,1,risky_dare
+Yüksek voltajlı kabloya dokunacağım,1,risky_dare
+Elektrik direğine tırmanacağım,1,risky_dare
+Donmuş gölün üzerinde yürüyeceğim,1,risky_dare
+Derin sularda yüzme bilmeden gireceğim,1,risky_dare
+Vahşi hayvana yaklaşacağım,1,risky_dare
+50 katlı bina çatısında selfie çekeceğim,1,risky_dare
+Pencereden sarkacağım,1,risky_dare
+yüksek yerlerden kendimi atıcam,1,risky_dare
+Yola çıkıp arabaların önüne yatacağım,1,risky_dare
+Tehlikeli oyun oynayacağım,1,risky_dare
+Mavi balina görevlerini yapacağım,1,risky_dare
+51 günlük tehlikeli oyun başlıyor,1,risky_dare
+Korkuyu yenmek için intihar simülasyonu yapacağım,1,risky_dare
+Boğularak nefes tutma yapacağım,1,risky_dare
+Kendimi astırma oyunu deneyeceğim,1,risky_dare
+İlaç karışımı içeceğim,1,risky_dare
+Boğazımı sıkacağım nefes tutmak için,1,risky_dare
+Yastıkla nefesimi keseceğim,1,risky_dare
+Tehlikeli bir maddeyi içeceğim,1,risky_dare
+Zehir tadacağım,1,risky_dare
+Çamaşır suyu içicem,1,risky_dare
+Benzin yutacağım,1,risky_dare
+Antifriz içeceğim,1,risky_dare
+İlaç dolabındaki bütün hapları içeceğim,1,risky_dare
+yüksek dozda hap alıcam,1,risky_dare
+Yüksek hızla araba kullanacağım emniyet kemeri olmadan,1,risky_dare
+Motosikletle 200 km hıza çıkacağım,1,risky_dare
+Kırmızı ışıkta geçeceğim trafikte,1,risky_dare
+Soğukta donana kadar dışarıda duracağım,1,risky_dare
+Buzlu suya dalıp uzun süre kalacağım,1,risky_dare
+Demiryolu rayında uzanıp duracağım,1,risky_dare
+İntihar etmek için ipi hazırlayacağım,1,risky_dare
+Tabancayı bulup oyun oynayacağım,1,risky_dare
+Bıçakla rus ruleti oynayacağım,1,risky_dare
+Korkuyu yenmek için tren raylarında yürüyeceğim,1,risky_dare
+Asansör boşluğuna bakacağım yukarıdan,1,risky_dare
+Çatı kenarında yürüme deneyeceğim,1,risky_dare
+Halatsız tırmanış yapacağım kayalıkta,1,risky_dare
+Dalgıçlık yapacağım eğitimsiz derin sularda,1,risky_dare
+Direklere asılan kabloya elimi süreceğim,1,risky_dare
+Patlayıcı yapıp deneyeceğim evde,1,risky_dare
+Demir yolu üzerinde tren bekleyeceğim,1,risky_dare
+Otoyolda araba önüne atlayacağım,1,risky_dare
+Çamaşır suyu kola karıştırıp içicem,1,risky_dare
+Hap dolabını boşaltıp hepsini içeceğim,1,risky_dare
+Korkusuzca uçurumdan aşağı bakacağım sonra atlayacağım,1,risky_dare
+Asit kostik içip dene yapcam,1,risky_dare
+Bana verilen 50 görevin son adımını yapacağım balina oyunu bitiyor,1,risky_dare
+Bu gece son görev kendimi pencereden atmak,1,risky_dare
+Gözlerimi bağlayıp yolun ortasında yürüyeceğim,1,risky_dare
+Saatlerce nefesimi tutmaya çalışacağım suyun altında,1,risky_dare
+Kuyuya inip bekleyeceğim biri çıkarana kadar,1,risky_dare
+Kafama poşet geçirip nefes alacak mıyım deneyeceğim,1,risky_dare
+Yağmurdan sonra elektrik direğine dokunacağım,1,risky_dare
+Kardeşime vuracağım,1,violence_others
+Köpeğe taş atacağım,1,violence_others
+Kediyi tekmeleyecem,1,violence_others
+Birisini dövüceğim,1,violence_others
+İş arkadaşıma zarar vereceğim,1,violence_others
+Kocama vuracağım,1,violence_others
+karımı dövücem,1,violence_others
+Çocuğu cezalandıracağım döverek,1,violence_others
+Komşunun arabasını yakacağım,1,violence_others
+Birinin evini yakacağım,1,violence_others
+Bombayla okula gideceğim,1,violence_others
+Silahla intikam alacağım,1,violence_others
+Düşmanımı öldüreceğim,1,violence_others
+patronu öldürücem,1,violence_others
+Birini bıçaklayacağım,1,violence_others
+Sokak hayvanlarını zehirleyeceğim,1,violence_others
+Birine asit atacağım,1,violence_others
+Sınıf arkadaşımı tehdit edeceğim,1,violence_others
+Birini boğacağım yastıkla,1,violence_others
+Ailemden birine zarar vereceğim,1,violence_others
+Birini öldüresiye dövücem,1,violence_others
+Kız arkadaşıma şiddet uygulayacağım,1,violence_others
+Annemi tokatlayacağım,1,violence_others
+Sokakta birine saldıracağım,1,violence_others
+Birine zehir vereceğim,1,violence_others
+Kuzenimi merdivenden iticem,1,violence_others
+Kardeşimi yaralayacağım,1,violence_others
+Köpeği tekmeleyip canını yakacağım,1,violence_others
+Patrona zarar verecek planlar yapıyorum,1,violence_others
+İçimden geçeni yapıp birini yaralıyacağım,1,violence_others
+Babamı dövücem bu kez susmayacağım,1,violence_others
+Eşime bıçak çekeceğim bu gece,1,violence_others
+Çocuğumu bağırta bağırta dövücem,1,violence_others
+Hayvan barınağındaki köpeklere zarar vereceğim,1,violence_others
+Sınıfa silahla gireceğim hesaplaşacağım,1,violence_others
+Eski sevgilime saldırıyı planlıyorum,1,violence_others
+Bana hayatı zindan eden öğretmeni öldürücem,1,violence_others
+Eve gelip annemin gözüne mil sokacağım,1,violence_others
+Komşu çocuğuna ağır şiddet uygulayacağım dersini vereceğim,1,violence_others
+Düşmanımın evini kundaklayacağım gece yarısı,1,violence_others
+Tanıdığım birini kaçırıp hapsedeceğim,1,violence_others
+Mahallenin başına bela olan adamı dövücem,1,violence_others
+Yarın okula gizli silahla gideceğim,1,violence_others
+Yengeme zehir koyacağım yemeğe,1,violence_others
+Kız kardeşime fiziksel ceza vereceğim,1,violence_others
+Sokak köpeğini taşla dövüceğim,1,violence_others
+Bileğimi kesmeyeceğim artık iyileşmeye karar verdim,0,negation
+Bileğimi asla kesmem,0,negation
+Kendimi öldürmeyeceğim asla,0,negation
+İntihar etmeyeceğim hayatı seviyorum,0,negation
+Asla intihar etmem,0,negation
+İntihar düşüncelerimi geride bıraktım,0,negation
+Kendime zarar vermeyeceğim,0,negation
+Kendime zarar vermeyi bıraktım,0,negation
+Bileklerimi kesmeyi bıraktım,0,negation
+Kollarımı çizmeyeceğim bu sefer,0,negation
+Kendimi yaralamayacağım,0,negation
+Yüksekten atlamayacağım,0,negation
+Hap içmeyeceğim,0,negation
+Aşırı doz almayacağım kesinlikle,0,negation
+Kendime kıymayacağım,0,negation
+Yaşama tutunacağım kendimi öldürmem,0,negation
+Hayatıma son vermeyeceğim,0,negation
+İntihar etmek istemiyorum artık,0,negation
+Kendimi asmayacağım,0,negation
+Cezalandırmayı bırakıyorum kendime zarar vermem,0,negation
+Aç kalmayacağım üç öğün yiyeceğim,0,negation
+Yemek yemeyi atlamayacağım,0,negation
+Kusmayı bıraktım,0,negation
+Kendimi aç bırakmayacağım,0,negation
+Tehlikeli oyun oynamayacağım,0,negation
+Mavi balina oyununa girmeyeceğim,0,negation
+Köprüden atlamayacağım,0,negation
+Yüksekten kendimi atmayacağım,0,negation
+Birini öldürmeyeceğim öfkemi kontrol ediyorum,0,negation
+Kimseye zarar vermem,0,negation
+Şiddet uygulamayacağım,0,negation
+Bıçak çekmeyeceğim asla,0,negation
+Eskiden kendime zarar veriyordum ama artık bıraktım,0,negation
+Geçmişte intihar düşüncelerim vardı ama atlattım,0,negation
+Bilek kesme alışkanlığımı yenmek istiyorum,0,negation
+Terapide kendime zarar vermemeyi öğrendim,0,negation
+Kendime zarar vermek yerine spor yapacağım,0,negation
+İntihar etmek yerine hayata tutunacağım,0,negation
+Yaşama umudu içindeyim asla pes etmem,0,negation
+Olumsuz düşüncelerimi yenmeyi öğreniyorum,0,negation
+Bugün 5 kilometre koş,0,sport_imperative
+Sabah 30 dakika yürüyüş yap,0,sport_imperative
+Akşam yoga yap,0,sport_imperative
+Spor salonuna git,0,sport_imperative
+Bisiklete bin 30 dakika,0,sport_imperative
+100 kere ip atla,0,sport_imperative
+Yüzme antrenmanına git,0,sport_imperative
+Arkadaşlarla basketbol oyna,0,sport_imperative
+Pilates dersine katıl,0,sport_imperative
+20 tane şınav çek,0,sport_imperative
+50 mekik çek,0,sport_imperative
+Akşam parkta koş,0,sport_imperative
+Voleybol antrenmanına git,0,sport_imperative
+Sabah esneme hareketleri yap,0,sport_imperative
+Tenis dersi al,0,sport_imperative
+Dağa tırmanışa katıl,0,sport_imperative
+Erken kalkıp koşuya çık,0,sport_imperative
+Crossfit antrenmanına git,0,sport_imperative
+10000 adım at bugün,0,sport_imperative
+Hafta sonu doğa yürüyüşüne git,0,sport_imperative
+Trambolinde 15 dakika zıpla,0,sport_imperative
+Sahilde yürü,0,sport_imperative
+Sabah egzersizine başla,0,sport_imperative
+İlk maratona hazırlan,0,sport_imperative
+Halı sahaya gel,0,sport_imperative
+Bugün python çalış,0,study_imperative
+2 saat kitap oku,0,study_imperative
+Matematik soruları çöz,0,study_imperative
+İngilizce kelime ezberle,0,study_imperative
+Online kursa devam et,0,study_imperative
+Tezini yaz bugün,0,study_imperative
+Algoritma çalış,0,study_imperative
+KPSS hazırlığı yap,0,study_imperative
+Sınava çalış,0,study_imperative
+Bir saat ders dinle,0,study_imperative
+Kodlama egzersizi çöz,0,study_imperative
+React öğren,0,study_imperative
+Yeni bir kitap al,0,study_imperative
+Tarih konusunu özetle,0,study_imperative
+Fizik problemleri çöz,0,study_imperative
+Sertifika sınavına hazırlan,0,study_imperative
+30 dakika ingilizce listening yap,0,study_imperative
+Akademik makale oku,0,study_imperative
+Mülakata hazırlan,0,study_imperative
+Github'a kod push et,0,study_imperative
+Açık kaynak projeye katkıda bulun,0,study_imperative
+Gitar çal bugün,0,hobby_imperative
+Bir resim yap,0,hobby_imperative
+Mutfakta yeni tarif dene,0,hobby_imperative
+Bahçeyi sula,0,hobby_imperative
+Örgü ör,0,hobby_imperative
+Fotoğraf çekmeye git,0,hobby_imperative
+Bir film izle,0,hobby_imperative
+Podcast dinle,0,hobby_imperative
+Bulmaca çöz,0,hobby_imperative
+Satranç oyna,0,hobby_imperative
+Bitkilerine bakım yap,0,hobby_imperative
+Defterine çizim yap,0,hobby_imperative
+Bir kek yap,0,hobby_imperative
+Roman oku uyumadan önce,0,hobby_imperative
+Belgesel izle,0,hobby_imperative
+Yatağını topla,0,hobby_imperative
+Çamaşırları yıka,0,hobby_imperative
+Bulaşıkları yıka,0,hobby_imperative
+Odanı temizle,0,hobby_imperative
+Markete git,0,hobby_imperative
+Faturalarını öde,0,hobby_imperative
+Yemek listesi hazırla,0,hobby_imperative
+Eski eşyaları ayıkla,0,hobby_imperative
+Dolapları düzenle,0,hobby_imperative
+Bilgisayar dosyalarını temizle,0,hobby_imperative
+Yarına hazırlık yap,0,hobby_imperative
+Çiçek soğanlarını ek,0,hobby_imperative
+Saksıdaki bitkilere su ver,0,hobby_imperative
+Ahmet'in arabasının resmini çiz,0,hobby_imperative
+Ahmet'in portresini yap,0,hobby_imperative
+Bir manzara resmi çiz,0,hobby_imperative
+Arkadaşınla buluş,0,social_imperative
+Anneni ara,0,social_imperative
+Aileye yardım et,0,social_imperative
+Kuzenini ziyaret et,0,social_imperative
+Eski arkadaşını ara,0,social_imperative
+Doğum günü hediyesi al,0,social_imperative
+Aile yemeğine katıl,0,social_imperative
+Konsere git akşam,0,social_imperative
+Tiyatroya git,0,social_imperative
+Komşuyla sohbet et,0,social_imperative
+Çocukluk arkadaşınla buluş,0,social_imperative
+İş arkadaşlarıyla yemeğe çık,0,social_imperative
+Annene yardım et,0,social_imperative
+Babanla vakit geçir,0,social_imperative
+Kardeşine kitap oku,0,social_imperative
+Bol su iç bugün,0,health_imperative
+Sağlıklı beslen,0,health_imperative
+Erken yat bu gece,0,health_imperative
+8 saat uyu,0,health_imperative
+Vitaminlerini al,0,health_imperative
+Doktora git,0,health_imperative
+Diş hekimine git,0,health_imperative
+15 dakika meditasyon yap,0,health_imperative
+Daha az kafein tüket,0,health_imperative
+Daha çok sebze ye,0,health_imperative
+Nefes egzersizi yap,0,health_imperative
+Cilt bakımı yap,0,health_imperative
+Yüz maskesi yap,0,health_imperative
+Banyo yap rahatla,0,health_imperative
+Akşam meditasyon yap,0,health_imperative
+Kendine zaman ayır,0,health_imperative
+Düzenli check-up yaptır,0,health_imperative
+Psikoloğa randevu al,0,health_imperative
+Daha az ekran karşısında kal,0,health_imperative
+Köpeği gezdir,0,pet_imperative
+Kediye mama ver,0,pet_imperative
+Akvaryumu temizle,0,pet_imperative
+Kuş kafesini düzenle,0,pet_imperative
+Köpeği veterinere götür,0,pet_imperative
+Kediyle oyna,0,pet_imperative
+Hayvanat bahçesini ziyaret et,0,pet_imperative
+Sokak kedilerine mama bırak,0,pet_imperative
+Köpeği parkta gezdir,0,pet_imperative
+Bileğini kes,1,self_harm_imperative
+Bileklerini kes,1,self_harm_imperative
+Bileğini jiletle kes,1,self_harm_imperative
+Kolunu kes,1,self_harm_imperative
+Kollarını kes,1,self_harm_imperative
+Kendini kes,1,self_harm_imperative
+Kendini kesip kanat,1,self_harm_imperative
+Bedenini yarala,1,self_harm_imperative
+Vücudunu kes,1,self_harm_imperative
+Kendine zarar ver,1,self_harm_imperative
+Kendine acı ver,1,self_harm_imperative
+Bileklerini doğra,1,self_harm_imperative
+Bedenini sigara ile yak,1,self_harm_imperative
+Elini yak,1,self_harm_imperative
+Sigarayla kendini yak,1,self_harm_imperative
+Vücudunda yanık oluştur,1,self_harm_imperative
+Kafanı duvara vur,1,self_harm_imperative
+Duvara kafa at,1,self_harm_imperative
+Kendini yumrukla,1,self_harm_imperative
+Tırnaklarınla kollarını çiz,1,self_harm_imperative
+Kendini tırmıkla,1,self_harm_imperative
+Saçlarını çek kopar,1,self_harm_imperative
+Bacaklarını kes,1,self_harm_imperative
+Karnına jilet vur,1,self_harm_imperative
+Görünmeyecek yerden kes kendini,1,self_harm_imperative
+Acı çekene kadar kes,1,self_harm_imperative
+Kanın akana kadar kes,1,self_harm_imperative
+Derin bir kesik at,1,self_harm_imperative
+Kendine jilet vur,1,self_harm_imperative
+Cam parçasıyla kendini kes,1,self_harm_imperative
+İğneyle kendini del,1,self_harm_imperative
+Vücudunu morartana kadar vur,1,self_harm_imperative
+Mosmor olana kadar kendini döv,1,self_harm_imperative
+Saçlarını kökünden çek,1,self_harm_imperative
+Makasla kolunu kes,1,self_harm_imperative
+Falçata ile bileğini yarala,1,self_harm_imperative
+Sıcak ütüye elini değdir,1,self_harm_imperative
+Mum alevine elini tut,1,self_harm_imperative
+Kendini mutfak bıçağıyla yarala,1,self_harm_imperative
+Kendini öldür,1,self_harm_imperative
+İntihar et,1,self_harm_imperative
+Hayatına son ver,1,self_harm_imperative
+Kendine kıy,1,self_harm_imperative
+Kendini as,1,self_harm_imperative
+Tavana asıl,1,self_harm_imperative
+İp al kendini as,1,self_harm_imperative
+Tabancayla kendini vur,1,self_harm_imperative
+Hap iç uyan,1,self_harm_imperative
+Aşırı doz al,1,self_harm_imperative
+Kendini köprüden at,1,self_harm_imperative
+Pencereden kendini bırak,1,self_harm_imperative
+Yüksekten kendini at,1,self_harm_imperative
+Trene kendini at,1,self_harm_imperative
+Banyoya kapan kollarını kes,1,self_harm_imperative
+Kendini küvette boğ,1,self_harm_imperative
+Suya dal çıkma,1,self_harm_imperative
+Ölümcül dozda ilaç al,1,self_harm_imperative
+Pencereden boşluğa adım at,1,self_harm_imperative
+Kendini nehre at,1,self_harm_imperative
+Gaz açıp uyu,1,self_harm_imperative
+Yüksek doz hap al,1,self_harm_imperative
+3 gün hiçbir şey yeme,1,eating_disorder_imperative
+Bütün gün aç kal,1,eating_disorder_imperative
+Bir hafta su dışında bir şey içme,1,eating_disorder_imperative
+5 gün yemek yeme,1,eating_disorder_imperative
+Kendini aç bırak,1,eating_disorder_imperative
+1 ayda 20 kilo ver,1,eating_disorder_imperative
+Yemekten sonra kus,1,eating_disorder_imperative
+Her yemekten sonra kus,1,eating_disorder_imperative
+Sadece günde 200 kalori al,1,eating_disorder_imperative
+Hızlıca kilo vermek için aç kal,1,eating_disorder_imperative
+Günlerce yemek görmeden dur,1,eating_disorder_imperative
+Bütün gün susuz kal,1,eating_disorder_imperative
+2 gün su içme,1,eating_disorder_imperative
+Bayılana kadar yemek yeme,1,eating_disorder_imperative
+Tuzlu su iç ve kus,1,eating_disorder_imperative
+Müshil al zayıflamak için,1,eating_disorder_imperative
+Parmak at kus,1,eating_disorder_imperative
+Mide kasılana kadar aç kal,1,eating_disorder_imperative
+Kemik gözükene kadar zayıfla,1,eating_disorder_imperative
+Haftalarca tek öğün ye,1,eating_disorder_imperative
+Sadece sigara ve kahve ile yaşa,1,eating_disorder_imperative
+50 saat uyumadan dur,1,sleep_deprivation_imperative
+3 gün uyuma,1,sleep_deprivation_imperative
+Hiç uyuma bu hafta,1,sleep_deprivation_imperative
+Bütün gece ayakta dur,1,sleep_deprivation_imperative
+4 günlük uyku yoksunluğu dene,1,sleep_deprivation_imperative
+Bir hafta uyumadan dur,1,sleep_deprivation_imperative
+Bayılana kadar uyuma,1,sleep_deprivation_imperative
+Uyku haplarını fazla al,1,sleep_deprivation_imperative
+5 gün uyumadan dur,1,sleep_deprivation_imperative
+Yüksek bir binadan atla,1,risky_dare_imperative
+Köprüden atla,1,risky_dare_imperative
+Çatıdan aşağı atla,1,risky_dare_imperative
+Trenin önünden geç,1,risky_dare_imperative
+Trafiğin ortasından koş,1,risky_dare_imperative
+Otoyolda yürü,1,risky_dare_imperative
+Yüksek voltajlı kabloya dokun,1,risky_dare_imperative
+Elektrik direğine tırman,1,risky_dare_imperative
+Donmuş gölün üzerinde yürü,1,risky_dare_imperative
+Derin sularda yüzme bilmeden gir,1,risky_dare_imperative
+Vahşi hayvana yaklaş,1,risky_dare_imperative
+50 katlı bina çatısında selfie çek,1,risky_dare_imperative
+Pencereden sark,1,risky_dare_imperative
+Yüksek yerlerden kendini at,1,risky_dare_imperative
+Arabaların önüne yat,1,risky_dare_imperative
+Tehlikeli oyun oyna,1,risky_dare_imperative
+Mavi balina görevlerini yap,1,risky_dare_imperative
+İntihar simülasyonu yap,1,risky_dare_imperative
+Boğularak nefes tutma yap,1,risky_dare_imperative
+Kendini astırma oyununu dene,1,risky_dare_imperative
+İlaç karışımı iç,1,risky_dare_imperative
+Boğazını sık nefes tutmak için,1,risky_dare_imperative
+Yastıkla nefesini kes,1,risky_dare_imperative
+Tehlikeli madde iç,1,risky_dare_imperative
+Zehir tad,1,risky_dare_imperative
+Çamaşır suyu iç,1,risky_dare_imperative
+Benzin yut,1,risky_dare_imperative
+Antifriz iç,1,risky_dare_imperative
+İlaç dolabındaki hapları iç,1,risky_dare_imperative
+Hızla araba kullan emniyet kemeri olmadan,1,risky_dare_imperative
+Motosikletle 200 km hıza çık,1,risky_dare_imperative
+Kırmızı ışıkta geç,1,risky_dare_imperative
+Soğukta donana kadar dur,1,risky_dare_imperative
+Buzlu suya dal uzun süre kal,1,risky_dare_imperative
+Demiryolu rayında uzan,1,risky_dare_imperative
+İp hazırla intihar için,1,risky_dare_imperative
+Tabancayla rus ruleti oyna,1,risky_dare_imperative
+Bıçakla rus ruleti oyna,1,risky_dare_imperative
+Tren raylarında yürü,1,risky_dare_imperative
+Asansör boşluğuna bak,1,risky_dare_imperative
+Çatı kenarında yürü,1,risky_dare_imperative
+Halatsız tırman kayalıkta,1,risky_dare_imperative
+Eğitimsiz derin sulara dalış yap,1,risky_dare_imperative
+Kafana poşet geçir,1,risky_dare_imperative
+Yağmurdan sonra elektrik direğine dokun,1,risky_dare_imperative
+Kardeşine vur,1,violence_others_imperative
+Köpeğe taş at,1,violence_others_imperative
+Kediyi tekmele,1,violence_others_imperative
+Birini döv,1,violence_others_imperative
+İş arkadaşına zarar ver,1,violence_others_imperative
+Karına vur,1,violence_others_imperative
+Çocuğu döverek cezalandır,1,violence_others_imperative
+Komşunun arabasını yak,1,violence_others_imperative
+Birinin evini yak,1,violence_others_imperative
+Silahla intikam al,1,violence_others_imperative
+Düşmanını öldür,1,violence_others_imperative
+Patronu öldür,1,violence_others_imperative
+Birini bıçakla,1,violence_others_imperative
+Sokak hayvanlarını zehirle,1,violence_others_imperative
+Birine asit at,1,violence_others_imperative
+Sınıf arkadaşını tehdit et,1,violence_others_imperative
+Birini boğ yastıkla,1,violence_others_imperative
+Aileden birine zarar ver,1,violence_others_imperative
+Birini öldüresiye döv,1,violence_others_imperative
+Annene tokat at,1,violence_others_imperative
+Sokakta birine saldır,1,violence_others_imperative
+Birine zehir ver,1,violence_others_imperative
+Kuzenini merdivenden it,1,violence_others_imperative
+Kardeşini yarala,1,violence_others_imperative
+Köpeği tekmele,1,violence_others_imperative
+Patronun arabasına zarar ver,1,violence_others_imperative
+Bir tanıdığı yarala,1,violence_others_imperative
+Babanı döv,1,violence_others_imperative
+Eşine bıçak çek,1,violence_others_imperative
+Çocuğunu bağırta bağırta döv,1,violence_others_imperative
+Yengeme zehir koy yemeğe,1,violence_others_imperative
+Kız kardeşine ceza ver dövek,1,violence_others_imperative
+Sokak köpeğini taşla döv,1,violence_others_imperative
+Ahmet'in arabasını çiz,1,violence_others_imperative
+Komşunun arabasının camını kır,1,violence_others_imperative
+Birinin arabasının lastiğini patlat,1,violence_others_imperative
+Mağazanın camını kır,1,violence_others_imperative
+Birinin telefonunu çal,1,violence_others_imperative
+Cüzdan çal sokakta,1,violence_others_imperative
+Kolunu kes bu gece,1,self_harm_imperative
+Kollarını kes hiç durma,1,self_harm_imperative
+Vücudunu yak,1,self_harm_imperative
+Kendini sigara ile yak,1,self_harm_imperative
+Mutfak bıçağıyla kendini yarala,1,self_harm_imperative
+Tıraş bıçağıyla kollarını kes,1,self_harm_imperative
+Aşırı doz hap al,1,suicide_imperative
+Hapları içip uyu uyanma,1,suicide_imperative
+Pencereden kendini at,1,suicide_imperative
+Yüksekten atla,1,suicide_imperative
+Kendini boğ küvette,1,suicide_imperative
+Gaz aç uyu uyanma,1,suicide_imperative
+Egzoz gazı içine kapan,1,suicide_imperative
+Aç kal 3 gün hiçbir şey yeme,1,eating_imperative
+Hiçbir şey yeme bir hafta,1,eating_imperative
+Yemek yedikten sonra kus,1,eating_imperative
+Günde 200 kalori al sadece,1,eating_imperative
+Su içme bütün gün,1,eating_imperative
+Kahvaltıyı atla uzun süre,1,eating_imperative
+Mavi balina oyununu oyna,1,dare_imperative
+Mavi balina görevini yap,1,dare_imperative
+51 günlük tehlikeli oyunu oyna,1,dare_imperative
+Çatıdan aşağı bak ve atla,1,dare_imperative
+Trafiğin ortasından geç,1,dare_imperative
+Donmuş gölde yürü,1,dare_imperative
+İlaç dolabını boşalt hepsini iç,1,dare_imperative
+Yüksek dozda hap al,1,dare_imperative
+Kafana poşet geçir nefes alamayana kadar,1,dare_imperative
+Halatsız tırmanış yap,1,dare_imperative
+Soğukta donana kadar dışarıda dur,1,dare_imperative
+Annene vur,1,violence_imperative
+Babana vur,1,violence_imperative
+Kız kardeşine vur,1,violence_imperative
+Eşine vur,1,violence_imperative
+Çocuğa vur,1,violence_imperative
+Sokak hayvanını zehirle,1,violence_imperative
+Birini öldür,1,violence_imperative
+Hayvana zarar ver,1,violence_imperative
+Köpeğe zarar ver,1,violence_imperative
+Kediyi öldür,1,violence_imperative
+Sınıfa silahla git,1,violence_imperative
+Okula bomba ile git,1,violence_imperative
+Ahmet'in arabasını çiz anahtarla,1,vandalism_imperative
+Birinin arabasını anahtarla çiz,1,vandalism_imperative
+Komşunun arabasını çiz,1,vandalism_imperative
+Birinin camını kır,1,vandalism_imperative
+Okul duvarına çirkin yazı yaz,1,vandalism_imperative
+Birinin eşyasını yak,1,vandalism_imperative
+Park aletlerini kır,1,vandalism_imperative
+Birinin bisikletinin lastiğini patlat,1,vandalism_imperative
+Birinin telefonunu kır,1,vandalism_imperative
+Komşunun cam kırılan yaz,1,vandalism_imperative
+Bugün 5 km koş,0,sport_imperative
+İp atla 100 kere,0,sport_imperative
+Basketbol oyna arkadaşlarınla,0,sport_imperative
+Şınav çek 20 tane,0,sport_imperative
+Mekik çek 50 tane,0,sport_imperative
+Akşam koşusuna çık,0,sport_imperative
+Esneme hareketleri yap,0,sport_imperative
+Tenis dersine git,0,sport_imperative
+Dağa tırmanış yap,0,sport_imperative
+Yarın sabah koşuya çık,0,sport_imperative
+Bugün 10000 adım at,0,sport_imperative
+Doğa yürüyüşüne git hafta sonu,0,sport_imperative
+Bugün Python çalış,0,study_imperative
+Tezini yazmaya devam et,0,study_imperative
+Kodlama egzersizleri çöz,0,study_imperative
+React öğrenmeye devam et,0,study_imperative
+Ödevini yap,0,study_imperative
+İngilizce dinleme yap 30 dakika,0,study_imperative
+Yeni programlama dili öğrenmeye başla,0,study_imperative
+Kütüphaneye git kitap al,0,study_imperative
+Gitar çalış bugün,0,hobby_imperative
+Resim yap akşam,0,hobby_imperative
+Yeni bir tarif dene,0,hobby_imperative
+Fotoğraf çek,0,hobby_imperative
+Yeni film izle,0,hobby_imperative
+Piyano çalmaya başla,0,hobby_imperative
+Yemek pişir ailen için,0,hobby_imperative
+Çizim yap defterine,0,hobby_imperative
+Şarkı söyle,0,hobby_imperative
+Yeni oyun dene,0,hobby_imperative
+Boyama kitabı doldur,0,hobby_imperative
+Arabanın resmini çiz defterine,0,drawing_safe
+Manzara resmi çiz,0,drawing_safe
+Bir karikatür çiz,0,drawing_safe
+Annenin portresini çiz,0,drawing_safe
+Sevdiğin arabanın resmini yap,0,drawing_safe
+Kediyi çiz tuvale,0,drawing_safe
+Köpeğin resmini yap,0,drawing_safe
+Çocukluk arkadaşının portresini çiz,0,drawing_safe
+Bir şehir manzarası çiz,0,drawing_safe
+Bol su iç,0,health_imperative
+8 saat uyumaya çalış,0,health_imperative
+Vitamin ilacını al,0,health_imperative
+Doktor randevusuna git,0,health_imperative
+Meditasyon yap 15 dakika,0,health_imperative
+Sigarayı bırakmaya çalış,0,health_imperative
+Sebze ve meyve ye,0,health_imperative
+Stres yönetimi tekniklerini dene,0,health_imperative
+Şeker tüketimini azalt,0,health_imperative
+Vücudunu dinlendir bugün,0,health_imperative
+Ev temizliği yap,0,daily_imperative
+Çamaşır yıka,0,daily_imperative
+Yatak odanı düzenle,0,daily_imperative
+Çalışma masanı düzenle,0,daily_imperative
+E-postalarını yanıtla,0,daily_imperative
+Aileni ara,0,daily_imperative
+Dolaplarını düzenle,0,daily_imperative
+Anneanneni ziyaret et,0,social_imperative
+Annenle alışverişe git,0,social_imperative
+Kuzeninle parkta buluş,0,social_imperative
+Komşunla sohbet et,0,social_imperative
+Aileye sürpriz hazırla,0,social_imperative
+Babasının doğum gününü kutla,0,social_imperative
+Hasta arkadaşını ziyaret et,0,social_imperative
+Kediyle oyun oyna,0,pet_imperative
+Evcil hayvana banyo yaptır,0,pet_imperative
+Yeni bir tarif dene mutfakta,0,cooking_imperative
+Akşam yemeğinde pasta yap,0,cooking_imperative
+Omlet yap kahvaltıya,0,cooking_imperative
+Yemek tarifi araştır,0,cooking_imperative
+Sebze yemeği pişir,0,cooking_imperative
+Salata hazırla,0,cooking_imperative
+Kek yap bugün,0,cooking_imperative
+Sevgiline çiçek al,0,social_imperative
+Eşine kahve götür,0,social_imperative
+Çocuğa kitap oku uyumadan önce,0,daily_imperative

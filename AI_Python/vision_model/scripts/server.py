@@ -6,7 +6,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "synchabit_model_v3.keras"
+MODEL_PATH = "./synchabit_model_v3.keras"
 CLASS_NAMES_PATH = "class_names.json"
 PORT = 8000
 CONFIDENCE_THRESHOLD = 70.0

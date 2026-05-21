@@ -5,7 +5,7 @@ Content-Type: multipart/form-data; boundary=----MyBoundaryString
 ------MyBoundaryString
 Content-Disposition: form-data; name="expectedCategory"
 
-kod_yazma
+orgu_orme
 ------MyBoundaryString
 Content-Disposition: form-data; name="image"; filename="typing2.jpeg"
 Content-Type: image/jpeg

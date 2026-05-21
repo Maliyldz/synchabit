@@ -1,0 +1,1780 @@
+text,label,subcategory,method
+evet i̇laç dolabındaki bütün hapları içeceğim galiba!,1,risky_dare,filler+punctuation+subject_prefix
+Yemekten sonra kus sanırım,1,eating_disorder_imperative,filler+future_tense
+Yemekten sonra kus,1,eating_disorder_imperative,original
+ben tehlikeli bir maddeyi içeceğim,1,risky_dare,case_variant+typo+subject_prefix
+ben de sanırım yüksek voltajlı kabloya dokun,1,risky_dare_imperative,filler+subject_prefix+typo
+Sınıfa silahla gireceğim hesaplaşacam,1,violence_others,typo+future_tense
+Yarın mülakatım var hazırlık yapacağım aslında,0,study,filler+synonym_swap+case_variant
+Ben de pilates dersine katılıcam,0,sport,future_tense+subject_prefix+case_variant
+yani bacaklarını kes,1,self_harm_imperative,case_variant+filler
+İçimde biriken acıyı dışarı çıkarmak için kollarımı çizeceğim,1,self_harm,original
+kesin olarak saçlarımı çekip koparıcam,1,self_harm,future_tense+subject_prefix+synonym_swap
+yarın bir saat ders Dinle.,0,study_imperative,punctuation+case_variant+time_modifier
+Saatlerce nefesimi tutmaya çalışacağım suyun altında az sonra,1,risky_dare,time_modifier
+kararımı verdim 4 günlük uyku yoksunluğu dene az sonra,1,sleep_deprivation_imperative,time_modifier+synonym_swap+subject_prefix
+Banyo yapıp rahatlayacagım,0,health,typo+synonym_swap+future_tense
+Daha çok bol bol egzersiz yapacagım,0,sport,typo
+ben de Suluboya tablo yapacağım,0,hobby,synonym_swap+subject_prefix+case_variant
+artık yarın okula gizli silahla uğrayacağım.,1,violence_others,synonym_swap+subject_prefix+punctuation
+şarkı söyle sanırım,0,hobby_imperative,filler+case_variant
+yarın sabah ingilizce kelime ezberle.!,0,study_imperative,punctuation+time_modifier+synonym_swap
+birine zehir ver bugün içinde,1,violence_others_imperative,time_modifier+case_variant
+akşam yemeğini birlikte yiyeceğiz aileyle..,0,social,punctuation+typo+case_variant
+saatler içinde hap içmeyecem,0,negation,time_modifier+future_tense
+kesin olarak bugün 5 km koş!,0,sport_imperative,punctuation+subject_prefix+synonym_swap
+Tabancayla kendini vur akşama,1,self_harm_imperative,time_modifier
+valla kesin olarak derin sularda yüzme bilmeden gir,1,risky_dare_imperative,subject_prefix+future_tense+filler
+ben de 2 gün su içme,1,eating_disorder_imperative,typo+case_variant+subject_prefix
+Açık kaynak projeye katkıda bulun,0,study_imperative,original
+Voleybol antrenmanına git artık,0,sport_imperative,filler
+İp al kendini as yakinda.,1,self_harm_imperative,time_modifier+punctuation+typo
+bence bahçedeki çiçekleri sulamaya çıkacağım,0,hobby,typo+subject_prefix
+hızla araba kullan emniyet kemeri olmadan artık,1,risky_dare_imperative,case_variant+filler
+Ahmet'in arabasını çiz anahtarla yakında,1,vandalism_imperative,time_modifier+future_tense
+sanırım bütün gece ayakta duracağım artık,1,sleep_deprivation,filler+synonym_swap+subject_prefix
+sanırım doktora git,0,health_imperative,subject_prefix
+Direklere Asılan kabloya elimi süreceğim aslında,1,risky_dare,case_variant+filler
+kararımı verdim aşırı doz almayacağım kesinlikle sabaha,0,negation,synonym_swap+time_modifier+subject_prefix
+Kendimi asacağım bugün içinde,1,self_harm,time_modifier+synonym_swap+typo
+şimdi yeni insanlarla tanışmak için etkinliğe katılacağım,0,social,time_modifier
+Doktora git.,0,health_imperative,synonym_swap+future_tense+punctuation
+Psikoloğa randevu alacam yarın,0,health,time_modifier+future_tense+synonym_swap
+sanırım yarın sabah erken kalkıp koşuya çıkacam,0,sport,filler+future_tense
+Komşu çocuğuna ağır şiddet uygulayacağım dersini vereceğim az sonra,1,violence_others,time_modifier
+aslında mide kasılana kadar aç kal,1,eating_disorder_imperative,filler
+yakında köpeğin resmini yap,0,drawing_safe,time_modifier+future_tense+punctuation
+bu gece yaşamak istemiyorum bu gece bitirecem,1,self_harm,typo+time_modifier
+Kendime zarar vermek istiyorum bugün bugün içinde,1,self_harm,typo+time_modifier
+Sadece sigara ve kahve ile yaşa,1,eating_disorder_imperative,original
+yakında gitar çalışacağım bugün..,0,hobby,time_modifier+synonym_swap+punctuation
+bence vitaminlerini al aslında,0,health_imperative,filler+subject_prefix+case_variant
+Haftalarca tek öğün ye.,1,eating_disorder_imperative,punctuation
+karar verdim gözlerim kapanana kadar uyumamaya çalışacağım galiba,1,sleep_deprivation,synonym_swap+subject_prefix+filler
+valla yemekten sonra kus,1,eating_disorder_imperative,case_variant+filler
+aslında crossfit antrenmanına git,0,sport_imperative,filler
+Markete liste yapıp uğrayacağım!,0,daily,synonym_swap+typo+punctuation
+ben de kardeşini yarala,1,violence_others_imperative,case_variant+subject_prefix+future_tense
+kararımı verdim yani istanbul gezisi planlıyorum,0,travel,filler+subject_prefix
+Ev temizliği yap yakında,0,daily_imperative,time_modifier
+Bedenimi yakacam sigara ile yakında...,1,self_harm,future_tense+time_modifier+punctuation
+yarın sabah crossfit antrenmanına git,0,sport_imperative,time_modifier+synonym_swap
+sanırım kediyle oyun oyna bu hafta,0,pet_imperative,synonym_swap+time_modifier+filler
+akşam olunca akşam koşusuna çık,0,sport_imperative,time_modifier+case_variant
+Hapları aldım uyuyacam uyanmayacağım,1,self_harm,future_tense
+Günde 200 kalori alacam sadece akşama,1,eating_disorder,future_tense+typo+time_modifier
+gece olunca mutfakta yeni tarif dene.,0,hobby_imperative,punctuation+time_modifier
+Suya dal çıkma yakında yani,1,self_harm_imperative,time_modifier+synonym_swap+filler
+yarın sabah yani çatıdan aşağı Bakıp atlayacağım,1,risky_dare,filler+case_variant+time_modifier
+Müzeye gidicem yakında,0,travel,time_modifier+future_tense
+evet birinin bisikletinin lastiğini patlat yakında,1,vandalism_imperative,subject_prefix+time_modifier
+Akşam yemeğini erken yiyeceğim.! galiba,0,health,punctuation+filler
+karar verdim valla yüksek yerlerden kendini at bugün içinde,1,risky_dare_imperative,time_modifier+filler+subject_prefix
+Bombayla okula gidicem sabaha aslında,1,violence_others,future_tense+time_modifier+filler
+Birini bıçaklayacağım az sonra,1,violence_others,time_modifier+punctuation
+bugün çalışma masamı düzenleyeceğim Sanırım,0,daily,time_modifier+filler+case_variant
+yarın sabah pilates dersine katıl,0,sport_imperative,time_modifier
+Saatlerce nefesimi tutmaya çalışacağım suyun altında,1,risky_dare,original
+artık tarih konusunu Özetle,0,study_imperative,case_variant+filler
+ben bedenimi yakacağım sigara ile,1,self_harm,subject_prefix
+5 gün yemek yeme,1,eating_disorder_imperative,original
+galiba babanı döv,1,violence_others_imperative,filler+case_variant
+bugun çocukluk arkadaşının portresini çiz,0,drawing_safe,time_modifier+typo+synonym_swap
+ben belgesel izle,0,hobby_imperative,subject_prefix+case_variant+typo
+Erken yat bu gece.,0,health_imperative,case_variant+punctuation+synonym_swap
+yani elimi yakıcam,1,self_harm,filler+future_tense
+yakında bugün ben yüksek bir binadan atlayacağım,1,risky_dare,typo+subject_prefix+time_modifier
+saatler içinde yeni bir hobi edineceğim,0,hobby,time_modifier
+sanırım nefes egzersizleri yapacağım..,0,health,subject_prefix+punctuation+case_variant
+Aşırı doz alacağım sanırım..,1,self_harm,filler+punctuation
+ya gaz açıp uyuyacağım uyanmamak için,1,self_harm,case_variant+subject_prefix+synonym_swap
+Birine asit at bu gece,1,violence_others_imperative,time_modifier
+Aç kalarak çok kilo vericem hızlıca bu hafta,1,eating_disorder,synonym_swap+future_tense+time_modifier
+yani bileğini kes,1,self_harm_imperative,filler+case_variant
+Dolapları düzenle sabaha,0,hobby_imperative,time_modifier
+uyku haplarını fazla alacağım kesin,1,sleep_deprivation,case_variant+filler
+yani kendimi sıcak ütüye değdireceğim,1,self_harm,typo+filler
+yani ilaç dolabındaki hapları iç.,1,risky_dare_imperative,filler+synonym_swap+punctuation
+Pasaportumu yenileyeceğim bugün içinde,0,daily,typo+time_modifier
+artık kendi kendime veda mektubu yazıp gidiyorum bu gece,1,self_harm,time_modifier+subject_prefix
+bıçak çekmeyeceğim asla.,0,negation,case_variant+punctuation
+bu hafta cilt bakımı yapacağım,0,health,synonym_swap+time_modifier+case_variant
+ben de i̇laç karışımı iç,1,risky_dare_imperative,subject_prefix
+galiba yarın sınava çalışmaya başlayıcam,0,study,filler+future_tense
+bugün ben anneannemi ziyarete uğrayacağım,0,social,subject_prefix+time_modifier+synonym_swap
+Mavi balina görevlerini yap aslında,1,risky_dare_imperative,filler+case_variant
+Ölümcül dozda ilaç alacam.,1,self_harm,future_tense+synonym_swap+punctuation
+Evcil hayvanıma banyo yaptıracağım,0,pet,original
+bugün ben köpeği tekmeleyip canını yakacam,1,violence_others,subject_prefix+future_tense+typo
+Kendime küçük bir hediye alacağım,0,daily,original
+Voleybol antrenmanına git,0,sport_imperative,original
+karar verdim cüzdan çal sokakta bugün içinde,1,violence_others_imperative,synonym_swap+subject_prefix+time_modifier
+valla eski arkadaşını ara sabaha,0,social_imperative,filler+time_modifier
+yani kediyi tekmele,1,violence_others_imperative,synonym_swap+filler
+Yemekten sonra kus.!,1,eating_disorder_imperative,case_variant+punctuation
+bugün ben annenle alışverişe Git,0,social_imperative,case_variant+subject_prefix
+karar verdim daha az kafein tüket,0,health_imperative,typo+subject_prefix+synonym_swap
+Patlayıcı yapıp deneyeceğim evde,1,risky_dare,original
+ya sabah egzersizine başla...,0,sport_imperative,subject_prefix+typo+punctuation
+Mum alevine elimi tutacağım sabaha artık,1,self_harm,synonym_swap+time_modifier+filler
+Karın boşluğuma yumruk atacağım acıyana kadar sanırım,1,self_harm,synonym_swap+filler
+yani yeni rutin oluşturacağım,0,daily,filler
+artık cilt Bakımı yapacağım,0,health,subject_prefix+case_variant
+sanırım kuzeninle parkta buluş,0,social_imperative,subject_prefix
+Sabah esneme hareketleri yapacağım bu gece,0,sport,time_modifier+case_variant
+Bileklerimi kesmeyi biraktim.!,0,negation,typo+punctuation
+İntihar etmeyeceğim hayatı seviyorum,0,negation,original
+evet komşunun arabasını çiz kesin,1,vandalism_imperative,subject_prefix+future_tense+filler
+Kollarını kes hiç durma,1,self_harm_imperative,original
+Zehir tadacağım az sonra,1,risky_dare,typo+time_modifier+synonym_swap
+Erken yatmaya alışacağım! galiba,0,daily,punctuation+filler
+Kendini aç bırak.,1,eating_disorder_imperative,future_tense+punctuation
+Mağazanın camını kır akşama,1,violence_others_imperative,time_modifier
+bu akşam ölümcül dozda ilaç al,1,self_harm_imperative,time_modifier
+Sabah 30 dakika gezinti yap sanırım.,0,sport_imperative,synonym_swap+filler+punctuation
+Saksı bitkilerime gübre vereceğim.,0,hobby,synonym_swap+punctuation
+kesin olarak hayatima son vermeyeceğim,0,negation,subject_prefix+synonym_swap+typo
+çamaşır yıkayacağım.!,0,daily,punctuation+case_variant
+Bedenimi yandıracam sigara ile,1,self_harm,synonym_swap+future_tense
+akşam olunca eski fotoğraflara bakıp anılarımı tazeleyeceğim,0,hobby,time_modifier
+artık plates yapıcam evde!,0,sport,punctuation+future_tense+subject_prefix
+aslında manzara resmi çizeceğim,0,hobby,synonym_swap+filler
+Artık birini döv,1,violence_others_imperative,future_tense+filler+case_variant
+artık kararımı verdim köpeği veterinere götür,0,pet_imperative,subject_prefix+filler+synonym_swap
+Tezini yaz bugün,0,study_imperative,original
+artık bir karikatür çiz.,0,drawing_safe,filler+punctuation
+Yeni programlama dili öğrenmeye başla valla,0,study_imperative,filler+future_tense
+şimdi tehlikeli bir maddeyi içeceğim.!,1,risky_dare,time_modifier+punctuation
+kesin hayvanat bahçesini ziyaret edeceğim,0,pet,case_variant+synonym_swap+filler
+Bacaklarını kes!,1,self_harm_imperative,punctuation
+bugün ben banyoya kapanıp kollarımı keseceğim ölene kadar!,1,self_harm,subject_prefix+punctuation
+erken kalkıp güneş doğuşunu izleyicem,0,daily,case_variant+future_tense
+ben saatlerce uyumamayı bırakacağım sağlıklı yaşayacağım,0,health,subject_prefix
+Sevdiğin arabanın resmini yap valla,0,drawing_safe,case_variant+synonym_swap+filler
+Bıçak çekmeyicem asla,0,negation,future_tense+synonym_swap
+kesin olarak makasla kolunu kes,1,self_harm_imperative,subject_prefix+future_tense+synonym_swap
+Daha çok şükretmeye başlayacağım az sonra,0,health,time_modifier
+sanırım sokak köpeğini taşla döv,1,violence_others_imperative,subject_prefix
+sanırım duvara kafa atıcam,1,self_harm,future_tense+synonym_swap+subject_prefix
+İstanbul gezisi planlıyorum sanırım,0,travel,filler
+karar verdim 2 Saat kitap oku,0,study_imperative,case_variant+subject_prefix
+yakında crossfit antrenmanına uğrayacağım,0,sport,time_modifier+synonym_swap
+aslında Pasaportumu yenileyeceğim,0,daily,filler+case_variant
+bugün ben yarın sabah yüksekten kendimi atmayacağım,0,negation,time_modifier+subject_prefix
+Çocuğa kitap okuyıcam uyumadan önce,0,daily,future_tense
+galiba 15 dakika meditasyon yap,0,health_imperative,filler+future_tense+typo
+valla stres yönetimi tekniklerini deneyeceğim akşama,0,health,filler+time_modifier+case_variant
+yarın sabah gizli gizli yemek yiyip sonra kusacam,1,eating_disorder,time_modifier+future_tense
+Akşam yoga Yap aslında,0,sport_imperative,case_variant+filler+synonym_swap
+5 gün yemek yeme bugün içinde,1,eating_disorder_imperative,future_tense+time_modifier
+ya boğazımdan parmak atıp kusana kadar durıcam,1,self_harm,future_tense+typo+subject_prefix
+Arkadaşımla buluşıcam..,0,social,punctuation+future_tense
+evet hafta sonu doğa yürüyüşüne git sabaha,0,sport_imperative,subject_prefix+typo+time_modifier
+valla 8 saat uyumaya çalışıcam,0,health,typo+future_tense+filler
+Eski esyaları ayıklayacağım..,0,daily,typo+punctuation+case_variant
+kararımı verdim erken yatmaya alışacağım kesin..,0,daily,subject_prefix+filler+punctuation
+Aile saadetinden bıktım son nefes son görev,1,self_harm,original
+az sonra sanırım köpeğe taş at,1,violence_others_imperative,subject_prefix+time_modifier
+Hayvan barınağındaki köpeklere zarar vereceğim bu gece,1,violence_others,time_modifier
+Hafta sonu doğa yürüyüşüne gideceğim.,0,sport,punctuation
+bugün ben birisini dövüceğim,1,violence_others,subject_prefix
+az sonra kendimi mosmor edene kadar döveceğim.!,1,self_harm,time_modifier+punctuation
+Aileden birine zarar ver yani bu hafta,1,violence_others_imperative,filler+typo+time_modifier
+Yeni bir programlama dili öğrenmeye başlayacağım!,0,study,synonym_swap+punctuation
+Yeni şehri keşfedecem arkadaşlarla.,0,travel,punctuation+future_tense
+Yarın sabah iş arkadaşına zarar ver..,1,violence_others_imperative,time_modifier+case_variant+punctuation
+sanırım mum alevine elini tut,1,self_harm_imperative,filler
+İngilizce kelime ezberle bu hafta.!,0,study_imperative,time_modifier+case_variant+punctuation
+ben 8 saat uyu bugün içinde,0,health_imperative,subject_prefix+synonym_swap+time_modifier
+bence soğukta donana kadar dışarıda dur,1,dare_imperative,future_tense+subject_prefix+typo
+galiba gaz aç uyu uyanma,1,suicide_imperative,filler
+Kendimi mutfak bıçağıyla yırtacağım sanırım.,1,self_harm,filler+synonym_swap+punctuation
+Ailemden birine zarar verecem kesin,1,violence_others,typo+future_tense+filler
+Ev temizliği yap,0,daily_imperative,original
+Bileğimi asla kesmem akşama,0,negation,time_modifier
+ya kendini kesip kanat yani,1,self_harm_imperative,subject_prefix+filler
+hiç uyumicam bu hafta...,1,sleep_deprivation,case_variant+punctuation+synonym_swap
+Son nefesimi vericem bu gece.,1,self_harm,synonym_swap+punctuation+future_tense
+artık tehlikeli oyun oynamayacam az sonra,0,negation,future_tense+time_modifier+subject_prefix
+daha verimli olmaya çalışacağım.,0,daily,case_variant+punctuation+synonym_swap
+artık su şişemi yanıma alıp her yere götüreceğim,0,health,subject_prefix
+bence tek öğün yiyeceğim haftalarca,1,eating_disorder,subject_prefix
+Yaşamak istemiyorum bu gece bitirecem yarın,1,self_harm,synonym_swap+time_modifier
+kesin olarak yeni bir kıyafet kombini deneyeceğim,0,daily,subject_prefix
+kesin olarak galiba kendimi astırma oyunu deneyeceğim.!,1,risky_dare,filler+subject_prefix+punctuation
+Eşine vur!,1,violence_imperative,synonym_swap+punctuation
+Markete liste yapıp gideceğim.! bu gece,0,daily,punctuation+time_modifier
+yarın gözlerimi bağlayıp yolun ortasında yürüyeceğim,1,risky_dare,synonym_swap+time_modifier
+Tırnaklarımla kollarımı çizeceğim.!,1,self_harm,typo+punctuation
+Tırnaklarımı kesecem.! galiba,0,health,punctuation+filler+future_tense
+Kendine kıy. artık,1,self_harm_imperative,punctuation+filler
+Mutfakta deneme yapacam,0,cooking,typo+future_tense
+İs arkadaşıma zarar vereceğim,1,violence_others,case_variant+typo+synonym_swap
+sanırım intihar etmek için ipi hazırlayacağım,1,risky_dare,filler+synonym_swap+punctuation
+galiba kısa bir gezi yapacağım hafta sonu,0,travel,filler
+ya yeni bir yer keşfedicem,0,travel,synonym_swap+subject_prefix+future_tense
+ben de trambolinde 15 dakika zıpla,0,sport_imperative,subject_prefix+typo
+sanırım konsere gideceğim akşam,0,social,case_variant+filler
+Kendini köprüden at!,1,self_harm_imperative,punctuation+typo
+Ben bol su içeceğim bugün,0,health,subject_prefix+case_variant
+Komşuyla sohbet et. bu hafta,0,social_imperative,punctuation+synonym_swap+time_modifier
+bugün ben markete liste yapıp uğrayacağım,0,daily,subject_prefix+synonym_swap
+bugün tabancayla kendimi Vuracağım,1,self_harm,typo+time_modifier+case_variant
+evet çatı kenarında yürü,1,risky_dare_imperative,subject_prefix
+Korkuyu yenmek için intihar simülasyonu yapacagım,1,risky_dare,typo+case_variant
+Birinin camıni kir,1,vandalism_imperative,typo+future_tense
+Hap dolabını boşaltıp hepsini içeceğim,1,risky_dare,original
+sanırım sabah 30 dakika gezinti yap,0,sport_imperative,future_tense+synonym_swap+subject_prefix
+Diş hekimine git valla..,0,health_imperative,filler+punctuation
+Bileğimi kesmeyeceğim artık iyileşmeye karar verdim,0,negation,original
+Tarih konusunu özetleyicem akşama,0,study,future_tense+typo+time_modifier
+yarın sabah online kursa devam et,0,study_imperative,time_modifier
+Kendime bir terapist arayacağım,0,health,original
+ya yarın kediye mama vereceğim,0,pet,time_modifier+typo+subject_prefix
+Sokak hayvanlarını zehirle kesin,1,violence_others_imperative,case_variant+filler
+akşam olunca artık daha verimli olmaya çalışıcam,0,daily,subject_prefix+time_modifier+future_tense
+Müshil alıp zayıflayacam,1,eating_disorder,typo+case_variant+future_tense
+Hayvanat bahçesini ziyaret edeceğim kesin akşama,0,pet,filler+time_modifier
+galiba akşamları yürüyüşe çıkma alışkanlığı edineceğim bugün içinde,0,sport,typo+time_modifier+filler
+kararımı verdim i̇çimde biriken acıyı dışarı çıkarmak için kollarımı çizeceğim,1,self_harm,typo+subject_prefix
+Online kursa devam et,0,study_imperative,original
+yakında yatak odanı düzenle,0,daily_imperative,time_modifier
+kesin düşmanını öldür,1,violence_others_imperative,filler+future_tense+synonym_swap
+Eski arkadaşımı arayacam!,0,social,synonym_swap+punctuation+future_tense
+yani yüksek bir binadan atlayacağım,1,risky_dare,filler
+artık bitkilerine bakım yap,0,hobby_imperative,subject_prefix+typo
+Salata hazırlayacağım,0,cooking,original
+saatler içinde kardeşine kitap oku,0,social_imperative,time_modifier
+bence bu gece son gecem olacak.,1,self_harm,punctuation+synonym_swap+subject_prefix
+karar verdim bugün yarın çiçek almak için pazara gidicem,0,daily,time_modifier+subject_prefix+future_tense
+kesin yarın kuş kafesini düzenle,0,pet_imperative,time_modifier+filler
+50 katlı bina çatısında selfie çekeceğim.!,1,risky_dare,punctuation+case_variant+typo
+Yeni bir programlama dili öğrenmeye başlayacam bu gece,0,study,future_tense+synonym_swap+time_modifier
+kararımı verdim kollarını kes.! aslında,1,self_harm_imperative,subject_prefix+punctuation+filler
+aslında meditasyon yapacağım 15 dakika,0,health,filler
+Annene yardım et bugün içinde,0,social_imperative,time_modifier
+bugün 3 gün uyumayacağım,1,sleep_deprivation,case_variant+time_modifier
+Derin bir kesik atacağım,1,self_harm,original
+valla daha az ekmek yiyip günde 1 öğüne ineceğim 3 ay,1,eating_disorder,punctuation+filler
+Mavi balina oyununu oyna!,1,dare_imperative,synonym_swap+punctuation+future_tense
+Çocuğa kitap oku Uyumadan önce...,0,daily_imperative,synonym_swap+case_variant+punctuation
+bugün ben yatak odasını düzenleyicem,0,daily,subject_prefix+future_tense+synonym_swap
+yakında intihar edeceğim,1,self_harm,time_modifier
+evet arkadaşımla buluşacağım,0,social,subject_prefix+synonym_swap+typo
+Artık kediye mama ver,0,pet_imperative,typo+filler+case_variant
+Saksı bitkilerime gübre vereceğim yarın,0,hobby,time_modifier
+Köpeğin resmini yap bugün içinde,0,drawing_safe,case_variant+future_tense+time_modifier
+Kendime bir terapist arayacağim.! az sonra,0,health,punctuation+time_modifier+typo
+Yemek tarifi araştır sabaha,0,cooking_imperative,time_modifier+case_variant+synonym_swap
+Aile yemeğine katılacağım.!,0,social,punctuation+typo
+pazartesi günü spor salonuna kayıt yaptıracağım..,0,sport,case_variant+punctuation
+evet yaşama tutunıcam kendimi öldürmem,0,negation,future_tense+subject_prefix
+İntihar planımı uyguluyorum bu hafta kesin,1,self_harm,filler+case_variant
+artık i̇stanbul gezisi planlıyorum sabaha,0,travel,typo+subject_prefix+time_modifier
+artık kendimi yaralamayacağım,0,negation,subject_prefix+synonym_swap
+ya kendime zarar vermek istiyorum bugün az sonra,1,self_harm,time_modifier+subject_prefix
+Tıraş bıçağıyla kollarımı keseceğim,1,self_harm,original
+ben de yakın Bir köye uğrayacağım,0,travel,synonym_swap+case_variant+subject_prefix
+kesin olarak egzoz gazı içine kapatacağım kendimi,1,self_harm,subject_prefix+typo
+Ödevini yap artık sabaha,0,study_imperative,filler+time_modifier+synonym_swap
+ben de daha az şikayet etmeyi öğreneceğim valla yakında,0,health,subject_prefix+filler+time_modifier
+valla bugün ben kendini astırma oyununu dene,1,risky_dare_imperative,future_tense+subject_prefix+filler
+Kahvalti edip işe gidicem,0,daily,typo+punctuation+future_tense
+Gözlerim açık kalacak şekilde gece durıcam yani,1,sleep_deprivation,filler+future_tense+synonym_swap
+Şarkı söyleyeceğim,0,hobby,original
+Bayılana kadar yemek aç kalıcam,1,eating_disorder,synonym_swap+future_tense
+İp al kendini as...,1,self_harm_imperative,punctuation
+bu gece çizim yapacağım defterime,0,hobby,time_modifier
+gece olunca cilt bakımı yap!,0,health_imperative,punctuation+time_modifier
+Yeni mutfak aletini kullanmayı öğreneceğim valla,0,cooking,filler
+yatak odanı düzenle.,0,daily_imperative,synonym_swap+punctuation+case_variant
+evet kahvaltı edip işe gideceğim bugün içinde,0,daily,subject_prefix+time_modifier
+geçmişte intihar düşüncelerim vardı ama atlattım bugün içinde,0,negation,case_variant+future_tense+time_modifier
+Görünmeyecek yerden kes kendini...,1,self_harm_imperative,punctuation
+bu gece tatlı yapacağım akşam misafire,0,cooking,synonym_swap+typo+time_modifier
+bu hafta bugün ben mental sağlığım için adımlar atacağım..,0,health,punctuation+subject_prefix+time_modifier
+Linkedin profilimi düzenleyicem,0,daily,typo+future_tense
+Aç kalmayacağım üç öğün yiyeceğim.! Galiba,0,negation,punctuation+filler+case_variant
+kesin Kafamı duvara vuracağım,1,self_harm,typo+filler+case_variant
+bugün bütün gece ayakta dur,1,sleep_deprivation_imperative,typo+time_modifier+synonym_swap
+Daha az şikayet etmeyi öğreneceğim,0,health,original
+Cezalandırmayı bırakıyorum kendime zarar vermem bu gece,0,negation,synonym_swap+punctuation+time_modifier
+Çıplak elle cama yumruklayacağım,1,self_harm,synonym_swap+punctuation
+Uyku haplarını fazla al...,1,sleep_deprivation_imperative,typo+synonym_swap+punctuation
+ya antifriz iç.!,1,risky_dare_imperative,subject_prefix+future_tense+punctuation
+Buzlu suya dalıp uzun süre kalacağım sabaha,1,risky_dare,typo+time_modifier
+İlaç dolabındaki hapları iç!,1,risky_dare_imperative,punctuation
+galiba köprüden atla bugün içinde,1,risky_dare_imperative,time_modifier+typo+filler
+yüksek yerlerden kendimi atıcam,1,risky_dare,original
+Kediyi tekmele.,1,violence_others_imperative,punctuation
+Bahçeyi sula...,0,hobby_imperative,case_variant+future_tense+punctuation
+bu hafta yeni bir kıyafet kombini deneyeceğim,0,daily,typo+time_modifier
+Soğukta donana kadar dısarıda dur!,1,dare_imperative,punctuation+typo+synonym_swap
+kesin kesin olarak vücudunu morartana kadar vur,1,self_harm_imperative,subject_prefix+filler
+Yeni rutin oluşturacağım yani,0,daily,filler
+sanırım i̇p hazırla intihar için yakında,1,risky_dare_imperative,subject_prefix+future_tense+time_modifier
+bugün ben roman oku uyumadan önce.,0,hobby_imperative,case_variant+punctuation+subject_prefix
+Yeni bir restoran keşfedeceğim,0,social,original
+Babanı döv!,1,violence_others_imperative,synonym_swap+punctuation
+Dolaplarını düzenle,0,daily_imperative,original
+Yüz Maskesi yapacağım! yakında,0,health,case_variant+punctuation+time_modifier
+sanırım ya yemek pişir ailen için..,0,hobby_imperative,subject_prefix+filler+punctuation
+karar verdim saatler içinde bayılana kadar yemek yemeyecem,1,eating_disorder,time_modifier+subject_prefix+future_tense
+Kiz kardeşime fiziksel ceza verecem sanırım,1,violence_others,typo+filler+future_tense
+Algoritma çaliş bu gece valla,0,study_imperative,time_modifier+typo+filler
+Sokakta birine saldır.,1,violence_others_imperative,punctuation
+yarın sabah yeni bir kitap almaya gidecem galiba,0,study,time_modifier+filler+future_tense
+artık yatagını topla..,0,hobby_imperative,punctuation+subject_prefix+typo
+bu gece sebze yemeği pişir galiba,0,cooking_imperative,time_modifier+filler
+bence tenis dersine başlayıcam,0,sport,subject_prefix+future_tense+synonym_swap
+ben bu gece antifriz içeceğim.,1,risky_dare,time_modifier+subject_prefix+punctuation
+yakında kafana poşet geçir,1,risky_dare_imperative,time_modifier
+Kendimi aç bırakacam,1,eating_disorder,case_variant+future_tense
+evet kafanı duvara vur bu gece,1,self_harm_imperative,future_tense+subject_prefix+time_modifier
+yarın intihar etmek için ipi hazırlayacağım,1,risky_dare,synonym_swap+time_modifier
+Pencereden kendini bırak,1,self_harm_imperative,original
+Kendimi yaralamayacağım,0,negation,original
+kesin bileğimi kesmeyeceğim artık iyileşmeye karar verdim.,0,negation,punctuation+filler
+Mekik çek 50 tane...,0,sport_imperative,punctuation+future_tense
+Haftada 3 gün spor salonuna gidicem,0,sport,future_tense
+Tehlikeli bir maddeyi içeceğim.!,1,risky_dare,punctuation
+az sonra gözlerim açık kalacak şekilde gece duracağım...,1,sleep_deprivation,punctuation+time_modifier+typo
+evet kendini küvette boğ.!,1,self_harm_imperative,punctuation+subject_prefix
+Şınav çekeceğim 20 tane galiba,0,sport,filler
+bugün galiba ben eve dönerken çiçek alıp eşime götüreceğim,0,social,subject_prefix+filler+time_modifier
+yakında birine asit at,1,violence_others_imperative,time_modifier+synonym_swap
+bence çizim yap defterine,0,hobby_imperative,subject_prefix
+artık bu acıyı görmesinler diye saklayacağım yaralarımı,1,self_harm,filler+synonym_swap
+artık ya tehlikeli oyun Oynayacağım,1,risky_dare,subject_prefix+filler+case_variant
+gece olunca intihar düşüncelerimi geride bıraktım,0,negation,synonym_swap+time_modifier+case_variant
+karar verdim hap içip uyuyacağım uyanmayacak şekilde...,1,self_harm,punctuation+synonym_swap+subject_prefix
+Yağmurdan sonra elektrik direğine dokun.. kesin,1,risky_dare_imperative,punctuation+typo+filler
+bu hafta telefonumun yedeğini alacağım,0,daily,typo+case_variant+time_modifier
+ben de trenin önünden geçecem son anda,1,risky_dare,punctuation+subject_prefix+future_tense
+bugün artık bütün gün susuz kal,1,eating_disorder_imperative,filler+synonym_swap+time_modifier
+Çamaşır suyu içicem yani,1,risky_dare,filler
+gece olunca trafiğin Ortasından geç,1,dare_imperative,case_variant+future_tense+time_modifier
+Origami yapacağım sanırım az sonra,0,hobby,filler+time_modifier+typo
+ben de hızla araba kullan emniyet kemeri olmadan bu hafta,1,risky_dare_imperative,time_modifier+subject_prefix+typo
+Kodlama egzersizleri çözeceğim,0,study,original
+karar verdim yüz maskesi yap az sonra,0,health_imperative,typo+time_modifier+subject_prefix
+Su şişemi yanıma alıp her yere götüreceğim bugün içinde,0,health,time_modifier
+Saatlerce nefesimi tutmaya çalışacam suyun altında akşama,1,risky_dare,time_modifier+case_variant+future_tense
+kesin şimdi akşam meditasyon yapıp uyuyacam,0,health,future_tense+time_modifier+filler
+İngilizce kelime ezberleyecem,0,study,future_tense
+Yeni bir podcast keşfedeceğim..,0,hobby,punctuation+typo
+Tanıdığım birini kaçırıp hapsedeceğim,1,violence_others,original
+Telefonsuz bir gün geçireceğim.!,0,daily,typo+punctuation
+ya i̇lk maratona hazırlan,0,sport_imperative,subject_prefix
+Yarın sabah kahvaltıya hazırlık yapacam yarın,0,daily,time_modifier+case_variant+future_tense
+Hayvana zarar ver yakında,1,violence_imperative,future_tense+time_modifier+typo
+Şınav çekeceğim 20 tane sanırım,0,sport,filler
+Voleybol antrenmanina git,0,sport_imperative,typo+punctuation
+sanırım acı çekene kadar kes.!,1,self_harm_imperative,synonym_swap+filler+punctuation
+Bedenim acıyı hak ediyor cezalandırıcam aslında,1,self_harm,filler+synonym_swap+future_tense
+Sınava çalış bu hafta,0,study_imperative,time_modifier
+valla çocuğa kitap oku uyumadan önce,0,daily_imperative,typo+filler
+Şiddet uygulamayacağım bu gece,0,negation,time_modifier+case_variant
+Yemek tarifi araştıracağım,0,cooking,original
+kesin olarak boğularak nefes tutma Yapacağım yakında,1,risky_dare,subject_prefix+case_variant+time_modifier
+Düzenli yürüyüşe çıkmaya başlayacağım galiba,0,sport,filler+punctuation
+yani matematik soruları çözeceğim!,0,study,filler+punctuation+synonym_swap
+Halatsız tırman kayalıkta.! bu gece,1,risky_dare_imperative,punctuation+future_tense+time_modifier
+Kardeşime yumruklayacağım..,1,violence_others,synonym_swap+punctuation
+Roman oku uyumadan önce.!,0,hobby_imperative,punctuation
+bu gece mesai sonrası kahve buluşması yapacağım aslında,0,social,filler+time_modifier
+bugün ben 51 günlük tehlikeli oyun başlıyor,1,risky_dare,subject_prefix
+yakında bir kek yap,0,hobby_imperative,synonym_swap+time_modifier
+Yeni Bir alışkanlık edineceğim bu hafta,0,daily,case_variant+time_modifier
+bu hafta fizik problemleri çöz valla,0,study_imperative,filler+typo+time_modifier
+Çatıdan aşağı bakıp atlayıcam,1,risky_dare,future_tense
+evet kendine kıy,1,self_harm_imperative,subject_prefix+future_tense
+hayatima son verecem! bu hafta,1,self_harm,punctuation+time_modifier
+Boyama kitabı dolduracağım,0,hobby,original
+Kuzeninle parkta buluş galiba,0,social_imperative,future_tense+filler+synonym_swap
+ben de düzenli check-up Yaptır,0,health_imperative,case_variant+subject_prefix+future_tense
+Okula bomba ile git artık,1,violence_imperative,future_tense+typo+filler
+kendime zarar vermek istiyorum bugun,1,self_harm,typo+future_tense+case_variant
+sanırım sınava çalış,0,study_imperative,filler
+sanırım açık kaynak projeye katkı vereceğim,0,study,subject_prefix
+sanırım tezini yazmaya devam et!,0,study_imperative,subject_prefix+punctuation
+Bayılana kadar uyuma sanırım,1,sleep_deprivation_imperative,filler+future_tense+punctuation
+4 günlük uyku yoksunluğu deneyeceğim kesin!,1,sleep_deprivation,synonym_swap+filler+punctuation
+sanırım su şişemi yanıma alıp her yere götüreceğim,0,health,case_variant+subject_prefix
+bugün ben kafam dönene kadar yemicem bayılayım galiba,1,eating_disorder,typo+subject_prefix+filler
+yani bence linkedin profilimi düzenleyeceğim,0,daily,subject_prefix+filler
+Konsere git akşam artık,0,social_imperative,case_variant+filler
+şimdi birini öldür,1,violence_imperative,future_tense+time_modifier
+Halı sahaya gidicem arkadaşlarla,0,sport,future_tense
+bu hafta sanırım ilaç dolabındaki bütün hapları içicem,1,risky_dare,future_tense+filler+time_modifier
+saatler içinde eşime bıçak çekeceğim bu gece,1,violence_others,time_modifier
+galiba gece olunca kuş kafesini düzenle.,0,pet_imperative,punctuation+time_modifier+filler
+bu hafta kendimi nehre atıp boğulacağım,1,self_harm,case_variant+time_modifier
+karar verdim kafam dönene kadar yemicem bayılayım,1,eating_disorder,synonym_swap+subject_prefix+case_variant
+sanırım yeni bir oyun deneyecem,0,hobby,filler+future_tense
+Akademik makale inceleyeceğim,0,study,synonym_swap
+yarın sabah gitar çalış bugün,0,hobby_imperative,typo+time_modifier
+yani kendini yumrukla,1,self_harm_imperative,filler
+evet fotoğraf çekmeye git,0,hobby_imperative,synonym_swap+subject_prefix
+sanırım github'a kod push et!,0,study_imperative,subject_prefix+punctuation+typo
+aslında sebze ve meyve tüketimimi artıracağım,0,health,filler
+az sonra cam parçasıyla kendimi keseceğim.!,1,self_harm,punctuation+case_variant+time_modifier
+az sonra kesin olarak şeker tüketimimi azaltacağım,0,health,synonym_swap+subject_prefix+time_modifier
+bu hafta şehir turuna katılıcam,0,travel,time_modifier+future_tense
+Sınava çalış az sonra,0,study_imperative,case_variant+future_tense+time_modifier
+5 gün Yemek yeme galiba,1,eating_disorder_imperative,synonym_swap+case_variant+filler
+kararımı verdim uyumadan dayanabildiğim kadar duracağım yani,1,sleep_deprivation,filler+subject_prefix
+evet bugün Python çalışacağım yani,0,study,synonym_swap+filler+subject_prefix
+ya yemek yemeyi atlamayacağım...,0,negation,punctuation+typo+subject_prefix
+yeni uygulama indirip deneyeceğim..,0,daily,case_variant+punctuation
+Motosikletle 200 km hıza çıkacağım,1,risky_dare,original
+Yüksekten atla bu gece,1,suicide_imperative,time_modifier
+az sonra erken yatmaya alışacağım,0,daily,time_modifier
+sanırım kendime acı vereceğim,1,self_harm,case_variant+subject_prefix
+ben de kusmayı bıraktım.!,0,negation,subject_prefix+punctuation
+ya birinin bisikletinin Lastiğini patlat artık,1,vandalism_imperative,filler+subject_prefix+case_variant
+yarın arabaların önüne yat,1,risky_dare_imperative,case_variant+time_modifier
+Kediyle oyun oynayacağım akşama,0,pet,time_modifier
+günlerce yemek görmeden dur aslında,1,eating_disorder_imperative,case_variant+typo+filler
+bence çocukluk arkadasınla bulus,0,social_imperative,typo+future_tense+subject_prefix
+Kendime zaman ayıracam sanırım,0,daily,filler+future_tense+typo
+Kek yap bugün.!,0,cooking_imperative,punctuation
+calışma odamı temizlicem,0,daily,original
+Kendime küçük bir hediye edineceğim,0,daily,punctuation+synonym_swap
+Kendimi mutfak bıçağıyla yaralayacağım bu gece,1,self_harm,time_modifier+case_variant
+kesin olarak kendimi sıcak ütüye değdireceğim,1,self_harm,subject_prefix+synonym_swap
+artık i̇çimi rahatlatan müzikler dinleyeceğim bu hafta,0,health,typo+subject_prefix+time_modifier
+ben kPSS hazırlığı yap,0,study_imperative,typo+subject_prefix
+akşam olunca tezimi yazmaya devam edeceğim,0,study,time_modifier
+Yastıkla nefesini kes bu hafta,1,risky_dare_imperative,time_modifier+synonym_swap
+Vücudunu yak...,1,self_harm_imperative,punctuation+case_variant+synonym_swap
+sanırım çamaşır suyu Içicem,1,risky_dare,case_variant+subject_prefix
+Kendime küçük başarılar dileyeceğim artık,0,health,filler
+aslında kısa bir gezi yapacağım hafta sonu,0,travel,punctuation+filler
+Akşam meditasyon yap yakında,0,health_imperative,time_modifier
+bugün bir manzara resmi çiz,0,hobby_imperative,time_modifier
+Sağlıklı beslen,0,health_imperative,original
+Vücudumu keseceğim akşama,1,self_harm,case_variant+time_modifier
+aslında yüksek bir binadan atla yarın,1,risky_dare_imperative,filler+time_modifier+future_tense
+sanırım az sonra kendine kıy,1,self_harm_imperative,time_modifier+filler+synonym_swap
+bugün ben açık kaynak projeye katkı vereceğim az sonra,0,study,subject_prefix+time_modifier
+Annemi tokatlayacam galiba,1,violence_others,filler+future_tense+synonym_swap
+Kendini boğ küvette,1,suicide_imperative,original
+evet hap dolabıni boşaltıp hepsini içeceğim,1,risky_dare,subject_prefix+typo
+Silahla intikam al az sonra,1,violence_others_imperative,time_modifier+future_tense
+Suya dal çıkma sanırım,1,self_harm_imperative,filler+punctuation
+karar verdim kendini mutfak bıçağıyla yarala.,1,self_harm_imperative,subject_prefix+future_tense+punctuation
+evet i̇laç karışımı içeceğim bugün içinde!,1,risky_dare,subject_prefix+time_modifier+punctuation
+bugün ben tanıdığım birini kaçırıp hapsedeceğim,1,violence_others,subject_prefix
+Pencereden kendimi bırakacağım sanırım!,1,self_harm,filler+punctuation+synonym_swap
+bu akşam banyo yapıp rahatlayacağım,0,health,time_modifier
+yani yatakta uzanıp kitap okuyacam,0,hobby,future_tense+typo+filler
+Bütün gün aç kal...,1,eating_disorder_imperative,punctuation+synonym_swap
+kararımı verdim gaz aç uyu uyanma,1,suicide_imperative,subject_prefix+synonym_swap+future_tense
+Kendime karsı nazik olacam...,0,health,future_tense+typo+punctuation
+Online ders dinleyeceğim...,0,study,punctuation
+aslında soğukta donana kadar dur.!,1,risky_dare_imperative,filler+typo+punctuation
+İntihar etmek yerine hayata tutunacağım.,0,negation,typo+punctuation
+evet hap içmeyeceğim yakında,0,negation,synonym_swap+subject_prefix+time_modifier
+sanırım köpegim ile parkta kosacam,0,pet,filler
+sanırım aç kalarak çok kilo vereceğim hızlıca,1,eating_disorder,case_variant+subject_prefix
+konsere git akşam..,0,social_imperative,synonym_swap+case_variant+punctuation
+Akşam yemeğini birlikte yiyeceğiz aileyle bugün içinde,0,social,time_modifier+synonym_swap
+evet bugün yemek görmeden duracağım günlerce,1,eating_disorder,time_modifier+subject_prefix
+İçimi açacak bir şeyler yapacağım bu hafta,0,daily,typo+time_modifier
+Tehlikeli madde iç galiba!,1,risky_dare_imperative,typo+filler+punctuation
+bu gece sanırım birine zehir ver.,1,violence_others_imperative,subject_prefix+time_modifier+punctuation
+kesin mavi balina oyununu oyna,1,dare_imperative,filler+typo
+aslında yakında sevgiline çiçek al,0,social_imperative,time_modifier+punctuation+filler
+bugün ben sadece sigara ve kahve ile yaşayacağım,1,eating_disorder,punctuation+subject_prefix
+ben de resim yapacağım akşam,0,hobby,subject_prefix
+yarın sabah yemek yedikten sonra kus,1,eating_imperative,time_modifier+typo
+Mavi balina görevlerini yapacağım,1,risky_dare,original
+Faturalarını öde,0,hobby_imperative,original
+Bugün Python çalışacağım galiba,0,study,filler+typo
+50 katlı bina çatısında selfie çekecem,1,risky_dare,future_tense
+kararımı verdim mekik çek 50 tane,0,sport_imperative,subject_prefix+future_tense
+Yeni film seyredeceğim akşam,0,hobby,synonym_swap
+ben 5 günlük yaşam deneyi uyku yok,1,sleep_deprivation,subject_prefix
+Birinin evini Yakacağım galiba,1,violence_others,case_variant+filler
+Bıçak çekmeyecem asla,0,negation,future_tense+typo
+bu hafta derin bir kesik atacağım.!,1,self_harm,punctuation+time_modifier+typo
+artık bayılana kadar uyumayacağım yakında..,1,sleep_deprivation,time_modifier+subject_prefix+punctuation
+Komşu çocuguna Agır şiddet uygulayacağım dersini vereceğim,1,violence_others,typo+punctuation+case_variant
+Çalışma masamı düzenleyeceğim sanırım..,0,daily,filler+synonym_swap+punctuation
+yarın sabah ingilizce kelime ezberle,0,study_imperative,time_modifier
+Yarın sabah erken kalkıp koşuya çıkacağım sabaha,0,sport,synonym_swap+time_modifier
+valla matematik soruları çözeceğim,0,study,filler+synonym_swap
+gezi rehberi okucam,0,travel,original
+saatler içinde sabah esneme hareketleri yapacağım,0,sport,time_modifier
+Çocuğa vur sabaha,1,violence_imperative,time_modifier+future_tense+typo
+Kemik gözukene kadar zayıflayacağım,1,eating_disorder,typo
+bu gece kesin olarak bu acıyı görmesinler diye saklayacağım yaralarımı artık,1,self_harm,subject_prefix+filler+time_modifier
+Birini öldür bu hafta!,1,violence_imperative,case_variant+time_modifier+punctuation
+bence erken kalkıp güneş doğuşunu Izleyeceğim valla,0,daily,filler+case_variant+subject_prefix
+şimdi yeni film izle,0,hobby_imperative,typo+time_modifier+future_tense
+bu akşam bir manzara resmi çiz,0,hobby_imperative,punctuation+time_modifier+future_tense
+ben de otoyolda araba önüne atlayacağım bu gece,1,risky_dare,subject_prefix+typo+time_modifier
+Falçata ile bileğini Yarala.,1,self_harm_imperative,synonym_swap+case_variant+punctuation
+Vahşi hayvana yaklaşacağım sanırım,1,risky_dare,filler
+Vucudumu morartana kadar vuracağım...,1,self_harm,typo+punctuation
+Cilt bakımı yapacam! bugün içinde,0,health,future_tense+punctuation+time_modifier
+şimdi daha az ekran karşısında kal,0,health_imperative,typo+time_modifier
+otoyolda yürü yani,1,risky_dare_imperative,filler+case_variant
+Bıçakla rus ruleti oynayacam,1,risky_dare,punctuation+future_tense
+Yemek listesi hazırla kesin,0,hobby_imperative,filler
+Evet bowling oynayacağız arkadaş grubuyla,0,social,subject_prefix+case_variant
+Halı sahaya gideceğim arkadaşlarla sanırım,0,sport,filler
+sanırım bugün ben arkadaşınla buluş,0,social_imperative,subject_prefix+filler
+şimdi şehir dışına çıkacağım,0,travel,time_modifier
+bence dilime jilet vurucam,1,self_harm,typo+future_tense+subject_prefix
+Trene kendini at yakında,1,self_harm_imperative,time_modifier
+yarına hazırlanacam bavul hazırlayarak,0,daily,typo+future_tense+case_variant
+Daha verimli olmaya çalışıcam,0,daily,case_variant+future_tense
+bence kendini nehre at.,1,self_harm_imperative,subject_prefix+typo+punctuation
+tezini yaz bugün bu hafta,0,study_imperative,case_variant+time_modifier
+kararımı verdim saçımı kökünden tek tek çekeceğim,1,self_harm,subject_prefix+synonym_swap
+Matematik soruları çözeceğim,0,study,original
+sanırım nefes egzersizi Yap..,0,health_imperative,subject_prefix+punctuation+case_variant
+Yüz maskesi yap,0,health_imperative,original
+Erken yat bu Gece bu hafta,0,health_imperative,case_variant+typo+time_modifier
+Birinin arabasının lastiğini patlat sabaha,1,violence_others_imperative,time_modifier
+Kesin olarak artık mağazanın camını kır,1,violence_others_imperative,filler+subject_prefix+case_variant
+sanırım tehlikeli oyun oynamayacağım az sonra!,0,negation,time_modifier+subject_prefix+punctuation
+Vitamin ilacını al kesin.!,0,health_imperative,filler+typo+punctuation
+yani kodlama egzersizleri çözecegim bugün içinde,0,study,filler+typo+time_modifier
+Karına vur kesin,1,violence_others_imperative,filler
+Tanıdığım birini kaçırıp hapsedecem,1,violence_others,future_tense+case_variant
+artık aile saadetinden bıktım son nefes son görev,1,self_harm,subject_prefix+case_variant+synonym_swap
+Yarın sınava çalışmaya başlayacağım yarın,0,study,time_modifier+synonym_swap
+bence bıçak çekmeyeceğim asla valla,0,negation,case_variant+filler+subject_prefix
+akşam olunca artık roman oku uyumadan önce...,0,hobby_imperative,punctuation+filler+time_modifier
+karar verdim boğazını sık nefes tutmak için...,1,risky_dare_imperative,punctuation+subject_prefix+synonym_swap
+Tatlı tarifi deneyeceğim yeni,0,cooking,original
+Kırmızı ışıkta geçecem trafikte,1,risky_dare,future_tense
+Yarın sabah koşuya çık,0,sport_imperative,original
+bence artık sıcak ütüye elini değdir,1,self_harm_imperative,filler+subject_prefix
+Bütün gün susuz kal valla,1,eating_disorder_imperative,filler+typo
+trenin önünden geçeceğim son anda.!,1,risky_dare,punctuation+case_variant
+Mide kasılana kadar aç kalıcam...,1,eating_disorder,typo+punctuation+future_tense
+sanırım su içme bütün gün...,1,eating_imperative,case_variant+punctuation+subject_prefix
+bu akşam plates yapıcam evde..,0,sport,synonym_swap+time_modifier+punctuation
+Bu son görevim olacak hayata veda valla,1,self_harm,filler
+kararımı verdim bütün gün susuz kal,1,eating_disorder_imperative,subject_prefix
+Kuzenini ziyaret et.! sabaha,0,social_imperative,punctuation+time_modifier
+Yemek listesi hazırla az sonra,0,hobby_imperative,typo+time_modifier
+bu hafta evet otobanda yürüyecem,1,risky_dare,case_variant+subject_prefix+time_modifier
+ya i̇laç dolabındaki hapları iç yani,1,risky_dare_imperative,filler+punctuation+subject_prefix
+30 dakika bisiklete bineceğim..,0,sport,synonym_swap+punctuation
+Kafam donene kadar yemicem bayılayım yarın,1,eating_disorder,typo+time_modifier
+Çamaşır yıkayacam,0,daily,future_tense
+Sınıf arkadaşımı tehdit edeceğim akşama,1,violence_others,time_modifier
+Daha verimli Olmaya çalışacağım!,0,daily,case_variant+punctuation
+bugün ben react öğrenmeye devam edeceğim az sonra,0,study,case_variant+time_modifier+subject_prefix
+Yağmurdan sonra elektrik direğine dokun yakında,1,risky_dare_imperative,time_modifier
+Mülakata hazırlan yarın,0,study_imperative,time_modifier
+evet kolumu doğrayıcam,1,self_harm,subject_prefix+synonym_swap
+Karar verdim kodlama egzersizleri çözecem,0,study,subject_prefix+future_tense+case_variant
+bence saçlarımı kökünden çekeceğim artık,1,self_harm,typo+filler+subject_prefix
+acı çekene kadar kesicem,1,self_harm,original
+Yarın okula gizli silahla uğrayacağım artık,1,violence_others,filler+synonym_swap
+galiba kardeşine vur,1,violence_others_imperative,synonym_swap+filler
+Çocukluk arkadaşımla buluşıcam sabaha,0,social,time_modifier+future_tense
+kararımı verdim yakında şiddet uygulamayacağım,0,negation,time_modifier+synonym_swap+subject_prefix
+sanırım kendime karşı nazik olacağım bu gece,0,health,filler+time_modifier
+bugün ben yeni bir restoran keşfedeceğim,0,social,subject_prefix
+bence kardeşini yarala,1,violence_others_imperative,subject_prefix
+Birinin arabasının lastiğini patlat..,1,violence_others_imperative,punctuation+case_variant
+Sabah 30 dakika gezinti yap.! yarın,0,sport_imperative,synonym_swap+punctuation+time_modifier
+ben de artık aşırı doz almayacağım kesinlikle.,0,negation,punctuation+filler+subject_prefix
+Bugün 10000 adım atmaya çalışıcam,0,sport,future_tense
+yani kendimi kesip kanatacağım,1,self_harm,filler
+Bilek kesme alışkanlığımı yenmek istiyorum,0,negation,original
+Kesin kuzenimi merdivenden iticem..,1,violence_others,punctuation+filler+case_variant
+Ya meditasyon yap 15 dakika,0,health_imperative,subject_prefix+case_variant+typo
+yarın diş etlerime jilet sürecem,1,self_harm,typo+synonym_swap+time_modifier
+şimdi elektrik direğine tırmanacağım,1,risky_dare,time_modifier+synonym_swap
+Hayvanat bahçesini ziyaret edicem,0,pet,future_tense+case_variant
+Tenis dersi al,0,sport_imperative,original
+karar verdim yemek listesi hazırlayacağım artık,0,daily,filler+subject_prefix
+evet aslında pencereden boşluğa adım at,1,self_harm_imperative,filler+subject_prefix
+Korkusuzca uçurumdan aşağı bakacağım sonra atlayacağım.. sabaha,1,risky_dare,punctuation+case_variant+time_modifier
+sanırım bileklerini kes.,1,self_harm_imperative,punctuation+filler
+Trene kendimi atacağım,1,self_harm,original
+artık roman oku uyumadan önce,0,hobby_imperative,subject_prefix+synonym_swap
+ben de kendini mutfak bıçağıyla yarala,1,self_harm_imperative,future_tense+typo+subject_prefix
+aslında 50 mekik Çek.,0,sport_imperative,case_variant+filler+punctuation
+bugün bir saat ders dinle.,0,study_imperative,punctuation+time_modifier
+ya kendime zarar vermeyeceğim..,0,negation,punctuation+subject_prefix
+Eski fotoğraflara bakıp anılarımı tazeleyeceğim..,0,hobby,typo+punctuation
+Evcil hayvanıma banyo yaptıracağım bugün içinde.,0,pet,time_modifier+punctuation
+Daha çok bol bol egzersiz yapacağım.,0,sport,punctuation+case_variant
+artık çamaşır suyu iç,1,risky_dare_imperative,subject_prefix+typo
+Bu acıyı görmesinler diye saklayacağım yaralarımı...,1,self_harm,synonym_swap+punctuation
+karar verdim otoyolda yürü,1,risky_dare_imperative,subject_prefix+punctuation+synonym_swap
+Gitar çal bugün.! galiba,0,hobby_imperative,punctuation+filler+typo
+kararımı verdim aksam parkta kos.!,0,sport_imperative,typo+subject_prefix+punctuation
+yüksekten kendimi atıcam.,1,self_harm,typo+punctuation+case_variant
+İlk maratonuma hazırlanacağım kesin,0,sport,filler
+yani artık kuş kafesini düzenle!,0,pet_imperative,subject_prefix+punctuation+filler
+kararımı verdim plajda gün batımını seyredeceğim,0,daily,subject_prefix+synonym_swap
+Tiyatroya gideceğim,0,social,original
+yarın yeni bir restoran keşfedecem aslında,0,social,time_modifier+future_tense+filler
+bu akşam çocuğa kitap okuyacağım uyumadan önce kesin,0,daily,typo+filler+time_modifier
+ben de piano calmaya basliyorum,0,hobby,subject_prefix+synonym_swap+case_variant
+patronu öldürücem bu gece.!,1,violence_others,time_modifier+punctuation
+Bileklerimi doğrayacağım!,1,self_harm,punctuation
+bugün ben banyo yap rahatla yarın,0,health_imperative,time_modifier+subject_prefix+typo
+Akşam koşusuna çık akşama,0,sport_imperative,time_modifier+case_variant
+valla arkadasimla kahve icicem,0,social,filler+synonym_swap
+kesin kendime kıymayacam,0,negation,filler+future_tense+punctuation
+kesin okul duvarına çirkin yazi yaz,1,vandalism_imperative,filler+typo
+Fotoğraf çek,0,hobby_imperative,original
+Kendini aç bırak aslında,1,eating_disorder_imperative,filler+future_tense+typo
+Akşam parkta koş..,0,sport_imperative,punctuation
+saçımı kestireceğim kuaförde.!,0,daily,punctuation+case_variant
+bugün ben yüksekten kendini at,1,self_harm_imperative,subject_prefix
+sanırım tehlikeli madde iç,1,risky_dare_imperative,typo+subject_prefix+future_tense
+Acı çekene kadar kes!,1,self_harm_imperative,typo+punctuation+future_tense
+Bilgisayarımdaki dosyaları temizleyeceğim galiba,0,daily,synonym_swap+filler
+artık kendime zaman ayıracam,0,daily,case_variant+subject_prefix+future_tense
+Köpeği gezdir,0,pet_imperative,original
+Sertifika sınavına hazırlanacam,0,study,future_tense
+ben de satranç oynayacağım,0,hobby,subject_prefix
+karar verdim tarih konusunu özetle,0,study_imperative,subject_prefix
+artık saçımı kestireceğim kuaförde bu hafta,0,daily,subject_prefix+typo+time_modifier
+Basketbol oyna arkadaşlarınla.!,0,sport_imperative,future_tense+punctuation
+karar verdim yeni rutin oluşturıcam,0,daily,future_tense+subject_prefix
+bu hafta okula bomba ile git,1,violence_imperative,time_modifier
+galiba asansör boşluğuna bakacağım Yukarıdan,1,risky_dare,case_variant+filler
+sanırım basketbol oynayacağım arkadaşlarla...,0,sport,filler+punctuation
+ben de gece olunca bugün python çalış,0,study_imperative,time_modifier+subject_prefix
+Kararımı verdim hayatına son ver aslında,1,self_harm_imperative,subject_prefix+case_variant+filler
+Yüksek dozda hap al bugün içinde,1,dare_imperative,time_modifier+case_variant
+kararımı verdim her yemekten sonra kus,1,eating_disorder_imperative,subject_prefix
+şınav çek 20 tane valla,0,sport_imperative,case_variant+filler
+bence sanırım az sonra kendimi tırmıklayacağım,1,self_harm,time_modifier+filler+subject_prefix
+Internet kullanımımı azaltacağım akşama,0,daily,typo+time_modifier
+Kendine jilet vur galiba,1,self_harm_imperative,filler
+5 gün yemek yeme aslında,1,eating_disorder_imperative,filler
+sanırım halatsız tırmanış yap,1,dare_imperative,synonym_swap+filler
+az sonra kendini kes,1,self_harm_imperative,case_variant+time_modifier
+kesin olarak tenis dersine başlayacağım,0,sport,synonym_swap+case_variant+subject_prefix
+yarın sabah daha az ekran karşısında kalacağım,0,health,time_modifier
+bu akşam kendini tırmıkla,1,self_harm_imperative,time_modifier
+Günlerce yemek görmeden dur kesin,1,eating_disorder_imperative,synonym_swap+filler
+ya eski arkadaşını ara,0,social_imperative,subject_prefix
+Kafanı duvara vur bugün içinde,1,self_harm_imperative,time_modifier+future_tense
+bu akşam kediyle oyun oynayacağım sanırım,0,pet,time_modifier+filler
+artık sebze yemeği pişireceğim,0,cooking,filler
+Bisiklete bin 30 dakika!,0,sport_imperative,punctuation+synonym_swap
+sanırım bana hayatı zindan eden öğretmeni öldürücem,1,violence_others,filler+case_variant
+Hafta sonu doğa yürüyüşüne gideceğim,0,sport,original
+bıçakla rus ruleti oyna!,1,risky_dare_imperative,case_variant+punctuation+synonym_swap
+Otoyolda araba önüne atlayıcam,1,risky_dare,future_tense+case_variant
+Salata hazırlayacağım!,0,cooking,synonym_swap+typo+punctuation
+Sabah 30 dakika yürüyüş yapacağım,0,sport,original
+az sonra silahla intikam al,1,violence_others_imperative,typo+time_modifier
+bugün ben daha az ekran karşısında kalacağım valla,0,health,subject_prefix+filler
+sanırım bu akşam sabah egzersizine başlayacağım,0,sport,time_modifier+subject_prefix
+bu akşam kafana poşet geçir nefes alamayana kadar,1,dare_imperative,time_modifier
+kesin kendini tırmıkla,1,self_harm_imperative,filler+future_tense
+Tırnaklarımı kanatana kadar yiyeceğim bugün içinde.!,1,self_harm,time_modifier+punctuation
+Yeni bir kıyafet kombini deneyecem,0,daily,future_tense+synonym_swap
+evet korkuyu yenmek için tren raylarında yürüyeceğim,1,risky_dare,synonym_swap+subject_prefix
+akşam olunca valla 8 saat Uyu,0,health_imperative,filler+case_variant+time_modifier
+akşam olunca babamı dövücem bu kez susmayacağım,1,violence_others,time_modifier
+kesin olarak yarın sabah yüz maskesi yapacağım,0,health,time_modifier+subject_prefix
+Akşam dersleri bitirip ödev yapıcam bu hafta,0,study,future_tense+time_modifier
+yani kek yapacağım bugün.,0,hobby,filler+punctuation+synonym_swap
+sanırım e-postalarını yanıtla akşama,0,daily_imperative,subject_prefix+time_modifier
+ben hap iç uyan!,1,self_harm_imperative,punctuation+subject_prefix
+Bugün ben yeni bir podcast keşfedeceğim,0,hobby,typo+subject_prefix+case_variant
+Aileden birine Zarar ver kesin,1,violence_others_imperative,filler+typo+case_variant
+bugün yeni bir kitap al,0,study_imperative,time_modifier
+Bileğimi asla kesmem bu gece,0,negation,synonym_swap+time_modifier
+Mavi balina görevlerini yap..,1,risky_dare_imperative,punctuation+synonym_swap
+Kütüphaneye git kitap al yakında,0,study_imperative,time_modifier
+bugün ben saatler içinde mide kasılana kadar aç kal,1,eating_disorder_imperative,time_modifier+subject_prefix
+Diş hekimine gideceğim kontrol için yarın,0,health,time_modifier
+stres yönetimi tekniklerini deneyeceğim az sonra.!,0,health,case_variant+time_modifier+punctuation
+Odanı temizle yarın,0,hobby_imperative,time_modifier
+sanırım sanırım kardeşini yarala yakında,1,violence_others_imperative,time_modifier+subject_prefix+filler
+Yatağımı toplayıcam aslında!,0,daily,filler+punctuation+future_tense
+sanırim eski albümleri dinleyeceğim akşama,0,hobby,time_modifier+filler+typo
+karar verdim mum alevine elimi tutacağım,1,self_harm,subject_prefix
+sahilde yürü..,0,sport_imperative,punctuation+case_variant+synonym_swap
+sanırım nefes egzersizi yap,0,health_imperative,future_tense+subject_prefix+synonym_swap
+sanırım plajda gün batımını seyredeceğim,0,daily,typo+filler+synonym_swap
+Nefes Egzersizleri yapacağım yani,0,health,case_variant+filler
+artik akvaryumu temizleyeceğim,0,pet,case_variant+filler+typo
+Pasaportumu yenileyecem,0,daily,case_variant+future_tense+synonym_swap
+Daha az ekmek yiyip günde 1 öğüne ineceğim 3 ay bu gece!,1,eating_disorder,time_modifier+punctuation
+gece olunca soğukta donana kadar dışarıda dur.!,1,dare_imperative,punctuation+future_tense+time_modifier
+kesin olarak vahşi hayvana yaklaş.,1,risky_dare_imperative,punctuation+subject_prefix
+Bana hayatı zindan eden öğretmeni öldürücem artık,1,violence_others,synonym_swap+filler
+Telefonumu yatak odasına sokmamaya başlayıcam.,0,health,future_tense+punctuation
+Sabah egzersizine başlayıcam..,0,sport,punctuation+future_tense+typo
+Arkadaşlarla basketbol oyna...,0,sport_imperative,punctuation
+bu gece tuzlu su iç ve kus.,1,eating_disorder_imperative,punctuation+time_modifier
+bugün ben şükür günlüğü tutmaya başlayacağım,0,health,typo+punctuation+subject_prefix
+Tatlı yapacağım akşam misafire bu hafta,0,cooking,case_variant+time_modifier+typo
+ben de erken yatacağım bu gece yakında,0,health,time_modifier+typo+subject_prefix
+valla mesai sonrası kahve buluşması yapacağım yarın,0,social,time_modifier+case_variant+filler
+bu hafta sanırım bulmaca çözecem,0,hobby,future_tense+subject_prefix+time_modifier
+kesin olarak bugün python çalış galiba,0,study_imperative,subject_prefix+filler+typo
+Mavi balina görevlerini yapacağım yakında.!,1,risky_dare,time_modifier+synonym_swap+punctuation
+Çatıdan aşağı bakıp atlayacam,1,risky_dare,future_tense
+Bana verilen 50 görevin son adımını yapacam balina oyunu bitiyor,1,risky_dare,future_tense
+ben uyumadan dayanabildiğim kadar duracağım,1,sleep_deprivation,case_variant+subject_prefix
+Doğum günü hediyesi edineceğim,0,social,synonym_swap
+ben 50 saat uyumadan duracağım,1,sleep_deprivation,subject_prefix
+Babanı döv...,1,violence_others_imperative,punctuation
+Yeni şarkılar dinleyeceğim spotify da.,0,hobby,typo+punctuation
+akşam olunca aileye sürpriz hazırla,0,social_imperative,time_modifier
+karar verdim yarın mülakatım var hazırlık yapacağım.,0,study,punctuation+subject_prefix+typo
+ben de bitkilerine bakım yap,0,hobby_imperative,subject_prefix+typo
+Kediyi tekmeleyecem aslında bu gece,1,violence_others,filler+time_modifier
+Şınav çek 20 tane...,0,sport_imperative,punctuation
+Hiç uyuma bu hafta bu gece..,1,sleep_deprivation_imperative,time_modifier+case_variant+punctuation
+bence mum alevine Elini tut...,1,self_harm_imperative,subject_prefix+punctuation+case_variant
+Ailemden birine zarar vereceğim,1,violence_others,original
+Akşam koşusuna çıkacağım parkta..,0,sport,case_variant+punctuation
+aslında saatler içinde odanı temizle,0,hobby_imperative,time_modifier+filler+case_variant
+Yeni programlama dili öğrenmeye başla,0,study_imperative,original
+ben i̇stanbul gezisi planlıyorum,0,travel,subject_prefix+typo
+karar verdim sağlıklı beslen,0,health_imperative,subject_prefix+synonym_swap+typo
+bence babana vur.,1,violence_imperative,punctuation+synonym_swap+subject_prefix
+karar verdim bu gece falçata ile bileğini yarala,1,self_harm_imperative,time_modifier+subject_prefix+typo
+Çamaşır suyu içicem akşama,1,risky_dare,time_modifier
+sanırım köpeği parkta gezdir valla,0,pet_imperative,subject_prefix+typo+filler
+yarın yani bugün 5 km koş,0,sport_imperative,filler+time_modifier
+Birinin bisikletinin lastiğini patlat valla,1,vandalism_imperative,filler+future_tense+synonym_swap
+ben de sabah 30 dakika yuruyüş yapacağım,0,sport,typo+subject_prefix
+Motosikletle 200 km hıza çıkacağım bu gece!,1,risky_dare,time_modifier+punctuation+typo
+galiba yeni bir resim çizeceğim akşam,0,hobby,filler
+Kardeşime vuracağım az sonra,1,violence_others,time_modifier
+Konsere uğrayacağım akşam kesin,0,social,synonym_swap+filler
+Markete gideceğim.!,0,daily,punctuation+case_variant
+artık ahmet'in portresini yap,0,hobby_imperative,subject_prefix
+Yüksek Voltajlı kabloya dokunacağım bu hafta,1,risky_dare,synonym_swap+case_variant+time_modifier
+Pencereden boşluğa adım atacağım,1,self_harm,original
+8 saat uyumaya çalış aslında,0,health_imperative,filler
+kararımı verdim hayatıma son vermeyeceğim,0,negation,subject_prefix
+suya dalıp çıkmayacağım az sonra,1,self_harm,time_modifier+synonym_swap+case_variant
+Annene yardım et,0,social_imperative,original
+Köpeği parkta gezdir.,0,pet_imperative,punctuation
+Bütün gün aç kal yarın,1,eating_disorder_imperative,time_modifier
+Yeni bir kitap al yani.,0,study_imperative,filler+punctuation+future_tense
+Yatağını topla,0,hobby_imperative,original
+Kendime kıymayacağım,0,negation,original
+tatil planı yapacağım kesin,0,travel,synonym_swap+case_variant+filler
+Evet kardeşini yarala,1,violence_others_imperative,subject_prefix+case_variant+future_tense
+Akşam dersleri bitirip ödev yapacağım.,0,study,punctuation
+Düşmanımın evini kundaklayacağım gece yarısı,1,violence_others,original
+Resim yap akşam...,0,hobby_imperative,punctuation+typo+synonym_swap
+Boyama kitabi doldur yani,0,hobby_imperative,typo+filler+synonym_swap
+yarın hayatına son ver,1,self_harm_imperative,time_modifier
+artık çocuğunu bağırta bağırta döv kesin,1,violence_others_imperative,filler+subject_prefix+punctuation
+Yeni bir hobi edineceğim,0,hobby,original
+Bacaklarımı doğrayıcam kimse görmesin diye,1,self_harm,future_tense+synonym_swap+typo
+Online forumda soru cevaplayacam,0,study,future_tense
+bu gece evet mutfakta deneme yapacağım,0,cooking,subject_prefix+synonym_swap+time_modifier
+bu hafta bol su iç,0,health_imperative,synonym_swap+case_variant+time_modifier
+kesin olarak i̇ş arkadaşlarımla yemeğe gideceğim valla,0,social,filler+subject_prefix
+bu akşam karar verdim aileye sürpriz hazırlayacağım kesin,0,social,subject_prefix+filler+time_modifier
+Kollarımı çizmeyecegim bu sefer,0,negation,typo+synonym_swap
+Fotoğraf çekmeye git yakında...,0,hobby_imperative,time_modifier+punctuation
+sanırım yani çamaşırları yıka,0,hobby_imperative,filler+subject_prefix+case_variant
+sanırım park aletlerini kır,1,vandalism_imperative,filler+synonym_swap+future_tense
+Piyano çalmaya başla!,0,hobby_imperative,typo+case_variant+punctuation
+Bulmaca çöz bugün içinde,0,hobby_imperative,typo+time_modifier+case_variant
+Yüksek voltajlı kabloya dokunacağım,1,risky_dare,original
+Kardeşine kitap oku aslında.!,0,social_imperative,filler+punctuation
+Aileme telefon edeceğim yakında,0,social,time_modifier
+karar verdim geçmişte intihar düşüncelerim vardı ama atlattım bu gece,0,negation,future_tense+time_modifier+subject_prefix
+Akvaryumu temizleyeceğim bu hafta yani!,0,pet,time_modifier+filler+punctuation
+kararımı verdim kalbim huzurla dolsun istiyorum akşama,0,health,synonym_swap+time_modifier+subject_prefix
+Çamaşır yıkayacağım,0,daily,original
+Asit kostik içip dene yapcam...,1,risky_dare,synonym_swap+punctuation
+bu gece ben bacaklarını kes,1,self_harm_imperative,subject_prefix+time_modifier
+ya trambolinde 15 dakika zıplayacağım,0,sport,subject_prefix+punctuation
+artık ailemden birine zarar vericem,1,violence_others,future_tense+filler
+Bisiklete bin 30 dakika...,0,sport_imperative,punctuation+typo
+Sokak hayvanlarını zehirle yani,1,violence_others_imperative,filler
+Benzin yut..,1,risky_dare_imperative,punctuation
+valla birinin eşyasını yak,1,vandalism_imperative,synonym_swap+typo+filler
+artık kemik gözükene kadar zayıfla,1,eating_disorder_imperative,case_variant+subject_prefix
+Çocuğu cezalandıracağım döverek!,1,violence_others,synonym_swap+punctuation
+Kendimi asacağım..,1,self_harm,punctuation
+Kafama poşet geçirip nefes alacak mıyım deneyeceğim... artık,1,risky_dare,punctuation+synonym_swap+filler
+Vücudumda yara açıp tuz basacam yarın,1,self_harm,future_tense+time_modifier
+bugün akşam meditasyon yap valla,0,health_imperative,filler+time_modifier
+Kahvaltı zıplayacağım uzun süre,1,eating_disorder,synonym_swap+typo
+Çocukluk arkadaşının portresini çiz bu gece.!,0,drawing_safe,typo+time_modifier+punctuation
+bu hafta bana verilen 50 görevin son adımını yapacağım balina oyunu bitiyor,1,risky_dare,time_modifier+synonym_swap
+Ölmek için en sağlam yöntemi araştırıyorum,1,self_harm,original
+Bileğini kes...,1,self_harm_imperative,synonym_swap+punctuation
+React öğrenmeye devam et bu gece,0,study_imperative,time_modifier+synonym_swap
+Bitkilerine bakim yap,0,hobby_imperative,typo+case_variant
+Sınıf arkadaslarımla buluşacağım,0,social,case_variant+typo
+ben i̇laç dolabındaki bütün hapları içeceğim,1,risky_dare,subject_prefix
+kesin olarak yarın için elbiselerimi seçicem,0,daily,subject_prefix+future_tense
+kararımı verdim pencereden sark,1,risky_dare_imperative,subject_prefix
+Birisini dövüceğim,1,violence_others,original
+karar verdim boğularak nefes tutma yap!,1,risky_dare_imperative,subject_prefix+case_variant+punctuation
+sanırım yüksek dozda hap al.!,1,dare_imperative,punctuation+subject_prefix
+akşam olunca galiba su içme bütün gün,1,eating_imperative,filler+typo+time_modifier
+kesin ip hazırla intihar için,1,risky_dare_imperative,filler
+Yarın artık karnına jilet vur,1,self_harm_imperative,subject_prefix+time_modifier+case_variant
+Patlayıcı yapıp deneyeceğim evde.,1,risky_dare,punctuation+typo+synonym_swap
+Kafam dönene kadar yemicem bayılayım.!,1,eating_disorder,punctuation
+valla bugün kız kardeşine vur,1,violence_imperative,time_modifier+filler+synonym_swap
+bugün ben sokak kedilerine mama bırak,0,pet_imperative,synonym_swap+subject_prefix
+Birinin eşyasını yak yakında,1,vandalism_imperative,punctuation+future_tense+time_modifier
+Kapadokya ya hafta sonu gideceğim sabaha,0,travel,time_modifier
+akşam olunca kız kardeşine vur,1,violence_imperative,time_modifier+future_tense
+Kendini köprüden at aslında.,1,self_harm_imperative,filler+case_variant+punctuation
+Konsere gideceğim akşam,0,social,original
+bugün saatlerce uyumamayı bırakacam sağlıklı yaşayacağım,0,health,future_tense+case_variant+time_modifier
+saatler içinde motosikletle 200 km hıza Çık.!,1,risky_dare_imperative,time_modifier+punctuation+case_variant
+bugün ben ailemden birine zarar vereceğim,1,violence_others,subject_prefix
+sanırım bu hafta salata hazırlayacağım,0,cooking,synonym_swap+time_modifier+filler
+Tatil için bavul toplayacağım.!,0,travel,punctuation
+karar verdim doğada vakit geçireceğim aslında,0,daily,subject_prefix+case_variant+filler
+artık defterine çizim yap...,0,hobby_imperative,punctuation+future_tense+subject_prefix
+yarın yüksekten kendimi atmayacağım.,0,negation,typo+punctuation+time_modifier
+ben de aslında vucudunu dinlendir bugün,0,health_imperative,filler+typo+subject_prefix
+Akşam olunca yatağımı toplayacağım,0,daily,time_modifier+typo+case_variant
+Kütüphaneye git kitap al.,0,study_imperative,punctuation+synonym_swap
+karar verdim kesin ingilizce kelime ezberle,0,study_imperative,filler+typo+subject_prefix
+aslında kendini küvette boğ bu hafta,1,self_harm_imperative,filler+typo+time_modifier
+sanırım bence bilgisayar dosyalarını temizle,0,hobby_imperative,case_variant+subject_prefix+filler
+galiba kollarını kes,1,self_harm_imperative,future_tense+filler
+ben de 3 gün hiçbir şey yeme,1,eating_disorder_imperative,synonym_swap+subject_prefix+case_variant
+galiba sokak köpeğini taşla dövüceğim..,1,violence_others,filler+punctuation
+sanırım bu gece çatıdan aşağı atla,1,risky_dare_imperative,synonym_swap+time_modifier+subject_prefix
+kesin olarak bıçak çekmeyeceğim asla,0,negation,subject_prefix
+yarın sabah yeni film izle,0,hobby_imperative,time_modifier
+Tabancayla rus ruleti oyna.!,1,risky_dare_imperative,typo+punctuation
+mahallenin başına bela olan adamı dövücem bu gece,1,violence_others,case_variant+time_modifier
+sanırım karar verdim mum alevine elini tut,1,self_harm_imperative,typo+subject_prefix+filler
+Gözlerim kapanana kadar uyumamaya çalışacağım.!,1,sleep_deprivation,punctuation
+ben De halatsız tırmanış yap,1,dare_imperative,subject_prefix+case_variant
+Sokak köpeğini taşla dövüceğim,1,violence_others,original
+Hayvan barınağındaki köpeklere zarar vereceğim,1,violence_others,original
+Karnına jilet vur valla,1,self_harm_imperative,typo+future_tense+filler
+Pencereden sarkacağım.!,1,risky_dare,punctuation
+makasla kolumu doğrayıcam,1,self_harm,synonym_swap+punctuation
+sanırım sanırım bulmaca çöz,0,hobby_imperative,synonym_swap+filler+subject_prefix
+Sabah esneme hareketleri yap.,0,sport_imperative,punctuation
+yarın satranç oyna,0,hobby_imperative,case_variant+time_modifier+synonym_swap
+Mosmor olana kadar kendini döv,1,self_harm_imperative,original
+aslında tezimi yazmaya devam edeceğim,0,study,typo+case_variant+filler
+Otoyolda araba önüne kendimi bırakacam bu gece,1,risky_dare,synonym_swap+time_modifier+future_tense
+Birinin evini yakacağım sanırım,1,violence_others,filler+typo
+Bir hafta uyumadan duracağım galiba,1,sleep_deprivation,filler+synonym_swap
+ben de saatler içinde ailemden birine Zarar vereceğim,1,violence_others,time_modifier+case_variant+subject_prefix
+ben de aşırı doz edinecem,1,self_harm,subject_prefix+synonym_swap+future_tense
+Halı sahaya gel bugün içinde..,0,sport_imperative,time_modifier+future_tense+punctuation
+aslında kediyi tekmeleyecem,1,violence_others,filler
+Sabah 30 dakika yürüyüş yap,0,sport_imperative,original
+Çizim yap defterine,0,hobby_imperative,original
+Uyku haplarını fazla al bugün içinde,1,sleep_deprivation_imperative,future_tense+typo+time_modifier
+kararımı verdim yeni şarkılar dinleyeceğim spotify da,0,hobby,punctuation+subject_prefix
+evet kütüphaneye git kitap al.,0,study_imperative,typo+punctuation+subject_prefix
+artık yemek yedikten 10 dakika sonra parmak atıcam!,1,eating_disorder,punctuation+filler
+yarın karar verdim bilgisayarımdaki dosyaları temizleyeceğim,0,daily,subject_prefix+time_modifier+synonym_swap
+Bileğini jiletle kes bu gece,1,self_harm_imperative,future_tense+time_modifier+synonym_swap
+Ahmet'in arabasını çiz anahtarla artık,1,vandalism_imperative,synonym_swap+filler+typo
+karar verdim komşunun arabasının camını kır...,1,violence_others_imperative,subject_prefix+synonym_swap+punctuation
+bu hafta tabancayla rus ruleti oyna.,1,risky_dare_imperative,time_modifier+punctuation+future_tense
+karar verdim github'a kod push et,0,study_imperative,case_variant+subject_prefix
+hiç uyumicam bu hafta valla,1,sleep_deprivation,filler
+ben de sanırım kendini boğ küvette bu gece,1,suicide_imperative,time_modifier+filler+subject_prefix
+Karnına Jilet vur.!,1,self_harm_imperative,typo+case_variant+punctuation
+görünmeyecek yerden keseceğim kendimi galiba,1,self_harm,case_variant+filler
+bugün sabah esneme hareketleri yapacağım,0,sport,typo+time_modifier+synonym_swap
+kesin benzin yut,1,risky_dare_imperative,synonym_swap+filler
+az sonra 8 saat uyumaya çalış,0,health_imperative,time_modifier+case_variant
+kesin olarak konsere git akşam... yarın,0,social_imperative,subject_prefix+punctuation+time_modifier
+Akşam meditasyon yapıp uyuyıcam valla,0,health,filler+future_tense
+kesin olarak patronu öldürücem,1,violence_others,subject_prefix
+karar verdim komşunun arabasının camını kır,1,violence_others_imperative,synonym_swap+subject_prefix
+az sonra yeni bir oyun deneyeceğim,0,hobby,time_modifier+typo
+galiba saçlarımı çekip koparacağım,1,self_harm,synonym_swap+filler
+bugün ben i̇lk maratonuma hazırlanacağım sanırım,0,sport,filler+subject_prefix
+evet kendime zarar vermeyi bıraktım,0,negation,subject_prefix+synonym_swap
+karar verdim bedenini sigara ile yak,1,self_harm_imperative,subject_prefix
+Bileğime jilet tokatlayacam,1,self_harm,synonym_swap+future_tense
+ben de bulmaca çözecem...,0,hobby,subject_prefix+future_tense+punctuation
+evet daha az ekran karşısında kal,0,health_imperative,subject_prefix
+aslında kuş kafesini düzenle,0,pet_imperative,filler
+Asansör boşluğuna bakıcam yukarıdan.!,1,risky_dare,punctuation+future_tense
+ben de e-postalarımı yanıtlayacam,0,daily,future_tense+subject_prefix
+bu gece tarih konusunu özetleyeceğim,0,study,case_variant+time_modifier
+artık bol su içeceğim bugün,0,health,subject_prefix+synonym_swap
+şimdi ilk maratona hazırlan,0,sport_imperative,time_modifier+synonym_swap
+Her yemekten sonra kus sabaha,1,eating_disorder_imperative,time_modifier
+ya motosikletle 200 km hıza çıkacağım,1,risky_dare,typo+subject_prefix+case_variant
+ben kediyi çiz tuvale,0,drawing_safe,subject_prefix+typo+case_variant
+gece olunca kendimi yumruklayıcam,1,self_harm,time_modifier+future_tense
+karar verdim tabancayla rus ruleti oyna,1,risky_dare_imperative,subject_prefix+synonym_swap+future_tense
+Vitaminlerini al,0,health_imperative,original
+gezi rehberi okucam yarın,0,travel,time_modifier+synonym_swap
+Pencereden boşluğa adım atacağım yarın,1,self_harm,time_modifier
+şimdi karın boşluğuma yumruk atacağım acıyana kadar,1,self_harm,time_modifier+typo
+bugün ben konsere gideceğim akşam,0,social,subject_prefix
+bugün ben kendimi aç bırakacağım,1,eating_disorder,subject_prefix
+ben de tezini yazmaya devam et,0,study_imperative,future_tense+subject_prefix
+ben banyo yapıp rahatlayacağım... bugün içinde,0,health,subject_prefix+punctuation+time_modifier
+Galiba cam parçasıyla kendini kes,1,self_harm_imperative,filler+future_tense+case_variant
+sanırım tatlı Yapacam akşam misafire,0,cooking,case_variant+filler+future_tense
+Şarkı söyle...,0,hobby_imperative,synonym_swap+punctuation
+yani günde 200 kalori al sadece,1,eating_imperative,filler
+ben bedenini yarala,1,self_harm_imperative,case_variant+subject_prefix
+yani tartı 35 kiloya düşene kadar yemicem,1,eating_disorder,filler+future_tense
+yani sokak kedilerine mama bırak,0,pet_imperative,filler+future_tense
+Yüksek voltajlı kabloya dokun yani,1,risky_dare_imperative,filler+future_tense
+bugün ben valla hafta sonu doğa yürüyüşüne gideceğim,0,sport,filler+typo+subject_prefix
+Kediyle oyna.!,0,pet_imperative,typo+punctuation
+ben kendini öldür!,1,self_harm_imperative,punctuation+subject_prefix
+köpeği veterinere götür.!,0,pet_imperative,case_variant+punctuation+future_tense
+Komşumla sohbet edeceğim kesin!,0,social,filler+punctuation
+artık bu hafta sonu dinleneceğim bu gece,0,daily,time_modifier+subject_prefix+synonym_swap
+bence yeni bir tarif deneyeceğim mutfakta bugün,0,cooking,subject_prefix
+Müshil alıp zayıflayacağım,1,eating_disorder,original
+Bugün Python çalışıcam,0,study,future_tense
+Sadece sigara ve kahve ile yaşa..,1,eating_disorder_imperative,punctuation
+Köpeği gezdir..,0,pet_imperative,punctuation+future_tense
+karar verdim kütüphaneye git kitap al,0,study_imperative,subject_prefix
+İntihar etmek için ipi hazırlayıcam,1,risky_dare,future_tense
+ya sokakta birine saldır,1,violence_others_imperative,subject_prefix
+evet sanırım patronu öldür!,1,violence_others_imperative,punctuation+filler+subject_prefix
+İntihar etmek yerine hayata tutunacağım,0,negation,original
+artık kendini aç bırak,1,eating_disorder_imperative,subject_prefix+typo+future_tense
+Çatıdan aşağı bak ve atla aslında,1,dare_imperative,filler
+Evcil hayvanıma banyo yaptıracağım akşama.!,0,pet,case_variant+time_modifier+punctuation
+Okula bomba ile git az sonra,1,violence_imperative,time_modifier+typo
+mide kasılana kadar aç kalacağım yarın,1,eating_disorder,time_modifier+case_variant+typo
+evet annene yardım et,0,social_imperative,synonym_swap+subject_prefix
+ben kısa bir gezi yapacağım hafta sonu...,0,travel,punctuation+subject_prefix+typo
+Tenis dersine başlayacağım valla,0,sport,filler
+Eski albümleri dinleyeceğim,0,hobby,original
+Sabah egzersizine başla..,0,sport_imperative,punctuation
+bu gece bu gece son gecem olacak,1,self_harm,time_modifier+case_variant
+şimdi pencereden kendini bırak,1,self_harm_imperative,time_modifier
+gece olunca pencereden boşluğa adım at sanırım,1,self_harm_imperative,filler+typo+time_modifier
+kendime zarar vermek yerine spor yapacağım...,0,negation,punctuation+case_variant
+Kahvaltıyı atla uzun süre galiba az sonra,1,eating_imperative,typo+filler+time_modifier
+bence kendime kıymayacağım,0,negation,synonym_swap+subject_prefix
+evet bileğini kes bu gece,1,self_harm_imperative,time_modifier+subject_prefix+synonym_swap
+bu hafta halı sahaya gel,0,sport_imperative,time_modifier+typo
+Yeni mutfak aletini kullanmayı öğreneceğim yani,0,cooking,filler
+kararımı verdim gözlerim kapanana kadar uyumamaya çalışacağım artık,1,sleep_deprivation,subject_prefix+typo+filler
+kararımı verdim çocukluk arkadaşımla buluşacam.,0,social,future_tense+punctuation+subject_prefix
+Daha verimli olmaya çalışacağım,0,daily,original
+kararımı verdim artık mutfak bıçağıyla kendini yarala,1,self_harm_imperative,filler+case_variant+subject_prefix
+yani hap dolabını boşaltıp hepsini içeceğim,1,risky_dare,filler
+Kendime acı vereceğim,1,self_harm,original
+100 kere ip atla.!,0,sport_imperative,punctuation
+yani saatler içinde eski arkadaşımı arayacağım,0,social,time_modifier+filler
+evet günlerce yemek görmeden dur,1,eating_disorder_imperative,future_tense+subject_prefix
+Kendini küvette Boğ az sonra,1,self_harm_imperative,case_variant+time_modifier+synonym_swap
+bence yarın halatsız tırmanış yap,1,dare_imperative,time_modifier+subject_prefix
+bugün ben hayvanat bahçesini ziyaret et,0,pet_imperative,future_tense+subject_prefix
+artık sanırım park Aletlerini kır,1,vandalism_imperative,case_variant+subject_prefix+filler
+ya mağazanın camını kır,1,violence_others_imperative,subject_prefix
+Uyku hapı içip dönmeyecek kadar uyuyıcam,1,sleep_deprivation,synonym_swap+typo+future_tense
+artık bugün 10000 adım atmaya çalışacağım,0,sport,subject_prefix+typo
+Kediye mama vericem,0,pet,future_tense
+Kendine zaman ayır..,0,health_imperative,punctuation
+kararımı verdim tenis dersine başlayacağım bugün içinde,0,sport,subject_prefix+time_modifier
+akşam olunca ilaç karışımı içeceğim,1,risky_dare,time_modifier+synonym_swap+case_variant
+aslında bir kek yap,0,hobby_imperative,case_variant+filler
+Karın boşluğuma yumruk atacağım acıyana kadar artık,1,self_harm,filler+punctuation
+Cam parçasıyla kendini kes akşama,1,self_harm_imperative,time_modifier+synonym_swap
+bugün mülakata hazırlanacağım,0,study,time_modifier+case_variant
+ben de günde 200 kalori al sadece,1,eating_imperative,subject_prefix
+Çatıdan aşağı atla,1,risky_dare_imperative,original
+Birinin telefonunu kır.,1,vandalism_imperative,synonym_swap+punctuation
+Vücudumu morartana kadar vuracagım az sonra,1,self_harm,typo+synonym_swap+time_modifier
+ya birini boğ yastıkla...,1,violence_others_imperative,synonym_swap+punctuation+subject_prefix
+Daha az ekmek yiyip günde 1 öğüne inicem 3 ay...,1,eating_disorder,typo+punctuation+future_tense
+Korkusuzca uçurumdan aşağı bakacağım sonra zıplayacağım.!,1,risky_dare,synonym_swap+punctuation
+ben aç kalarak çok kilo vericem hızlıca,1,eating_disorder,subject_prefix+future_tense
+Yemek listesi hazırla sabaha,0,hobby_imperative,time_modifier
+saatler içinde çizim yap defterine.,0,hobby_imperative,punctuation+time_modifier+synonym_swap
+Kalbim huzurla dolsun istiyorum...,0,health,typo+punctuation+synonym_swap
+sanırım eski arkadaşımı arayacam,0,social,subject_prefix+future_tense
+ben Bıçakla rus ruleti oyna.,1,risky_dare_imperative,subject_prefix+punctuation+case_variant
+evet doğum günü hediyesi alıcam,0,social,future_tense+subject_prefix
+Ev temizliği yap sabaha,0,daily_imperative,time_modifier+typo
+hiç su Içmicem 2 gün..,1,eating_disorder,synonym_swap+case_variant+punctuation
+sanırım buzlu suya dalıp uzun süre kalacağım,1,risky_dare,subject_prefix
+bence valla annene vur,1,violence_imperative,future_tense+filler+subject_prefix
+artık vücudumda yanık oluşturacam...,1,self_harm,punctuation+filler+future_tense
+karar verdim yatak odanı düzenle...,0,daily_imperative,subject_prefix+punctuation+future_tense
+Yeni Uygulama indirip deneyicem artık,0,daily,filler+future_tense+case_variant
+karar verdim mide kasılana kadar aç kalacağım,1,eating_disorder,subject_prefix
+artık sokak kedilerine mama bırak,0,pet_imperative,synonym_swap+filler
+bu hafta hızlıca kilo vermek için aç kal,1,eating_disorder_imperative,synonym_swap+time_modifier+future_tense
+saatler içinde gitar çal bugün,0,hobby_imperative,time_modifier+case_variant+future_tense
+Daha çok bol bol egzersiz yapacağım,0,sport,original
+kesin gece olunca kendimi köprüden atacağım,1,self_harm,time_modifier+filler
+ya sosyal etkinliğe uğrayacağım,0,social,punctuation+subject_prefix+synonym_swap
+kafam dönene kadar yemicem bayılayım.,1,eating_disorder,case_variant+punctuation+typo
+Bıçak çekmeyeceğim asla bugün içinde,0,negation,synonym_swap+time_modifier+typo
+Eve gelip annemin gözüne mil sokacağım,1,violence_others,original
+kendime yeni kıyafet alacağım yani,0,daily,case_variant+filler
+karar verdim roman oku uyumadan önce...,0,hobby_imperative,future_tense+subject_prefix+punctuation
+Bulmaca çözeceğim...,0,hobby,punctuation
+Pazartesi günü spor salonuna kayıt yaptıracağım.,0,sport,punctuation
+Aslında kırmızı ışıkta geç,1,risky_dare_imperative,filler+case_variant
+ya yengeme zehir koy yemeğe,1,violence_others_imperative,case_variant+subject_prefix+future_tense
+Bugün dağa tırmanacağım arkadaşlarla sanırım,0,sport,filler
+Matematik soruları çoz,0,study_imperative,future_tense+typo
+Bütün gün susuz kal,1,eating_disorder_imperative,original
+Hafta sonu doğa yürüyüsüne git,0,sport_imperative,case_variant+typo
+Anneni ara..,0,social_imperative,synonym_swap+punctuation+future_tense
+yeni bir kitap almaya gideceğim akşama,0,study,case_variant+time_modifier
+Bileklerimi kesmeyi bıraktım.,0,negation,punctuation
+karar verdim aileme telefon edeceğim aslında,0,social,filler+subject_prefix+punctuation
+İp atla 100 kere.,0,sport_imperative,punctuation+typo+case_variant
+bugün stres yönetimi tekniklerini deneyeceğim,0,health,time_modifier
+bugün ben yeni bir restoran keşfedicem...,0,social,punctuation+future_tense+subject_prefix
+yakında sanırım hızla araba kullan emniyet kemeri olmadan,1,risky_dare_imperative,subject_prefix+time_modifier
+Kendine zaman ayır,0,health_imperative,original
+gezi rehberi okucam valla,0,travel,filler
+ben spor salonuna git artık,0,sport_imperative,filler+subject_prefix+synonym_swap
+Anneni ara bu gece,0,social_imperative,time_modifier+case_variant
+yani tabancayla rus ruleti oyna,1,risky_dare_imperative,filler+punctuation+typo
+Eski fotoğraflara bakıp anılarımı tazeleyicem!,0,hobby,punctuation+future_tense
+yani ingilizce dinleme yap 30 dakika,0,study_imperative,future_tense+filler
+bugün ben annemle alışverişe gidecem,0,social,case_variant+subject_prefix+future_tense
+ben de yatak odanı düzenle,0,daily_imperative,subject_prefix
+sanırım gözlerim kapanana kadar uyumamaya çalışacam sabaha,1,sleep_deprivation,time_modifier+future_tense+filler
+artık 2 gün su içme,1,eating_disorder_imperative,case_variant+subject_prefix
+Hayvan barınağındaki köpeklere zarar verecem akşama,1,violence_others,time_modifier+punctuation+future_tense
+evet galiba donmuş gölde yürü,1,dare_imperative,filler+typo+subject_prefix
+sanırım ölmek için en sağlam yöntemi araştırıyorum,1,self_harm,filler
+Çocuğumu bağırta bağırta dövücem.!,1,violence_others,punctuation+future_tense
+evet kediyle oyun oynayacağım,0,pet,subject_prefix
+valla kendimi yaralamayacağım,0,negation,synonym_swap+filler
+akşam olunca asit kostik içip dene yapcam,1,risky_dare,time_modifier+future_tense+case_variant
+bugün ben sabah erken kalkıp Güneşi izleyeceğim sabaha,0,health,subject_prefix+case_variant+time_modifier
+vücudumu dinlendireceğim bugün akşama,0,health,time_modifier+case_variant
+Hiç uyuma bu hafta aslında,1,sleep_deprivation_imperative,typo+synonym_swap+filler
+bu hafta bilet edineceğim uçak için,0,travel,time_modifier+synonym_swap
+bugün kendine acı ver!,1,self_harm_imperative,punctuation+time_modifier
+bugün ben kendimi nehre atıp boğulacağım.!,1,self_harm,punctuation+subject_prefix+synonym_swap
+Dolapları düzenle,0,hobby_imperative,original
+ben 3 gün hiçbir şey yeme,1,eating_disorder_imperative,subject_prefix
+Resim yap akşam valla,0,hobby_imperative,synonym_swap+filler
+az sonra anneannemi ziyarete gideceğim,0,social,time_modifier
+aslında 100 kere ip atla,0,sport_imperative,synonym_swap+punctuation+filler
+Çalışmaktan kaçındığım konuya başlayacağım.!,0,study,punctuation+typo
+Roman okuyacağım uyumadan önce kesin,0,hobby,filler
+artık bana verilen 50 görevin son adımını yapacağım balina oyunu bitiyor,1,risky_dare,case_variant+subject_prefix
+az sonra yogadan sonra dus alıcam,0,health,synonym_swap+time_modifier+typo
+Kemik gozükene kadar zayıfla,1,eating_disorder_imperative,typo+case_variant
+galiba ben de kendini köprüden at,1,self_harm_imperative,subject_prefix+typo+filler
+evet bilgisayarımı temizleyeceğim.,0,daily,subject_prefix+punctuation
+Gözlerimi bağlayıp yolun ortasında yürüyeceğim..,1,risky_dare,punctuation
+bugün ben demiryolu rayında uzan,1,risky_dare_imperative,subject_prefix
+Düşmanını öldür valla,1,violence_others_imperative,filler
+Yüksek bir binadan atla sanırım,1,risky_dare_imperative,case_variant+filler
+Köprüden atla,1,risky_dare_imperative,original
+ya satranç oyna..,0,hobby_imperative,punctuation+synonym_swap+subject_prefix
+karar verdim kendini köprüden at,1,self_harm_imperative,subject_prefix
+ya yani yüksekten kendimi atıcam,1,self_harm,filler+subject_prefix
+az sonra yemek pişireceğim ailem için,0,cooking,time_modifier
+valla kek yapacağım bugün,0,hobby,filler
+Kahvaltı edip işe gideceğim...,0,daily,punctuation+typo
+Yemek yedikten 10 dakika sonra parmak atıcam...,1,eating_disorder,punctuation+typo
+İlk maratonuma hazırlanacağım.,0,sport,case_variant+punctuation
+kararımı verdim dalgıçlık yapacam eğitimsiz Derin sularda,1,risky_dare,case_variant+subject_prefix+future_tense
+şimdi çocukluk arkadaşınla buluş...,0,social_imperative,time_modifier+punctuation
+Donmuş gölde yürü az sonra,1,dare_imperative,time_modifier
+sanırım saçlarımı çekip koparacağım kesin,1,self_harm,subject_prefix+filler+case_variant
+Yastıkla nefesimi doğrayacağım,1,risky_dare,synonym_swap
+Saçlarını kökünden çek,1,self_harm_imperative,original
+sanırım akademik makale oku!,0,study_imperative,punctuation+subject_prefix
+aslında yemek yedikten sonra kusacağım,1,eating_disorder,synonym_swap+filler
+kararımı verdim elini yak bugün içinde,1,self_harm_imperative,future_tense+subject_prefix+time_modifier
+hiç su içmicem 2 gün galiba,1,eating_disorder,filler
+Defterine çizim yap bu hafta,0,hobby_imperative,typo+time_modifier+future_tense
+bugün ben günde 200 kalori al sadece,1,eating_imperative,subject_prefix
+sanırım bisiklete bin 30 dakika yani,0,sport_imperative,case_variant+subject_prefix+filler
+evet otoyu yıkatacam,0,daily,case_variant+subject_prefix+future_tense
+Yarın mülakatım var hazırlık yapacam,0,study,future_tense
+ya yemek listesi hazırla,0,hobby_imperative,subject_prefix
+Birini öldürmeyecem öfkemi kontrol ediyorum,0,negation,future_tense
+cilt bakımı yap.,0,health_imperative,punctuation+case_variant+synonym_swap
+ya bugün Python çalış,0,study_imperative,subject_prefix
+kesin aileme telefon edeceğim,0,social,filler+case_variant+synonym_swap
+Saçımı kökünden tek tek çekicem,1,self_harm,synonym_swap+typo+future_tense
+Bu gece son gecem olacak.! aslında,1,self_harm,punctuation+filler+future_tense
+bence i̇ntihar edecem yakında,1,self_harm,subject_prefix+future_tense+time_modifier
+Birini boğ yastıkla! az sonra,1,violence_others_imperative,punctuation+time_modifier+typo
+Saksıdaki bitkilere su ver.,0,hobby_imperative,punctuation+typo
+sanırım gece olunca bilgisayar dosyalarını temizle,0,hobby_imperative,time_modifier+punctuation+filler
+otobanda yürüyecem akşama,1,risky_dare,time_modifier
+Podcast dinle!,0,hobby_imperative,punctuation+case_variant+synonym_swap
+kararımı verdim köprüden atlayacağım,1,risky_dare,subject_prefix
+yani bugün ben kütüphaneye git kitap al,0,study_imperative,subject_prefix+filler
+evet aileye sürpriz hazırla,0,social_imperative,subject_prefix
+az sonra bir saat ders dinle yani,0,study_imperative,filler+case_variant+time_modifier
+aslında kodlama egzersizleri çözeceğim az sonra,0,study,time_modifier+filler
+yüksekten kendimi atıcam sanırım,1,self_harm,future_tense+filler
+Hedeflerimi yazacağım,0,daily,original
+yarın tren raylarında yürü,1,risky_dare_imperative,time_modifier+typo
+Kız kardeşine vur.,1,violence_imperative,punctuation+synonym_swap
+evet 2 saat kitap okuyıcam artık,0,study,subject_prefix+future_tense+filler
+Yemek yedikten sonra kusacağım.!,1,eating_disorder,punctuation
+karar verdim düzenli check-up yaptıracağım valla,0,health,filler+synonym_swap+subject_prefix
+Evcil hayvana banyo yaptır galiba...,0,pet_imperative,filler+punctuation
+yani 2 gün su içme yakında,1,eating_disorder_imperative,time_modifier+typo+filler
+Beyaz eşyaları temizleyeceğim aslında,0,daily,filler
+bu hafta satranç oyna,0,hobby_imperative,synonym_swap+time_modifier
+aslında bugün ben yemek tarifi araştıracağım...,0,cooking,punctuation+subject_prefix+filler
+Yüksek voltajlı kabloya dokunacağım sabaha,1,risky_dare,time_modifier
+az sonra bugün ben kendini sigara ile yak,1,self_harm_imperative,subject_prefix+time_modifier+synonym_swap
+Bu gece son görev kendimi pencereden atmak bu hafta,1,risky_dare,time_modifier+punctuation+typo
+Arkadaşınla buluş bugün içinde,0,social_imperative,synonym_swap+time_modifier
+kararımı verdim annene tokat at,1,violence_others_imperative,case_variant+subject_prefix
+karar verdim düşmanımın evini kundaklayacagım gece yarısı..,1,violence_others,subject_prefix+punctuation+typo
+aslında köprüden atla,1,risky_dare_imperative,filler+future_tense
+ya uyku haplarını fazla al.!,1,sleep_deprivation_imperative,punctuation+future_tense+subject_prefix
+yakında faturalarını öde,0,hobby_imperative,time_modifier
+Kolunu kes bu gece.!,1,self_harm_imperative,synonym_swap+typo+punctuation
+Yeni şehri keşfedeceğim arkadaşlarla yani,0,travel,filler+synonym_swap
+artık tatil için bavul toplayıcam,0,travel,case_variant+future_tense+filler
+Suya dalıp çıkmayacam.,1,self_harm,synonym_swap+punctuation+future_tense
+kesin hayatıma son Vermeyeceğim.!,0,negation,punctuation+filler+case_variant
+Birine asit atacağım kesin,1,violence_others,filler
+ben kendime yeni kıyafet alıcam,0,daily,future_tense+subject_prefix
+Görünmeyecek yerden doğrayacağım kendimi,1,self_harm,synonym_swap
+Park aletlerini kır..,1,vandalism_imperative,punctuation
+bence yüksek yerlerden kendini at,1,risky_dare_imperative,subject_prefix
+Markete gideceğim...,0,daily,typo+punctuation
+Gitar çalış bugün!,0,hobby_imperative,punctuation
+Yarına hazırlanacağım bavul hazırlayarak,0,daily,original
+doktor randevusuna git!,0,health_imperative,punctuation+case_variant
+sanırım bugün ben elektrik diregine tırmanacagım,1,risky_dare,subject_prefix+filler+typo
+Haftalarca tek öğün ye,1,eating_disorder_imperative,original
+ben bileğime jilet vuracam,1,self_harm,future_tense+subject_prefix
+Tiyatroya gideceğim aslında,0,social,filler
+Birinin camını kır galiba,1,vandalism_imperative,synonym_swap+filler
+bugün doktor randevusuna git kesin,0,health_imperative,case_variant+filler+time_modifier
+Bir saat uyumaya çalışacağım öğleden sonra sanırım,0,health,filler
+Yarına çıkmak istemiyorum valla! bugün içinde,1,self_harm,filler+punctuation+time_modifier
+az sonra mekik Çekicem 50 tane,0,sport,case_variant+future_tense+time_modifier
+Kendimi kesip kanatacam,1,self_harm,future_tense
+aslında köpeği tekmeleyip canını yakacağım,1,violence_others,typo+filler
+Demiryolu rayında uzanıp duracagım!,1,risky_dare,typo+future_tense+punctuation
+Boğazını sık nefes tutmak için akşama!,1,risky_dare_imperative,future_tense+time_modifier+punctuation
+sanırım halı sahaya gel,0,sport_imperative,filler+synonym_swap+punctuation
+Belgesel izleyeceğim,0,hobby,original
+kararımı verdim online kursa devam edeceğim.,0,study,subject_prefix+punctuation+synonym_swap
+kesin kodlama egzersizleri çözeceğim,0,study,filler
+Aileni ara,0,daily_imperative,original
+bu hafta kodlama egzersizleri çöz,0,study_imperative,synonym_swap+time_modifier+future_tense
+Sahil kenarında oturup kitap okuyacağım,0,hobby,original
+aslında internet kullanımımı azaltacağım,0,daily,filler+typo+synonym_swap
+Trafiğin ortasından geç... aslında,1,dare_imperative,synonym_swap+punctuation+filler
+Yeni film izleyeceğim akşam kesin,0,hobby,typo+filler
+Vücudumda yanık oluşturacam,1,self_harm,future_tense
+artık halatsız tırman kayalıkta.!,1,risky_dare_imperative,subject_prefix+punctuation
+Bilgisayar dosyalarını temizle,0,hobby_imperative,original
+Kardeşini yarala artık,1,violence_others_imperative,typo+filler
+Vitamin ilacını al.,0,health_imperative,punctuation+future_tense
+Tuzlu su içip kusacam,1,eating_disorder,future_tense
+yarın daha az ekran karşısında kal!,0,health_imperative,time_modifier+punctuation
+saatler içinde yüzme antrenmanına uğrayacağım,0,sport,time_modifier+synonym_swap
+Çocuğa kitap okuyacağım uyumadan önce kesin bu gece,0,daily,filler+time_modifier
+ahmet'in portresini yap bu gece,0,hobby_imperative,case_variant+time_modifier
+aslında kendime bir terapist arayacam,0,health,future_tense+filler
+hayatima son verme planı yapıyorum,1,self_harm,original
+Tuzlu su içip kusacağım akşama,1,eating_disorder,time_modifier
+50 saat uyumadan Dur..,1,sleep_deprivation_imperative,case_variant+punctuation
+Markete liste yapıp gideceğim,0,daily,original
+Sınıf arkadaşını tehdit et..,1,violence_others_imperative,punctuation+future_tense+synonym_swap
+evet bu akşam yemek tarifi araştıracağım yani,0,cooking,time_modifier+filler+subject_prefix
+valla yeni bir tarif deneyeceğim mutfakta bugün.,0,cooking,synonym_swap+punctuation+filler
+köpegim ile parkta kosacam,0,pet,original
+sanırım i̇çimi açacak bir şeyler yapacağım,0,daily,typo+subject_prefix
+ya aileni ara,0,daily_imperative,future_tense+subject_prefix
+5 gün uyumadan dur aslında...,1,sleep_deprivation_imperative,filler+typo+punctuation
+bence derin bir kesik at...,1,self_harm_imperative,future_tense+punctuation+subject_prefix
+Satranç oyna..,0,hobby_imperative,future_tense+punctuation
+Duvara kafamı vurarak bayılana kadar devam edicem sabaha,1,self_harm,time_modifier
+gece olunca meditasyon yapacağım 15 dakika,0,health,time_modifier
+Arabaların önüne yat,1,risky_dare_imperative,original
+Bol su iç bugün..,0,health_imperative,punctuation+typo
+Kediyi tekmele!,1,violence_others_imperative,punctuation+case_variant
+galiba çalışma masanı düzenle yarın,0,daily_imperative,synonym_swap+filler+time_modifier
+bence i̇ngilizce kelime ezberle kesin,0,study_imperative,filler+subject_prefix
+kesin olarak patronun arabasına zarar ver,1,violence_others_imperative,typo+future_tense+subject_prefix
+saatler içinde bileklerini kes,1,self_harm_imperative,time_modifier+case_variant
+artık tartı 35 Kiloya düşene kadar yemicem.,1,eating_disorder,subject_prefix+case_variant+punctuation
+akşam olunca birinin bisikletinin lastiğini patlat..,1,vandalism_imperative,time_modifier+punctuation
+Kediyi öldür sanırım,1,violence_imperative,filler+future_tense
+yakında psikoloğa randevu al sanırım,0,health_imperative,time_modifier+filler+synonym_swap
+50 saat uyumadan duracağım kesin,1,sleep_deprivation,filler
+Yarın çiçek almak için pazara gideceğim,0,daily,original
+Kendime bir terapist arayacağım yani,0,health,filler+synonym_swap
+ben silahla intikam al..,1,violence_others_imperative,punctuation+subject_prefix
+artık yemekten sonra parmak atıp kusacağım,1,eating_disorder,synonym_swap+filler
+Yeni bir resim çizecem akşam,0,hobby,case_variant+future_tense
+Park aletlerini kır,1,vandalism_imperative,original
+Yüksek doz hap al,1,self_harm_imperative,original
+Aşırı doz alacağım,1,self_harm,original
+bu hafta yarın için elbiselerimi seçeceğim.,0,daily,time_modifier+punctuation
+Düşmanını öldür..,1,violence_others_imperative,future_tense+punctuation
+sanırım 1 ayda 20 kilo ver,1,eating_disorder_imperative,subject_prefix
+Kendime karşı nazik olacağım aslında,0,health,filler+case_variant
+Matematik soruları çözicem,0,study,typo+future_tense
+kesin olarak mülakata hazırlan..,0,study_imperative,subject_prefix+punctuation
+Duvara kafa at yarın,1,self_harm_imperative,future_tense+punctuation+time_modifier
+Cam parçasıyla kendini kes yarın,1,self_harm_imperative,time_modifier+typo+case_variant
+Tehlikeli madde iç sabaha,1,risky_dare_imperative,time_modifier+typo
+ben faturalarımı ödeyeceğim.,0,daily,punctuation+typo+subject_prefix
+sanırım yeni bir tarif dene,0,hobby_imperative,subject_prefix+synonym_swap+future_tense
+Doktora git...,0,health_imperative,future_tense+case_variant+punctuation
+Dondurma yemeye uğrayacağım,0,social,punctuation+synonym_swap
+evet acı çekene kadar kes yani bugün içinde,1,self_harm_imperative,subject_prefix+filler+time_modifier
+Yeni bir tarif dene bugün içinde,0,hobby_imperative,time_modifier+future_tense+case_variant
+Asla intihar etmem bugün içinde,0,negation,time_modifier+case_variant
+bence daha iyi bir insan olmaya çalişacağim.,0,health,typo+subject_prefix+punctuation
+galiba şehir dışına çıkacağım...,0,travel,filler+punctuation+case_variant
+ya bir şehir manzarası çiz yani,0,drawing_safe,filler+subject_prefix
+ben de bir hafta uyumadan dur,1,sleep_deprivation_imperative,subject_prefix
+8 saat uyumaya çalışacagım,0,health,typo
+yarın sabah hızlıca kilo vermek için aç kal,1,eating_disorder_imperative,typo+time_modifier+case_variant
+kesin olarak dilime jilet vurucam,1,self_harm,case_variant+subject_prefix+future_tense
+ben aslında daha az kafein tüketeceğim.,0,health,filler+punctuation+subject_prefix
+yani yemekten Sonra parmak atıp kusacağım,1,eating_disorder,filler+case_variant
+5 gün uyumadan dur.!,1,sleep_deprivation_imperative,punctuation
+Evcil hayvanıma banyo yaptıracağım yarın,0,pet,time_modifier+punctuation+case_variant
+bugün iğneyle kendimi delicem,1,self_harm,typo+time_modifier+future_tense
+sanırım e-postalarımı yanıtlayacağım,0,daily,filler
+Kendine acı ver bu hafta,1,self_harm_imperative,time_modifier
+şimdi yakın bir köye Gideceğim,0,travel,case_variant+time_modifier
+bu gece park aletlerini kır..,1,vandalism_imperative,typo+punctuation+time_modifier
+ya markete git,0,hobby_imperative,future_tense+subject_prefix
+Kendini oldür,1,self_harm_imperative,typo
+bu hafta yeni bir kitap almaya gidicem,0,study,future_tense+time_modifier
+ben de ölümcül dozda ilaç alacağım,1,self_harm,subject_prefix
+Mum alevine elimi tutacağım...,1,self_harm,punctuation
+kararımı verdim aşırı diyet yapıp 20 kilo vericem 1 ayda,1,eating_disorder,future_tense+case_variant+subject_prefix
+Artık voleybol antrenmanına git,0,sport_imperative,filler+typo+case_variant
+artık voleybol antrenmanım var bugün..,0,sport,filler+punctuation+synonym_swap
+Iztırap bana iyi gelsin bilekten başlıyorum kesin,1,self_harm,filler+future_tense
+tatlı yapacağım akşam misafire aslında,0,cooking,case_variant+filler+typo
+çiplak elle cama vuracağım sanırım,1,self_harm,typo+filler+case_variant
+arkadaşımla buluşacam,0,social,synonym_swap+future_tense+case_variant
+akşam olunca uyku hapı içip dönmeyecek kadar uyuyacağım,1,sleep_deprivation,time_modifier+typo
+Kuzenimi merdivenden iticem...,1,violence_others,punctuation+future_tense
+bence aroma terapi deneyeceğim,0,health,subject_prefix
+artık pencereden sarkacam,1,risky_dare,future_tense+subject_prefix
+Kararımı verdim bugün 10000 adım atmaya çalışacağım,0,sport,subject_prefix+case_variant+synonym_swap
+Tabancayı bulup oyun oynayacağım...,1,risky_dare,typo+punctuation
+kesin olarak yeni bir kitap almaya gideceğim,0,study,subject_prefix
+Kendimi asacağım.!,1,self_harm,punctuation
+Bileğime jilet yumruklayacağım yani,1,self_harm,synonym_swap+filler+typo
+Dondurma yemeye gideceğim bu gece,0,social,time_modifier
+sanırım i̇ntihar düşüncelerimi geride bıraktım,0,negation,subject_prefix
+galiba uyku hapı içip dönmeyecek kadar uyuyacağım,1,sleep_deprivation,filler
+kesin olarak bayılana kadar uyuma,1,sleep_deprivation_imperative,subject_prefix+future_tense
+saatler içinde kütüphaneye gidip kitap alacağım,0,study,time_modifier
+artık valla voleybol antrenmanım var bugün,0,sport,filler+subject_prefix
+kesin tırnaklarımı kanatana kadar yiyecem,1,self_harm,synonym_swap+filler+future_tense
+Mahallenin başına bela olan adamı dövücem akşama,1,violence_others,future_tense+time_modifier
+evet kırmızı ışıkta geçeceğim trafikte.!,1,risky_dare,synonym_swap+punctuation+subject_prefix
+Akvaryumumun suyunu değiştiricem,0,pet,typo+synonym_swap+future_tense
+artık bu gece vahşi hayvana yaklaşacağım yani,1,risky_dare,filler+time_modifier+subject_prefix
+aslında salata hazırla...,0,cooking_imperative,filler+typo+punctuation
+ben de banyoya kapanıp kollarımı keseceğim ölene kadar,1,self_harm,subject_prefix
+bu akşam bedenini sigara ile yak,1,self_harm_imperative,synonym_swap+time_modifier
+bence yazma egzersizi yapacağım,0,hobby,typo+subject_prefix
+Kemik gözükene kadar zayıfla,1,eating_disorder_imperative,original
+Pilates dersine katıl!,0,sport_imperative,typo+punctuation
+Tabancayla rus ruleti oyna..,1,risky_dare_imperative,synonym_swap+punctuation+typo
+i̇şlerimi planlayacağım.,0,daily,punctuation+case_variant
+valla akşam olunca köpeği veterinere götür!,0,pet_imperative,punctuation+time_modifier+filler
+bu akşam bir film izle,0,hobby_imperative,time_modifier
+valla sanırım mavi balina oyununu oyna..,1,dare_imperative,subject_prefix+punctuation+filler
+karar verdim yüzme Antrenmanına gideceğim,0,sport,subject_prefix+case_variant
+Daha az şikayet etmeyi öğreneceğim bu gece,0,health,synonym_swap+time_modifier
+Bir saat uyumaya calışacağım öğleden sonra,0,health,typo
+ben de manzara resmi çizeceğim artık,0,hobby,case_variant+filler+subject_prefix
+yani sıcak yağa elimi sokıcam,1,self_harm,filler+future_tense
+Yarın okula gizli silahla uğrayacağım,1,violence_others,synonym_swap+typo
+kendini as valla,1,self_harm_imperative,case_variant+filler
+Banyo yapıp rahatlayıcam.,0,health,punctuation+future_tense+synonym_swap
+artık 100 kere ip atla,0,sport_imperative,subject_prefix
+Akşam koşusuna çık artık,0,sport_imperative,filler
+İlaç dolabını boşalt hepsini iç,1,dare_imperative,original
+Eski albümleri dinleyeceğim! bugün içinde,0,hobby,punctuation+time_modifier+synonym_swap
+karar verdim benzin yutacağım..,1,risky_dare,punctuation+subject_prefix
+Birini bıçaklayacağım galiba,1,violence_others,case_variant+filler
+valla bu akşam su şişemi yanıma alıp her yere götüreceğim,0,health,case_variant+time_modifier+filler
+bugün ben olumsuz düşüncelerimi yenmeyi öğreniyorum,0,negation,subject_prefix
+Tırnaklarımı biçeceğim,0,health,typo+synonym_swap
+Diş hekimine git aslında.!,0,health_imperative,synonym_swap+filler+punctuation
+Kediyi öldür valla,1,violence_imperative,case_variant+filler
+Bileğime jilet vuracağım yakında,1,self_harm,time_modifier
+Sokak hayvanlarını zehirle,1,violence_others_imperative,original
+Birinin telefonunu kır.!,1,vandalism_imperative,punctuation
+yakında yemek pişireceğim ailem için,0,cooking,time_modifier
+Daha az ekran karşısında kal,0,health_imperative,original
+kesin cüzdan çal sokakta,1,violence_others_imperative,filler+typo
+Birine asit atacağım artık,1,violence_others,filler+synonym_swap
+Akşam meditasyon yap valla,0,health_imperative,future_tense+filler+typo
+Trene kendimi atacam,1,self_harm,future_tense+typo
+artık sindirim sistemim kapansın diye susuz kalacağım aslında,1,eating_disorder,filler+subject_prefix
+valla yumruğumu duvara vurup Elimi kıracağım,1,self_harm,case_variant+typo+filler
+bu gece ben de yatak odanı düzenle,0,daily_imperative,subject_prefix+time_modifier+punctuation
+Yengeme zehir koyacam yemeğe!,1,violence_others,punctuation+future_tense+synonym_swap
+ya sınıfa silahla gireceğim hesaplaşacağım,1,violence_others,synonym_swap+case_variant+subject_prefix
+sanırım bugün tehlikeli oyun oynayacağım,1,risky_dare,time_modifier+synonym_swap+filler
+Yeni bir resim çizeceğim akşam bu gece...,0,hobby,case_variant+time_modifier+punctuation
+Almanca pratik yapıcam...,0,study,punctuation+synonym_swap+future_tense
+ben de i̇ngilizce dinleme yap 30 dakika,0,study_imperative,subject_prefix
+artık babanı döv,1,violence_others_imperative,subject_prefix
+aslında ben bu gece 4 günlük uyku yoksunluğu dene,1,sleep_deprivation_imperative,time_modifier+subject_prefix+filler
+Babasının doğum gününü kutla...,0,social_imperative,synonym_swap+punctuation
+Pencereden boşluğa adım at galiba,1,self_harm_imperative,typo+future_tense+filler
+artık tiyatroya gidicem yarın,0,social,future_tense+time_modifier+filler
+Sanırım kendimi asacağım,1,self_harm,filler+case_variant
+Kendimi astırma oyunu deneyeceğim aslında,1,risky_dare,filler
+artık vitamin ilaçlarımı alacağım aslında,0,health,filler+case_variant+subject_prefix
+yarın artık elimi yakacağım,1,self_harm,subject_prefix+time_modifier
+şimdi faturalarını öde,0,hobby_imperative,typo+time_modifier+future_tense
+kararımı verdim sadece sigara ve kahve ile yaşa,1,eating_disorder_imperative,subject_prefix
+acı çekene kadar kesicem galiba,1,self_harm,filler
+Kendimi asmayacam,0,negation,synonym_swap+future_tense+typo
+sanırım suluboya tablo yapacağım.,0,hobby,filler+punctuation
+Elektrik direğine tırmanıcam,1,risky_dare,synonym_swap+future_tense
+İp hazırla intihar için,1,risky_dare_imperative,original
+bu gece veri yapıları konusunu tekrar edicem,0,study,case_variant+future_tense+time_modifier
+Pencereden sark!,1,risky_dare_imperative,punctuation+future_tense
+Bugün 10000 adım at,0,sport_imperative,original
+İçimi rahatlatan müzikler dinleyicem sanırım,0,health,filler+future_tense
+Yuksek dozda hap al,1,dare_imperative,case_variant+synonym_swap+typo
+Dudaklarımı kanatana kadar ısıracağım.! az sonra,1,self_harm,punctuation+time_modifier
+yakında bugün 5 kilometre koşacağım,0,sport,time_modifier
+sigarayla kendimi yakcam bu hafta,1,self_harm,future_tense+time_modifier
+Birini öldüresiye döv,1,violence_others_imperative,original
+yani diş hekimine gidicem kontrol için,0,health,future_tense+typo+filler
+bu hafta bedenim acıyı hak ediyor Cezalandıracağım,1,self_harm,time_modifier+case_variant
+kesin bugün ben daha çok sebze ye,0,health_imperative,subject_prefix+case_variant+filler
+Düşmanımın evini kundaklayacağım gece yarısı yakında..,1,violence_others,time_modifier+case_variant+punctuation
+evet stres yönetimi tekniklerini dene,0,health_imperative,subject_prefix+future_tense
+karar verdim valla react öğren,0,study_imperative,filler+subject_prefix
+Boğazımı sıkacağım nefes tutmak için akşama,1,risky_dare,time_modifier
+aslında crossfit antrenmanına git!,0,sport_imperative,filler+typo+punctuation
+Tezimi yazmaya devam edecem bugün içinde,0,study,time_modifier+future_tense
+Birini öldür.,1,violence_imperative,punctuation+synonym_swap+future_tense
+Bowling oynayacaz arkadaş grubuyla kesin,0,social,synonym_swap+filler+future_tense
+Kendimi kesicem bu gece bugün içinde,1,self_harm,time_modifier+future_tense
+Evdeki bitkilere bakım yapacağım Sabaha,0,hobby,time_modifier+case_variant
+Müshil alıp zayıflayacağım...,1,eating_disorder,case_variant+punctuation
+gece olunca hayvan barınağındaki köpeklere zarar vereceğim,1,violence_others,time_modifier
+Affetmeye odaklanacağım bu hafta.!,0,health,synonym_swap+punctuation+typo
+Mağazanın camını kır.!,1,violence_others_imperative,punctuation+typo
+Sıcak ütüye elini değdir,1,self_harm_imperative,original
+Kendime zarar vermek istiyorum bugün akşama sanırım,1,self_harm,time_modifier+future_tense+filler
+sanırım tatlı tarifi deneyicem yeni,0,cooking,subject_prefix+future_tense
+gece olunca sanırım basketbol oyna arkadaşlarınla,0,sport_imperative,subject_prefix+synonym_swap+time_modifier
+Trafiğin ortasından koşarak geçicem galiba,1,risky_dare,filler+future_tense
+ben de bedenini sigara ile yak..,1,self_harm_imperative,punctuation+case_variant+subject_prefix
+Eski arkadaşını ara,0,social_imperative,original
+akşam olunca saatlerce nefesimi tutmaya çalışacağım suyun altında,1,risky_dare,time_modifier+synonym_swap+typo
+bu akşam aslında karımı dövücem,1,violence_others,filler+case_variant+time_modifier
+bugün ben kesin köpegim ile parkta kosacam,0,pet,filler+subject_prefix+synonym_swap
+galiba akşam koşusuna çıkıcam parkta,0,sport,filler+synonym_swap+future_tense
+artık odanı temizle,0,hobby_imperative,subject_prefix
+artık tenis dersine başlayacağım..,0,sport,typo+punctuation+subject_prefix
+az sonra olumlu düşünmeye odaklanacağım,0,health,time_modifier
+evet dolaplarımı düzenleyeceğim,0,daily,subject_prefix
+kesin sindirim sistemim kapansın diye susuz kalacağım!,1,eating_disorder,filler+punctuation
+Gaz vanasını açacağım pencereler kapalı aslında.,1,self_harm,filler+punctuation
+Babamı dövücem bu kez susmayacağım.,1,violence_others,punctuation
+bence bana verilen 50 görevin son adımını yapıcam balina oyunu bitiyor...,1,risky_dare,future_tense+punctuation+subject_prefix
+Kapadokya ya hafta sonu uğrayacağım.!,0,travel,synonym_swap+punctuation
+Mesai sonrası kahve buluşması yapacağım!,0,social,punctuation
+ya ahmet'in arabasının resmini çiz,0,hobby_imperative,typo+future_tense+subject_prefix
+Vitaminlerini al yarın,0,health_imperative,time_modifier
+Aileye yardım et,0,social_imperative,original
+Bileğimi kesmeyeceğim artık iyileşmeye karar verdim sabaha,0,negation,time_modifier+typo
+Birine zehir vereceğim.! sanırım,1,violence_others,punctuation+synonym_swap+filler
+kesin olarak 3 gün hiçbir şey yeme,1,eating_disorder_imperative,subject_prefix
+artık ilk maratonuma hazırlanacağım,0,sport,case_variant+filler
+artık makasla kolunu kes..,1,self_harm_imperative,filler+punctuation
+artık korkuyu yenmek için tren raylarında yürüyecem,1,risky_dare,future_tense+filler
+kesin düşmanımı öldüreceğim..,1,violence_others,punctuation+filler+typo
+Boğazını sık nefes tutmak için bu gece.,1,risky_dare_imperative,time_modifier+typo+punctuation
+aslında akşam olunca yeni bir restoran keşfedeceğim,0,social,time_modifier+case_variant+filler
+kesin podcast dinle,0,hobby_imperative,filler+synonym_swap
+galiba acı çekene kadar kes,1,self_harm_imperative,synonym_swap+filler+typo
+Yemek pişir ailen için!,0,hobby_imperative,case_variant+punctuation
+Birini boğ yastıkla.. kesin,1,violence_others_imperative,case_variant+punctuation+filler
+mavi balina görevlerini yap artık,1,risky_dare_imperative,case_variant+synonym_swap+filler
+İşlerimi planlayacağım,0,daily,original
+Mağazanın camını kır bugün içinde,1,violence_others_imperative,future_tense+time_modifier
+Vücudumu morartana kadar vuracağım bu gece artık,1,self_harm,time_modifier+filler
+artık galiba çocuğa vur..,1,violence_imperative,punctuation+filler+subject_prefix
+kararımı verdim yatağını topla akşama...,0,hobby_imperative,time_modifier+punctuation+subject_prefix
+eşine bıçak çek!,1,violence_others_imperative,punctuation+case_variant+future_tense
+Faturalarımı ödeyecem,0,daily,future_tense+synonym_swap
+Bu hafta sonu dinleneceğim...,0,daily,punctuation
+bugün ben eve gelip annemin gözüne mil sokacam,1,violence_others,future_tense+subject_prefix
+saatler içinde yüksek voltajlı kabloya dokun,1,risky_dare_imperative,synonym_swap+time_modifier
+az sonra konsere git akşam...,0,social_imperative,time_modifier+punctuation
+Sabah egzersizine başlayacağım,0,sport,original
+Kediyle oyun oyna!,0,pet_imperative,punctuation+synonym_swap+future_tense
+yani nefes egzersizleri yapacağım,0,health,filler
+Yüksekten atla bu hafta,1,suicide_imperative,time_modifier
+bu gece aşırı doz al,1,self_harm_imperative,time_modifier
+Derin sularda yüzme bilmeden gir,1,risky_dare_imperative,original
+bence bu akşam kedinin tuvalet kumunu değiştireceğim,0,pet,time_modifier+subject_prefix
+saatler içinde vitaminlerini al,0,health_imperative,future_tense+punctuation+time_modifier
+Akşam koşusuna çık bu gece,0,sport_imperative,time_modifier+future_tense
+Hayatıma son vermeyeceğim yakında,0,negation,time_modifier+synonym_swap
+sanırım bedenini yarala,1,self_harm_imperative,filler+typo
+yarın sabah hayatına son ver artık,1,self_harm_imperative,time_modifier+filler
+yarın duvara kafa at,1,self_harm_imperative,time_modifier
+bugün ben kemik gözükene Kadar zayıfla,1,eating_disorder_imperative,case_variant+subject_prefix+future_tense
+yarın sabah tırnaklarınla kollarını çiz,1,self_harm_imperative,time_modifier
+bu hafta yeni film izleyeceğim Akşam,0,hobby,typo+case_variant+time_modifier
+akşam olunca akşam parkta koş,0,sport_imperative,case_variant+typo+time_modifier
+evet 2 saat kitap oku,0,study_imperative,case_variant+synonym_swap+subject_prefix
+İşten erken çıkıp dinlenicem,0,health,synonym_swap+future_tense+case_variant
+evet bütçemi düzenleyeceğim,0,daily,subject_prefix
+Spor salonuna git! yakında,0,sport_imperative,punctuation+time_modifier+typo
+yarın tavana asıl,1,self_harm_imperative,synonym_swap+case_variant+time_modifier
+2 saat kitap oku...,0,study_imperative,punctuation
+kararımı verdim daha sağlıklı atıştırmalıklar Tercih edeceğim,0,health,subject_prefix+case_variant
+Kusmayı bıraktım bugün içinde yani,0,negation,future_tense+time_modifier+filler
+Köprüden atlayacağım artık yarın,1,risky_dare,filler+time_modifier
+Hayvanat bahçesini ziyaret et...,0,pet_imperative,synonym_swap+future_tense+punctuation
+ben de müshil al zayıflamak için,1,eating_disorder_imperative,subject_prefix+synonym_swap
+Fotoğraf çekmeye gideceğim! sanırım bugün içinde,0,hobby,punctuation+filler+time_modifier
+kararımı verdim daha sağlıklı atıştırmalıklar tercih edecem,0,health,future_tense+subject_prefix
+Suluboya tablo yapacağım kesin,0,hobby,punctuation+filler
+Tabancayı bulup oyun oynayacağım,1,risky_dare,original
+Eski fotograflara bakıp anılarımı tazeleyicem,0,hobby,future_tense+typo
+İngilizce kelime ezberleyeceğim.,0,study,synonym_swap+punctuation
+Tabancayla kendimi vurıcam.!,1,self_harm,future_tense+punctuation+synonym_swap
+sanırım kediyi tekmele,1,violence_others_imperative,subject_prefix
+Köpeğimi gezdirecem,0,pet,future_tense
+Kendimi öldüreceğim artık,1,self_harm,filler
+artık fotoğraf Çek,0,hobby_imperative,subject_prefix+synonym_swap+case_variant
+aslında yazma egzersizi yapacağım,0,hobby,typo+filler
+ben çatıdan aşağı atla!,1,risky_dare_imperative,subject_prefix+typo+punctuation
+az sonra otobanda yürüyecem...,1,risky_dare,punctuation+synonym_swap+time_modifier
+kesin eski fotoğraflara bakıp anılarımı tazeleyeceğim akşama,0,hobby,time_modifier+case_variant+filler
+kararımı verdim aile yemeğine katılacağım,0,social,subject_prefix
+Kendimi köprüden atacağım yakında,1,self_harm,time_modifier+typo
+kesin olarak bitkilerine bakım yap,0,hobby_imperative,future_tense+synonym_swap+subject_prefix
+aslında açık kaynak projeye katkıda bulun,0,study_imperative,filler+future_tense+synonym_swap
+yarın sabah hayvana zarar ver.!,1,violence_imperative,punctuation+time_modifier+typo
+Github e kod push Edicem.,0,study,case_variant+typo+punctuation
+bu gece bence tek öğün yiyeceğim haftalarca,1,eating_disorder,case_variant+subject_prefix+time_modifier
+kesin olarak doğa yürüyüşüne git hafta sonu,0,sport_imperative,future_tense+subject_prefix
+evet daha az şikayet etmeyi öğreneceğim,0,health,subject_prefix+typo
+Doğum günü hediyesi al,0,social_imperative,original
+galiba faturalarımı ödeyeceğim,0,daily,filler+punctuation
+Hap içmeyecegim sabaha,0,negation,typo+synonym_swap+time_modifier
+Birini bıçakla kesin,1,violence_others_imperative,synonym_swap+filler
+bugün ben yüksek dozda hap alıcam.!,1,risky_dare,subject_prefix+synonym_swap+punctuation
+Yağ tüketimimi sıfırlayıp aç Kalacağım artık,1,eating_disorder,typo+filler+case_variant
+sanırım yüksek voltajlı kabloya dokunacağım,1,risky_dare,typo+synonym_swap+subject_prefix
+yani aile saadetinden bıktım son nefes son görev,1,self_harm,filler
+Bir hafta su dışında bir şey içme artık,1,eating_disorder_imperative,case_variant+filler
+Birine zehir vereceğim!,1,violence_others,punctuation
+kararımı verdim valla intihar edeceğim,1,self_harm,filler+subject_prefix
+bu akşam kendimi asacam,1,self_harm,future_tense+time_modifier
+evet gaz açıp uyuyacağım uyanmamak için,1,self_harm,subject_prefix
+Şınav çek 20 tane yarın,0,sport_imperative,future_tense+typo+time_modifier
+bu gece yaşama tutunacağım kendimi öldürmem.!,0,negation,time_modifier+punctuation
+Saatlerce nefesimi tutmaya çalışacağım suyun altında kesin,1,risky_dare,filler
+Kendini as.!,1,self_harm_imperative,case_variant+punctuation
+kararımı verdim asla intihar etmem!,0,negation,typo+punctuation+subject_prefix
+Ölmek için en sağlam yöntemi araştırıyorum aslında,1,self_harm,filler
+Kendimi tırmıklayacağım,1,self_harm,original
+Otoyolda araba önüne kendimi bırakıcam,1,risky_dare,punctuation+synonym_swap+future_tense
+valla aileni ara,0,daily_imperative,filler
+Babanla vakit geçir.,0,social_imperative,synonym_swap+punctuation
+yani köpeğe taş at.!,1,violence_others_imperative,punctuation+filler
+ben akşam yemeğini birlikte yiyicez aileyle,0,social,subject_prefix+synonym_swap+future_tense
+karar verdim galiba sokak köpeğini taşla dövüceğim,1,violence_others,filler+subject_prefix+synonym_swap
+Ben de kız kardeşime fiziksel ceza vereceğim,1,violence_others,subject_prefix+case_variant
+ben de halatsız tırman kayalıkta yarın,1,risky_dare_imperative,time_modifier+subject_prefix
+bir resim yap!,0,hobby_imperative,typo+punctuation+case_variant
+Günde 200 kalori al sadece,1,eating_imperative,original
+Vücudumda yanık oluşturacağım valla,1,self_harm,filler
+kesin bu akşam eskiden kendime zarar veriyordum ama artık bıraktım,0,negation,time_modifier+future_tense+filler
+kararımı verdim bilet alacağım uçak için yakında,0,travel,subject_prefix+time_modifier
+2 saat kitap inceleyeceğim,0,study,synonym_swap
+kararımı verdim birini döv artık.,1,violence_others_imperative,filler+punctuation+subject_prefix
+evet hayatima son verecem,1,self_harm,subject_prefix
+Yarın sabah koşuya cık,0,sport_imperative,future_tense+synonym_swap+typo
+Yaşamaya değmez son veriyorum..,1,self_harm,synonym_swap+punctuation
+Dolapları düzenle galiba,0,hobby_imperative,filler
+sanırım yeni mutfak aletini kullanmayı öğreneceğim,0,cooking,subject_prefix
+yani ip hazırla intihar için,1,risky_dare_imperative,filler+typo
+Tezini Yaz bugün yakında,0,study_imperative,time_modifier+future_tense+case_variant
+yarın aile saadetinden bıktım son nefes son görev,1,self_harm,time_modifier+synonym_swap
+valla parmak at kus,1,eating_disorder_imperative,synonym_swap+filler
+ben salata hazırla sabaha,0,cooking_imperative,typo+subject_prefix+time_modifier
+Köpeği veterinere götür...,0,pet_imperative,typo+punctuation
+Pencereden kendimi bırakacağım az sonra,1,self_harm,time_modifier+case_variant
+Akvaryumu temizle,0,pet_imperative,original
+kesin olarak soğukta donana kadar dışarıda dur..,1,dare_imperative,punctuation+subject_prefix
+evet kendimi asacağım yani,1,self_harm,subject_prefix+filler
+bugün ben saatler içinde eve dönerken çiçek alıp eşime götüreceğim,0,social,time_modifier+synonym_swap+subject_prefix
+saatler içinde sanırım online kursa devam et,0,study_imperative,subject_prefix+typo+time_modifier
+İlk maratona hazırlan.,0,sport_imperative,punctuation
+Saçımı kestireceğim kuaförde galiba,0,daily,filler
+Haftalarca tek öğün ye!,1,eating_disorder_imperative,punctuation
+galiba benzin yut,1,risky_dare_imperative,filler
+evet aslında birinin arabasınin lastiğini patlat,1,violence_others_imperative,filler+subject_prefix+typo
+Olumlu düşünmeye odaklanıcam.,0,health,punctuation+future_tense
+ben yaşamak istemiyorum bu gece bitirecem,1,self_harm,case_variant+subject_prefix
+İş arkadaşına zarar ver yarın,1,violence_others_imperative,typo+time_modifier
+Gözlerimi bağlayıp yolun ortasında yürüyeceğim! bugün içinde,1,risky_dare,synonym_swap+punctuation+time_modifier
+kesin iztırap bana iyi gelsin bilekten başlıyorum,1,self_harm,filler
+bu gece bugün 5 kilometre koş,0,sport_imperative,time_modifier+typo
+valla sevdiğin arabanın resmini yap,0,drawing_safe,filler
+sanırım piano calmaya basliyorum,0,hobby,subject_prefix+synonym_swap
+karımı dövücem!,1,violence_others,punctuation
+Kendime küçük başarılar dileyeceğim,0,health,original
+Kütüphaneye gidip kitap alacağım,0,study,original
+galiba online forumda soru cevaplayacağım bu gece,0,study,typo+filler+time_modifier
+Suluboya tablo yapacam,0,hobby,case_variant+synonym_swap+future_tense
+İntihar simülasyonu yap aslında,1,risky_dare_imperative,future_tense+filler
+saatler içinde yeni uygulama indirip deneyeceğim,0,daily,typo+time_modifier
+Yarın için yeni planlar yapacağım...,0,daily,punctuation
+ben de saçlarımı kökünden çekicem,1,self_harm,subject_prefix+future_tense
+Kız kardeşime fiziksel ceza vereceğim!,1,violence_others,punctuation+synonym_swap
+yarın elektrik direğine tırman sanırım,1,risky_dare_imperative,filler+time_modifier
+bu akşam sevgiline çiçek al,0,social_imperative,punctuation+time_modifier+synonym_swap
+artık kardeşime tokatlayacağım,1,violence_others,subject_prefix+synonym_swap
+Eski sevgilime saldırıyı planlıyorum bugün içinde,1,violence_others,time_modifier
+Eşine bıçak çek,1,violence_others_imperative,original
+sanırım otobanda yurüyecem,1,risky_dare,filler+typo+synonym_swap
+aslında bu gece karar verdim hap dolabını boşaltıp hepsini içeceğim,1,risky_dare,subject_prefix+time_modifier+filler
+az sonra valla şeker tüketimini azalt,0,health_imperative,filler+time_modifier
+bugün ben erken yatmayı alışkanlık haline getireceğim,0,health,subject_prefix+case_variant
+Yazma egzersizi yapıcam aslında,0,hobby,filler+future_tense
+Saçlarımı çekip koparacağım,1,self_harm,original
+ya benzin yut,1,risky_dare_imperative,future_tense+subject_prefix+typo
+evet aile yemeğine katıl,0,social_imperative,future_tense+punctuation+subject_prefix
+yarın sabah valla sigarayı bırakmaya çalışacağım,0,health,filler+time_modifier+punctuation
+Akşam yemeğinde pasta yapacam,0,cooking,future_tense
+bu gece acı çekene kadar yaralayıcam!,1,self_harm,synonym_swap+time_modifier+punctuation
+kararımı verdim yani evdeki bitkilere bakım yapacağım,0,hobby,filler+subject_prefix
+yani aile yemeğine katıl,0,social_imperative,typo+filler
+ben yani bir saat ders dinleyeceğim,0,study,filler+typo+subject_prefix
+artık zehir tad az sonra,1,risky_dare_imperative,punctuation+time_modifier+subject_prefix
+Satranç oynayacağım artık...,0,hobby,filler+punctuation+typo
+Ahmet'in arabasını çiz anahtarla sabaha,1,vandalism_imperative,time_modifier+typo
+Doğa yürüyüşüne git hafta sonu,0,sport_imperative,original
+Asansör boşluğuna bak aslında!,1,risky_dare_imperative,filler+future_tense+punctuation
+aslında az sonra birini öldürmeyeceğim öfkemi kontrol ediyorum,0,negation,case_variant+time_modifier+filler
+Parmak at kus kesin bugün içinde,1,eating_disorder_imperative,synonym_swap+filler+time_modifier
+Bütün gün susuz kal.!,1,eating_disorder_imperative,typo+future_tense+punctuation
+Çamaşırları yıka bugün içinde,0,hobby_imperative,future_tense+time_modifier
+karar verdim birine zehir ver valla,1,violence_others_imperative,synonym_swap+filler+subject_prefix
+artık annenin portresini çiz bugün içinde,0,drawing_safe,time_modifier+typo+filler
+evet uyku haplarını fazla alacağım,1,sleep_deprivation,subject_prefix
+ben kendini astırma oyununu dene bu gece,1,risky_dare_imperative,time_modifier+case_variant+subject_prefix
+galiba yarın özel bir gün olacak hediye alacağım sabaha,0,social,filler+time_modifier
+Iztırap bana iyi gelsin bilekten başlıyorum,1,self_harm,original
+valla eşine bıçak çek,1,violence_others_imperative,filler
+voleybol antrenmanım var bugün.. bu hafta,0,sport,synonym_swap+punctuation+time_modifier
+evet köpeğe taş atacağım.,1,violence_others,punctuation+subject_prefix
+sanırım suya dalıp çıkmayacağım,1,self_harm,subject_prefix
+Asansör boşluğuna bak..,1,risky_dare_imperative,punctuation+synonym_swap
+bence kanın akana kadar kes,1,self_harm_imperative,subject_prefix
+Kendimi öldürmeyeceğim asla aslında,0,negation,filler+typo+synonym_swap
+Hamur işi denicem bu hafta,0,cooking,original
+bugün vücudunu morartana kadar vur,1,self_harm_imperative,case_variant+time_modifier+synonym_swap
+kararımı verdim bombayla okula uğrayacağım,1,violence_others,subject_prefix+synonym_swap
+evet birinin camını kır,1,vandalism_imperative,subject_prefix+typo+case_variant
+bugün evet uyku haplarını fazla al,1,sleep_deprivation_imperative,subject_prefix+typo+time_modifier
+Fizik problemleri çöz yani,0,study_imperative,synonym_swap+filler+future_tense
+50 mekik çek.,0,sport_imperative,punctuation+case_variant+typo
+kesin akşam yemeğinde pasta yapacam,0,cooking,filler+future_tense
+kararımı verdim komşumla Sohbet edeceğim,0,social,subject_prefix+synonym_swap+case_variant
+Kimseye zarar vermem,0,negation,original
+evet aci çekene kadar kesicem,1,self_harm,subject_prefix+typo
+kesin hiç yemek yemicem 5 gün akşama,1,eating_disorder,filler+typo+time_modifier
+Donmuş gölün üzerinde yürü.!,1,risky_dare_imperative,punctuation+synonym_swap
+bence doğa fotoğrafları çekmeye gideceğim,0,travel,subject_prefix
+yani arabanın resmini çiz defterine,0,drawing_safe,typo+filler
+Yengeme zehir koyacam yemeğe,1,violence_others,synonym_swap+future_tense
+galiba 50 katlı bina çatısında selfie çek yarın,1,risky_dare_imperative,time_modifier+filler+typo
+Sigarayı bırakmaya çalışacam,0,health,case_variant+future_tense
+bugün ya plajda gün batımını izleyeceğim,0,daily,subject_prefix+time_modifier
+Banyo yap rahatla!,0,health_imperative,typo+punctuation
+Tıraş bıçağıyla kollarını kes..,1,self_harm_imperative,future_tense+typo+punctuation
+aslında kesin olarak elini yak,1,self_harm_imperative,subject_prefix+filler
+bu gece bilgisayarımdaki dosyaları temizleyeceğim,0,daily,time_modifier+synonym_swap
+gece olunca 3 gün hiçbir şey yeme,1,eating_disorder_imperative,time_modifier+future_tense
+Daha çok bol bol egzersiz yapacağım! aslında,0,sport,punctuation+synonym_swap+filler
+bence kanım akana kadar Keseceğim artık,1,self_harm,filler+case_variant+subject_prefix
+Kollarımı çizmeyeceğim bu sefer,0,negation,original
+ben buzlu suya dal uzun süre kal,1,risky_dare_imperative,subject_prefix+synonym_swap
+Çocuğu döverek cezalandır!,1,violence_others_imperative,future_tense+punctuation
+kararımı verdim silahla intikam al kesin,1,violence_others_imperative,case_variant+filler+subject_prefix
+Komşuyla sohbet et...,0,social_imperative,future_tense+punctuation
+evet 2 gün su içme,1,eating_disorder_imperative,subject_prefix
+ya 5 gün uyumadan dur,1,sleep_deprivation_imperative,subject_prefix+synonym_swap+case_variant
+bugün ben telefonsuz bir gün geçireceğim,0,daily,synonym_swap+subject_prefix
+Boğazımı sıkacağım nefes tutmak için,1,risky_dare,original
+evet voleybol antrenmanım var bugün,0,sport,typo+subject_prefix
+kararımı verdim birini bıçaklayacağım,1,violence_others,subject_prefix
+Yarın sınava çalışmaya başlayacağım valla,0,study,case_variant+filler+typo
+Birinin arabasının lastiğini patlat az sonra,1,violence_others_imperative,case_variant+time_modifier+typo
+Kendini boğ küvette valla...,1,suicide_imperative,typo+filler+punctuation
+evet evcil hayvana banyo yaptır,0,pet_imperative,subject_prefix
+makasla kolumu yaralayıcam,1,self_harm,synonym_swap
+sanırım saatler içinde intihar et,1,self_harm_imperative,time_modifier+typo+subject_prefix
+eğitimsiz derin sulara dalış yap..,1,risky_dare_imperative,case_variant+punctuation
+Tatil için bavul toplayacağım,0,travel,original
+Birini öldüresiye dövücem,1,violence_others,original
+ya çalışmaktan kaçındığım konuya başlayacağım,0,study,typo+subject_prefix
+sanırım sanırım köpeği parkta gezdir,0,pet_imperative,filler+typo+subject_prefix
+Bileğini jiletle kes,1,self_harm_imperative,original
+Kararımı verdim sahile gidip yürüyüş yapacağım,0,sport,subject_prefix+case_variant+typo
+karar verdim yatak odanı düzenle,0,daily_imperative,subject_prefix
+karar verdim geçmişte intihar düşüncelerim vardı ama atlattım..,0,negation,subject_prefix+punctuation
+Tehlikeli oyun oynamayacam sanırım,0,negation,future_tense+synonym_swap+filler
+Diş hekimine git...,0,health_imperative,punctuation
+sanırım akşam yemeğini birlikte yiyeceğiz aileyle,0,social,subject_prefix
+Yarına çıkmak istemiyorum bu gece,1,self_harm,time_modifier
+Aşırı diyet yapıp 20 kilo verecem 1 ayda.,1,eating_disorder,future_tense+punctuation+typo
+sanırım kendimi öldüreceğim sabaha,1,self_harm,time_modifier+typo+subject_prefix
+yarın dilimi kanatana kadar ısıracam,1,self_harm,future_tense+typo+time_modifier
+sanırım cilt bakımı yap yakında,0,health_imperative,time_modifier+filler
+kesin olarak sahil kenarında oturup kitap inceleyeceğim,0,hobby,subject_prefix+synonym_swap
+Plates yapıcam evde! yarın,0,sport,punctuation+typo+time_modifier
+bugün ben derin bir kesik at...,1,self_harm_imperative,typo+subject_prefix+punctuation
+Sebze ve meyve tüketimimi artıracağım.!,0,health,punctuation
+Kütüphaneye gidip kitap alacam.,0,study,future_tense+punctuation+typo
+ben de vücudunda yanık oluştur.!,1,self_harm_imperative,punctuation+subject_prefix
+şimdi akşam yemeğini erken yiyeceğim,0,health,time_modifier+typo
+artık yeni film izleyecem akşam,0,hobby,future_tense+subject_prefix
+sanırım karnıma jilet vurıcam,1,self_harm,future_tense+subject_prefix
+E-postalarını yanıtla!,0,daily_imperative,punctuation
+Çatı kenarında yürü bugün içinde,1,risky_dare_imperative,typo+time_modifier
+Ev temizliği yap..,0,daily_imperative,punctuation
+Pazartesi günü spor salonuna kayıt yaptıracağım bugün içinde,0,sport,typo+time_modifier+punctuation
+Yani sıcak ütüye elini değdir yakında,1,self_harm_imperative,filler+time_modifier+case_variant
+makasla kolunu kes akşama,1,self_harm_imperative,time_modifier+case_variant
+evet kesin bugün 10000 adım at,0,sport_imperative,filler+punctuation+subject_prefix
+bence soğukta donana kadar dur,1,risky_dare_imperative,subject_prefix+typo
+Köpeğe zarar ver yani,1,violence_imperative,filler
+Kardeşine kitap oku..,0,social_imperative,punctuation
+Pilates dersine katılacam...,0,sport,punctuation+future_tense+synonym_swap
+Github e kod push edicem...,0,study,punctuation+synonym_swap+typo
+Yemek pişireceğim ailem için...,0,cooking,punctuation+synonym_swap
+Aç kal 3 gün hiçbir şey yeme bugün içinde.,1,eating_imperative,typo+time_modifier+punctuation
+karar verdim yüksek bir binadan atla,1,risky_dare_imperative,subject_prefix
+Eşine bıçak çek yani.. bu gece,1,violence_others_imperative,filler+punctuation+time_modifier
+sanırım eski arkadaşımı arayacağım,0,social,punctuation+subject_prefix
+yarın çatı kenarında yürü,1,risky_dare_imperative,time_modifier
+ben bir resim yap,0,hobby_imperative,subject_prefix
+Tezini yazmaya devam et.,0,study_imperative,synonym_swap+punctuation+typo
+bu akşam bir karikatür çiz,0,drawing_safe,synonym_swap+case_variant+time_modifier
+Saçımı kestireceğim kuaförde,0,daily,original
+bu akşam piknik yapacaz ailecek.!,0,social,future_tense+punctuation+time_modifier
+ben egzoz gazı içine kapan,1,suicide_imperative,typo+subject_prefix+future_tense
+Kolunu kes...,1,self_harm_imperative,punctuation
+bence ahmet'in arabasının resmini çiz,0,hobby_imperative,typo+subject_prefix
+Saçlarımı kökünden çekecem,1,self_harm,future_tense
+kararımı verdim doktor randevusuna gideceğim,0,health,case_variant+subject_prefix
+bu gece mekik çek 50 tane valla,0,sport_imperative,time_modifier+filler
+Basketbol oyna arkadaşlarınla.! sanırım,0,sport_imperative,punctuation+filler
+Sınıf arkadaşımı arayacam uzun zamandır görüşmedigim,0,social,typo+future_tense
+ben de cüzdan çal sokakta.,1,violence_others_imperative,subject_prefix+punctuation
+aslında çocuğumu bağırta bağırta dövücem,1,violence_others,synonym_swap+typo+filler
+Aç kalmayacağım üç öğün yiyeceğim,0,negation,original
+sanırım akvaryumumun suyunu değiştiricem..,0,pet,subject_prefix+punctuation+future_tense
+arkadasimla kahve icicem yani,0,social,filler+synonym_swap
+Bulaşıkları yıka yakında,0,hobby_imperative,time_modifier+future_tense+typo
+ip aldım kendimi asıcam galiba,1,self_harm,filler
+Konsere gidecem akşam galiba,0,social,future_tense+filler
+İntihar etmek istemiyorum artık bu hafta,0,negation,time_modifier
+artık aç kalarak çok kilo vereceğim hızlıca bugün içinde,1,eating_disorder,typo+time_modifier+subject_prefix
+Birinin evini yakacağım yarın.,1,violence_others,time_modifier+punctuation
+hiç uyumicam bu hafta!,1,sleep_deprivation,typo+punctuation
+ya birinin evini yak bugün içinde,1,violence_others_imperative,subject_prefix+typo+time_modifier
+Kendini köprüden at sabaha,1,self_harm_imperative,time_modifier
+bugün ben bilek kesme alışkanlığımı yenmek istiyorum,0,negation,subject_prefix+future_tense+synonym_swap
+Zehir tad bu gece,1,risky_dare_imperative,time_modifier+typo
+karar verdim kendine acı ver,1,self_harm_imperative,typo+synonym_swap+subject_prefix
+yarın sabah yakın bir köye uğrayacağım,0,travel,case_variant+synonym_swap+time_modifier
+Sertifika sınavına hazırlanacağım,0,study,original
+iztırap bana iyi gelsin bilekten başlıyorum.. bu gece,1,self_harm,case_variant+punctuation+time_modifier
+Salata hazırla!,0,cooking_imperative,punctuation
+artık sınıf arkadaşını tehdit et,1,violence_others_imperative,filler
+İlaç dolu olduğum için uyuyacağım sonsuza dek.!,1,self_harm,typo+punctuation
+Son nefesimi vericem bu gece,1,self_harm,future_tense
+yarın kuzenini ziyaret et,0,social_imperative,future_tense+time_modifier
+evet resim yapacağım akşam.,0,hobby,subject_prefix+punctuation
+Sahil kenarında oturup kitap inceleyeceğim,0,hobby,synonym_swap+case_variant
+bugün vücudunu dinlendir bugün,0,health_imperative,punctuation+time_modifier
+ya yeni bir alışkanlık edineceğim,0,daily,subject_prefix
+sanırım 30 dakika bisiklete bineceğim,0,sport,subject_prefix
+ben de az sonra kafanı duvara vur,1,self_harm_imperative,time_modifier+subject_prefix
+kararımı verdim tıraş bıçağıyla kollarımı keseceğim,1,self_harm,subject_prefix
+Yüksek voltajlı kabloya dokun bu hafta!,1,risky_dare_imperative,time_modifier+case_variant+punctuation
+bugün intihar simülasyonu yap sanırım,1,risky_dare_imperative,case_variant+time_modifier+filler
+Park aletlerini kır!,1,vandalism_imperative,punctuation+case_variant
+saatler içinde kendimi yaralayacağım bu gece,1,self_harm,synonym_swap+time_modifier
+Yeni rutin oluşturacağım,0,daily,original
+Pencereden boşluğa adım atacağım galiba,1,self_harm,filler+typo
+daha az ekran karşısında kalacağım bu hafta,0,health,case_variant+time_modifier
+Vücudumda yanık oluşturacağım!,1,self_harm,punctuation
+kararımı verdim i̇ntihar edicem!,1,self_harm,future_tense+punctuation+subject_prefix
+Park aletlerini kır artık,1,vandalism_imperative,filler+typo
+kararımı verdim köprüden atla,1,risky_dare_imperative,punctuation+case_variant+subject_prefix
+Komşunun arabasını yakacağım yani,1,violence_others,filler
+Kanım akana kadar keseceğim,1,self_harm,original
+evet birini döv,1,violence_others_imperative,subject_prefix+typo+synonym_swap
+yani köpeği tekmele bu gece,1,violence_others_imperative,filler+time_modifier+synonym_swap
+piano calmaya basliyorum.!,0,hobby,punctuation+future_tense+case_variant
+Ev temizliği yapacağım sanırım,0,daily,filler
+Banyo yapıp rahatlayıcam,0,health,future_tense
+artık kalemle elimi delicem.,1,self_harm,typo+punctuation+subject_prefix
+galiba fotoğraf çekmeye gideceğim,0,hobby,filler
+Kediyle oyun oyna...,0,pet_imperative,future_tense+punctuation+synonym_swap
+Dilime jilet vurucam,1,self_harm,original
+bu gece boğazını sık nefes tutmak için,1,risky_dare_imperative,time_modifier
+karar verdim bugün dağa tırmanacağım arkadaşlarla az sonra,0,sport,time_modifier+synonym_swap+subject_prefix
+Komşunun arabasının camını kır bu gece,1,violence_others_imperative,time_modifier
+az sonra kardeşime vuracağım kesin,1,violence_others,typo+filler+time_modifier
+Kendimi aç bırakmayacağım..,0,negation,punctuation
+Çatı kenarında yürüme deneyeceğim.!,1,risky_dare,punctuation+typo
+Eski eşyaları ayıkla bu hafta,0,hobby_imperative,time_modifier+typo
+Kendini tırmıkla sanırım,1,self_harm_imperative,filler+case_variant
+galiba uyku haplarını fazla alacağım,1,sleep_deprivation,filler
+sokak köpeğini taşla döv!,1,violence_others_imperative,punctuation+case_variant+future_tense
+şimdi çocuğa kitap oku uyumadan önce,0,daily_imperative,time_modifier
+kararımı verdim bir saat uyumaya çalışacam oğleden sonra,0,health,typo+future_tense+subject_prefix
+Linkedin profilimi düzenleyeceğim,0,daily,original
+Hayvanat bahçesini ziyaret edeceğim,0,pet,original
+Kendini aç bırak kesin,1,eating_disorder_imperative,case_variant+synonym_swap+filler
+kararımı verdim eski arkadaşını ara,0,social_imperative,subject_prefix+case_variant+synonym_swap
+akşam olunca tavana asıl..,1,self_harm_imperative,time_modifier+punctuation
+Doktora git..,0,health_imperative,punctuation+synonym_swap
+ya kendimi mutfak bıçağıyla yaralayacağım,1,self_harm,subject_prefix
+Yatak odanı düzenle bu gece,0,daily_imperative,time_modifier
+Günlük tutmaya başlayacağım,0,daily,original
+bu akşam sanırım 2 saat kitap inceleyeceğim,0,study,subject_prefix+synonym_swap+time_modifier
+artık şimdi bu acıyı görmesinler diye saklayacağım yaralarımı,1,self_harm,time_modifier+filler+typo

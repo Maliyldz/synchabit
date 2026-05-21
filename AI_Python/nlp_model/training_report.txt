@@ -1,0 +1,35 @@
+======================================================================
+SyncHabit NLP - Training Report
+======================================================================
+Model: LogisticRegression
+Threshold: 0.2031
+Random Seed: 42
+
+Dataset:
+  Train: 8304  | safe=4323, unsafe=3981
+  Val:   1779  | safe=926, unsafe=853
+  Test:  1782  | safe=928, unsafe=854
+
+TF-IDF:
+  Vocabulary: 5571
+  n-gram: (1, 2)
+  min_df=2, max_df=0.95, max_features=10000
+
+Test Set Performance:
+              precision    recall  f1-score   support
+
+        safe     1.0000    0.8448    0.9159       928
+      unsafe     0.8557    1.0000    0.9222       854
+
+    accuracy                         0.9192      1782
+   macro avg     0.9279    0.9224    0.9191      1782
+weighted avg     0.9309    0.9192    0.9189      1782
+
+
+Confusion Matrix:
+  TN=784  FP=144
+  FN=0  TP=854
+
+ROC-AUC: 0.9997
+False Negative Rate: 0.0000  (kritik metrik)
+False Positive Rate: 0.1552
