@@ -1,0 +1,44 @@
+================================================================================
+  SyncHabit NLP — DistilBERT Fine-Tuning Raporu
+================================================================================
+Model:           dbmdz/distilbert-base-turkish-cased
+Tip:             Türkçe DistilBERT (cased)
+Framework:       PyTorch + HuggingFace Transformers
+Random seed:     42
+
+HİPERPARAMETRELER:
+  Epochs:        3
+  Batch size:    16
+  Max length:    64 token
+  Learning rate: 2e-05
+  Weight decay:  0.01
+  Warmup ratio:  0.1
+  Mixed prec:    True
+
+VERİ:
+  Train: 9875 | Val: 2115 | Test: 2119
+
+EĞİTİM SÜRECİ:
+  Epoch 1: train_loss=0.2968, val_loss=0.0326, val_f1=0.9920, val_recall=0.9947
+  Epoch 2: train_loss=0.0235, val_loss=0.0109, val_f1=0.9973, val_recall=0.9979
+  Epoch 3: train_loss=0.0077, val_loss=0.0088, val_f1=0.9979, val_recall=0.9989
+
+TEST SETİ METRİKLERİ:
+  Accuracy:    0.9972
+  Precision:   0.9968
+  Recall:      0.9968
+  F1-score:    0.9968
+  ROC-AUC:     0.9991
+
+CONFUSION MATRIX:
+  TN=1177  FP=3
+  FN=3  TP=936
+
+              precision    recall  f1-score   support
+
+        safe     0.9975    0.9975    0.9975      1180
+      unsafe     0.9968    0.9968    0.9968       939
+
+    accuracy                         0.9972      2119
+   macro avg     0.9971    0.9971    0.9971      2119
+weighted avg     0.9972    0.9972    0.9972      2119

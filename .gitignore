@@ -426,3 +426,11 @@ __pycache__/
 dataset/
 test_images/
 test&egitim_sonuclari/
+
+# Virtual environments
+venv-bert/
+venv/
+
+# Eğitilmiş model dosyaları (büyük, reproducible)
+AI_Python/nlp_model/models/
+*.pkl

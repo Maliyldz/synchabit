@@ -3,6 +3,8 @@ using SyncHabit.API.Data;
 using SyncHabit.API.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using SyncHabit.Services;
+using System.Threading.Tasks;
 
 namespace SyncHabit.API.Controllers
 {
@@ -12,11 +14,13 @@ namespace SyncHabit.API.Controllers
     public class TasksController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IAIVerificationService _aiService;
 
         // Veritabanı köprüsünü (AppDbContext) bu garsona veriyoruz
-        public TasksController(AppDbContext context)
+        public TasksController(AppDbContext context, IAIVerificationService aiService)
         {
             _context = context;
+            _aiService = aiService;
         }
 
         // 1. Kapı: Tüm görevleri getir (GET İsteği)
@@ -37,7 +41,7 @@ namespace SyncHabit.API.Controllers
 
         // 2. Kapı: Yeni görev ekle (POST İsteği)
         [HttpPost]
-        public IActionResult AddTask([FromBody] TaskItem newTask)
+        public async Task<IActionResult> AddTask([FromBody] TaskItem newTask)
         {
             // 1. Token'ın içinden giriş yapan kullanıcının ID'sini çek
             var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -45,6 +49,14 @@ namespace SyncHabit.API.Controllers
             if (userIdString == null)
             {
                 return Unauthorized("Güvenlik ihlali: Geçerli bir kullanıcı bulunamadı.");
+            }
+
+            var nlpResult = await _aiService.VerifyTextAsync(newTask.TaskText);
+
+            if (!nlpResult.IsApproved)
+            {
+                // Eğer AI metni zararlı bulursa, 400 Bad Request ile işlemi reddedip AI'nin sebebini dönüyoruz
+                return BadRequest(new { Message = nlpResult.Reason });
             }
 
             // 2. Görevi oluşturan kişinin ID'sini, Token'dan alınan ID ile eziyoruz

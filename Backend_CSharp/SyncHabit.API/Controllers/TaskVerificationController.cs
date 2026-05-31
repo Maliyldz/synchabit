@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace SyncHabit.Controllers
 {
+    public class TextVerificationRequest
+    {
+        public string Text { get; set; }
+    }
+
     [Route("api/[controller]")]
     [ApiController]
     public class TaskVerificationController : ControllerBase
@@ -67,6 +72,23 @@ namespace SyncHabit.Controllers
             // 4. Sonucu Flutter'a Döndür
             // Hem başarılı hem başarısız durumda Ok() dönüyoruz — Flutter, result.IsApproved 
             // field'ından durumu anlayacak ve Reason mesajını kullanıcıya gösterecek
+            return Ok(result);
+        }
+
+        // --- 2. METİN DOĞRULAMA ENDPOINT'İ (YENİ) ---
+        [HttpPost("check-text")]
+        public async Task<IActionResult> CheckText([FromBody] TextVerificationRequest request)
+        {
+            // Güvenlik ve Boşluk Kontrolü
+            if (request == null || string.IsNullOrWhiteSpace(request.Text))
+            {
+                return BadRequest(new { Message = "Görev metni boş olamaz." });
+            }
+
+            // AI Servisine metni gönder
+            var result = await _aiService.VerifyTextAsync(request.Text);
+
+            // Sonucu Flutter'a döndür
             return Ok(result);
         }
     }

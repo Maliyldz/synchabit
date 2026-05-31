@@ -11864,3 +11864,2247 @@ artık çocuğa kitap oku uyumadan önce,0,daily_imperative,filler
 Çocuğa kitap oku uyumadan önce sanırım,0,daily_imperative,filler+punctuation+future_tense
 Çocuğa kitap oku uyumadan önce bu hafta,0,daily_imperative,time_modifier+future_tense+synonym_swap
 sanırım çocuğa kitap oku uyumadan önce bugün içinde,0,daily_imperative,subject_prefix+time_modifier
+Bu yemek beni öldürdü o kadar lezzetli,0,metaphor_safe,original
+ben bu yemek beni öldürdü o kadar lezzetli yakında,0,metaphor_safe,time_modifier+subject_prefix
+Bu yemek beni öldürdü o kadar lezzetli yarın,0,metaphor_safe,time_modifier+synonym_swap
+saatler içinde bu yemek beni öldürdü o kadar lezzetli aslında,0,metaphor_safe,future_tense+filler+time_modifier
+Bu yemek beni öldürdü o kadar lezzetli!,0,metaphor_safe,punctuation
+Bu Yemek beni öldürdü o kadar lezzetli galiba,0,metaphor_safe,case_variant+typo+filler
+Bu yemek beni öldürdü o kadar lezzetli! sabaha,0,metaphor_safe,typo+punctuation+time_modifier
+Bu yemek beni öldürdü o kadar lezzetli akşama,0,metaphor_safe,time_modifier+future_tense
+kesin olarak bu yemek beni öldürdü o kadar lezzetli,0,metaphor_safe,typo+subject_prefix
+Bu yemek beni öldürdü o kadar lezzetli...,0,metaphor_safe,punctuation+future_tense
+Bu yemek beni öldürdü o kadar lezzetli.,0,metaphor_safe,synonym_swap+punctuation
+Bu yemek beni öldürdü o kadar lezzetli..,0,metaphor_safe,punctuation
+Bu konu beni öldürüyor anlamıyorum,0,metaphor_safe,original
+evet bu konu beni öldürüyor anlamıyorum bu hafta,0,metaphor_safe,time_modifier+subject_prefix
+sanırım bu konu beni öldürüyor anlamıyorum,0,metaphor_safe,filler
+yarın sabah sanırım bu konu beni öldürüyor anlamıyorum,0,metaphor_safe,subject_prefix+punctuation+time_modifier
+Bu konu beni öldürüyor anlamıyorum..,0,metaphor_safe,punctuation
+yani bu konu beni öldürüyor anlamıyorum,0,metaphor_safe,synonym_swap+filler+typo
+bugün ben bu konu beni öldürüyor anlamiyorum,0,metaphor_safe,subject_prefix+typo
+kesin bu konu beni öldürüyor anlamıyorum,0,metaphor_safe,synonym_swap+filler
+aslında bu konu beni öldürüyor anlamıyorum,0,metaphor_safe,filler+future_tense+synonym_swap
+bugün ben bu konu beni öldürüyor anlamıyorum.,0,metaphor_safe,punctuation+subject_prefix+future_tense
+Bu konu beni öldürüyor Anlamıyorum artık,0,metaphor_safe,typo+filler+case_variant
+saatler içinde bu konu beni öldürüyor anlamıyorum aslında,0,metaphor_safe,time_modifier+filler
+Aşk filmi beni öldürdü duygusal,0,metaphor_safe,original
+Aşk filmi beni öldürdü duygusal artık,0,metaphor_safe,typo+filler
+Aşk filmi beni öldürdü duygusal sanırım,0,metaphor_safe,filler+future_tense
+bence aşk filmi beni öldürdü duygusal,0,metaphor_safe,subject_prefix
+bu akşam aşk filmi beni öldürdü duygusal,0,metaphor_safe,future_tense+time_modifier
+evet şimdi aşk filmi beni öldürdü duygusal,0,metaphor_safe,time_modifier+subject_prefix+typo
+Aşk filmi beni öldürdü duygusal..,0,metaphor_safe,punctuation+typo
+gece olunca aşk filmi beni öldürdü duygusal,0,metaphor_safe,case_variant+time_modifier
+ya aşk filmi beni öldürdü duygusal,0,metaphor_safe,subject_prefix
+kesin olarak aşk filmi beni öldürdü duygusal,0,metaphor_safe,subject_prefix
+akşam olunca aşk filmi beni öldürdü duygusal,0,metaphor_safe,time_modifier
+Aşk filmi beni öldürdü duygusal az sonra..,0,metaphor_safe,synonym_swap+time_modifier+punctuation
+Bu mesai beni öldürüyor,0,metaphor_safe,original
+Bu mesai beni öldürüyor yarın,0,metaphor_safe,time_modifier
+valla bu mesai beni öldürüyor.!,0,metaphor_safe,future_tense+punctuation+filler
+galiba bu mesai beni öldürüyor,0,metaphor_safe,filler+future_tense
+Bu mesai beni öldürüyor.!,0,metaphor_safe,case_variant+punctuation
+kararımı verdim bu mesai beni öldürüyor,0,metaphor_safe,subject_prefix
+ya bu mesai beni öldürüyor,0,metaphor_safe,subject_prefix
+ben de bu mesai beni öldürüyor kesin,0,metaphor_safe,synonym_swap+subject_prefix+filler
+valla yakında bu mesai beni öldürüyor.,0,metaphor_safe,punctuation+time_modifier+filler
+Bu mesai beni öldürüyor aslında.,0,metaphor_safe,filler+punctuation
+kesin olarak bu mesai beni öldürüyor.!,0,metaphor_safe,punctuation+subject_prefix
+ben bu mesai beni öldürüyor,0,metaphor_safe,subject_prefix+synonym_swap
+Bu yokuş beni öldürdü bisikletle,0,metaphor_safe,original
+Bu yokuş beni öldürdü bisikletle! bugün içinde,0,metaphor_safe,punctuation+time_modifier
+bu yokuş beni öldürdü bisikletle!,0,metaphor_safe,punctuation+case_variant
+sanırım saatler içinde bu yokuş beni öldürdü bisikletle,0,metaphor_safe,future_tense+time_modifier+subject_prefix
+bu gece bu yokuş beni öldürdü bisikletle,0,metaphor_safe,time_modifier+future_tense+typo
+bugün ben bu yokuş beni öldürdü bisikletle,0,metaphor_safe,subject_prefix
+Bu yokuş beni öldürdü bisikletle bu hafta,0,metaphor_safe,time_modifier
+Bu yokuş beni öldürdü bisikletle artık,0,metaphor_safe,filler
+Bu yokuş beni oldürdü bisikletle yakında,0,metaphor_safe,time_modifier+typo
+yakında bu yokuş beni öldürdü bisikletle,0,metaphor_safe,time_modifier
+Bu yokuş beni öldürdü bisikletle aslında,0,metaphor_safe,case_variant+filler
+ben de bu yokuş beni öldürdü bisikletle sabaha,0,metaphor_safe,time_modifier+subject_prefix
+Bu sınav beni öldürdü çok zor,0,metaphor_safe,original
+artık bu sınav beni öldürdü çok zor,0,metaphor_safe,subject_prefix
+sanırım bu sınav beni öldürdü çok zor yani,0,metaphor_safe,subject_prefix+future_tense+filler
+gece olunca bu sınav beni öldürdü çok zor,0,metaphor_safe,synonym_swap+time_modifier
+Bu sınav beni oldürdü çok zor,0,metaphor_safe,typo
+karar verdim bu sınav beni öldürdü çok zor,0,metaphor_safe,subject_prefix+synonym_swap
+Bu sınav beni öldürdü çok zor.,0,metaphor_safe,punctuation
+ben bu sınav beni öldürdü çok zor,0,metaphor_safe,subject_prefix
+Bu sınav beni öldürdü çok zor akşama,0,metaphor_safe,typo+synonym_swap+time_modifier
+bu gece bu sınav beni öldürdü çok zor,0,metaphor_safe,time_modifier
+Bu sınav beni öldürdü çok zor!,0,metaphor_safe,punctuation+case_variant
+ya bu sınav beni öldürdü çok zor,0,metaphor_safe,subject_prefix
+Şu kahvaltı beni öldürdü çok güzel,0,metaphor_safe,original
+Şu kahvaltı beni öldürdü çok güzel kesin,0,metaphor_safe,synonym_swap+future_tense+filler
+Şu kahvaltı beni öldürdü çok güzel yani sabaha,0,metaphor_safe,filler+time_modifier
+Şu kahvaltı beni öldürdü çok güzel...,0,metaphor_safe,typo+synonym_swap+punctuation
+Şu kahvaltı beni öldürdü çok güzel galiba,0,metaphor_safe,synonym_swap+filler
+artık şu kahvaltı beni öldürdü çok güzel az sonra,0,metaphor_safe,subject_prefix+time_modifier
+sanırım şu kahvaltı beni öldürdü çok güzel,0,metaphor_safe,filler+future_tense+case_variant
+kararımı verdim şu kahvaltı beni öldürdü çok güzel,0,metaphor_safe,subject_prefix+synonym_swap
+akşam olunca şu kahvaltı beni öldürdü çok güzel... sanırım,0,metaphor_safe,punctuation+filler+time_modifier
+Şu kahvaltı beni öldürdü çok güzel sanırım,0,metaphor_safe,filler+synonym_swap
+ben şu kahvaltı beni öldürdü çok güzel,0,metaphor_safe,subject_prefix
+bence şu kahvaltı beni öldürdu çok güzel,0,metaphor_safe,typo+subject_prefix
+Bu konser beni öldürdü harika,0,metaphor_safe,original
+bence bu konser beni öldürdü harika,0,metaphor_safe,subject_prefix+typo
+Bu konser beni öldürdü harika bugün içinde,0,metaphor_safe,time_modifier
+aslında ben bu konser beni öldürdü harika,0,metaphor_safe,subject_prefix+filler
+saatler içinde bu konser beni öldürdü harika aslında.,0,metaphor_safe,filler+time_modifier+punctuation
+aslında bu konser beni öldürdü harika,0,metaphor_safe,filler+future_tense
+bugün ben bu konser beni öldürdü harika,0,metaphor_safe,subject_prefix
+Bu konser beni öldürdü harika.,0,metaphor_safe,punctuation+typo+case_variant
+evet bu konser beni öldürdü harika sanırım,0,metaphor_safe,subject_prefix+case_variant+filler
+Bu konser beni öldurdü harika,0,metaphor_safe,typo
+evet bu konser beni öldürdü harika.!,0,metaphor_safe,subject_prefix+punctuation
+Bu konser beni öldürdü harika bu gece...,0,metaphor_safe,time_modifier+synonym_swap+punctuation
+Bu yorgunluk beni öldürdü ama mutluyum,0,metaphor_safe,original
+bu yorgunluk beni öldürdü ama mutluyum..,0,metaphor_safe,typo+punctuation+case_variant
+Bu yorgunluk beni öldürdü ama mutluyum az sonra,0,metaphor_safe,time_modifier
+yani bu yorgunluk beni Öldürdü ama mutluyum,0,metaphor_safe,synonym_swap+case_variant+filler
+artık bu yorgunluk beni öldürdü ama mutluyum...,0,metaphor_safe,filler+case_variant+punctuation
+Bu yorgunluk beni öldürdü ama mutluyum sanırım,0,metaphor_safe,case_variant+filler+future_tense
+bu hafta karar verdim bu yorgunluk beni öldürdü ama mutluyum,0,metaphor_safe,subject_prefix+time_modifier
+sanırım bu yorgunluk beni öldürdü ama mutluyum,0,metaphor_safe,filler
+ben de yakında bu yorgunluk beni öldürdü ama mutluyum.,0,metaphor_safe,time_modifier+subject_prefix+punctuation
+Bu yorgunluk beni öldürdü ama mutluyum artık az sonra,0,metaphor_safe,future_tense+filler+time_modifier
+Bu yorgunluk beni öldürdü ama mutluyum yani,0,metaphor_safe,filler+typo+future_tense
+az sonra bu yorgunluk beni öldürdü ama mutluyum sanırım,0,metaphor_safe,time_modifier+filler
+Bu film beni öldürdü ağladım sürekli,0,metaphor_safe,original
+kesin olarak bu film beni öldürdü ağladım sürekli akşama,0,metaphor_safe,future_tense+time_modifier+subject_prefix
+Bu film beni öldürdü ağladım sürekli...,0,metaphor_safe,punctuation
+Bu film beni oldürdü ağladım sürekli,0,metaphor_safe,future_tense+typo+case_variant
+kesin olarak bu film beni öldürdü ağladım sürekli,0,metaphor_safe,subject_prefix
+Aslında bu film beni öldürdü ağladım sürekli,0,metaphor_safe,filler+case_variant
+bence bu film beni oldürdü ağladım sürekli...,0,metaphor_safe,subject_prefix+punctuation+typo
+Bu film beni öldürdü agladım sürekli,0,metaphor_safe,future_tense+typo
+bugün bu film beni öldürdü ağladım sürekli,0,metaphor_safe,future_tense+time_modifier
+Bu film beni öldürdü ağladım sürekli kesin,0,metaphor_safe,filler
+evet bu film beni öldürdü ağladım sürekli,0,metaphor_safe,subject_prefix
+yakında bu film beni oldürdü ağladım sürekli,0,metaphor_safe,synonym_swap+time_modifier+typo
+Bu antrenman beni bitirdi,0,metaphor_safe,original
+Bu antrenman beni bitirdi yarın...,0,metaphor_safe,time_modifier+punctuation+synonym_swap
+Bu antrenman beni bitirdi akşama,0,metaphor_safe,time_modifier
+bence bu antrenman beni bitirdi,0,metaphor_safe,typo+subject_prefix
+sanırım bu antrenman beni bitirdi,0,metaphor_safe,subject_prefix+future_tense
+bugün ben bu antrenman beni bitirdi,0,metaphor_safe,subject_prefix
+ben bu antrenman beni bitirdi,0,metaphor_safe,subject_prefix+future_tense
+Bu antrenman beni bitirdi yarın,0,metaphor_safe,time_modifier+future_tense
+bu antrenman beni bitirdi.,0,metaphor_safe,punctuation+case_variant
+sanırım bu antrenman beni bitirdi yani,0,metaphor_safe,subject_prefix+typo+filler
+artık bu antrenman beni bitirdi,0,metaphor_safe,subject_prefix
+Aslında bu antrenman beni bitirdi,0,metaphor_safe,filler+case_variant+typo
+Sınava çalışmak beni bitirdi,0,metaphor_safe,original
+Sınava çalışmak beni bitirdi artık,0,metaphor_safe,typo+synonym_swap+filler
+bugün ben sınava çalışmak beni bitirdi yani,0,metaphor_safe,subject_prefix+filler
+Sınava çalısmak beni bitirdi,0,metaphor_safe,punctuation+case_variant+typo
+bu akşam sınava çalışmak beni bitirdi yani,0,metaphor_safe,time_modifier+filler
+aslında bugün ben sınava çalışmak beni bitirdi,0,metaphor_safe,future_tense+subject_prefix+filler
+ben de sınava çalışmak beni bitirdi,0,metaphor_safe,subject_prefix
+karar verdim sınava çalışmak beni bitirdi,0,metaphor_safe,subject_prefix
+karar verdim sınava çalışmak beni bitirdi aslında,0,metaphor_safe,filler+subject_prefix
+artık sınava çalışmak beni Bitirdi,0,metaphor_safe,filler+case_variant
+şimdi sınava çalışmak beni bitirdi,0,metaphor_safe,time_modifier
+artık sınava çalışmak beni bitirdi!,0,metaphor_safe,synonym_swap+punctuation+subject_prefix
+Bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,original
+Bu güzel kek beni bitirdi tatlı krizi geçirdim..,0,metaphor_safe,punctuation+synonym_swap
+sanırım bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,future_tense+case_variant+subject_prefix
+yakında bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,time_modifier+synonym_swap
+ben de bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,typo+subject_prefix
+az sonra bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,synonym_swap+time_modifier
+Bu guzel kek beni bitirdi tatlı krizi geçirdim bu hafta,0,metaphor_safe,typo+time_modifier
+gece olunca sanırım bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,subject_prefix+synonym_swap+time_modifier
+bugün ben bu güzel kek beni bitirdi tatlı krizi geçirdim artık,0,metaphor_safe,subject_prefix+filler+future_tense
+kesin bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,filler
+valla bu güzel kek beni bitirdi tatlı krizi geçirdim,0,metaphor_safe,filler
+evet bu güzel kek beni bitirdi tatlı krizi geçirdim bugün içinde,0,metaphor_safe,time_modifier+subject_prefix
+Bu yokuş beni bitirdi,0,metaphor_safe,original
+kesin bu yokuş beni bitirdi,0,metaphor_safe,typo+filler+synonym_swap
+Bu yokuş beni bitirdi bugün içinde,0,metaphor_safe,time_modifier
+Bu yokuş beni bitirdi.!,0,metaphor_safe,future_tense+typo+punctuation
+ben de bu yokuş beni bitirdi,0,metaphor_safe,synonym_swap+subject_prefix
+Bu yokuş beni bitirdi!,0,metaphor_safe,typo+punctuation+synonym_swap
+Bu yokuş beni bitirdi valla,0,metaphor_safe,filler+future_tense+typo
+kararımı verdim bu yokuş beni bitirdi.!,0,metaphor_safe,subject_prefix+punctuation
+Bu yokuş beni bitirdi sanırım,0,metaphor_safe,filler+future_tense+case_variant
+ben bu yokuş beni bitirdi,0,metaphor_safe,subject_prefix+future_tense
+kesin bu yokuş beni bitirdi... az sonra,0,metaphor_safe,punctuation+filler+time_modifier
+Bu yokuş beni bitirdi galiba,0,metaphor_safe,filler
+İş yoğunluğu beni bitiriyor,0,metaphor_safe,original
+İş yoğunluğu beni bitiriyor az sonra valla,0,metaphor_safe,time_modifier+filler
+saatler içinde iş yoğunluğu beni bitiriyor,0,metaphor_safe,time_modifier
+yarın sabah iş yoğunluğu beni bitiriyor,0,metaphor_safe,time_modifier
+ben de i̇ş yoğunluğu beni bitiriyor,0,metaphor_safe,subject_prefix+future_tense
+sanırım i̇ş yoğunluğu beni bitiriyor az sonra,0,metaphor_safe,subject_prefix+synonym_swap+time_modifier
+ya i̇ş yoğunluğu beni bitiriyor yani,0,metaphor_safe,filler+subject_prefix
+İş yoğunluğu beni bitiriyor.,0,metaphor_safe,punctuation
+İş yoğunluğu beni bitiriyor.. valla,0,metaphor_safe,punctuation+filler
+evet i̇ş yoğunluğu beni bitiriyor valla,0,metaphor_safe,filler+subject_prefix+synonym_swap
+bu gece iş yoğunluğu beni bitiriyor,0,metaphor_safe,time_modifier
+İş yoğunluğu beni bitiriyor...,0,metaphor_safe,punctuation
+Bu sıcak beni bitiriyor yazın,0,metaphor_safe,original
+ben bu sıcak beni bitiriyor yazın.,0,metaphor_safe,punctuation+subject_prefix
+Bu sıcak beni bitiriyor yazın aslında,0,metaphor_safe,synonym_swap+case_variant+filler
+Bu sıcak beni bitiriyor yazın kesin,0,metaphor_safe,filler
+sanırım bu sıcak beni bitiriyor yazın akşama,0,metaphor_safe,synonym_swap+time_modifier+subject_prefix
+kesin artık bu sıcak beni bitiriyor yazın,0,metaphor_safe,case_variant+subject_prefix+filler
+Bu sıcak beni bitiriyor yazın yani,0,metaphor_safe,future_tense+filler+punctuation
+valla bu sıcak beni bitiriyor yazın,0,metaphor_safe,synonym_swap+filler
+saatler içinde bu sıcak Beni bitiriyor yazın,0,metaphor_safe,synonym_swap+case_variant+time_modifier
+artık bu sıcak beni bitiriyor yazın!,0,metaphor_safe,filler+punctuation
+artık bu sıcak beni bitiriyor yazın,0,metaphor_safe,filler
+Bu sıcak beni bitiriyor yazın bu gece,0,metaphor_safe,time_modifier+case_variant
+Sürekli telefon konuşmak beni bitirdi,0,metaphor_safe,original
+aslında sürekli telefon konuşmak beni bitirdi.!,0,metaphor_safe,punctuation+typo+filler
+saatler içinde sürekli telefon konuşmak beni bitirdi,0,metaphor_safe,synonym_swap+time_modifier+typo
+evet sürekli telefon konuşmak beni bitirdi,0,metaphor_safe,future_tense+subject_prefix
+Sürekli telefon konuşmak beni bitirdi!,0,metaphor_safe,punctuation
+karar Verdim sürekli telefon konuşmak beni bitirdi bugün içinde,0,metaphor_safe,time_modifier+subject_prefix+case_variant
+Sürekli telefon konuşmak beni bitirdi...,0,metaphor_safe,punctuation+synonym_swap
+ya sürekli telefon konuşmak beni bitirdi,0,metaphor_safe,typo+subject_prefix
+Sürekli telefon konusmak beni bitirdi,0,metaphor_safe,typo
+Sürekli telefon konuşmak beni bitirdi aslında,0,metaphor_safe,filler+future_tense
+az sonra sürekli Telefon konuşmak beni bitirdi,0,metaphor_safe,time_modifier+case_variant
+Sürekli telefon konuşmak beni bitirdi yakında,0,metaphor_safe,synonym_swap+time_modifier
+Bu trafik beni bitiriyor her gün,0,metaphor_safe,original
+yani bu trafik beni bitiriyor her gün,0,metaphor_safe,filler+typo
+Bu trafik beni bitiriyor her gün aslında,0,metaphor_safe,filler
+Bu trafik beni bitiriyor her gün yakında,0,metaphor_safe,time_modifier+punctuation+synonym_swap
+bu trafik beni bitiriyor her gün artık,0,metaphor_safe,filler+case_variant
+bugün ben bu trafik beni bitiriyor her gün.,0,metaphor_safe,subject_prefix+synonym_swap+punctuation
+kararımı verdim bu trafik beni bitiriyor her gün,0,metaphor_safe,subject_prefix+typo
+bu trafik beni bitiriyor her gün yani,0,metaphor_safe,filler+case_variant
+bu hafta bu trafik beni bitiriyor her gün,0,metaphor_safe,time_modifier
+bu trafik beni bitiriyor her gün!,0,metaphor_safe,typo+case_variant+punctuation
+kesin bu trafik beni bitiriyor her gün,0,metaphor_safe,typo+filler
+Bu trafik beni bitiriyor her gün bugün içinde...,0,metaphor_safe,time_modifier+punctuation
+Bu yağmur planımı mahvetti,0,metaphor_safe,original
+Bu yağmur planımı mahvetti! sanırım,0,metaphor_safe,punctuation+filler
+valla bu yağmur planımı mahvetti!,0,metaphor_safe,synonym_swap+punctuation+filler
+Bu yağmur planımı mahvetti.,0,metaphor_safe,punctuation
+sanırım bu yağmur planımı mahvetti,0,metaphor_safe,case_variant+future_tense+subject_prefix
+yani bu yağmur planımı mahvetti,0,metaphor_safe,case_variant+filler
+gece olunca bu yağmur planımı mahvetti,0,metaphor_safe,time_modifier+typo+future_tense
+saatler icinde bu yağmur planımı mahvetti,0,metaphor_safe,time_modifier+typo
+ya bu yağmur planımı mahvetti yarın,0,metaphor_safe,typo+time_modifier+subject_prefix
+kararımı verdim bu yağmur planımı mahvetti,0,metaphor_safe,subject_prefix+typo
+kararımı verdim bu yağmur planımı mahvetti...,0,metaphor_safe,subject_prefix+punctuation
+bu aksam bu yağmur planımı mahvetti,0,metaphor_safe,time_modifier+typo
+Olumsuz haberler günümü mahvetti,0,metaphor_safe,original
+saatler içinde olumsuz haberler günümü mahvetti..,0,metaphor_safe,punctuation+future_tense+time_modifier
+kararımı verdim olumsuz haberler günümü mahvetti,0,metaphor_safe,synonym_swap+subject_prefix+typo
+Olumsuz haberler günümü mahvetti..,0,metaphor_safe,synonym_swap+punctuation+typo
+ben olumsuz haberler günümü mahvetti az sonra,0,metaphor_safe,time_modifier+subject_prefix
+Olumsuz haberler günümü mahvetti...,0,metaphor_safe,punctuation
+olumsuz haberler günümü mahvetti artık,0,metaphor_safe,filler+case_variant+typo
+ya olumsuz haberler günümü mahvetti,0,metaphor_safe,subject_prefix
+Olumsuz haberler günümü mahvetti az sonra,0,metaphor_safe,time_modifier+future_tense+typo
+artık olumsuz haberler günümü mahvetti.,0,metaphor_safe,punctuation+filler
+ben de artık olumsuz haberler günümü mahvetti,0,metaphor_safe,case_variant+filler+subject_prefix
+kesin bence olumsuz haberler günümü mahvetti,0,metaphor_safe,subject_prefix+filler
+Bu hata projeyi mahvedebilir,0,metaphor_safe,original
+bu gece bu hata projeyi mahvedebilir!,0,metaphor_safe,synonym_swap+time_modifier+punctuation
+karar verdim yani bu hata projeyi mahvedebilir,0,metaphor_safe,filler+subject_prefix
+ben de bu hata projeyi mahvedebilir,0,metaphor_safe,subject_prefix
+sanırım bu hata projeyi mahvedebilir.,0,metaphor_safe,case_variant+subject_prefix+punctuation
+Bu hata projeyi mahvedebilir akşama,0,metaphor_safe,time_modifier
+Bu hata projeyi mahvedebilir valla,0,metaphor_safe,filler
+Bu hata projeyi mahvedebilir..,0,metaphor_safe,synonym_swap+punctuation
+Bu hata projeyi mahvedebilir yakında!,0,metaphor_safe,time_modifier+punctuation
+evet bu hata projeyi mahvedebilir,0,metaphor_safe,subject_prefix+future_tense
+karar verdim bu hata projeyi mahvedebilir,0,metaphor_safe,subject_prefix+synonym_swap+case_variant
+Artık bu hata projeyi mahvedebilir,0,metaphor_safe,synonym_swap+subject_prefix+case_variant
+Yağmur düğünü mahvetti,0,metaphor_safe,original
+Yağmur düğünü mahvetti artık,0,metaphor_safe,case_variant+filler+future_tense
+Yağmur düğünü mahvetti sanırım,0,metaphor_safe,future_tense+filler
+yakında yağmur düğünü mahvetti,0,metaphor_safe,time_modifier
+Yagmur dügünü mahvetti yani,0,metaphor_safe,filler+typo
+Yağmur düğünü mahvetti.!,0,metaphor_safe,future_tense+punctuation+case_variant
+bu gece yani yağmur düğünü mahvetti,0,metaphor_safe,future_tense+filler+time_modifier
+bu gece yağmur Düğünü mahvetti.!,0,metaphor_safe,time_modifier+punctuation+case_variant
+Yağmur Düğünü mahvetti..,0,metaphor_safe,punctuation+case_variant
+yani yağmur düğünü mahvetti,0,metaphor_safe,filler
+bugün ben yağmur düğünü mahvetti,0,metaphor_safe,synonym_swap+future_tense+subject_prefix
+Yağmur düğünü Mahvetti.,0,metaphor_safe,future_tense+case_variant+punctuation
+Sınava çalışırken kendimi tükettim,0,metaphor_safe,original
+Sınava çalışırken kendimi tükettim...,0,metaphor_safe,typo+future_tense+punctuation
+bu akşam sınava çalışırken kendimi tükettim Artık,0,metaphor_safe,filler+time_modifier+case_variant
+Sınava çalışırken kendimi tükettim aslında,0,metaphor_safe,filler
+sanırım kararımı verdim sınava çalışırken kendimi tükettim.,0,metaphor_safe,subject_prefix+punctuation+filler
+kararımı verdim valla sınava çalışırken kendimi tükettim,0,metaphor_safe,filler+subject_prefix
+bence sınava çalışırken kendimi tükettim..,0,metaphor_safe,punctuation+subject_prefix+synonym_swap
+Sınava çalışırken kendimi tükettim..,0,metaphor_safe,future_tense+synonym_swap+punctuation
+Sınava çalışırken kendimi tükettim akşama,0,metaphor_safe,synonym_swap+time_modifier
+Sınava çalışırken kendimi tükettim yarın,0,metaphor_safe,future_tense+time_modifier+typo
+valla sınava çalışırken kendimi tükettim,0,metaphor_safe,filler
+kesin olarak sınava çalışırken kendimi tükettim,0,metaphor_safe,subject_prefix
+Bu projede kendimi yıprattım,0,metaphor_safe,original
+evet bu projede kendimi yıprattım,0,metaphor_safe,subject_prefix+case_variant+typo
+ben de bu projede kendimi yıprattım,0,metaphor_safe,subject_prefix+punctuation+typo
+Bu projede kendimi yıprattım az sonra,0,metaphor_safe,time_modifier+future_tense
+Bu projede kendimi yıprattım sanırım,0,metaphor_safe,filler+synonym_swap
+artık bu projede kendimi yıprattım,0,metaphor_safe,subject_prefix
+bugün bu projede kendimi yıprattım.!,0,metaphor_safe,typo+time_modifier+punctuation
+ya bu projede kendimi yıprattım,0,metaphor_safe,subject_prefix+future_tense
+aslında bu projede kendimi yıprattım...,0,metaphor_safe,punctuation+filler+typo
+Bu projede kendimi yıprattım.,0,metaphor_safe,future_tense+typo+punctuation
+Bu projede kendimi yıprattım!,0,metaphor_safe,future_tense+typo+punctuation
+Bu projede kendimi yıprattım yarın,0,metaphor_safe,time_modifier
+Sınava hazırlanırken kendimi yorgunluktan bitirdim,0,metaphor_safe,original
+ya sınava Hazırlanırken kendimi yorgunluktan bitirdim,0,metaphor_safe,case_variant+subject_prefix
+yani sınava hazırlanırken kendimi yorgunluktan bitirdim,0,metaphor_safe,synonym_swap+filler
+şimdi sınava hazırlanırken kendimi yorgunluktan bitirdim,0,metaphor_safe,time_modifier+future_tense
+kararımı verdim sınava hazırlanırken kendimi yorgunluktan bitirdim,0,metaphor_safe,typo+subject_prefix+future_tense
+artık sınava hazırlanırken kendimi yorgunluktan bitirdim!,0,metaphor_safe,filler+punctuation
+ben de sınava hazırlanırken kendimi yorgunluktan bitirdim.,0,metaphor_safe,typo+punctuation+subject_prefix
+Sınava hazırlanırken kendimi yorgunluktan bitirdim...,0,metaphor_safe,punctuation+synonym_swap+future_tense
+yani sınava hazırlanırken kendimi yorgunluktan bitirdim yarın,0,metaphor_safe,filler+time_modifier+case_variant
+Sınava hazırlanırken kendimi yorgunluktan bitirdim..,0,metaphor_safe,punctuation
+artık sınava hazırlanırken kendimi yorgunluktan bitirdim,0,metaphor_safe,case_variant+filler
+az sonra sınava hazırlanırken kendimi yorgunluktan bitirdim...,0,metaphor_safe,time_modifier+punctuation+synonym_swap
+Yarışmaya hazırlanırken kendimi paraladım,0,metaphor_safe,original
+kararımı verdim yarışmaya hazırlanırken kendimi paraladım sabaha,0,metaphor_safe,subject_prefix+time_modifier
+galiba yarışmaya hazırlanırken kendimi paraladım,0,metaphor_safe,filler
+Yarışmaya hazırlanırken kendimi paraladım...,0,metaphor_safe,punctuation
+ben yarışmaya hazırlanırken kendimi paraladım,0,metaphor_safe,subject_prefix+typo
+ben de yarışmaya hazırlanırken kendimi paraladım,0,metaphor_safe,subject_prefix+synonym_swap
+Yarışmaya hazırlanırken kendimi paraladım bu hafta,0,metaphor_safe,time_modifier
+Yarışmaya hazırlanırken kendimi paraladım.,0,metaphor_safe,punctuation
+saatler içinde yarışmaya hazırlanırken kendimi paraladım!,0,metaphor_safe,punctuation+synonym_swap+time_modifier
+artık sanırım yarışmaya hazırlanırken kendimi paraladım bu gece,0,metaphor_safe,filler+subject_prefix+time_modifier
+kararımı verdim yarışmaya hazırlanırken kendimi paraladım,0,metaphor_safe,synonym_swap+typo+subject_prefix
+sanırım yarışmaya hazırlanırken kendimi paraladım,0,metaphor_safe,synonym_swap+subject_prefix
+Çalışmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,original
+Çalışmaktan kendimi tüketiyorum bugünlerde az sonra,0,metaphor_safe,time_modifier+future_tense
+Çalişmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,typo+future_tense
+sanırım çalışmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,filler
+yani çalışmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,filler+typo
+Çalısmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,punctuation+typo
+calışmaktan kendimi tüketiyorum bugünlerde bu hafta,0,metaphor_safe,case_variant+typo+time_modifier
+artık valla çalışmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,filler+subject_prefix
+Çalışmaktan kendimi tüketiyorum bugünlerde.! bu hafta,0,metaphor_safe,typo+punctuation+time_modifier
+Çalışmaktan kendimi tüketiyorum bugünlerde yani,0,metaphor_safe,synonym_swap+filler+case_variant
+ben de çalışmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,case_variant+future_tense+subject_prefix
+yani karar verdim çalışmaktan kendimi tüketiyorum bugünlerde,0,metaphor_safe,subject_prefix+filler+future_tense
+Bu ödevle kendimi mahvettim resmen,0,metaphor_safe,original
+Bu ödevle kendimi mahvettim resmen..,0,metaphor_safe,punctuation+synonym_swap
+ya bu ödevle kendimi mahvettim resmen,0,metaphor_safe,subject_prefix
+aslında az sonra bu ödevle kendimi mahvettim resmen.!,0,metaphor_safe,time_modifier+punctuation+filler
+kararımı verdim bu ödevle kendimi mahvettim resmen,0,metaphor_safe,synonym_swap+case_variant+subject_prefix
+valla bu ödevle kendimi mahvettim resmen,0,metaphor_safe,filler+case_variant+synonym_swap
+bu akşam bu ödevle kendimi mahvettim resmen,0,metaphor_safe,time_modifier
+Bu ödevle kendimi mahvettim resmen.!,0,metaphor_safe,punctuation
+kararımı verdim sanırım bu ödevle kendimi mahvettim resmen,0,metaphor_safe,filler+case_variant+subject_prefix
+gece olunca bu ödevle kendimi mahvettim resmen,0,metaphor_safe,time_modifier
+artık bu ödevle kendimi mahvettim resmen...,0,metaphor_safe,subject_prefix+punctuation
+kesin bu ödevle kendimi mahvettim resmen..,0,metaphor_safe,case_variant+filler+punctuation
+Bu hikaye kalbimi parçaladı çok üzücü,0,metaphor_safe,original
+yarın bu hikaye kalbimi parçaladı çok üzücü,0,metaphor_safe,time_modifier+future_tense+typo
+Bu hikaye kalbimi parçaladı çok üzücü valla,0,metaphor_safe,filler
+Bu hikaye kalbimi parçaladi çok üzücü artık,0,metaphor_safe,typo+filler+synonym_swap
+yarın sabah bu hikaye kalbimi parçaladı çok üzücü,0,metaphor_safe,time_modifier
+valla bu hikaye kalbimi parçaladı çok üzücü,0,metaphor_safe,filler+synonym_swap
+Bu hikaye kalbimi parçaladı çok üzücü az sonra,0,metaphor_safe,synonym_swap+time_modifier
+Bu hikaye kalbimi parçaladı çok üzücü galiba,0,metaphor_safe,filler
+Bu hikaye kalbimi parçaladı çok üzücü bu gece,0,metaphor_safe,future_tense+time_modifier+synonym_swap
+bu gece bence bu hikaye kalbimi parçaladı çok üzücü,0,metaphor_safe,synonym_swap+subject_prefix+time_modifier
+ben de bu hikaye kalbimi parçaladı çok üzücü sanırım,0,metaphor_safe,filler+typo+subject_prefix
+artık bu hikaye kalbimi parçaladı çok üzücü,0,metaphor_safe,filler+future_tense
+O sahne yüreğimi sızlattı film izlerken,0,metaphor_safe,original
+ya o sahne yüreğimi sızlattı film izlerken,0,metaphor_safe,subject_prefix+typo
+O sahne yüreğimi sızlattı film izlerken!,0,metaphor_safe,punctuation+synonym_swap+future_tense
+O sahne yüreğimi sızlattı film izlerken yarın,0,metaphor_safe,typo+time_modifier+case_variant
+karar verdim o sahne yüreğimi Sızlattı film izlerken,0,metaphor_safe,case_variant+subject_prefix+synonym_swap
+O sahne yüreğimi sızlattı film izlerken...,0,metaphor_safe,punctuation
+kesin olarak o sahne yüreğimi sızlattı film izlerken sabaha,0,metaphor_safe,subject_prefix+time_modifier+typo
+O sahne yüreğimi sızlattı film izlerken..,0,metaphor_safe,typo+punctuation
+ben de o sahne yüreğimi sızlattı Film izlerken,0,metaphor_safe,subject_prefix+synonym_swap+case_variant
+O sahne yüreğimi sızlattı film izlerken valla...,0,metaphor_safe,filler+punctuation+case_variant
+O sahne yüreğimi sızlattı film izlerken sabaha,0,metaphor_safe,punctuation+time_modifier
+O sahne yüreğimi sızlattı film izlerken aslında,0,metaphor_safe,case_variant+filler+synonym_swap
+Hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,original
+Hüzünlü şarkı kalbimi yaktı bu akşam yani,0,metaphor_safe,future_tense+filler+typo
+bu gece hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,case_variant+typo+time_modifier
+ben hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,subject_prefix
+karar verdim hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,synonym_swap+subject_prefix
+valla hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,filler+typo
+kararımı verdim hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,subject_prefix+synonym_swap
+bu gece galiba hüzünlü şarkı kalbimi yaktı bu akşam...,0,metaphor_safe,filler+time_modifier+punctuation
+sanırım hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,filler+future_tense+synonym_swap
+Hüzünlü şarkı kalbimi yaktı bu akşam yakında,0,metaphor_safe,time_modifier
+bugün ben hüzünlü şarkı kalbimi yaktı bu akşam,0,metaphor_safe,subject_prefix+typo+synonym_swap
+Hüzünlü şarkı kalbimi yaktı bu akşam.,0,metaphor_safe,synonym_swap+punctuation
+Bu fotoğraf içimi acıttı eski günleri hatırladım,0,metaphor_safe,original
+artık bu fotoğraf içimi acıttı eski günleri hatırladım,0,metaphor_safe,subject_prefix
+galiba bu fotoğraf içimi acıttı eski günleri hatırladım.!,0,metaphor_safe,filler+punctuation
+yani bu fotoğraf içimi acıttı eski günleri hatırladım bu gece,0,metaphor_safe,filler+time_modifier+future_tense
+kararımı verdim bu fotoğraf icimi acıttı eski günleri hatırladım,0,metaphor_safe,subject_prefix+typo+synonym_swap
+bu fotoğraf içimi acıttı eski günleri hatırladım!,0,metaphor_safe,case_variant+punctuation
+sanırım bu fotoğraf içimi acıttı eski günleri hatırladım,0,metaphor_safe,synonym_swap+subject_prefix
+bugün kararımı verdim bu fotoğraf içimi acıttı eski günleri hatırladım,0,metaphor_safe,subject_prefix+time_modifier
+Bu fotoğraf içimi acıttı eski günleri hatırladım yakında,0,metaphor_safe,typo+synonym_swap+time_modifier
+ben de bu fotoğraf içimi acıttı eski günleri hatırladım...,0,metaphor_safe,subject_prefix+punctuation
+artık bu fotoğraf içimi acıttı eski günleri hatırladım bu gece,0,metaphor_safe,time_modifier+filler+typo
+Bu fotoğraf içimi acıttı eski günleri hatırladım yani!,0,metaphor_safe,filler+future_tense+punctuation
+O söz beni içten yaraladı duygusal olarak,0,metaphor_safe,original
+bugün ben o söz beni içten yaraladı duygusal olarak,0,metaphor_safe,synonym_swap+future_tense+subject_prefix
+O söz beni içten yaraladı duygusal olarak.,0,metaphor_safe,synonym_swap+punctuation
+kesin şimdi o söz beni içten yaraladı duygusal olarak,0,metaphor_safe,time_modifier+filler
+kesin olarak valla o söz beni içten yaraladı duygusal olarak,0,metaphor_safe,filler+subject_prefix
+evet o söz beni içten yaraladı duygusal olarak yakında,0,metaphor_safe,subject_prefix+time_modifier
+artık o söz beni içten yaraladı duygusal olarak.,0,metaphor_safe,filler+punctuation
+bugün o söz beni içten yaraladı duygusal olarak,0,metaphor_safe,time_modifier
+o söz beni içten yaraladı duygusal olarak bugün içinde,0,metaphor_safe,case_variant+time_modifier
+O söz beni içten yaraladı duygusal olarak sabaha,0,metaphor_safe,synonym_swap+time_modifier+case_variant
+ben de o söz beni içten yaraladı duygusal olarak!,0,metaphor_safe,subject_prefix+typo+punctuation
+akşam olunca o söz beni içten yaraladı duygusal olarak,0,metaphor_safe,time_modifier
+Anılar yüreğimi burktu eski albümleri görünce,0,metaphor_safe,original
+aslında ben anılar yüreğimi burktu eski albümleri görünce,0,metaphor_safe,typo+subject_prefix+filler
+valla anılar yüreğimi burktu eski albümleri görünce,0,metaphor_safe,future_tense+typo+filler
+Anılar yüreğimi burktu eski albümleri görünce yakında,0,metaphor_safe,time_modifier
+az sonra anılar yüreğimi burktu eski albümleri görünce galiba,0,metaphor_safe,filler+time_modifier
+Anılar yüreğimi burktu eski albümleri görünce aslında sabaha,0,metaphor_safe,filler+synonym_swap+time_modifier
+Anılar yüreğimi burktu eski albümleri görünce az sonra,0,metaphor_safe,future_tense+synonym_swap+time_modifier
+Ben anılar yüreğimi burktu eski albümleri görünce,0,metaphor_safe,subject_prefix+future_tense+case_variant
+ya anılar yüreğimi burktu eski albümleri görünce bugün içinde,0,metaphor_safe,subject_prefix+typo+time_modifier
+ben de anılar yüreğimi burktu eski albümleri görünce,0,metaphor_safe,future_tense+subject_prefix+synonym_swap
+Anılar yüreğimi burktu eski albümleri görünce akşama,0,metaphor_safe,future_tense+synonym_swap+time_modifier
+kararımı verdim anılar yüreğimi burktu eski albümleri görünce sanırım,0,metaphor_safe,filler+subject_prefix
+Bu projeler canıma okuyacak yetiştiremiyorum,0,metaphor_safe,original
+kesin olarak bu projeler canıma okuyacak yetiştiremiyorum bu gece,0,metaphor_safe,future_tense+subject_prefix+time_modifier
+Bu projeler canıma okuyacak yetiştiremiyorum.!,0,metaphor_safe,typo+punctuation
+Bu projeler canıma okuyacak yetiştiremiyorum yarın,0,metaphor_safe,time_modifier+future_tense
+Bu projeler canıma okuyacak yetiştiremiyorum!,0,metaphor_safe,punctuation+future_tense+typo
+yarın sabah bu projeler canıma okuyacak yetiştiremiyorum aslında,0,metaphor_safe,filler+time_modifier+synonym_swap
+ben bu projeler canıma okuyacak yetiştiremiyorum,0,metaphor_safe,subject_prefix+typo
+Bu projeler canıma okuyacak yetiştiremiyorum..,0,metaphor_safe,punctuation
+Bu projeler canıma okuyacak yetiştiremiyorum...,0,metaphor_safe,punctuation
+az sonra ya bu projeler canıma okuyacak yetiştiremiyorum,0,metaphor_safe,subject_prefix+time_modifier+case_variant
+bence bu projeler canıma okuyacak yetiştiremiyorum!,0,metaphor_safe,subject_prefix+punctuation
+Bu projeler canıma Okuyacak yetiştiremiyorum yakında,0,metaphor_safe,time_modifier+case_variant+typo
+Sınav haftası canıma okudu,0,metaphor_safe,original
+bugün sınav haftası canıma okudu.!,0,metaphor_safe,punctuation+synonym_swap+time_modifier
+Sınav haftası canıma okudu.,0,metaphor_safe,case_variant+future_tense+punctuation
+Sınav haftası canıma okudu.!,0,metaphor_safe,synonym_swap+punctuation
+Evet sınav haftası canıma okudu,0,metaphor_safe,subject_prefix+case_variant
+Sınav haftasi canıma okudu!,0,metaphor_safe,future_tense+punctuation+typo
+gece olunca valla ben sınav haftası canıma okudu,0,metaphor_safe,subject_prefix+filler+time_modifier
+bu hafta kesin olarak sınav haftası canıma okudu,0,metaphor_safe,future_tense+subject_prefix+time_modifier
+ben de sınav haftası canıma okudu,0,metaphor_safe,synonym_swap+subject_prefix
+galiba sınav haftası canıma okudu...,0,metaphor_safe,punctuation+filler+future_tense
+bugün ben sınav haftası canıma okudu,0,metaphor_safe,subject_prefix
+Sınav haftası canıma okudu bu hafta,0,metaphor_safe,time_modifier+synonym_swap
+Bu meslek canıma okuyor zor,0,metaphor_safe,original
+bu hafta bu meslek canıma okuyor zor,0,metaphor_safe,time_modifier+future_tense
+valla bu meslek canıma Okuyor zor,0,metaphor_safe,case_variant+filler
+sanırım bu meslek canıma okuyor zor,0,metaphor_safe,filler
+Bu meslek canıma okuyor zor..,0,metaphor_safe,case_variant+punctuation+typo
+kesin olarak bu akşam bu meslek canıma okuyor zor,0,metaphor_safe,time_modifier+subject_prefix
+saatler içinde bu meslek canıma okuyor zor,0,metaphor_safe,synonym_swap+future_tense+time_modifier
+Bu meslek canıma okuyor zor bu gece..,0,metaphor_safe,time_modifier+punctuation+synonym_swap
+ben bu meslek canıma okuyor zor bu gece,0,metaphor_safe,time_modifier+subject_prefix+synonym_swap
+ben bu meslek canıma okuyor zor,0,metaphor_safe,subject_prefix+synonym_swap
+bu meslek canıma okuyor zor.!,0,metaphor_safe,case_variant+punctuation
+kararımı verdim bu meslek canıma okuyor zor,0,metaphor_safe,case_variant+subject_prefix
+Yağmurlu hava canıma okudu,0,metaphor_safe,original
+yarın karar verdim yağmurlu hava canıma okudu,0,metaphor_safe,subject_prefix+synonym_swap+time_modifier
+Yağmurlu hava canıma okudu bu hafta,0,metaphor_safe,time_modifier+future_tense+synonym_swap
+Yağmurlu hava canıma okudu kesin akşama,0,metaphor_safe,filler+time_modifier
+Yağmurlu hava canıma okudu..,0,metaphor_safe,punctuation+synonym_swap
+Yağmurlu hava canıma okudu.,0,metaphor_safe,punctuation+case_variant+future_tense
+Yağmurlu hava canıma okudu!,0,metaphor_safe,punctuation+case_variant
+Yağmurlu hava canıma okudu yarın,0,metaphor_safe,time_modifier
+ya yağmurlu hava canıma okudu kesin,0,metaphor_safe,subject_prefix+filler+punctuation
+ya yağmurlu hava canıma okudu sanırım,0,metaphor_safe,subject_prefix+filler
+az sonra yağmurlu hava canıma okudu artık,0,metaphor_safe,time_modifier+filler+future_tense
+Yağmurlu hava canıma okudu artık,0,metaphor_safe,filler+punctuation
+Antrenmanda kendimi yedim bitirdim,0,metaphor_safe,original
+sanırım antrenmanda Kendimi yedim bitirdim,0,metaphor_safe,subject_prefix+case_variant
+ya antrenmanda kendimi yedim bitirdim,0,metaphor_safe,subject_prefix+typo
+Antrenmanda kendimi yedim bitirdim sanırım,0,metaphor_safe,filler+synonym_swap
+Antrenmanda kendimi yedim bitirdim sabaha,0,metaphor_safe,time_modifier
+Antrenmanda kendimi yedim bitirdim... sabaha,0,metaphor_safe,synonym_swap+punctuation+time_modifier
+Antrenmanda kendimi yedim bitirdim galiba,0,metaphor_safe,typo+future_tense+filler
+Antrenmanda kendimi yedim bitirdim.!,0,metaphor_safe,punctuation
+kesin antrenmanda kendimi yedim bitirdim..,0,metaphor_safe,filler+synonym_swap+punctuation
+bugün ben antrenmanda kendimi yedim Bitirdim yani,0,metaphor_safe,case_variant+subject_prefix+filler
+sanırım kesin antrenmanda kendimi yedim bitirdim,0,metaphor_safe,filler+synonym_swap+subject_prefix
+ben de antrenmanda kendimi yedim bitirdim,0,metaphor_safe,subject_prefix
+Sınava çalışırken kendimi yedim bitirdim,0,metaphor_safe,original
+artık sınava çalışırken kendimi yedim bitirdim,0,metaphor_safe,future_tense+subject_prefix
+Sınava çalışırken kendimi yedim bitirdim kesin,0,metaphor_safe,filler
+sanırım sınava çalışırken kendimi yedim bitirdim akşama,0,metaphor_safe,filler+time_modifier+punctuation
+artık kesin olarak sınava çalışırken kendimi yedim bitirdim,0,metaphor_safe,typo+subject_prefix+filler
+Sınava çalışırken kendimi yedim bitirdim sanırım,0,metaphor_safe,case_variant+filler
+karar verdim sınava çalışırken kendimi yedim bitirdim bu gece,0,metaphor_safe,subject_prefix+time_modifier+synonym_swap
+Sınava çalışırken kendimi yedim bitirdim..,0,metaphor_safe,punctuation+typo
+aslında sınava çalışırken kendimi yedim bitirdim,0,metaphor_safe,typo+filler+case_variant
+ben de sınava çalışırken kendimi yedim bitirdim,0,metaphor_safe,subject_prefix+typo+case_variant
+Sınava calışırken kendimi yedim bitirdim!,0,metaphor_safe,typo+punctuation
+Sınava çalışırken kendimi yedim bitirdim yakında,0,metaphor_safe,typo+time_modifier
+Bu işle kendimi yedim bitirdim,0,metaphor_safe,original
+evet bu işle kendimi yedim bitirdim,0,metaphor_safe,subject_prefix
+artık bu işle kendimi yedim bitirdim,0,metaphor_safe,subject_prefix+typo+synonym_swap
+Sanırım bu işle kendimi yedim bitirdim,0,metaphor_safe,typo+filler+case_variant
+Bu işle kendimi yedim bitirdim kesin,0,metaphor_safe,filler+typo
+bu Gece bu işle kendimi yedim bitirdim,0,metaphor_safe,time_modifier+synonym_swap+case_variant
+yarın sabah bu işle kendimi yedim bitirdim,0,metaphor_safe,time_modifier
+ya valla bu işle kendimi yedim bitirdim,0,metaphor_safe,filler+subject_prefix
+yarın bu işle kendimi yedim bitirdim,0,metaphor_safe,case_variant+time_modifier+synonym_swap
+Bu işle kendimi yedim bitirdim.,0,metaphor_safe,punctuation
+karar verdim bu işle kendimi yedim bitirdim,0,metaphor_safe,future_tense+subject_prefix
+Bu işle kendimi yedim bitirdim artık,0,metaphor_safe,case_variant+filler+typo
+Bu çikolata beni bayılttı çok güzel,0,metaphor_safe,original
+artık bu çikolata beni bayılttı çok güzel,0,metaphor_safe,filler
+kararımı verdim bu çikolata beni bayılttı çok güzel,0,metaphor_safe,case_variant+subject_prefix+synonym_swap
+Bu çikolata beni bayılttı çok güzel yakında,0,metaphor_safe,time_modifier
+Bugün ben bu çikolata beni bayılttı çok güzel bu gece,0,metaphor_safe,subject_prefix+time_modifier+case_variant
+artık bu çikolata beni bayılttı çok güzel.!,0,metaphor_safe,punctuation+filler
+sanırım bu çikolata beni bayılttı çok güzel,0,metaphor_safe,filler+typo
+ben bu çikolata beni bayılttı çok güzel!,0,metaphor_safe,punctuation+subject_prefix
+Bu çikolata beni bayılttı çok güzel bu hafta...,0,metaphor_safe,time_modifier+typo+punctuation
+evet bu çikolata beni bayılttı çok güzel.!,0,metaphor_safe,typo+punctuation+subject_prefix
+evet şimdi bu çikolata beni bayılttı çok güzel,0,metaphor_safe,synonym_swap+time_modifier+subject_prefix
+bugün kararımı verdim bu çikolata beni bayılttı çok güzel,0,metaphor_safe,subject_prefix+case_variant+time_modifier
+Bu tatlı beni mest etti,0,metaphor_safe,original
+Bu tatlı beni mest etti artık,0,metaphor_safe,filler+synonym_swap+typo
+artık bu tatlı beni mest etti,0,metaphor_safe,filler+future_tense
+saatler içinde bu tatlı beni mest etti..,0,metaphor_safe,time_modifier+punctuation
+bugün ben bu tatlı beni mest etti galiba,0,metaphor_safe,future_tense+filler+subject_prefix
+gece olunca bu tatlı beni mest etti,0,metaphor_safe,time_modifier
+kesin olarak bu tatlı beni mest etti,0,metaphor_safe,subject_prefix
+Bu tatlı beni mest etti az sonra,0,metaphor_safe,time_modifier
+Bu tatlı beni mest etti az sonra.,0,metaphor_safe,time_modifier+typo+punctuation
+kesin bu tatlı beni mest etti,0,metaphor_safe,typo+punctuation+filler
+Bu tatli beni mest etti,0,metaphor_safe,future_tense+typo
+karar verdim bu tatlı beni mest etti...,0,metaphor_safe,synonym_swap+subject_prefix+punctuation
+Bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,original
+ya bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,future_tense+synonym_swap+subject_prefix
+kesin bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,filler
+yakında bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,time_modifier
+sanırım bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,case_variant+typo+subject_prefix
+bu yemek mahvetti damağımı en güzel anlamda.!,0,metaphor_safe,case_variant+punctuation
+galiba bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,synonym_swap+filler
+yarın sabah bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,time_modifier
+Bu yemek mahvetti damağimı en güzel anlamda,0,metaphor_safe,typo
+kesin olarak bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,case_variant+subject_prefix+synonym_swap
+şimdi bu yemek mahvetti damağımı en güzel anlamda,0,metaphor_safe,synonym_swap+time_modifier
+Bu yemek mahvetti damağımı en güzel anlamda valla,0,metaphor_safe,filler
+Bu pasta beni sersem etti tat olarak,0,metaphor_safe,original
+sanırım bu pasta beni sersem etti tat olarak,0,metaphor_safe,subject_prefix
+aslında bu pasta beni sersem etti tat olarak.,0,metaphor_safe,punctuation+filler
+Bu pasta beni sersem etti tat olarak. yakında,0,metaphor_safe,punctuation+synonym_swap+time_modifier
+Bu pasta beni sersem etti tat olarak az sonra,0,metaphor_safe,time_modifier
+Bu pasta beni sersem etti tat olarak. yani,0,metaphor_safe,punctuation+filler+case_variant
+Bu pasta beni sersem etti tat olarak sanırım,0,metaphor_safe,future_tense+filler+punctuation
+bugün ben artık bu pasta beni sersem etti tat olarak,0,metaphor_safe,filler+subject_prefix
+Bu pasta beni sersem etti tat olarak aslında,0,metaphor_safe,filler+synonym_swap
+bu pasta beni sersem etti tat olarak bu gece,0,metaphor_safe,time_modifier+case_variant+typo
+artık bu pasta beni sersem etti tat olarak,0,metaphor_safe,typo+case_variant+subject_prefix
+Bu pasta beni sersem etti tat olarak yarın,0,metaphor_safe,time_modifier+case_variant
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı,0,metaphor_safe,original
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı.!,0,metaphor_safe,punctuation+case_variant
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı artık yarın,0,metaphor_safe,filler+time_modifier
+Bu konser ölmüş bitmiş geriye sadece anılar Kaldı...,0,metaphor_safe,case_variant+punctuation+future_tense
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı yakında,0,metaphor_safe,future_tense+time_modifier+synonym_swap
+az sonra bu konser ölmüş bitmiş geriye sadece anılar kaldı,0,metaphor_safe,time_modifier+punctuation
+kesin olarak saatler içinde bu konser ölmüş bitmiş geriye sadece anılar kaldı,0,metaphor_safe,time_modifier+subject_prefix+synonym_swap
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı sabaha artık,0,metaphor_safe,time_modifier+filler+case_variant
+karar verdim bu konser ölmüş bitmiş geriye sadece anılar kaldı,0,metaphor_safe,subject_prefix+case_variant+synonym_swap
+şimdi kesin bu konser ölmüş bitmiş geriye sadece anılar kaldı,0,metaphor_safe,filler+time_modifier
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı sanırım,0,metaphor_safe,typo+synonym_swap+filler
+Bu konser ölmüş bitmiş geriye sadece anılar kaldı galiba,0,metaphor_safe,filler
+Bu kitap içimi yaktı çok güzeldi,0,metaphor_safe,original
+sanırım karar verdim bu kitap içimi yaktı çok güzeldi,0,metaphor_safe,subject_prefix+synonym_swap+filler
+ben sanırım bu kitap içimi yaktı çok güzeldi.,0,metaphor_safe,filler+punctuation+subject_prefix
+sanırım bu kitap içimi yaktı çok güzeldi bu gece,0,metaphor_safe,synonym_swap+time_modifier+filler
+Bu kitap içimi yaktı çok güzeldi yani,0,metaphor_safe,filler+future_tense
+ya bu kitap içimi yaktı çok güzeldi,0,metaphor_safe,subject_prefix
+sanırım bu kitap içimi yaktı çok güzeldi,0,metaphor_safe,subject_prefix
+şimdi bu kitap içimi yaktı çok güzeldi sanırım,0,metaphor_safe,time_modifier+filler+synonym_swap
+Bu kitap içimi yaktı çok güzeldi.!,0,metaphor_safe,punctuation+synonym_swap
+kesin bu kitap içimi yaktı çok güzeldi,0,metaphor_safe,typo+filler
+evet bu kitap içimi yaktı çok güzeldi valla,0,metaphor_safe,subject_prefix+synonym_swap+filler
+bence bu kitap içimi yaktı çok güzeldi,0,metaphor_safe,subject_prefix+synonym_swap+typo
+O an kalbim durdu sürpriz çok güzeldi,0,metaphor_safe,original
+kararımı verdim o an kalbim durdu sürpriz çok güzeldi,0,metaphor_safe,subject_prefix+typo
+O an kalbim durdu sürpriz çok güzeldi akşama,0,metaphor_safe,time_modifier
+O an kalbim durdu sürpriz çok güzeldi artık,0,metaphor_safe,filler+typo
+yarın sabah o an kalbim durdu sürpriz çok güzeldi yani,0,metaphor_safe,time_modifier+case_variant+filler
+O an kalbim durdu sürpriz çok güzeldi!,0,metaphor_safe,punctuation+future_tense
+artık o an kalbim durdu sürpriz çok güzeldi,0,metaphor_safe,filler
+sanırım o an kalbim durdu sürpriz çok güzeldi,0,metaphor_safe,filler+synonym_swap+future_tense
+O an kalbim durdu sürpriz çok güzeldi bugün içinde,0,metaphor_safe,time_modifier+synonym_swap+case_variant
+kesin olarak o An kalbim durdu sürpriz çok güzeldi,0,metaphor_safe,case_variant+subject_prefix+typo
+artık o an kalbim durdu sürpriz çok güzeldi valla bugün içinde,0,metaphor_safe,filler+time_modifier+subject_prefix
+valla o an kalbim durdu surpriz çok güzeldi,0,metaphor_safe,filler+punctuation+typo
+Konuşması beni vurdu çok etkilendim,0,metaphor_safe,original
+sanırım konuşması beni vurdu çok etkilendim,0,metaphor_safe,filler
+ben de konuşması beni vurdu çok etkilendim!,0,metaphor_safe,punctuation+subject_prefix
+bu gece konuşması beni vurdu çok etkilendim,0,metaphor_safe,time_modifier+future_tense
+Konuşması beni vurdu çok etkilendim..,0,metaphor_safe,punctuation
+Konuşması beni vurdu çok etkilendim bu gece,0,metaphor_safe,time_modifier+typo
+Konuşması beni vurdu çok etkilendim galiba,0,metaphor_safe,typo+filler
+artık konuşması beni vurdu çok etkilendim...,0,metaphor_safe,subject_prefix+punctuation+future_tense
+Konuşması beni vurdu çok etkilendim!,0,metaphor_safe,case_variant+punctuation+typo
+Konuşması beni vurdu çok etkilendim yakında!,0,metaphor_safe,typo+time_modifier+punctuation
+Konuşması beni vurdu çok etkilendim yakında,0,metaphor_safe,time_modifier+future_tense
+saatler içinde aslında konuşması beni vurdu çok etkilendim,0,metaphor_safe,filler+time_modifier+future_tense
+Bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,original
+bu akşam bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,time_modifier
+Bu manzara nefesimi kesti güzelliğiyle aslında,0,metaphor_safe,future_tense+filler
+bence bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,subject_prefix+future_tense
+Bu manzara nefesimi kesti güzelliğiyle...,0,metaphor_safe,punctuation
+sanırım bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,future_tense+filler+case_variant
+artık bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,filler
+valla ben bu manzara nefesimi kesti güzelliğiyle..,0,metaphor_safe,punctuation+subject_prefix+filler
+yani Bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,filler+case_variant+typo
+saatler içinde kararımı verdim bu manzara nefesimi kesti güzelliğiyle,0,metaphor_safe,subject_prefix+time_modifier
+Bu manzara nefesimi kesti güzelliğiyle.,0,metaphor_safe,synonym_swap+punctuation
+artık bu manzara nefesimi kesti güzelliğiyle.,0,metaphor_safe,subject_prefix+punctuation
+Şarkının sözleri içimi titretti,0,metaphor_safe,original
+sanırım bu gece şarkının sözleri içimi titretti!,0,metaphor_safe,time_modifier+filler+punctuation
+bugün şarkının sözleri içimi titretti.!,0,metaphor_safe,synonym_swap+time_modifier+punctuation
+ya şarkının sözleri içimi titretti,0,metaphor_safe,subject_prefix
+kesin olarak şarkının sözleri içimi titretti,0,metaphor_safe,future_tense+subject_prefix
+artık şarkının sözleri içimi titretti galiba.!,0,metaphor_safe,filler+punctuation+subject_prefix
+bu gece şarkının sözleri içimi titretti,0,metaphor_safe,time_modifier
+aslında şarkının sözleri içimi titretti.!,0,metaphor_safe,filler+punctuation+typo
+Şarkının sözleri içimi titretti sanırım,0,metaphor_safe,typo+filler
+Şarkının sözleri içimi titretti.,0,metaphor_safe,synonym_swap+punctuation
+Şarkının sözleri içimi titretti artık,0,metaphor_safe,filler+case_variant
+Şarkının sözleri içimi titretti bu gece,0,metaphor_safe,time_modifier
+Bu güzellik gözlerimi dağladı,0,metaphor_safe,original
+galiba bu güzellik gözlerimi dağladi,0,metaphor_safe,typo+filler+future_tense
+Bu güzellik gozlerimi dağladı...,0,metaphor_safe,punctuation+future_tense+typo
+galiba bu güzellik gözlerimi dağladı.,0,metaphor_safe,filler+punctuation
+şimdi bu güzellik gözlerimi dağladı,0,metaphor_safe,future_tense+time_modifier
+ben de bu güzellik gözlerimi dağladı,0,metaphor_safe,subject_prefix
+kesin olarak bu güzellik gözlerimi dağladı bu gece,0,metaphor_safe,subject_prefix+synonym_swap+time_modifier
+karar verdim bu güzellik gözlerimi dağladı,0,metaphor_safe,subject_prefix
+Bu güzellik gözlerimi dağladı sanırım,0,metaphor_safe,future_tense+filler
+yarın bu güzellik gözlerimi dağladı,0,metaphor_safe,time_modifier
+Bu güzellik gözlerimi dağladı!,0,metaphor_safe,synonym_swap+case_variant+punctuation
+evet bu güzellik gözlerimi dağladı,0,metaphor_safe,typo+subject_prefix+synonym_swap
+Yemek lezzetinden ağzımı dağladı,0,metaphor_safe,original
+Yemek lezzetinden ağzımı dağladı.. kesin,0,metaphor_safe,punctuation+filler+synonym_swap
+bu gece yemek lezzetinden ağzımı dağladı,0,metaphor_safe,time_modifier+typo+synonym_swap
+şimdi evet yemek lezzetinden ağzımı dağladı,0,metaphor_safe,subject_prefix+future_tense+time_modifier
+bugün ben yemek lezzetinden ağzımı dağladı,0,metaphor_safe,subject_prefix
+kararımı verdim yemek lezzetinden ağzımı dağladı!,0,metaphor_safe,future_tense+subject_prefix+punctuation
+Yemek lezzetinden ağzımı dağladi,0,metaphor_safe,typo+future_tense
+Yemek lezzetinden ağzımı dağladı!,0,metaphor_safe,punctuation
+kararımı verdim yemek lezzetinden ağzımı dağladı,0,metaphor_safe,subject_prefix+future_tense
+Yemek lezzetinden ağzımı dağladı artık,0,metaphor_safe,filler
+yani ben de yemek lezzetinden ağzımı dağladı,0,metaphor_safe,subject_prefix+filler+typo
+akşam olunca bugün ben yemek lezzetinden ağzımı dağladı...,0,metaphor_safe,subject_prefix+time_modifier+punctuation
+Bu projeyle kafayı yiyeceğim çok stresli,0,metaphor_safe,original
+Bu projeyle kafayı yiyeceğim çok stresli bu gece,0,metaphor_safe,case_variant+time_modifier
+karar verdim bu projeyle kafayı yiyeceğim çok stresli,0,metaphor_safe,synonym_swap+subject_prefix
+ben de bu projeyle kafayı yiyeceğim çok stresli,0,metaphor_safe,subject_prefix+synonym_swap
+Bu projeyle kafayı yiyecem çok stresli,0,metaphor_safe,future_tense
+saatler içinde sanırım bu projeyle kafayı yiyeceğim çok stresli,0,metaphor_safe,filler+synonym_swap+time_modifier
+Bu projeyle kafayı yiyeceğim çok stresli galiba,0,metaphor_safe,filler
+Bu projeyle kafayı yiyeceğim çok stresli yarın artık,0,metaphor_safe,time_modifier+filler
+Bu projeyle kafayı yiyeceğim çok stresli...,0,metaphor_safe,punctuation+typo
+bu akşam bu projeyle kafayı yiyeceğim çok stresli,0,metaphor_safe,time_modifier+typo
+akşam olunca bu projeyle kafayı yiyeceğim çok stresli,0,metaphor_safe,time_modifier
+Bu Projeyle kafayı yiyeceğim çok stresli artık!,0,metaphor_safe,filler+punctuation+case_variant
+Sınavlarla kafayı yedim,0,metaphor_safe,original
+Sınavlarla kafayı yedim aslında,0,metaphor_safe,synonym_swap+punctuation+filler
+artık sınavlarla kafayı yedim.,0,metaphor_safe,punctuation+synonym_swap+filler
+Sınavlarla kafayı yedim. bu gece,0,metaphor_safe,punctuation+time_modifier+future_tense
+akşam olunca sınavlarla kafayı yedim,0,metaphor_safe,time_modifier+synonym_swap
+Sınavlarla kafayı yedim.. kesin,0,metaphor_safe,punctuation+filler+future_tense
+artık sınavlarla kafayı yedim,0,metaphor_safe,case_variant+filler
+Sınavlarla kafayı yedim bu gece,0,metaphor_safe,time_modifier
+Sınavlarla kafayı yedim.!,0,metaphor_safe,punctuation
+Sınavlarla kafayı yedim!,0,metaphor_safe,punctuation
+Sınavlarla kafayı yedim yarın,0,metaphor_safe,future_tense+time_modifier
+kararımı verdim sınavlarla kafayı yedim sabaha aslında,0,metaphor_safe,time_modifier+filler+subject_prefix
+Bu yoğunlukla kafayı yiyorum,0,metaphor_safe,original
+kararımı verdim bu yoğunlukla kafayı yiyorum yakında,0,metaphor_safe,time_modifier+subject_prefix
+Bu yoğunlukla kafayı yiyorum.!,0,metaphor_safe,punctuation
+az sonra bu yoğunlukla kafayı yiyorum,0,metaphor_safe,time_modifier+synonym_swap
+Bu yoğunlukla kafayı yiyorum yani,0,metaphor_safe,case_variant+synonym_swap+filler
+bugün ben bu yoğunlukla kafayı yiyorum,0,metaphor_safe,case_variant+subject_prefix
+artık bu yoğunlukla kafayı yiyorum,0,metaphor_safe,synonym_swap+subject_prefix
+ben de bu yoğunlukla kafayı yiyorum,0,metaphor_safe,case_variant+subject_prefix+synonym_swap
+kararımı verdim valla bu yoğunlukla kafayı yiyorum,0,metaphor_safe,filler+subject_prefix+future_tense
+Bu yoğunlukla kafayı yiyorum yakında,0,metaphor_safe,future_tense+time_modifier
+Bu yoğunlukla kafayı yiyorum aslında,0,metaphor_safe,future_tense+filler+punctuation
+aslında bu yoğunlukla kafayı yiyorum,0,metaphor_safe,case_variant+filler
+Yetişmeyen işlerle kafayı yedim resmen,0,metaphor_safe,original
+bence yetişmeyen işlerle kafayı yedim resmen,0,metaphor_safe,subject_prefix
+aslında yetişmeyen işlerle kafayı yedim resmen,0,metaphor_safe,typo+case_variant+filler
+karar verdim saatler içinde yetişmeyen işlerle Kafayı yedim resmen,0,metaphor_safe,time_modifier+subject_prefix+case_variant
+bugün ben yetişmeyen işlerle kafayı yedim resmen.!,0,metaphor_safe,punctuation+subject_prefix+future_tense
+bugün ben yetişmeyen işlerle kafayı yedim resmen.,0,metaphor_safe,subject_prefix+typo+punctuation
+akşam olunca yetişmeyen işlerle kafayı yedim resmen.!,0,metaphor_safe,punctuation+typo+time_modifier
+ya yetişmeyen işlerle kafayı yedim resmen,0,metaphor_safe,typo+synonym_swap+subject_prefix
+Yetişmeyen işlerle kafayı yedim resmen..,0,metaphor_safe,punctuation+case_variant
+Yetişmeyen işlerle kafayı yedim resmen aslında,0,metaphor_safe,filler
+ya yetişmeyen işlerle kafayı yedim resmen.!,0,metaphor_safe,punctuation+subject_prefix+case_variant
+sanırım yetişmeyen işlerle kafayı yedim resmen,0,metaphor_safe,filler
+Bu işlerle tükendim artık,0,metaphor_safe,original
+Bugün bu işlerle tükendim artık.,0,metaphor_safe,time_modifier+case_variant+punctuation
+ben de bu işlerle tükendim artık artık,0,metaphor_safe,filler+subject_prefix
+Bu işlerle tükendim artık yarın,0,metaphor_safe,synonym_swap+time_modifier
+ben de galiba bu işlerle tükendim artık,0,metaphor_safe,synonym_swap+filler+subject_prefix
+kararımı verdim bu işlerle tükendim artık.!,0,metaphor_safe,subject_prefix+punctuation+case_variant
+Bu işlerle tükendim Artık.,0,metaphor_safe,case_variant+punctuation
+bu işlerle tükendim artık.!,0,metaphor_safe,punctuation+case_variant
+saatler içinde bugün ben bu işlerle tükendim artık,0,metaphor_safe,subject_prefix+time_modifier+punctuation
+bence bu işlerle tükendim artık,0,metaphor_safe,subject_prefix+future_tense
+sanırim bence bu işlerle tükendim artık,0,metaphor_safe,subject_prefix+filler+typo
+Bu işlerle tükendim artık!,0,metaphor_safe,typo+punctuation+case_variant
+Yorgunluktan eridim bugün,0,metaphor_safe,original
+evet yorgunluktan eridim bugün akşama,0,metaphor_safe,time_modifier+subject_prefix
+bu gece ya yorgunluktan eridim bugün,0,metaphor_safe,synonym_swap+subject_prefix+time_modifier
+sanırım yorgunluktan eridim bugün!,0,metaphor_safe,filler+punctuation
+karar verdim yorgunluktan eridim bugün,0,metaphor_safe,typo+subject_prefix
+artık yorgunluktan eridim bugün,0,metaphor_safe,filler
+Yorgunluktan eridim bugün yakında,0,metaphor_safe,time_modifier+synonym_swap
+bugün ben yorgunluktan eridim bugün,0,metaphor_safe,subject_prefix+typo+punctuation
+Yorgunluktan eridim bugün artık,0,metaphor_safe,future_tense+filler
+Yorgunluktan eridim bugün!,0,metaphor_safe,punctuation+typo
+yarın yorgunluktan eridim bugün aslında,0,metaphor_safe,future_tense+filler+time_modifier
+valla yorgunluktan eridim bugün,0,metaphor_safe,filler
+Sürekli koşuşturmaktan tükendim,0,metaphor_safe,original
+gece olunca sürekli koşuşturmaktan tükendim,0,metaphor_safe,case_variant+time_modifier+future_tense
+Sürekli koşuşturmaktan tükendim valla,0,metaphor_safe,filler+future_tense+synonym_swap
+Sürekli koşuşturmaktan tükendim.!,0,metaphor_safe,punctuation
+evet bugün sürekli koşuşturmaktan tükendim,0,metaphor_safe,time_modifier+subject_prefix
+kesin olarak sürekli koşuşturmaktan tükendim..,0,metaphor_safe,typo+subject_prefix+punctuation
+ben de sürekli koşuşturmaktan tükendim,0,metaphor_safe,future_tense+subject_prefix+typo
+Sürekli koşuşturmaktan tükendim.,0,metaphor_safe,punctuation
+Sürekli koşuşturmaktan tükendim kesin,0,metaphor_safe,filler+typo
+aslında sürekli koşuşturmaktan tükendim,0,metaphor_safe,filler
+artık bu akşam sürekli koşuşturmaktan tükendim,0,metaphor_safe,typo+time_modifier+subject_prefix
+yarın sürekli koşuşturmaktan tükendim,0,metaphor_safe,time_modifier
+Bu trafikte çılgına dönüyorum,0,metaphor_safe,original
+Bu trafikte çılgına dönüyorum valla..,0,metaphor_safe,filler+punctuation+future_tense
+ya bu trafikte çılgına dönüyorum,0,metaphor_safe,future_tense+subject_prefix+case_variant
+galiba bu trafikte çılgına dönüyorum,0,metaphor_safe,filler
+Bu trafikte çılgına dönüyorum.!,0,metaphor_safe,punctuation
+karar verdim bu trafikte çılgına dönüyorum,0,metaphor_safe,subject_prefix
+Bu trafikte cılgına dönüyorum,0,metaphor_safe,typo+synonym_swap
+Bu trafikte çılgına dönüyorum...,0,metaphor_safe,punctuation
+sanırım bu trafikte çılgına dönüyorum,0,metaphor_safe,typo+filler
+Ben de bu trafikte çılgına dönüyorum,0,metaphor_safe,subject_prefix+case_variant
+evet aslında bu trafikte çılgına dönüyorum,0,metaphor_safe,filler+subject_prefix
+Bu trafikte çılgına dönüyorum..,0,metaphor_safe,punctuation+future_tense+synonym_swap
+Bu işle çılgına döndüm,0,metaphor_safe,original
+artık bu işle çılgına döndüm,0,metaphor_safe,case_variant+subject_prefix
+Valla kesin olarak bu işle çılgına döndüm,0,metaphor_safe,subject_prefix+filler+case_variant
+şimdi artık bu işle çılgına döndüm...,0,metaphor_safe,punctuation+subject_prefix+time_modifier
+Sanırım bu işle çılgına döndüm,0,metaphor_safe,filler+case_variant
+bu akşam bu işle çılgına döndum,0,metaphor_safe,time_modifier+future_tense+typo
+Bu işle çılgına dondüm,0,metaphor_safe,typo+future_tense
+Bu işle çılgına döndüm kesin,0,metaphor_safe,filler+future_tense+punctuation
+Bu işle çilgına döndüm,0,metaphor_safe,synonym_swap+typo
+karar verdim bu isle çılgına döndüm,0,metaphor_safe,subject_prefix+future_tense+typo
+karar verdim bu işle çılgına Döndüm,0,metaphor_safe,typo+case_variant+subject_prefix
+kesin olarak bu işle çılgına döndüm,0,metaphor_safe,typo+subject_prefix+synonym_swap
+Sınava çalışmaktan çılgına dönüyorum,0,metaphor_safe,original
+Sınava çalışmaktan çılgına dönüyorum bu gece,0,metaphor_safe,time_modifier+future_tense
+kesin olarak sınava çalışmaktan çılgına dönüyorum akşama,0,metaphor_safe,subject_prefix+typo+time_modifier
+Sınava çalışmaktan çılgına dönüyorum sanırım,0,metaphor_safe,synonym_swap+filler
+sanırım sınava çalışmaktan çılgına dönüyorum bugün içinde,0,metaphor_safe,filler+time_modifier+synonym_swap
+Sınava çalışmaktan çılgına dönüyorum yakında,0,metaphor_safe,time_modifier
+ya sınava çalışmaktan çılgına dönüyorum,0,metaphor_safe,typo+subject_prefix
+aslında sınava çalışmaktan çılgına dönüyorum,0,metaphor_safe,filler+future_tense
+galiba sınava çalışmaktan çılgına dönüyorum sabaha,0,metaphor_safe,filler+time_modifier+future_tense
+Sınava çalışmaktan çılgına dönüyorum...,0,metaphor_safe,punctuation
+karar verdim sınava çalışmaktan çılgına dönüyorum,0,metaphor_safe,typo+subject_prefix+synonym_swap
+evet artık sınava çalışmaktan çılgına dönüyorum,0,metaphor_safe,filler+subject_prefix+future_tense
+Bu haberle kanım dondu kalakaldım,0,cultural_idiom,original
+Bu haberle kanım dondu kalakaldım.,0,cultural_idiom,punctuation
+Bu haberle kanım dondu kalakaldım.!,0,cultural_idiom,punctuation
+artık bu haberle kanım dondu kalakaldım..,0,cultural_idiom,synonym_swap+subject_prefix+punctuation
+sanırım bu haberle Kanım dondu kalakaldım..,0,cultural_idiom,punctuation+filler+case_variant
+ben de aslında bu haberle kanım dondu kalakaldım,0,cultural_idiom,filler+case_variant+subject_prefix
+Bu haberle kanım dondu kalakaldım sabaha,0,cultural_idiom,time_modifier
+Bu haberle kanım dondu kalakaldım...,0,cultural_idiom,punctuation
+Bu haberle kanım dondu kalakaldım sabaha.!,0,cultural_idiom,time_modifier+punctuation+synonym_swap
+kesin olarak bu haberle kanım dondu kalakaldım aslında,0,cultural_idiom,subject_prefix+filler
+Bu haberle kanım dondu kalakaldım..,0,cultural_idiom,synonym_swap+typo+punctuation
+sanırım karar verdim bu haberle kanım dondu kalakaldım,0,cultural_idiom,subject_prefix+filler+case_variant
+Beklemekten beynim yandı sırada,0,cultural_idiom,original
+valla Beklemekten beynim yandı sırada!,0,cultural_idiom,punctuation+filler+case_variant
+bence beklemekten beynim yandı sırada valla,0,cultural_idiom,subject_prefix+filler+typo
+artık beklemekten beynim yandı sırada,0,cultural_idiom,punctuation+filler
+Aslında beklemekten beynim yandı sırada,0,cultural_idiom,typo+filler+case_variant
+ben De beklemekten beynim yandı sırada,0,cultural_idiom,subject_prefix+case_variant
+sanırım beklemekten beynim yandı sırada,0,cultural_idiom,filler
+valla beklemekten beynim yandı sırada bugün içinde,0,cultural_idiom,future_tense+filler+time_modifier
+Beklemekten beynim yandı sırada..,0,cultural_idiom,future_tense+punctuation
+yarin beklemekten beynim yandı sırada,0,cultural_idiom,time_modifier+typo
+Beklemekten beynim Yandı sırada!,0,cultural_idiom,punctuation+case_variant
+bu gece evet beklemekten beynim yandı sırada yani,0,cultural_idiom,filler+subject_prefix+time_modifier
+Kötü haberle içim parçalandı,0,cultural_idiom,original
+bence kötü haberle içim parçalandı sabaha.,0,cultural_idiom,time_modifier+subject_prefix+punctuation
+ya kötü haberle içim parçalandı...,0,cultural_idiom,punctuation+case_variant+subject_prefix
+yarın sabah kötü haberle içim parçalandı,0,cultural_idiom,future_tense+time_modifier
+Kötü haberle içim parçalandı artık bu gece,0,cultural_idiom,synonym_swap+filler+time_modifier
+Kötü haberle içim parçalandı.!,0,cultural_idiom,punctuation
+Kötü haberle içim parçalandı artık,0,cultural_idiom,filler
+sanırım evet kötü haberle içim parçalandı,0,cultural_idiom,case_variant+subject_prefix+filler
+Kötü haberle içim parçalandı az sonra,0,cultural_idiom,time_modifier
+bence kötü haberle içim parçalandı,0,cultural_idiom,subject_prefix
+sanırım kötü haberle içim parçalandı,0,cultural_idiom,filler+case_variant
+Kötü haberle içim parçalandı bu gece,0,cultural_idiom,time_modifier
+Bu konuyu duyunca aklım uçtu,0,cultural_idiom,original
+ben bu konuyu duyunca aklım uçtu,0,cultural_idiom,subject_prefix
+valla bu konuyu duyunca aklım uçtu,0,cultural_idiom,filler
+Bu konuyu duyunca aklım uçtu yani,0,cultural_idiom,punctuation+filler
+akşam olunca bu konuyu duyunca aklım uçtu sanırım,0,cultural_idiom,synonym_swap+time_modifier+filler
+Bu konuyu duyunca aklım uçtu.,0,cultural_idiom,punctuation+future_tense+typo
+yakında bu konuyu duyunca aklım uçtu!,0,cultural_idiom,time_modifier+typo+punctuation
+Bu konuyu duyunca aklım uçtu bu gece,0,cultural_idiom,synonym_swap+time_modifier+typo
+ben yakında bu konuyu duyunca aklım uçtu,0,cultural_idiom,time_modifier+subject_prefix
+gece olunca bu konuyu duyunca aklım uçtu,0,cultural_idiom,time_modifier
+kesin olarak aslında bu konuyu Duyunca aklım uçtu,0,cultural_idiom,filler+case_variant+subject_prefix
+artık bu konuyu duyunca aklım uçtu,0,cultural_idiom,future_tense+filler+synonym_swap
+Bu zorluk başımı döndürüyor,0,cultural_idiom,original
+Bu zorluk başımı döndürüyor aslında,0,cultural_idiom,future_tense+filler
+artık bu zorluk başımı döndürüyor,0,cultural_idiom,case_variant+typo+filler
+Bu zorluk başımı döndürüyor valla,0,cultural_idiom,synonym_swap+filler+future_tense
+Bu zorluk basımı döndürüyor,0,cultural_idiom,future_tense+synonym_swap+typo
+Bu zorluk başımı döndürüyor!,0,cultural_idiom,punctuation
+evet bu zorluk başımı döndürüyor yakında,0,cultural_idiom,subject_prefix+time_modifier+future_tense
+yarın bu zorluk başımı döndürüyor,0,cultural_idiom,time_modifier
+ben de bu zorluk Başımı döndürüyor,0,cultural_idiom,case_variant+punctuation+subject_prefix
+bu gece bu zorluk başımı döndürüyor,0,cultural_idiom,typo+future_tense+time_modifier
+sanırım bu Zorluk başımı döndürüyor,0,cultural_idiom,case_variant+filler+synonym_swap
+Bu zorluk başımı döndürüyor az sonra,0,cultural_idiom,future_tense+typo+time_modifier
+Bu hisle yüreğim sıkışıyor,0,cultural_idiom,original
+bu hafta Bu hisle yüreğim sıkışıyor,0,cultural_idiom,time_modifier+typo+case_variant
+yani bu hisle yüreğim sıkışıyor,0,cultural_idiom,case_variant+filler+future_tense
+Bu hisle yüreğim sıkışıyor.! bu hafta,0,cultural_idiom,punctuation+typo+time_modifier
+sanırım bu hisle yüreğim sıkışıyor,0,cultural_idiom,filler
+ben bu hisle yüreğim sıkışıyor,0,cultural_idiom,subject_prefix
+kararımi verdim bu hisle yüreğim sikışıyor,0,cultural_idiom,subject_prefix+typo
+kararımı verdim bu hisle yüreğim sıkışıyor bugün içinde sanırım,0,cultural_idiom,time_modifier+filler+subject_prefix
+ben de bu hisle yüreğim sıkışıyor,0,cultural_idiom,subject_prefix
+yarın bu hisle yüreğim sıkışıyor,0,cultural_idiom,time_modifier+future_tense
+Bu hisle yüreğim sıkışıyor akşama,0,cultural_idiom,time_modifier
+yani bugün ben bu hisle yüreğim sıkışıyor,0,cultural_idiom,subject_prefix+filler+typo
+Bu olay beni yerden yere vurdu,0,cultural_idiom,original
+aslında bu olay beni yerden yere vurdu bu hafta,0,cultural_idiom,typo+filler+time_modifier
+Bu olay beni yerden yere vurdu yani,0,cultural_idiom,filler+typo
+yakında bu olay beni yerden yere vurdu,0,cultural_idiom,time_modifier
+Bu olay beni yerden yere vurdu artık,0,cultural_idiom,filler
+Bu olay beni yerden yere vurdu...,0,cultural_idiom,punctuation
+ben bu olay beni yerden yere vurdu!,0,cultural_idiom,punctuation+subject_prefix
+ya bu olay beni yerden yere vurdu.!,0,cultural_idiom,punctuation+subject_prefix
+sanırım bu olay beni yerden yere vurdu bu hafta,0,cultural_idiom,subject_prefix+case_variant+time_modifier
+bu olay beni yerden yere vurdu yakında,0,cultural_idiom,time_modifier+typo+case_variant
+galiba bu olay beni yerden yere vurdu,0,cultural_idiom,case_variant+filler
+bugün bu olay beni yerden yere vurdu,0,cultural_idiom,time_modifier
+Heyecandan ayağım yere değmiyor,0,cultural_idiom,original
+Heyecandan ayağım yere değmiyor artık,0,cultural_idiom,filler+typo
+Heyecandan ayağım yere değmiyor!,0,cultural_idiom,punctuation
+evet heyecandan ayağım yere değmiyor...,0,cultural_idiom,punctuation+subject_prefix
+karar verdim heyecandan ayağım yere değmiyor sabaha,0,cultural_idiom,time_modifier+typo+subject_prefix
+sanırım aslında heyecandan ayağım yere değmiyor,0,cultural_idiom,filler+subject_prefix
+Heyecandan ayağım yere değmiyor.!,0,cultural_idiom,punctuation
+Heyecandan ayağım yere değmiyor..,0,cultural_idiom,future_tense+synonym_swap+punctuation
+bugün ben heyecandan ayağım yere değmiyor,0,cultural_idiom,subject_prefix
+aslında heyecandan ayağım yere değmiyor,0,cultural_idiom,filler
+sanırım heyecandan ayağım yere değmiyor,0,cultural_idiom,future_tense+filler
+gece olunca kararımı verdim heyecandan ayağım yere değmiyor,0,cultural_idiom,subject_prefix+time_modifier
+İçim içime sığmıyor heyecandan,0,cultural_idiom,original
+valla ya i̇çim içime sığmıyor heyecandan,0,cultural_idiom,future_tense+subject_prefix+filler
+yarın sabah içim içime sığmıyor heyecandan..,0,cultural_idiom,punctuation+time_modifier+case_variant
+artık içim içime sığmıyor heyecandan,0,cultural_idiom,case_variant+filler+future_tense
+aslında içim içime sığmıyor heyecandan..,0,cultural_idiom,synonym_swap+filler+punctuation
+bu akşam valla içim içime sığmıyor heyecandan,0,cultural_idiom,filler+time_modifier+punctuation
+evet i̇çim içime sığmıyor heyecandan bugün içinde,0,cultural_idiom,subject_prefix+time_modifier
+ben i̇çim içime sığmıyor heyecandan bu hafta,0,cultural_idiom,subject_prefix+synonym_swap+time_modifier
+İçim Içime sığmıyor heyecandan artık,0,cultural_idiom,synonym_swap+case_variant+filler
+İçim içime Sığmıyor heyecandan...,0,cultural_idiom,case_variant+future_tense+punctuation
+İçim içime sığmıyor heyecandan..,0,cultural_idiom,punctuation+future_tense
+kesin i̇çim içime siğmıyor heyecandan,0,cultural_idiom,typo+case_variant+filler
+Bu söze yüreğim ağzıma geldi,0,cultural_idiom,original
+bu söze yüreğim ağzıma geldi galiba,0,cultural_idiom,future_tense+case_variant+filler
+aslında bu söze yüreğim ağzıma geldi,0,cultural_idiom,future_tense+filler+case_variant
+Bu söze yüreğim ağzıma geldi bu hafta,0,cultural_idiom,time_modifier+synonym_swap
+Bu söze yüreğim ağzıma geldi! aslında,0,cultural_idiom,punctuation+filler
+Bu soze yüreğim ağzıma geldi,0,cultural_idiom,typo+future_tense
+ben de bu söze yüreğim ağzıma geldi..,0,cultural_idiom,case_variant+punctuation+subject_prefix
+ya aslında bu söze yüreğim ağzıma geldi,0,cultural_idiom,filler+subject_prefix
+artık evet bu söze yüreğim ağzıma geldi,0,cultural_idiom,subject_prefix+filler
+Bu söze yüreğim ağzıma geldi bu gece,0,cultural_idiom,time_modifier
+karar verdim bu söze yüreğim ağzıma geldi,0,cultural_idiom,subject_prefix
+kesin olarak Bu söze yüreğim ağzıma geldi..,0,cultural_idiom,punctuation+subject_prefix+case_variant
+Bekleyişten ayağım yere değmedi,0,cultural_idiom,original
+kararımı verdim bekleyişten ayağım yere değmedi,0,cultural_idiom,synonym_swap+subject_prefix
+bugün bekleyişten ayağım yere değmedi,0,cultural_idiom,time_modifier
+bu hafta bekleyişten ayağım yere değmedi..,0,cultural_idiom,punctuation+time_modifier+synonym_swap
+Bekleyişten ayağım yere değmedi..,0,cultural_idiom,punctuation+synonym_swap
+Bekleyişten ayağim yere değmedi,0,cultural_idiom,case_variant+typo
+aslında bugün ben bekleyişten ayağım yere değmedi,0,cultural_idiom,subject_prefix+synonym_swap+filler
+şimdi bekleyişten ayağım yere değmedi,0,cultural_idiom,case_variant+synonym_swap+time_modifier
+valla bekleyişten ayağım yere değmedi,0,cultural_idiom,filler
+Bekleyişten ayağım yere değmedi akşama... yani,0,cultural_idiom,time_modifier+punctuation+filler
+Bekleyişten ayağım yere değmedi yakında,0,cultural_idiom,time_modifier
+yakında bekleyişten ayağım yere değmedi,0,cultural_idiom,case_variant+time_modifier+typo
+Düşününce başım dönüyor,0,cultural_idiom,original
+Düşününce başım dönüyor galiba,0,cultural_idiom,filler
+akşam olunca düşününce başım dönüyor,0,cultural_idiom,time_modifier
+yarın sabah düşününce başım dönüyor,0,cultural_idiom,case_variant+time_modifier
+düşününce başım dönüyor artık,0,cultural_idiom,case_variant+filler+punctuation
+az sonra düşününce başım dönüyor!,0,cultural_idiom,punctuation+time_modifier
+Düşününce başım dönüyor.,0,cultural_idiom,punctuation+future_tense+case_variant
+Düşününce başım dönüyor valla,0,cultural_idiom,filler
+aslında düşününce başım donüyor,0,cultural_idiom,typo+filler+case_variant
+bu gece düşününce başım dönüyor,0,cultural_idiom,time_modifier
+bu akşam düşününce başım dönüyor,0,cultural_idiom,time_modifier
+sanırım düşününce başım dönüyor,0,cultural_idiom,filler
+Mutluluktan göklerde uçuyorum bugün,0,cultural_idiom,original
+yarın mutluluktan göklerde uçuyorum bugün kesin,0,cultural_idiom,filler+time_modifier+synonym_swap
+artık mutluluktan göklerde uçuyorum bugün,0,cultural_idiom,filler
+kesin mutluluktan göklerde uçuyorum bugün,0,cultural_idiom,filler
+bence mutluluktan göklerde uçuyorum bugün,0,cultural_idiom,subject_prefix+case_variant
+Mutluluktan göklerde uçuyorum bugün yani,0,cultural_idiom,filler
+Mutluluktan göklerde uçuyorum bugün.!,0,cultural_idiom,typo+punctuation+synonym_swap
+bu gece mutluluktan göklerde uçuyorum bugün...,0,cultural_idiom,time_modifier+punctuation
+Mutluluktan göklerde uçuyorum bugün!,0,cultural_idiom,punctuation+typo
+Mutluluktan göklerde Uçuyorum bugün..,0,cultural_idiom,case_variant+typo+punctuation
+karar verdim mutluluktan göklerde uçuyorum bugün,0,cultural_idiom,future_tense+subject_prefix
+galiba bugün ben mutluluktan göklerde ucuyorum bugün,0,cultural_idiom,typo+subject_prefix+filler
+Üzüntüden içim cız etti,0,cultural_idiom,original
+ben de üzüntüden içim cız etti,0,cultural_idiom,subject_prefix+synonym_swap
+yakında sanırım üzüntüden içim cız etti,0,cultural_idiom,filler+time_modifier
+akşam olunca üzüntüden içim cız etti.,0,cultural_idiom,time_modifier+punctuation
+bugün üzüntüden içim cız etti,0,cultural_idiom,time_modifier
+Üzüntüden içim cız etti bu gece,0,cultural_idiom,time_modifier+case_variant+synonym_swap
+yani üzüntüden içim cız etti,0,cultural_idiom,filler+synonym_swap
+galiba üzüntüden içim cız etti...,0,cultural_idiom,punctuation+filler
+kesin olarak üzüntüden içim cız etti,0,cultural_idiom,subject_prefix+case_variant+typo
+galiba bugün ben üzüntüden içim cız etti,0,cultural_idiom,subject_prefix+filler
+sanırım üzüntüden içim cız etti,0,cultural_idiom,filler
+galiba üzüntüden içim cız etti..,0,cultural_idiom,case_variant+punctuation+filler
+Sevincimden havalara uçtum,0,cultural_idiom,original
+Sevincimden havalara uçtum.!,0,cultural_idiom,punctuation
+yani sevincimden havalara uçtum,0,cultural_idiom,filler+future_tense
+Sevincimden havalara uçtum sabaha,0,cultural_idiom,typo+time_modifier+synonym_swap
+ben de sevincimden havalara uçtum,0,cultural_idiom,subject_prefix+future_tense+typo
+Sevincimden havalara uçtum artık,0,cultural_idiom,synonym_swap+filler+case_variant
+Sevincimden havalara uçtum.,0,cultural_idiom,punctuation
+Sevincimden havalara uçtum!,0,cultural_idiom,punctuation
+evet sevincimden havalara uçtum.,0,cultural_idiom,case_variant+punctuation+subject_prefix
+Sevincimden havalara uçtum kesin,0,cultural_idiom,filler
+artık bu akşam sevincimden havalara uçtum,0,cultural_idiom,time_modifier+subject_prefix+typo
+evet sevincimden havalara uçtum galiba,0,cultural_idiom,subject_prefix+filler
+Hayretle ağzım açık kaldı,0,cultural_idiom,original
+yakında hayretle ağzım açık kaldı,0,cultural_idiom,synonym_swap+time_modifier
+Hayretle ağzım açık kaldı bugün içinde,0,cultural_idiom,time_modifier+synonym_swap
+Hayretle ağzım açık kaldı.,0,cultural_idiom,case_variant+punctuation+synonym_swap
+kesin hayretle ağzım açık kaldı yakında,0,cultural_idiom,filler+time_modifier
+kesin olarak bu gece hayretle ağzım açık kaldı,0,cultural_idiom,time_modifier+subject_prefix
+artık hayretle ağzım acık kaldı,0,cultural_idiom,typo+subject_prefix
+ben de bu akşam hayretle ağzım açık kaldı..,0,cultural_idiom,punctuation+time_modifier+subject_prefix
+ben hayretle ağzım açık kaldı.!,0,cultural_idiom,subject_prefix+punctuation
+Hayretle ağzım açık kaldı bu gece,0,cultural_idiom,time_modifier
+kesin olarak hayretle ağzım açık kaldı..,0,cultural_idiom,subject_prefix+typo+punctuation
+Hayretle ağzım açık kaldı.! yarın,0,cultural_idiom,punctuation+time_modifier+future_tense
+Heyecandan kalbim duracak gibi,0,cultural_idiom,original
+bence heyecandan kalbim duracak gibi!,0,cultural_idiom,subject_prefix+future_tense+punctuation
+bu hafta heyecandan kalbim duracak gibi,0,cultural_idiom,typo+time_modifier
+Heyecandan kalbim duracak gibi bu gece,0,cultural_idiom,case_variant+time_modifier
+Heyecandan kalbim duracak gibi yani,0,cultural_idiom,filler
+Heyecandan kalbim duracak gibi..,0,cultural_idiom,future_tense+punctuation
+bu akşam heyecandan kalbim duracak gibi valla,0,cultural_idiom,synonym_swap+filler+time_modifier
+Heyecandan kalbim duracak gibi galiba,0,cultural_idiom,synonym_swap+filler
+bence heyecandan kalbim duracak gibi,0,cultural_idiom,future_tense+subject_prefix+typo
+ben de heyecandan kalbim duracak gibi,0,cultural_idiom,subject_prefix
+sanırım heyecandan kalbim duracak gibi az sonra,0,cultural_idiom,time_modifier+filler
+aslında heyecandan kalbim duracak gibi,0,cultural_idiom,typo+filler
+Bu güzel haberle yere düştüm yorgunluktan,0,cultural_idiom,original
+az sonra bu güzel haberle yere düştüm yorgunluktan,0,cultural_idiom,future_tense+synonym_swap+time_modifier
+Bu güzel haberle yere düştüm yorgunluktan kesin,0,cultural_idiom,future_tense+filler
+Bu güzel haberle yere duştüm yorgunluktan...,0,cultural_idiom,punctuation+typo
+akşam olunca bu güzel haberle yere düştüm yorgunluktan,0,cultural_idiom,synonym_swap+time_modifier
+evet bu güzel haberle yere düştüm yorgunluktan...,0,cultural_idiom,punctuation+subject_prefix
+ben bu güzel haberle yere düştüm yorgunluktan,0,cultural_idiom,subject_prefix
+artık bu güzel haberle yere düştüm yorgunluktan sanırım,0,cultural_idiom,filler+synonym_swap+subject_prefix
+Bu güzel haberle yere düştüm yorgunluktan valla,0,cultural_idiom,filler
+Bu güzel haberle yere düştüm yorgunluktan.,0,cultural_idiom,punctuation+case_variant+synonym_swap
+artık bu güzel haberle yere düştüm yorgunluktan,0,cultural_idiom,subject_prefix+typo
+evet bu güzel haberle yere düştüm yorgunluktan,0,cultural_idiom,subject_prefix
+Mutluluk gözlerimden okunuyor,0,cultural_idiom,original
+kesin olarak mutluluk gözlerimden okunuyor bu gece,0,cultural_idiom,synonym_swap+subject_prefix+time_modifier
+Mutluluk gözlerimden okunuyor artık,0,cultural_idiom,filler
+Mutluluk gözlerimden okunuyor sabaha!,0,cultural_idiom,time_modifier+synonym_swap+punctuation
+ya mutluluk gözlerimden okunuyor,0,cultural_idiom,subject_prefix
+Mutluluk gözlerimden okunuyor kesin,0,cultural_idiom,typo+filler
+yarın mutluluk gözlerimden okunuyor,0,cultural_idiom,time_modifier
+Mutluluk gözlerimden okunuyor yakında kesin,0,cultural_idiom,time_modifier+filler
+Mutluluk gözlerimden okunuyor.,0,cultural_idiom,punctuation
+yakında Mutluluk gözlerimden okunuyor..,0,cultural_idiom,time_modifier+punctuation+case_variant
+Mutluluk gozlerimden okunuyor,0,cultural_idiom,typo
+yarın sabah evet mutluluk gözlerimden okunuyor,0,cultural_idiom,subject_prefix+time_modifier
+Konuyu duyunca aklım başımdan gitti,0,cultural_idiom,original
+akşam olunca konuyu duyunca aklım başımdan gitti,0,cultural_idiom,time_modifier+future_tense
+Konuyu duyunca aklım başımdan gitti!,0,cultural_idiom,punctuation+synonym_swap
+bu gece konuyu duyunca aklım başımdan gitti,0,cultural_idiom,time_modifier+future_tense
+sanırım konuyu duyunca aklım başımdan gitti,0,cultural_idiom,subject_prefix
+saatler içinde konuyu duyunca aklım başımdan gitti,0,cultural_idiom,time_modifier
+bu hafta konuyu duyunca aklım başımdan gitti,0,cultural_idiom,time_modifier
+sanırım konuyu duyunca aklım başımdan gitti..,0,cultural_idiom,punctuation+typo+filler
+karar verdim konuyu duyunca aklım başımdan gitti,0,cultural_idiom,typo+synonym_swap+subject_prefix
+artık konuyu duyunca aklım başımdan gitti,0,cultural_idiom,future_tense+subject_prefix
+bu akşam konuyu duyunca aklım başımdan gitti,0,cultural_idiom,time_modifier+typo
+Konuyu duyunca aklım başımdan gitti yani... sabaha,0,cultural_idiom,filler+punctuation+time_modifier
+Bu zafer beni göklere çıkardı,0,cultural_idiom,original
+bugün ben bu zafer beni göklere çıkardı,0,cultural_idiom,future_tense+subject_prefix
+Bu zafer beni göklere çıkardı...,0,cultural_idiom,punctuation
+Bu zafer beni göklere çıkardı... yarın,0,cultural_idiom,punctuation+time_modifier+typo
+karar verdim bu zafer beni göklere çıkardı,0,cultural_idiom,subject_prefix+case_variant
+Bu zafer beni göklere çıkardı az sonra!,0,cultural_idiom,time_modifier+punctuation+synonym_swap
+kesin olarak bu zafer beni göklere çıkardı akşama,0,cultural_idiom,synonym_swap+time_modifier+subject_prefix
+artık bu zafer beni göklere çıkardı,0,cultural_idiom,subject_prefix
+sanırım bu zafer beni göklere çıkardı kesin,0,cultural_idiom,subject_prefix+filler+synonym_swap
+artık bu zafer beni göklere çıkardı yani,0,cultural_idiom,punctuation+subject_prefix+filler
+Bu zafer beni göklere çıkardı.!,0,cultural_idiom,punctuation
+bu zafer beni göklere çıkardı aslında,0,cultural_idiom,filler+typo+case_variant
+Şu güzel haberle uçacak gibiyim,0,cultural_idiom,original
+Şu güzel haberle uçacak gibiyim yani!,0,cultural_idiom,filler+case_variant+punctuation
+Kesin şu güzel haberle uçacak gibiyim,0,cultural_idiom,filler+case_variant
+Şu güzel haberle uçacak gibiyim.,0,cultural_idiom,punctuation+typo+synonym_swap
+Şu güzel haberle uçacak gibiyim az sonra,0,cultural_idiom,time_modifier+future_tense
+yani şu güzel haberle uçacak gibiyim sabaha,0,cultural_idiom,time_modifier+filler
+bence şu güzel haberle uçacak gibiyim akşama,0,cultural_idiom,subject_prefix+time_modifier
+yani şu güzel haberle uçacak gibiyim yarın,0,cultural_idiom,case_variant+filler+time_modifier
+Şu güzel haberle uçacak gibiyim bugün içinde,0,cultural_idiom,typo+time_modifier
+bu gece şu güzel haberle uçacak gibiyim,0,cultural_idiom,time_modifier+typo+future_tense
+Şu güzel haberle uçacak gibiyim bu hafta,0,cultural_idiom,case_variant+future_tense+time_modifier
+akşam olunca şu güzel haberle uçacak gibiyim,0,cultural_idiom,time_modifier
+Sevinçten ağladım az kalsın,0,cultural_idiom,original
+bugün ben sevinçten ağladım az kalsın akşama,0,cultural_idiom,time_modifier+future_tense+subject_prefix
+az sonra sevinçten ağladım az kalsın yani,0,cultural_idiom,time_modifier+filler+future_tense
+yarın bugün ben sevinçten ağladım az kalsın,0,cultural_idiom,synonym_swap+subject_prefix+time_modifier
+Sevinçten ağladim az kalsın,0,cultural_idiom,synonym_swap+typo+future_tense
+yarın sevinçten ağladım az kalsın,0,cultural_idiom,typo+time_modifier
+sanırım sevinçten ağladım az kalsın...,0,cultural_idiom,subject_prefix+punctuation
+ya sevinçten ağladım az kalsın akşama,0,cultural_idiom,time_modifier+synonym_swap+subject_prefix
+yani sevinçten ağladım az kalsın.!,0,cultural_idiom,filler+typo+punctuation
+Sevinçten agladım az kalsın,0,cultural_idiom,typo
+Sevinçten ağladım az kalsın.. aslında,0,cultural_idiom,punctuation+typo+filler
+ya sevinçten ağladım az kalsın,0,cultural_idiom,subject_prefix+synonym_swap
+Bu güzel sürprize bayıldım,0,cultural_idiom,original
+Bu güzel sürprize bayıldım. sabaha,0,cultural_idiom,punctuation+typo+time_modifier
+sanırım bu güzel sürprize bayıldım..,0,cultural_idiom,typo+subject_prefix+punctuation
+Bu güzel sürprize bayıldım!,0,cultural_idiom,punctuation
+kesin artık bu güzel sürprize bayıldım,0,cultural_idiom,subject_prefix+filler+future_tense
+kesin olarak bu güzel sürprize bayıldım,0,cultural_idiom,subject_prefix
+sanırım bu güzel sürprize bayıldım,0,cultural_idiom,synonym_swap+typo+subject_prefix
+Bu güzel surprize bayıldım,0,cultural_idiom,typo+synonym_swap
+Bu güzel sürprize bayıldım valla,0,cultural_idiom,filler+future_tense
+ben bu güzel sürprize bayıldım sabaha,0,cultural_idiom,subject_prefix+punctuation+time_modifier
+karar verdim bu güzel sürprize bayıldım,0,cultural_idiom,subject_prefix+typo
+Bu güzel sürprize bayıldım sanırım,0,cultural_idiom,filler
+Aldığım hediyeye bayıldım,0,cultural_idiom,original
+yakında aldığım hediyeye bayıldım,0,cultural_idiom,time_modifier
+artık aldığım hediyeye bayıldım,0,cultural_idiom,filler+synonym_swap
+sanırım aldığım hediyeye bayıldım sanırım,0,cultural_idiom,typo+filler+subject_prefix
+bugün ben aldığım hediyeye bayıldım,0,cultural_idiom,subject_prefix
+valla aldığım hediyeye bayıldım,0,cultural_idiom,typo+filler
+bence aldığım hediyeye bayıldım,0,cultural_idiom,synonym_swap+typo+subject_prefix
+artık saatler içinde aldığım hediyeye bayıldım,0,cultural_idiom,typo+time_modifier+subject_prefix
+ben aldığım hediyeye bayıldım bu hafta valla,0,cultural_idiom,time_modifier+subject_prefix+filler
+aldığım hediyeye bayıldım galiba,0,cultural_idiom,case_variant+filler
+bu hafta aldığım hediyeye bayıldım,0,cultural_idiom,time_modifier+future_tense
+sanırım aldığım hediyeye bayıldım,0,cultural_idiom,subject_prefix
+Bayıldım bu tatlıya,0,cultural_idiom,original
+Bayıldım bu tatlıya valla az sonra,0,cultural_idiom,filler+time_modifier
+aslında bayıldım bu tatlıya.,0,cultural_idiom,future_tense+punctuation+filler
+saatler içinde bayıldım bu tatlıya,0,cultural_idiom,synonym_swap+time_modifier+case_variant
+Bayıldım bu tatlıya.!,0,cultural_idiom,typo+punctuation
+kesin olarak bayıldım bu tatlıya,0,cultural_idiom,subject_prefix
+Bayıldım bu tatlıya bugün içinde,0,cultural_idiom,time_modifier
+yarın bayıldım bu tatlıya,0,cultural_idiom,synonym_swap+time_modifier
+bugün ben bayıldım bu tatlıya,0,cultural_idiom,subject_prefix+synonym_swap+future_tense
+ben de bayıldım bu tatlıya.,0,cultural_idiom,punctuation+subject_prefix
+Bayıldım bu tatlıya yarın,0,cultural_idiom,synonym_swap+time_modifier+future_tense
+ya bayıldım bu tatlıya,0,cultural_idiom,case_variant+typo+subject_prefix
+Yemekten sonra bitkin düştüm,0,cultural_idiom,original
+Yemekten sonra bitkin düştüm galiba,0,cultural_idiom,filler
+sanırım yemekten sonra bitkin düştüm yani,0,cultural_idiom,case_variant+filler+subject_prefix
+valla yemekten sonra bitkin düştüm bu gece,0,cultural_idiom,filler+time_modifier
+akşam olunca ya yemekten sonra bitkin düştüm,0,cultural_idiom,subject_prefix+future_tense+time_modifier
+ya yemekten sonra bitkin düştüm,0,cultural_idiom,subject_prefix
+Yemekten sonra bitkin düştüm..,0,cultural_idiom,case_variant+punctuation
+kesin olarak yemekten sonra bitkin düştüm yakında,0,cultural_idiom,time_modifier+typo+subject_prefix
+bugün ben yemekten sonra bitkin düştüm akşama,0,cultural_idiom,time_modifier+subject_prefix
+kesin kararımı verdim yemekten sonra bitkin düştüm,0,cultural_idiom,typo+subject_prefix+filler
+artık bugün yemekten sonra bitkin düştüm,0,cultural_idiom,time_modifier+subject_prefix
+artık yemekten sonra bitkin düştüm.!,0,cultural_idiom,punctuation+subject_prefix+future_tense
+Bu yokuştan sonra bitik haldeyim,0,cultural_idiom,original
+Bu yokuştan sonra bitik haldeyim.,0,cultural_idiom,punctuation
+karar verdim bu yokuştan sonra bitik haldeyim!,0,cultural_idiom,punctuation+subject_prefix
+bu hafta bu yokuştan sonra bitik Haldeyim...,0,cultural_idiom,punctuation+time_modifier+case_variant
+Bu yokuştan sonra bitik haldeyim valla,0,cultural_idiom,future_tense+filler
+karar verdim bu yokuştan sonra bitik haldeyim,0,cultural_idiom,subject_prefix+future_tense
+bence bu yokuştan sonra bitik haldeyim,0,cultural_idiom,subject_prefix
+bu akşam bu yokuştan sonra bitik haldeyim galiba,0,cultural_idiom,filler+typo+time_modifier
+Bu yokuştan sonra bitik haldeyim yarın,0,cultural_idiom,time_modifier
+artık bu yokuştan sonra bitik haldeyim,0,cultural_idiom,subject_prefix
+bu hafta sanırım bu yokuştan sonra bitik haldeyim valla,0,cultural_idiom,subject_prefix+time_modifier+filler
+Bu yokuştan sonra bitik haldeyim... bugün içinde,0,cultural_idiom,punctuation+time_modifier
+Yorgunluktan yere yığıldım,0,cultural_idiom,original
+yorgunluktan yere yığıldım sabaha,0,cultural_idiom,case_variant+future_tense+time_modifier
+karar verdim yorgunluktan yere yığildım artik,0,cultural_idiom,subject_prefix+filler+typo
+Yorgunluktan yere yığıldım bu gece valla,0,cultural_idiom,case_variant+time_modifier+filler
+kesin yorgunluktan yere yığıldım,0,cultural_idiom,filler
+bugün ben yorgunluktan yere yığıldım yakında,0,cultural_idiom,time_modifier+subject_prefix
+Yorgunluktan yere yığıldım artık,0,cultural_idiom,future_tense+case_variant+filler
+aslında yorgunluktan yere Yığıldım.!,0,cultural_idiom,punctuation+case_variant+filler
+Yorgunluktan yere yığıldım.,0,cultural_idiom,synonym_swap+punctuation
+evet yorgunluktan yere yığıldım,0,cultural_idiom,subject_prefix
+sanırım yorgunluktan yere yığıldım.!,0,cultural_idiom,subject_prefix+punctuation
+Yorgunluktan yere yığıldım sanırım!,0,cultural_idiom,future_tense+filler+punctuation
+Eve gelir gelmez kanepeye serildim,0,cultural_idiom,original
+saatler içinde eve gelir gelmez kanepeye serildim...,0,cultural_idiom,time_modifier+punctuation
+Eve gelir gelmez kanepeye serildim.!,0,cultural_idiom,synonym_swap+typo+punctuation
+evet eve gelir gelmez kanepeye serildim.,0,cultural_idiom,typo+punctuation+subject_prefix
+eve gelir gelmez kanepeye serildim bu hafta,0,cultural_idiom,typo+time_modifier+case_variant
+ben de eve gelir gelmez kanepeye serildim,0,cultural_idiom,subject_prefix
+Eve gelir gelmez kanepeye serildim aslında,0,cultural_idiom,filler+synonym_swap
+evet eve gelir gelmez kanepeye serildim,0,cultural_idiom,subject_prefix
+Eve gelir gelmez kanepeye serildim..,0,cultural_idiom,punctuation
+Eve gelir gelmez kanepeye serildim akşama,0,cultural_idiom,time_modifier+synonym_swap
+Ya eve gelir gelmez kanepeye serildim,0,cultural_idiom,subject_prefix+case_variant
+bu gece eve gelir gelmez kanepeye serildim,0,cultural_idiom,time_modifier
+Yüz metre yüzdüm bugün havuzda,0,context_shift_safe,original
+sanırım yüz metre yüzdüm bugün havuzda,0,context_shift_safe,subject_prefix
+ya yüz metre yüzdüm bugün havuzda,0,context_shift_safe,synonym_swap+subject_prefix+future_tense
+Yüz metre yüzdüm bugün havuzda.!,0,context_shift_safe,future_tense+punctuation
+gece olunca yüz metre yüzdüm bugün havuzda galiba,0,context_shift_safe,filler+future_tense+time_modifier
+kararımı verdim yüz metre yüzdüm bugün havuzda,0,context_shift_safe,future_tense+subject_prefix
+Yüz metre yüzdüm bugün havuzda.,0,context_shift_safe,case_variant+synonym_swap+punctuation
+yüz metre yüzdüm bugün havuzda yarın,0,context_shift_safe,case_variant+time_modifier
+ben de yüz metre yüzdüm bugün havuzda,0,context_shift_safe,subject_prefix
+kesin olarak yüz metre yüzdüm bugün havuzda,0,context_shift_safe,case_variant+future_tense+subject_prefix
+ben de yüz metre yüzdüm bugün havuzda bugün içinde,0,context_shift_safe,subject_prefix+time_modifier+future_tense
+bu hafta yüz metre yüzdüm bugün havuzda,0,context_shift_safe,synonym_swap+time_modifier+typo
+Yüz dolar harçlık verdi babam,0,context_shift_safe,original
+Yüz dolar harçlık verdi babam..,0,context_shift_safe,case_variant+punctuation+future_tense
+şimdi yüz dolar harçlık verdi babam,0,context_shift_safe,synonym_swap+case_variant+time_modifier
+Yüz dolar harçlık verdi babam.!,0,context_shift_safe,punctuation
+Yüz dolar harçlık verdi babam sanırım,0,context_shift_safe,filler
+karar verdim yüz dolar harçlık verdi babam,0,context_shift_safe,subject_prefix
+kararımı verdim yüz dolar harçlık verdi babam,0,context_shift_safe,subject_prefix
+galiba yüz dolar harçlik verdi babam,0,context_shift_safe,typo+filler
+Yüz dolar harçlık verdi babam!,0,context_shift_safe,synonym_swap+punctuation
+kesin yüz dolar harçlık verdi babam,0,context_shift_safe,punctuation+filler
+artık yüz dolar harçlık verdi babam,0,context_shift_safe,future_tense+subject_prefix+case_variant
+aslında yüz dolar Harçlık verdi babam,0,context_shift_safe,filler+synonym_swap+case_variant
+Yüzme yarışmasına girdim,0,context_shift_safe,original
+kesin yüzme yarışmasına girdim bugün içinde,0,context_shift_safe,filler+time_modifier
+artık yüzme yarışmasına girdim,0,context_shift_safe,synonym_swap+typo+filler
+yüzme yarışmasına girdim!,0,context_shift_safe,case_variant+punctuation
+Yüzme yarişmasina girdim,0,context_shift_safe,synonym_swap+typo
+Yüzme yarışmasına girdim...,0,context_shift_safe,punctuation+typo+future_tense
+bence yuzme yarışmasına girdim,0,context_shift_safe,case_variant+typo+subject_prefix
+valla yüzme yarışmasına girdim.,0,context_shift_safe,filler+punctuation
+Yüzme yarışmasına girdim kesin,0,context_shift_safe,typo+filler+synonym_swap
+evet yüzme yarışmasına girdim..,0,context_shift_safe,subject_prefix+synonym_swap+punctuation
+Yüzme yarışmasına girdim... bu gece,0,context_shift_safe,punctuation+future_tense+time_modifier
+yüzme yarışmasına girdim bu hafta,0,context_shift_safe,time_modifier+future_tense+case_variant
+Annemin yüzü mutluluktan parlıyor,0,context_shift_safe,original
+Annemin yüzü mutluluktan parlıyor sanırım..,0,context_shift_safe,filler+future_tense+punctuation
+Annemin yüzü mutluluktan parlıyor..,0,context_shift_safe,typo+punctuation
+şimdi annemin yüzü mutluluktan parlıyor,0,context_shift_safe,time_modifier+typo
+karar verdim annemin yüzü mutluluktan parlıyor,0,context_shift_safe,typo+future_tense+subject_prefix
+aslında annemin yüzü mutluluktan parlıyor akşama,0,context_shift_safe,time_modifier+filler
+kesin olarak annemin yüzü mutluluktan parlıyor yarın,0,context_shift_safe,time_modifier+subject_prefix
+Annemin yüzü mutluluktan parlıyor bu gece,0,context_shift_safe,time_modifier
+yakında annemin yüzü mutluluktan parlıyor...,0,context_shift_safe,case_variant+punctuation+time_modifier
+Annemin yüzü mutluluktan parlıyor!,0,context_shift_safe,future_tense+punctuation+typo
+yarın sabah annemin yüzü mutluluktan parlıyor..,0,context_shift_safe,typo+punctuation+time_modifier
+bence annemin yüzü mutluluktan parlıyor...,0,context_shift_safe,punctuation+subject_prefix
+Çocuğun yüzü sevimli,0,context_shift_safe,original
+valla ben de çocuğun yüzü sevimli,0,context_shift_safe,subject_prefix+filler+synonym_swap
+kararımı verdim çocuğun yüzü sevimli..,0,context_shift_safe,punctuation+case_variant+subject_prefix
+galiba çocuğun yüzü sevimli,0,context_shift_safe,future_tense+filler
+Çocuğun yüzü sevimli valla,0,context_shift_safe,typo+synonym_swap+filler
+ben çocuğun yüzü sevimli,0,context_shift_safe,subject_prefix
+Çocuğun yüzü sevimli artık,0,context_shift_safe,filler
+bence çocuğun yüzü sevimli aslında,0,context_shift_safe,filler+subject_prefix
+ben de yani çocuğun yüzü sevimli,0,context_shift_safe,filler+case_variant+subject_prefix
+Çocuğun yüzü sevimli.,0,context_shift_safe,punctuation
+karar verdim çocuğun yüzü sevimli bu hafta,0,context_shift_safe,subject_prefix+time_modifier
+Çocuğun yüzü sevimli sabaha,0,context_shift_safe,time_modifier
+Yüzünü öpüp uğurladım,0,context_shift_safe,original
+Ya valla yüzünü öpüp uğurladım,0,context_shift_safe,filler+subject_prefix+case_variant
+Yüzünü öpüp uğurladım.,0,context_shift_safe,punctuation+future_tense
+Yüzünü öpüp uğurladım!,0,context_shift_safe,punctuation
+Yüzünü öpüp uğurladım az sonra,0,context_shift_safe,typo+time_modifier+future_tense
+Yüzünü öpüp uğurladım sanırım.!,0,context_shift_safe,filler+punctuation
+şimdi yüzünü öpüp uğurladım,0,context_shift_safe,time_modifier+future_tense
+valla yüzünü öpüp uğurladım,0,context_shift_safe,filler+punctuation
+artık yüzünü öpüp uğurladım sanırım,0,context_shift_safe,punctuation+subject_prefix+filler
+Yüzünü öpüp uğurladım bu hafta,0,context_shift_safe,time_modifier
+Yüzünü öpüp uğurladım..,0,context_shift_safe,punctuation
+ya yüzünü öpüp uğurladım,0,context_shift_safe,future_tense+subject_prefix
+Yüzme dersine kayıt yaptırdım,0,context_shift_safe,original
+artık yüzme dersine kayıt yaptırdım...,0,context_shift_safe,filler+punctuation+future_tense
+artık yüzme dersine Kayıt yaptırdım,0,context_shift_safe,subject_prefix+case_variant+synonym_swap
+Yüzme dersine kayıt yaptırdım..,0,context_shift_safe,punctuation+synonym_swap
+bugün ben yüzme dersine kayıt Yaptırdım,0,context_shift_safe,future_tense+case_variant+subject_prefix
+Yuzme dersine kayıt yaptırdım valla,0,context_shift_safe,filler+typo
+valla yüzme dersine kayıt yaptırdım,0,context_shift_safe,case_variant+filler
+Yüzme dersine kayıt yaptırdım bu gece,0,context_shift_safe,time_modifier+punctuation
+Yüzme dersine kayıt yaptırdım valla,0,context_shift_safe,filler+future_tense
+Yüzme dersine kayıt yaptırdım az sonra,0,context_shift_safe,future_tense+time_modifier
+sanırım yüzme dersine kayıt yaptırdım,0,context_shift_safe,filler
+Yüzme dersine kayıt yaptırdım.,0,context_shift_safe,punctuation
+Yüzünü gözünü öptüm,0,context_shift_safe,original
+bu gece yüzünü gözünü öptüm,0,context_shift_safe,time_modifier
+kesin akşam olunca yüzünü gözünü öptüm,0,context_shift_safe,case_variant+time_modifier+filler
+Yüzünü gözünü öptüm.,0,context_shift_safe,punctuation+typo
+artık yüzünü gözünü öptüm bu gece,0,context_shift_safe,time_modifier+filler
+evet yüzünü gözünü öptüm valla,0,context_shift_safe,filler+subject_prefix
+Yüzünü gözünü öptüm az sonra,0,context_shift_safe,time_modifier+typo
+sanırım yüzünü gözünü öptüm,0,context_shift_safe,subject_prefix+typo
+ben yüzünü gözünü öptüm.,0,context_shift_safe,subject_prefix+punctuation
+yarın ben de yüzünü gözünü öptüm aslında,0,context_shift_safe,subject_prefix+filler+time_modifier
+yüzünü gözünü öptüm yani,0,context_shift_safe,case_variant+typo+filler
+galiba yüzünü gözünü öptüm,0,context_shift_safe,filler+typo
+Yüz binlerce kişi bekliyor konseri,0,context_shift_safe,original
+Yüz binlerce kişi bekliyor konseri.!,0,context_shift_safe,punctuation
+Yuz binlerce kişi bekliyor konseri,0,context_shift_safe,typo+synonym_swap
+bu gece yüz binlerce kişi bekliyor konseri,0,context_shift_safe,time_modifier+case_variant
+şimdi yüz binlerce kişi bekliyor konseri,0,context_shift_safe,time_modifier
+artık yüz binlerce kişi bekliyor konseri...,0,context_shift_safe,punctuation+future_tense+subject_prefix
+Yüz binlerce Kişi bekliyor konseri galiba,0,context_shift_safe,case_variant+filler
+karar verdim yüz binlerce kişi bekliyor konseri...,0,context_shift_safe,subject_prefix+future_tense+punctuation
+Yüz binlerce kişi bekliyor konseri sabaha,0,context_shift_safe,time_modifier+synonym_swap
+aslında yüz binlerce kişi bekliyor konseri,0,context_shift_safe,filler
+bugün ben yüz binlerce kişi bekliyor konseri sanırım,0,context_shift_safe,subject_prefix+filler+typo
+Yuz binlerce kişi bekliyor konseri!,0,context_shift_safe,punctuation+future_tense+typo
+Domates kes sandviç için,0,context_shift_safe,original
+bugün domates kes sandviç için,0,context_shift_safe,time_modifier
+Domates kes sandviç için bu gece,0,context_shift_safe,time_modifier
+Domates kes sandviç için artık,0,context_shift_safe,filler+typo+future_tense
+yakında domates kes sandviç için sanırım,0,context_shift_safe,filler+future_tense+time_modifier
+kararımı verdim domates kes sandviç için..,0,context_shift_safe,subject_prefix+punctuation+future_tense
+Domates kes sandviç için..,0,context_shift_safe,typo+punctuation
+bence domates kes sandviç için,0,context_shift_safe,subject_prefix
+yani Domates kes sandviç için,0,context_shift_safe,filler+case_variant
+artik domates kes sandviç için sabaha,0,context_shift_safe,subject_prefix+typo+time_modifier
+Domates kes sandviç için.,0,context_shift_safe,typo+punctuation+case_variant
+bu akşam bence domates kes sandviç için,0,context_shift_safe,subject_prefix+time_modifier
+Soğanı küp küp kes,0,context_shift_safe,original
+yakında soğanı küp küp kes,0,context_shift_safe,case_variant+time_modifier+synonym_swap
+Ya soğanı küp küp kes,0,context_shift_safe,subject_prefix+case_variant
+Soğanı küp küp kes..,0,context_shift_safe,punctuation
+Soğanı küp küp kes az sonra,0,context_shift_safe,time_modifier
+Soğanı küp küp kes!,0,context_shift_safe,case_variant+punctuation
+bugün soğanı küp küp kes,0,context_shift_safe,typo+time_modifier
+Soğanı küp küp kes yani,0,context_shift_safe,future_tense+filler+synonym_swap
+ben de soğanı küp küp kes,0,context_shift_safe,punctuation+subject_prefix
+artık soğanı küp küp kes,0,context_shift_safe,future_tense+filler
+yarın soganı küp küp kes,0,context_shift_safe,time_modifier+typo
+Soğanı küp küp kes.!,0,context_shift_safe,punctuation
+Bir saatlik kestirme uykusu çekti,0,context_shift_safe,original
+az sonra bir saatlik kestirme uykusu çekti,0,context_shift_safe,time_modifier+case_variant
+karar verdim bir saatlik kestirme uykusu çekti bu gece,0,context_shift_safe,subject_prefix+typo+time_modifier
+Bir saatlik kestirme uykusu Çekti valla,0,context_shift_safe,filler+case_variant
+Gece olunca bir saatlik kestirme uykusu çekti.!,0,context_shift_safe,time_modifier+punctuation+case_variant
+Bir saatlik kestirme uykusu çekti aslında,0,context_shift_safe,filler
+kesin bir saatlik kestirme uykusu çekti,0,context_shift_safe,typo+filler+future_tense
+Bir saatlik kestirme uykusu çekti yarın,0,context_shift_safe,typo+time_modifier+synonym_swap
+Bir saatlik kestirme uykusu çekti yani,0,context_shift_safe,future_tense+filler
+bu gece bir saatlik kestirme uykusu çekti,0,context_shift_safe,future_tense+time_modifier
+Bir saatlik kestirme uykusu çekti!,0,context_shift_safe,future_tense+punctuation+synonym_swap
+az sonra bir saatlik kestirme uykusu cekti,0,context_shift_safe,time_modifier+typo
+Salatalık ince ince kes,0,context_shift_safe,original
+kesin salatalık ince ince kes,0,context_shift_safe,filler+future_tense
+Salatalık ince ince kes..,0,context_shift_safe,case_variant+punctuation
+kesin olarak salatalık ince ince kes bu gece,0,context_shift_safe,subject_prefix+time_modifier
+bugün ben salatalık ince ince kes artık,0,context_shift_safe,filler+subject_prefix+synonym_swap
+Salatalık ince ince kes.!,0,context_shift_safe,synonym_swap+punctuation+case_variant
+az sonra salatalık ince ince kes,0,context_shift_safe,punctuation+case_variant+time_modifier
+yani bence salatalık ince ince kes,0,context_shift_safe,subject_prefix+filler+synonym_swap
+ben bu hafta salatalık ince ince kes,0,context_shift_safe,time_modifier+subject_prefix
+artık salatalık ince ince kes galiba.!,0,context_shift_safe,filler+subject_prefix+punctuation
+Salatalık ince ince kes yarın,0,context_shift_safe,time_modifier
+Salatalik ince ince kes,0,context_shift_safe,typo+synonym_swap
+Saç kestir bu hafta sonu,0,context_shift_safe,original
+bence saç kestir bu hafta sonu,0,context_shift_safe,subject_prefix+synonym_swap+future_tense
+Saç kestir bu hafta sonu sabaha kesin,0,context_shift_safe,time_modifier+future_tense+filler
+Saç kestir bu hafta sonu...,0,context_shift_safe,synonym_swap+future_tense+punctuation
+gece olunca bugün ben saç kestir bu hafta sonu,0,context_shift_safe,subject_prefix+time_modifier
+karar verdim saç kestir bu hafta sonu yakında,0,context_shift_safe,time_modifier+future_tense+subject_prefix
+Saç kestir bu hafta sonu artık...,0,context_shift_safe,filler+punctuation
+Ben de saç kestir bu hafta sonu,0,context_shift_safe,subject_prefix+case_variant+future_tense
+Bugün ben saç kestir bu hafta sonu,0,context_shift_safe,subject_prefix+case_variant+synonym_swap
+Saç kestir bu hafta sonu akşama,0,context_shift_safe,time_modifier
+sanırım saç Kestir bu hafta sonu,0,context_shift_safe,subject_prefix+case_variant+future_tense
+Saç kestir bu hafta sonu.!,0,context_shift_safe,future_tense+punctuation
+Tahtaya kestir geç hayvan figürlerini,0,context_shift_safe,original
+yarın tahtaya kestir geç hayvan figürlerini,0,context_shift_safe,case_variant+time_modifier
+artık tahtaya kestir geç hayvan figürlerini..,0,context_shift_safe,punctuation+filler
+karar verdim tahtaya kestir geç hayvan figürlerini.,0,context_shift_safe,case_variant+subject_prefix+punctuation
+bu hafta tahtaya kestir geç hayvan figürlerini,0,context_shift_safe,time_modifier+typo
+tahtaya kestir geç hayvan figürlerini.!,0,context_shift_safe,case_variant+punctuation+typo
+Tahtaya kestir geç hayvan figürlerini akşama.,0,context_shift_safe,time_modifier+synonym_swap+punctuation
+Tahtaya kestir geç hayvan figürlerini yakında.,0,context_shift_safe,time_modifier+punctuation
+sanırım tahtaya kestir geç hayvan figürlerini.,0,context_shift_safe,punctuation+future_tense+subject_prefix
+ya tahtaya kestir geç hayvan figürlerini yani,0,context_shift_safe,synonym_swap+subject_prefix+filler
+tahtaya kestir geç hayvan figürlerini!,0,context_shift_safe,case_variant+punctuation
+Tahtaya kestir geç hayvan figürlerini.,0,context_shift_safe,punctuation+synonym_swap
+Patatesleri kesip kızart,0,context_shift_safe,original
+Patatesleri kesip kızart yani,0,context_shift_safe,future_tense+filler
+şimdi patatesleri kesip kızart,0,context_shift_safe,punctuation+future_tense+time_modifier
+kesin olarak patatesleri kesip kızart,0,context_shift_safe,subject_prefix
+kesin olarak patatesleri kesip kızart sabaha,0,context_shift_safe,subject_prefix+synonym_swap+time_modifier
+Patatesleri kesip kızart bugün içinde,0,context_shift_safe,time_modifier+case_variant
+Patatesleri kesip kızart artık,0,context_shift_safe,filler+synonym_swap+typo
+Patatesleri kesip kızart!,0,context_shift_safe,punctuation+future_tense+synonym_swap
+Patatesleri kesip kızart..,0,context_shift_safe,future_tense+punctuation+typo
+ben patatesleri kesip kızart sabaha,0,context_shift_safe,subject_prefix+time_modifier
+artık patatesleri kesip kızart,0,context_shift_safe,punctuation+filler+future_tense
+Patatesleri kesip kızart akşama,0,context_shift_safe,time_modifier
+Limon kes çayıma sıkacağım,0,context_shift_safe,original
+bugün ben limon kes çayıma sıkacağım,0,context_shift_safe,synonym_swap+subject_prefix
+Yani limon kes çayıma sıkacağım.,0,context_shift_safe,punctuation+filler+case_variant
+Limon kes çayıma sıkacam,0,context_shift_safe,future_tense
+Limon kes çayıma sıkıcam...,0,context_shift_safe,punctuation+future_tense+synonym_swap
+bugün ben limon kes çayıma sıkacağım aslında,0,context_shift_safe,synonym_swap+subject_prefix+filler
+Limon kes çayıma sıkacağım.! bu hafta,0,context_shift_safe,punctuation+time_modifier
+az sonra limon kes çayıma sıkacağım,0,context_shift_safe,time_modifier
+galiba limon kes çayıma sıkacağım..,0,context_shift_safe,filler+punctuation
+Limon kes çayıma sıkacağım.. az sonra,0,context_shift_safe,punctuation+time_modifier+typo
+yarın sabah galiba limon kes çayıma sıkacağım,0,context_shift_safe,filler+synonym_swap+time_modifier
+Limon kes çayıma sıkıcam,0,context_shift_safe,case_variant+future_tense
+Pasta kes herkese ikram et,0,context_shift_safe,original
+sanırım pasta kes herkese ikram et.,0,context_shift_safe,filler+future_tense+punctuation
+Pasta kes herkese ikram et.,0,context_shift_safe,punctuation+future_tense+synonym_swap
+yakında pasta kes herkese ikram et,0,context_shift_safe,punctuation+time_modifier
+Pasta kes herkese ikram et valla,0,context_shift_safe,filler+typo
+Pasta kes herkese ikram et sabaha.!,0,context_shift_safe,time_modifier+case_variant+punctuation
+akşam olunca pasta kes herkese ikram et,0,context_shift_safe,synonym_swap+time_modifier
+bu hafta pasta kes herkese ikram et,0,context_shift_safe,time_modifier+synonym_swap
+bugün pasta kes herkese ikram et..,0,context_shift_safe,punctuation+time_modifier+future_tense
+Pasta kes herkese ikram et.!,0,context_shift_safe,punctuation
+yarın sabah pasta kes herkese ikram et..,0,context_shift_safe,synonym_swap+time_modifier+punctuation
+artık karar verdim pasta kes herkese ikram et,0,context_shift_safe,subject_prefix+filler+synonym_swap
+Kağıdı kesip sınıf panosuna astık,0,context_shift_safe,original
+aslında kağıdı kesip sınıf panosuna astık.!,0,context_shift_safe,filler+punctuation+synonym_swap
+artık kağıdı kesip sınıf panosuna astık!,0,context_shift_safe,filler+punctuation+synonym_swap
+Kağıdı kesip sınıf panosuna astık yakında yani,0,context_shift_safe,time_modifier+future_tense+filler
+yani kağıdı kesip sınıf panosuna astık.!,0,context_shift_safe,punctuation+filler
+Kağıdı kesip sınıf panosuna astık!,0,context_shift_safe,punctuation+synonym_swap+case_variant
+akşam olunca ya kağıdı kesip sınıf panosuna astık,0,context_shift_safe,typo+subject_prefix+time_modifier
+bugün kağıdı kesip sınıf panosuna astık,0,context_shift_safe,future_tense+time_modifier
+yani kağıdı kesip sınıf panosuna astık,0,context_shift_safe,filler
+artık kağıdı kesip sınıf panosuna astık,0,context_shift_safe,filler
+karar verdim kağıdı kesip sınıf panosuna astık...,0,context_shift_safe,punctuation+subject_prefix+synonym_swap
+Kağıdı kesip sınıf panosuna astık artık,0,context_shift_safe,case_variant+filler
+Mührü belgeye vur lütfen,0,context_shift_safe,original
+Mühru belgeye vur lütfen,0,context_shift_safe,typo
+karar verdim mührü belgeye vur lütfen,0,context_shift_safe,subject_prefix+typo
+aslında mührü belgeye vur lütfen yarın,0,context_shift_safe,filler+time_modifier
+mührü belgeye vur lütfen kesin..,0,context_shift_safe,filler+case_variant+punctuation
+sanırım mührü belgeye vur lütfen,0,context_shift_safe,filler
+bence mührü belgeye vur lütfen.!,0,context_shift_safe,punctuation+subject_prefix+future_tense
+bugün mührü belgeye vur lütfen,0,context_shift_safe,time_modifier+synonym_swap
+Mührü belgeye vur lütfen akşama,0,context_shift_safe,typo+synonym_swap+time_modifier
+Mührü belgeye vur lütfen sanırım,0,context_shift_safe,filler+synonym_swap
+karar verdim yakında mührü belgeye vur lütfen,0,context_shift_safe,time_modifier+subject_prefix
+artık mührü belgeye vur lütfen,0,context_shift_safe,synonym_swap+future_tense+subject_prefix
+Topa sıkı vur,0,context_shift_safe,original
+Topa sıkı vur.,0,context_shift_safe,punctuation
+Topa sıkı vur sabaha,0,context_shift_safe,time_modifier
+Topa sıkı vur.!,0,context_shift_safe,punctuation
+Topa sıkı vur kesin,0,context_shift_safe,typo+filler
+Topa sıkı vur bu hafta,0,context_shift_safe,case_variant+time_modifier
+ya topa sıkı vur galiba.!,0,context_shift_safe,filler+punctuation+subject_prefix
+Topa sıkı vur aslında,0,context_shift_safe,filler
+ben topa sıkı vur valla..,0,context_shift_safe,subject_prefix+filler+punctuation
+ben topa sıkı vur aslında,0,context_shift_safe,filler+subject_prefix
+Topa sıkı vur yani,0,context_shift_safe,punctuation+filler+future_tense
+az sonra topa sıkı vur,0,context_shift_safe,case_variant+time_modifier
+Çiviyi duvara vur asalım,0,context_shift_safe,original
+bence çiviyi duvara vur asalım,0,context_shift_safe,typo+future_tense+subject_prefix
+çiviyi duvara vur asalım aslında az sonra,0,context_shift_safe,filler+case_variant+time_modifier
+Çiviyi duvara vur asalım.,0,context_shift_safe,typo+case_variant+punctuation
+bu akşam aslında çiviyi duvara vur asalım,0,context_shift_safe,filler+future_tense+time_modifier
+Çiviyi duvara vur asalım bu hafta,0,context_shift_safe,time_modifier+future_tense
+bugün ben çiviyi duvara vur asalım...,0,context_shift_safe,subject_prefix+punctuation
+ben çiviyi duvara vur asalım galiba,0,context_shift_safe,filler+synonym_swap+subject_prefix
+Çiviyi duvara vur asalım artık,0,context_shift_safe,filler+typo
+yani çiviyi duvara vur asalım,0,context_shift_safe,future_tense+case_variant+filler
+ben de çiviyi duvara vur asalım,0,context_shift_safe,subject_prefix+synonym_swap+future_tense
+Çiviyi duvara vur asalım bu gece,0,context_shift_safe,time_modifier
+Çekiçle çiviye vur dikkatli,0,context_shift_safe,original
+kesin çekiçle çiviye vur dikkatli,0,context_shift_safe,filler+future_tense
+ben de çekiçle çiviye vur dikkatli,0,context_shift_safe,subject_prefix
+Çekicle civiye vur dikkatli az sonra,0,context_shift_safe,typo+time_modifier+punctuation
+Çekiçle çiviye vur dikkatli aslında.!,0,context_shift_safe,filler+case_variant+punctuation
+şimdi ben çekiçle çiviye vur dikkatli,0,context_shift_safe,subject_prefix+time_modifier
+az sonra çekiçle çiviye vur dikkatli,0,context_shift_safe,punctuation+typo+time_modifier
+Artık çekiçle çiviye vur dikkatli,0,context_shift_safe,synonym_swap+subject_prefix+case_variant
+aslında çekiçle çiviye vur dikkatli,0,context_shift_safe,synonym_swap+punctuation+filler
+Çekiçle çiviye vur dikkatli sanırım,0,context_shift_safe,filler+typo
+gece olunca çekiçle çiviye vur dikkatli,0,context_shift_safe,typo+synonym_swap+time_modifier
+Çekiçle çiviye vur Dikkatli.!,0,context_shift_safe,case_variant+punctuation+typo
+Telefonu masaya bırak yavaşça,0,context_shift_safe,original
+galiba telefonu masaya bırak yavaşça.!,0,context_shift_safe,synonym_swap+filler+punctuation
+ben telefonu masaya bırak yavaşça bugün içinde,0,context_shift_safe,time_modifier+typo+subject_prefix
+Telefonu masaya birak yavaşça,0,context_shift_safe,future_tense+typo
+Telefonu masaya bırak yavaşça bu hafta,0,context_shift_safe,time_modifier+future_tense
+Telefonu masaya bırak yavaşça sabaha sanırım,0,context_shift_safe,time_modifier+filler+future_tense
+Telefonu masaya bırak yavaşça yani,0,context_shift_safe,future_tense+filler
+Telefonu Masaya bırak yavaşça..,0,context_shift_safe,punctuation+typo+case_variant
+bence telefonu masaya bırak yavaşça,0,context_shift_safe,subject_prefix+typo
+gece olunca telefonu masaya bırak yavaşça,0,context_shift_safe,case_variant+time_modifier+future_tense
+Telefonu masaya bırak yavaşça.. yani,0,context_shift_safe,punctuation+filler+typo
+Telefonu masaya bırak yavaşça!,0,context_shift_safe,punctuation
+Şapkayı başına vur soğukta,0,context_shift_safe,original
+evet şapkayı başına vur soğukta.,0,context_shift_safe,subject_prefix+punctuation+typo
+kesin olarak şapkayı başına vur soğukta!,0,context_shift_safe,punctuation+typo+subject_prefix
+Şapkayı başına vur soğukta yakında,0,context_shift_safe,typo+time_modifier+future_tense
+bence şapkayı başına vur soğukta,0,context_shift_safe,subject_prefix+punctuation
+Şapkayı başına vur soğukta bugün içinde,0,context_shift_safe,synonym_swap+time_modifier+case_variant
+bugün şapkayı başına vur soğukta,0,context_shift_safe,time_modifier+future_tense
+Şapkayi başina vur soğukta,0,context_shift_safe,typo
+Şapkayı başına vur soğukta aslında,0,context_shift_safe,filler+future_tense+synonym_swap
+evet şapkayı başına vur soğukta,0,context_shift_safe,case_variant+subject_prefix
+kesin olarak şapkayı başına vur soğukta bu gece,0,context_shift_safe,subject_prefix+time_modifier+typo
+ya şapkayı başına vur soğukta,0,context_shift_safe,subject_prefix
+Tahtaya nazik vur uyandırma,0,context_shift_safe,original
+galiba tahtaya nazik vur uyandırma,0,context_shift_safe,filler+synonym_swap
+bugün ben şimdi tahtaya nazik vur uyandırma,0,context_shift_safe,time_modifier+future_tense+subject_prefix
+Tahtaya nazik vur uyandırma...,0,context_shift_safe,synonym_swap+punctuation
+Tahtaya nazik vur uyandırma.!,0,context_shift_safe,punctuation
+tahtaya nazik vur uyandırma aslında,0,context_shift_safe,case_variant+punctuation+filler
+evet tahtaya nazik vur uyandırma artık,0,context_shift_safe,filler+subject_prefix
+ben tahtaya nazik vur uyandırma,0,context_shift_safe,future_tense+subject_prefix
+bence yani tahtaya nazik vur uyandırma,0,context_shift_safe,filler+subject_prefix+typo
+aslında tahtaya nazik vur uyandırma,0,context_shift_safe,filler
+Tahtaya nazik vur uyandırma yani,0,context_shift_safe,filler
+Ben de tahtaya nazik vur uyandırma,0,context_shift_safe,subject_prefix+case_variant
+Vur futbol topuna kale ağına gönder,0,context_shift_safe,original
+valla vur futbol topuna kale ağına gönder,0,context_shift_safe,synonym_swap+filler
+Vur futbol Topuna kale ağına gönder bugün içinde,0,context_shift_safe,future_tense+time_modifier+case_variant
+kararımı verdim vur futbol topuna kale ağına gönder yakında,0,context_shift_safe,time_modifier+subject_prefix+synonym_swap
+artık vur futbol topuna kale ağına gönder,0,context_shift_safe,future_tense+filler
+galiba vur futbol topuna kale ağına gönder sabaha,0,context_shift_safe,filler+typo+time_modifier
+artık yani vur futbol topuna kale ağına gönder,0,context_shift_safe,filler+case_variant+subject_prefix
+kararımı verdim vur futbol topuna kale ağına gönder,0,context_shift_safe,subject_prefix
+Vur futbol topuna kale ağına gönder artık,0,context_shift_safe,filler
+Vur futbol topuna kale ağına gönder!,0,context_shift_safe,punctuation+synonym_swap
+evet vur futbol topuna kale ağına gönder,0,context_shift_safe,subject_prefix
+Vur futbol topuna kale ağına gönder..,0,context_shift_safe,case_variant+punctuation
+Damgayı evraka vur lütfen,0,context_shift_safe,original
+gece olunca damgayı evraka vur lütfen,0,context_shift_safe,future_tense+time_modifier
+Damgayı evraka vur lütfen..,0,context_shift_safe,synonym_swap+punctuation+typo
+sanırım damgayı evraka vur lütfen,0,context_shift_safe,filler
+kesin olarak damgayı evraka vur lütfen,0,context_shift_safe,subject_prefix
+galiba kesin olarak damgayı evraka vur lütfen,0,context_shift_safe,subject_prefix+filler
+Damgayı evraka vur lütfen yani,0,context_shift_safe,filler
+ya damgayı evraka vur lütfen,0,context_shift_safe,subject_prefix+punctuation+case_variant
+Damgayı evraka vur lütfen bu hafta,0,context_shift_safe,time_modifier
+Artık damgayı evraka vur lütfen akşama,0,context_shift_safe,time_modifier+filler+case_variant
+Damgayı evraka vur lütfen valla..,0,context_shift_safe,filler+typo+punctuation
+kararımı verdim damgayı evraka vur lütfen,0,context_shift_safe,subject_prefix
+Şakacıktan omzuna vurdu,0,context_shift_safe,original
+galiba kararımı verdim şakacıktan omzuna vurdu,0,context_shift_safe,typo+subject_prefix+filler
+Şakacıktan omzuna vurdu yani,0,context_shift_safe,filler
+Şakacıktan omzuna vurdu.!,0,context_shift_safe,punctuation
+gece olunca artık şakacıktan omzuna vurdu,0,context_shift_safe,subject_prefix+punctuation+time_modifier
+Şakacıktan omzuna vurdu!,0,context_shift_safe,punctuation+future_tense+typo
+kararımı verdim şakacıktan omzuna vurdu,0,context_shift_safe,future_tense+subject_prefix+typo
+ben de şakacıktan omzuna vurdu,0,context_shift_safe,subject_prefix
+Şakacıktan omzuna vurdu...,0,context_shift_safe,punctuation
+ben şakacıktan omzuna vurdu sanırım,0,context_shift_safe,filler+subject_prefix+synonym_swap
+sanırım kesin şakacıktan omzuna vurdu,0,context_shift_safe,filler+subject_prefix
+Şakacıktan omzuna vurdu valla,0,context_shift_safe,case_variant+filler
+Akşamları erken yat sabah erken kalk,0,context_shift_safe,original
+Akşamları erken yat sabah erken kalk.!,0,context_shift_safe,punctuation
+gece olunca akşamları erken yat sabah erken kalk,0,context_shift_safe,time_modifier
+Akşamları erken yat sabah erken kalk aslında.!,0,context_shift_safe,filler+punctuation
+kararımı verdim akşamları erken yat sabah erken kalk,0,context_shift_safe,synonym_swap+subject_prefix
+Akşamları erken yat sabah erken kalk.,0,context_shift_safe,case_variant+punctuation
+bu gece akşamları erken yat sabah erken kalk.!,0,context_shift_safe,future_tense+punctuation+time_modifier
+Akşamları erken yat sabah erken kalk aslında,0,context_shift_safe,filler
+ben de akşamları erken yat sabah erken kalk,0,context_shift_safe,future_tense+typo+subject_prefix
+bu akşam aslında akşamları erken yat sabah erken kalk..,0,context_shift_safe,filler+punctuation+time_modifier
+yani akşamları erken yat sabah erken kalk,0,context_shift_safe,filler+synonym_swap+future_tense
+Akşamları erken yat sabah erken kalk artık,0,context_shift_safe,typo+filler
+Yatağa yat ve oku biraz,0,context_shift_safe,original
+Yatağa yat ve oku biraz bugün içinde,0,context_shift_safe,time_modifier+case_variant
+az sonra yatağa yat ve oku biraz!,0,context_shift_safe,time_modifier+punctuation+synonym_swap
+artık yatağa yat ve oku biraz!,0,context_shift_safe,subject_prefix+punctuation
+bence yatağa yat ve oku biraz.!,0,context_shift_safe,punctuation+subject_prefix+future_tense
+ben de yatağa yat ve oku biraz artık,0,context_shift_safe,synonym_swap+subject_prefix+filler
+aslında yatağa yat ve oku biraz,0,context_shift_safe,filler
+Yatağa yat ve oku biraz yarın,0,context_shift_safe,time_modifier
+valla yatağa yat ve oku biraz,0,context_shift_safe,typo+filler
+karar verdim aslında yatağa yat ve Oku biraz,0,context_shift_safe,case_variant+filler+subject_prefix
+yarın yatağa yat ve oku biraz,0,context_shift_safe,time_modifier+future_tense+typo
+Yatağa yat ve oku biraz bu gece,0,context_shift_safe,time_modifier+synonym_swap
+Çimene yat ve bulutları izle,0,context_shift_safe,original
+kesin olarak yani çimene yat ve bulutları izle,0,context_shift_safe,filler+subject_prefix+future_tense
+sanırım çimene yat ve bulutları izle,0,context_shift_safe,filler
+Çimene yat ve bulutları izle! yani,0,context_shift_safe,punctuation+filler+case_variant
+az sonra galiba çimene yat ve bulutları izle,0,context_shift_safe,filler+time_modifier
+Çimene yat ve bulutları izle akşama,0,context_shift_safe,time_modifier
+yarın sabah çimene yat ve bulutları izle..,0,context_shift_safe,punctuation+time_modifier
+kesin çimene yat ve bulutları izle sabaha,0,context_shift_safe,filler+time_modifier+case_variant
+Çimene yat ve bulutları izle!,0,context_shift_safe,punctuation
+yani çimene yat ve bulutları izle,0,context_shift_safe,synonym_swap+typo+filler
+ya çimene yat ve bulutları izle sanırım,0,context_shift_safe,synonym_swap+filler+subject_prefix
+Çimene yat ve bulutları izle bu gece..,0,context_shift_safe,time_modifier+punctuation
+Akşam yemeğinden sonra dinlenmek için yat,0,context_shift_safe,original
+artık akşam yemeğinden sonra dinlenmek için yat,0,context_shift_safe,filler
+sanırım akşam yemeğinden sonra dinlenmek için yat artık,0,context_shift_safe,filler+typo+subject_prefix
+yani Akşam yemeğinden sonra dinlenmek için yat,0,context_shift_safe,filler+case_variant
+akşam yemeğinden sonra dinlenmek için yat galiba,0,context_shift_safe,case_variant+synonym_swap+filler
+ben yakında akşam yemeğinden sonra dinlenmek için yat,0,context_shift_safe,time_modifier+subject_prefix
+sanırım akşam yemeğinden sonra dinlenmek için yat,0,context_shift_safe,subject_prefix
+bence akşam yemeğinden sonra dinlenmek için yat yakında,0,context_shift_safe,time_modifier+typo+subject_prefix
+Bence az sonra akşam yemeğinden sonra dinlenmek için yat,0,context_shift_safe,time_modifier+subject_prefix+case_variant
+Akşam yemeğinden sonra dinlenmek için yat sabaha,0,context_shift_safe,time_modifier+synonym_swap
+ben akşam yemeğinden sonra dinlenmek için yat bugün içinde,0,context_shift_safe,case_variant+time_modifier+subject_prefix
+Akşam yemeğinden sonra dinlenmek için yat yani,0,context_shift_safe,future_tense+filler
+Çocuk yatağa yat masal dinle,0,context_shift_safe,original
+Çocuk yatağa yat masal dinle galiba,0,context_shift_safe,filler+future_tense
+gece olunca artık çocuk yatağa yat masal dinle,0,context_shift_safe,subject_prefix+case_variant+time_modifier
+artık çocuk yatağa yat masal dinle,0,context_shift_safe,filler
+Çocuk yatağa yat masal dinle! bugün içinde,0,context_shift_safe,punctuation+time_modifier+case_variant
+ben de çocuk yatağa yat masal dinle,0,context_shift_safe,subject_prefix
+bu akşam sanırım çocuk yatağa yat masal dinle,0,context_shift_safe,filler+time_modifier+future_tense
+valla çocuk yatağa yat masal dinle,0,context_shift_safe,filler+synonym_swap
+Çocuk yatağa yat masal dinle artık,0,context_shift_safe,filler
+Çocuk yatağa yat masal dinle bu hafta,0,context_shift_safe,typo+case_variant+time_modifier
+ben yarın sabah çocuk yatağa yat masal dinle,0,context_shift_safe,time_modifier+case_variant+subject_prefix
+Çocuk yatağa yat masal dinle...,0,context_shift_safe,punctuation
+Yat ve nefes egzersizi yap,0,context_shift_safe,original
+Yat ve nefes egzersizi yap kesin,0,context_shift_safe,typo+case_variant+filler
+Yat ve nefes egzersizi yap valla,0,context_shift_safe,filler
+Yat ve nefes egzersizi yap.,0,context_shift_safe,synonym_swap+punctuation+typo
+Yat ve nefes egzersizi yap.!,0,context_shift_safe,punctuation
+evet yat ve nefes egzersizi yap,0,context_shift_safe,subject_prefix
+Yat ve nefes egzersizi yap akşama,0,context_shift_safe,time_modifier
+bugün yat ve nefes egzersizi yap,0,context_shift_safe,time_modifier+future_tense
+Yat ve nefes egzersizi yap...,0,context_shift_safe,punctuation
+bugün ben yat ve nefes egzersizi yap galiba,0,context_shift_safe,future_tense+filler+subject_prefix
+bu hafta kesin olarak yat ve nefes egzersizi yap,0,context_shift_safe,typo+subject_prefix+time_modifier
+kesin olarak yat ve nefes egzersizi yap,0,context_shift_safe,subject_prefix
+Plajda kuma yat güneşlen,0,context_shift_safe,original
+kesin plajda kuma yat güneşlen,0,context_shift_safe,filler
+artık plajda kuma yat güneşlen,0,context_shift_safe,typo+synonym_swap+filler
+plajda kuma yat güneşlen.!,0,context_shift_safe,synonym_swap+punctuation+case_variant
+artık plajda kuma yat güneşlen galiba..,0,context_shift_safe,filler+subject_prefix+punctuation
+kararımı verdim plajda kuma yat güneşlen,0,context_shift_safe,subject_prefix
+valla evet plajda kuma yat güneşlen,0,context_shift_safe,subject_prefix+filler+future_tense
+Plajda kuma yat güneşlen...,0,context_shift_safe,punctuation
+ya plajda kuma yat güneşlen,0,context_shift_safe,subject_prefix+future_tense
+Plajda kuma yat güneşlen yarın.,0,context_shift_safe,time_modifier+typo+punctuation
+Plajda kuma yat güneşlen. akşama,0,context_shift_safe,case_variant+punctuation+time_modifier
+Plajda kuma yat güneşlen!,0,context_shift_safe,punctuation
+Yat ve dinlen biraz,0,context_shift_safe,original
+yat ve dinlen biraz aslında,0,context_shift_safe,future_tense+case_variant+filler
+Yat ve dinlen biraz valla,0,context_shift_safe,filler
+Yat ve dinlen biraz bu hafta artık,0,context_shift_safe,typo+time_modifier+filler
+Yat ve dinlen biraz akşama,0,context_shift_safe,case_variant+time_modifier
+Yat ve dinlen biraz!,0,context_shift_safe,punctuation
+kararımı verdim yat ve dinlen biraz!,0,context_shift_safe,subject_prefix+punctuation+future_tense
+Yat ve dinlen biraz sanırım,0,context_shift_safe,future_tense+filler+synonym_swap
+bugün yat ve dinlen biraz..,0,context_shift_safe,case_variant+time_modifier+punctuation
+Yat ve dinlen biraz..,0,context_shift_safe,case_variant+punctuation
+az sonra yat ve dinlen biraz,0,context_shift_safe,future_tense+time_modifier+typo
+galiba yat ve dinlen biraz..,0,context_shift_safe,future_tense+punctuation+filler
+Yaz tatilini sabırsızlıkla bekliyorum,0,context_shift_safe,original
+Yaz tatilini sabırsızlıkla bekliyorum!,0,context_shift_safe,punctuation+future_tense
+yakında yaz tatilini sabırsızlıkla bekliyorum,0,context_shift_safe,future_tense+time_modifier
+Yaz tatilini sabırsızlıkla bekliyorum.!,0,context_shift_safe,punctuation+synonym_swap+case_variant
+kesin gece olunca yaz tatilini sabırsızlıkla bekliyorum,0,context_shift_safe,typo+time_modifier+filler
+Yaz tatilini sabırsızlıkla bekliyorum... artık,0,context_shift_safe,punctuation+filler
+şimdi yaz tatilini sabırsızlıkla bekliyorum,0,context_shift_safe,case_variant+time_modifier+typo
+Yaz tatilini sabırsizlikla bekliyorum,0,context_shift_safe,typo
+Yaz tatilini sabırsızlıkla bekliyorum aslında,0,context_shift_safe,future_tense+synonym_swap+filler
+Yaz tatilini sabırsızlıkla bekliyorum! aslında,0,context_shift_safe,future_tense+punctuation+filler
+Yaz tatilini sabırsızlıkla bekliyorum sabaha,0,context_shift_safe,time_modifier+synonym_swap+typo
+Yaz tatilini sabırsızlıkla bekliyorum..,0,context_shift_safe,punctuation
+Sıcak yaz akşamları çok güzel,0,context_shift_safe,original
+sanırım sıcak yaz akşamları cok güzel,0,context_shift_safe,filler+typo
+Sıcak yaz akşamları çok güzel artık,0,context_shift_safe,filler
+artık sıcak yaz akşamları çok güzel,0,context_shift_safe,filler+future_tense+synonym_swap
+Sıcak yaz akşamları çok güzel..,0,context_shift_safe,punctuation+synonym_swap
+sanırım sıcak yaz akşamları çok güzel,0,context_shift_safe,typo+filler+synonym_swap
+Sıcak yaz akşamları çok guzel,0,context_shift_safe,typo
+Sıcak yaz akşamları çok güzel kesin,0,context_shift_safe,filler
+yani sıcak yaz akşamları çok güzel,0,context_shift_safe,filler
+ben de sıcak yaz akşamları çok güzel,0,context_shift_safe,subject_prefix+case_variant+future_tense
+Sıcak yaz akşamları çok güzel.,0,context_shift_safe,punctuation
+ben sıcak yaz akşamları çok güzel,0,context_shift_safe,subject_prefix
+Mektubu yaz ve gönder,0,context_shift_safe,original
+ben mektubu yaz ve gönder,0,context_shift_safe,subject_prefix+future_tense+synonym_swap
+karar verdim mektubu yaz ve gönder yakında,0,context_shift_safe,subject_prefix+time_modifier+case_variant
+şimdi artık mektubu yaz ve gönder,0,context_shift_safe,filler+time_modifier+synonym_swap
+artık mektubu yaz ve gönder,0,context_shift_safe,subject_prefix
+Mektubu yaz ve gönder.,0,context_shift_safe,punctuation
+sanırım mektubu yaz ve gönder,0,context_shift_safe,subject_prefix
+az sonra sanırım mektubu yaz ve gönder,0,context_shift_safe,subject_prefix+time_modifier
+karar verdim mektubu yaz ve gönder,0,context_shift_safe,subject_prefix+synonym_swap+typo
+kararımı verdim mektubu yaz ve gönder...,0,context_shift_safe,subject_prefix+future_tense+punctuation
+kararımı verdim mektubu yaz ve gönder,0,context_shift_safe,subject_prefix+synonym_swap+case_variant
+Mektubu yaz ve gönder.. artık,0,context_shift_safe,synonym_swap+punctuation+filler
+Hikayeyi yaz defterine,0,context_shift_safe,original
+sanırım hikayeyi yaz defterine,0,context_shift_safe,subject_prefix+synonym_swap+case_variant
+kararımı verdim hikayeyi yaz defterine.,0,context_shift_safe,punctuation+synonym_swap+subject_prefix
+karar verdim hikayeyi yaz defterine,0,context_shift_safe,future_tense+synonym_swap+subject_prefix
+az sonra hikayeyi yaz defterine,0,context_shift_safe,time_modifier
+sanırım hikayeyi yaz defterine..,0,context_shift_safe,punctuation+typo+subject_prefix
+Hikayeyi yaz defterine yakında,0,context_shift_safe,time_modifier
+bence sanırım hikayeyi yaz defterine,0,context_shift_safe,case_variant+filler+subject_prefix
+ben de hikayeyi yaz defterine sabaha,0,context_shift_safe,future_tense+subject_prefix+time_modifier
+Hikayeyi yaz defterine...,0,context_shift_safe,future_tense+punctuation+synonym_swap
+Hikayeyi yaz defterine yakında artık,0,context_shift_safe,time_modifier+filler+future_tense
+aslında ben hikayeyi yaz defterine,0,context_shift_safe,punctuation+subject_prefix+filler
+Köprüden geç dikkatli,0,context_shift_safe,original
+ya köprüden geç dikkatli!,0,context_shift_safe,subject_prefix+punctuation+synonym_swap
+ben köprüden gec dikkatli,0,context_shift_safe,typo+case_variant+subject_prefix
+saatler içinde kesin olarak köprüden geç dikkatli,0,context_shift_safe,subject_prefix+synonym_swap+time_modifier
+ben köprüden geç dikkatli,0,context_shift_safe,subject_prefix
+bu akşam köprüden geç dikkatli,0,context_shift_safe,future_tense+time_modifier+case_variant
+evet köprüden geç dikkatli,0,context_shift_safe,subject_prefix
+Köprüden geç dikkatli bu gece,0,context_shift_safe,time_modifier
+sanırım köprüden geç dikkatli,0,context_shift_safe,filler
+bence köprüden geç dikkatli,0,context_shift_safe,subject_prefix+synonym_swap
+Köprüden gec dikkatli,0,context_shift_safe,future_tense+typo
+Köprüden geç dikkatli.!,0,context_shift_safe,punctuation
+Karşıdan karşıya yaya geçidinden geç,0,context_shift_safe,original
+gece olunca karşıdan karşıya yaya geçidinden geç!,0,context_shift_safe,punctuation+time_modifier
+kararımı verdim karşıdan karşıya yaya geçidinden geç akşama,0,context_shift_safe,time_modifier+subject_prefix
+Kesin olarak karşıdan karşıya yaya geçidinden geç,0,context_shift_safe,future_tense+subject_prefix+case_variant
+akşam olunca karşıdan karşıya yaya geçidinden geç...,0,context_shift_safe,time_modifier+punctuation
+artık karşıdan karşıya yaya geçidinden geç,0,context_shift_safe,case_variant+subject_prefix
+Karşıdan karşıya yaya geçidinden gec,0,context_shift_safe,typo+synonym_swap
+karşıdan karşıya yaya geçidinden geç bu gece,0,context_shift_safe,case_variant+time_modifier+typo
+bu gece karşıdan karşıya yaya geçidinden geç,0,context_shift_safe,time_modifier
+Karşıdan karşıya yaya geçidinden geç galiba.!,0,context_shift_safe,filler+punctuation+future_tense
+sanırım karşıdan karşıya yaya geçidinden geç,0,context_shift_safe,subject_prefix
+Karsıdan karsıya yaya geçidinden geç,0,context_shift_safe,case_variant+typo
+Akşam saatlerinde geç yatmıyorum,0,context_shift_safe,original
+Akşam saatlerinde geç yatmıyorum yarın,0,context_shift_safe,time_modifier+case_variant
+evet akşam saatlerinde geç yatmıyorum.!,0,context_shift_safe,subject_prefix+punctuation
+artık akşam saatlerinde geç yatmıyorum yakında,0,context_shift_safe,time_modifier+subject_prefix+future_tense
+ya akşam saatlerinde geç yatmıyorum yarın,0,context_shift_safe,future_tense+subject_prefix+time_modifier
+ya kesin akşam saatlerinde geç yatmıyorum...,0,context_shift_safe,punctuation+filler+subject_prefix
+akşam saatlerinde geç yatmıyorum!,0,context_shift_safe,case_variant+punctuation
+Akşam saatlerinde geç yatmiyorum,0,context_shift_safe,typo
+Akşam saatlerinde geç yatmıyorum bugün içinde!,0,context_shift_safe,time_modifier+synonym_swap+punctuation
+karar verdim akşam saatlerinde geç yatmıyorum,0,context_shift_safe,subject_prefix
+bence akşam saatlerinde geç yatmıyorum,0,context_shift_safe,case_variant+subject_prefix
+yani artık akşam saatlerinde geç yatmıyorum...,0,context_shift_safe,punctuation+subject_prefix+filler
+Yan masada otur,0,context_shift_safe,original
+ben yan masada otur,0,context_shift_safe,subject_prefix+synonym_swap+future_tense
+evet yan masada otur,0,context_shift_safe,subject_prefix+synonym_swap
+az sonra yan masada otur,0,context_shift_safe,time_modifier+typo
+Yan masada otur...,0,context_shift_safe,future_tense+punctuation
+Yan masada otur!,0,context_shift_safe,typo+punctuation
+artık artık yan masada otur,0,context_shift_safe,filler+subject_prefix
+Yan masada otur.. bu gece,0,context_shift_safe,punctuation+typo+time_modifier
+Yan masada otur..,0,context_shift_safe,typo+punctuation
+yan masada otur.,0,context_shift_safe,punctuation+case_variant+future_tense
+sanırım yan masada otur,0,context_shift_safe,subject_prefix+future_tense
+galiba yan masada otur..,0,context_shift_safe,punctuation+filler+synonym_swap
+Yanına gel biraz,0,context_shift_safe,original
+kesin olarak yanına gel biraz,0,context_shift_safe,subject_prefix
+karar verdim yanına gel biraz,0,context_shift_safe,subject_prefix+future_tense
+Yanına gel biraz.,0,context_shift_safe,punctuation+synonym_swap
+bence yanına gel biraz.,0,context_shift_safe,punctuation+subject_prefix
+Yanına gel biraz!,0,context_shift_safe,typo+punctuation+synonym_swap
+Yanına gel biraz valla,0,context_shift_safe,filler
+sanırım yanına gel biraz yani,0,context_shift_safe,subject_prefix+filler
+Yanına gel biraz..,0,context_shift_safe,punctuation+future_tense+case_variant
+az sonra yanına gel biraz,0,context_shift_safe,future_tense+typo+time_modifier
+Yanına gel biraz yakında,0,context_shift_safe,time_modifier+future_tense
+bu akşam yanına gel biraz yani,0,context_shift_safe,filler+future_tense+time_modifier
+Şu yan koltuğa otur,0,context_shift_safe,original
+artık şu yan koltuğa otur,0,context_shift_safe,filler+future_tense+typo
+aslında şu yan koltuğa otur,0,context_shift_safe,filler
+Şu yan koltuğa Otur.!,0,context_shift_safe,case_variant+punctuation
+sanırım şu yan koltuğa otur.!,0,context_shift_safe,punctuation+filler
+yani şu yan koltuğa otur,0,context_shift_safe,punctuation+filler
+kesin olarak saatler içinde şu yan koltuğa otur,0,context_shift_safe,time_modifier+subject_prefix
+bugün ben şu yan koltuğa otur,0,context_shift_safe,case_variant+subject_prefix
+ben şu yan koltuğa otur sabaha,0,context_shift_safe,subject_prefix+time_modifier
+Şu yan koltuga otur.!,0,context_shift_safe,punctuation+typo
+kararımı verdim şu yan koltuğa otur,0,context_shift_safe,case_variant+typo+subject_prefix
+bu gece şu yan koltuğa otur,0,context_shift_safe,time_modifier
+Aileme söyleme bizim aramızda kalsın,1,subtle_threat,original
+kararımı verdim aileme söyleme bizim aramızda kalsın,1,subtle_threat,subject_prefix+typo
+Aileme söyleme bizim aramızda kalsın sabaha,1,subtle_threat,case_variant+time_modifier
+Aileme Söyleme bizim aramızda kalsın bugün içinde,1,subtle_threat,future_tense+time_modifier+case_variant
+Aileme söyleme bizim aramızda kalsın!,1,subtle_threat,case_variant+punctuation
+bu akşam aileme söyleme bizim aramızda kalsın,1,subtle_threat,time_modifier
+valla aileme söyleme bizim aramızda kalsın,1,subtle_threat,future_tense+filler
+bu hafta aileme söyleme bizim aramızda kalsın,1,subtle_threat,case_variant+time_modifier
+Aileme söyleme bizim aramızda kalsın...,1,subtle_threat,punctuation
+Aileme söyleme bizim aramızda kalsın yarın,1,subtle_threat,synonym_swap+time_modifier
+kesin yarın aileme söyleme bizim aramızda kalsın,1,subtle_threat,time_modifier+filler
+evet aileme söyleme bizim aramizda kalsin..,1,subtle_threat,punctuation+typo+subject_prefix
+Anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,original
+Anne babana hiç bahsetme yaptıklarımızdan!,1,subtle_threat,future_tense+punctuation+typo
+ya anne babana hiç bahsetme yaptıklarımızdan galiba...,1,subtle_threat,filler+subject_prefix+punctuation
+Kararımı verdim anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,subject_prefix+case_variant
+ben anne babana hiç bahsetme yaptıklarımızdan..,1,subtle_threat,subject_prefix+punctuation
+karar verdim anne babana hiç bahsetme yaptıklarımızdan..,1,subtle_threat,punctuation+subject_prefix+future_tense
+Anne babana hiç bahsetme yaptıklarımızdan akşama aslında,1,subtle_threat,time_modifier+future_tense+filler
+Yarın anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,time_modifier+case_variant
+galiba bugün ben anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,subject_prefix+filler
+ben de anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,subject_prefix+synonym_swap
+bence anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,future_tense+subject_prefix+typo
+artık anne babana hiç bahsetme yaptıklarımızdan,1,subtle_threat,case_variant+punctuation+filler
+Bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,original
+Bu konuşmayı kimseyle paylaşma sakın kesin,1,subtle_threat,filler
+ya bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,subject_prefix+future_tense+case_variant
+valla bu konuşmayı kimseyle paylaşma sakın bu gece,1,subtle_threat,time_modifier+filler+synonym_swap
+ben de bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,subject_prefix
+Bu konuşmayı kimseyle paylaşma sakın.,1,subtle_threat,punctuation
+yarın sabah bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,time_modifier+typo
+artık bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,case_variant+filler+future_tense
+bugün ben bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,case_variant+synonym_swap+subject_prefix
+galiba sanırım bu konuşmayı kimseyle paylaşma sakın,1,subtle_threat,subject_prefix+filler
+Bu konuşmayı kimseyle paylaşma sakın...,1,subtle_threat,punctuation+synonym_swap
+akşam olunca ben de bu konuşmayı kimseyle Paylaşma sakın,1,subtle_threat,subject_prefix+time_modifier+case_variant
+Annene söyleme yaptıklarımızı,1,subtle_threat,original
+Annene söyleme yaptıklarımızı.,1,subtle_threat,future_tense+synonym_swap+punctuation
+Annene söyleme yaptıklarımızı aslında,1,subtle_threat,filler
+Annene söyleme yaptıklarımızı..,1,subtle_threat,punctuation+case_variant+future_tense
+Annene soyleme yaptıklarımızı,1,subtle_threat,typo
+Annene söyleme yaptıklarımızı sanırım,1,subtle_threat,future_tense+filler
+artık annene söyleme yaptıklarımızı,1,subtle_threat,filler
+ben gece olunca aslında annene söyleme yaptıklarımızı,1,subtle_threat,filler+time_modifier+subject_prefix
+Annene söyleme yaptıklarımızı sabaha,1,subtle_threat,synonym_swap+punctuation+time_modifier
+Annene söyleme yaptıklarımızı artık,1,subtle_threat,synonym_swap+typo+filler
+annene söyleme yaptıklarımızı bu gece!,1,subtle_threat,time_modifier+punctuation+case_variant
+Annene söyleme yaptıklarımızı yarın,1,subtle_threat,future_tense+synonym_swap+time_modifier
+Babanın bilmemesi gerek bunu,1,subtle_threat,original
+bugün ben babanın bilmemesi gerek bunu.!,1,subtle_threat,punctuation+future_tense+subject_prefix
+yarın sabah babanın bilmemesi gerek bunu aslında!,1,subtle_threat,filler+punctuation+time_modifier
+az sonra babanın bilmemesi gerek bunu..,1,subtle_threat,time_modifier+synonym_swap+punctuation
+Babanın bilmemesi gerek bunu valla,1,subtle_threat,filler
+Babanın bilmemesi gerek bunu.,1,subtle_threat,future_tense+typo+punctuation
+Babanın bilmemesi gerek bunu.!,1,subtle_threat,punctuation+case_variant+synonym_swap
+yarın babanın bilmemesi gerek bunu,1,subtle_threat,time_modifier
+Babanın bilmemesi gerek bunu bu gece,1,subtle_threat,time_modifier
+karar verdim babanın bilmemesi gerek bunu...,1,subtle_threat,punctuation+case_variant+subject_prefix
+saatler içinde babanın bilmemesi gerek bunu,1,subtle_threat,time_modifier+typo
+valla babanın bilmemesi gerek bunu,1,subtle_threat,case_variant+filler
+Bu görevleri ailenden gizli tut,1,subtle_threat,original
+Bu görevleri ailenden gizli tut.,1,subtle_threat,punctuation
+kesin olarak valla bu görevleri ailenden gizli tut.!,1,subtle_threat,punctuation+filler+subject_prefix
+Bu görevleri ailenden gizli tut.!,1,subtle_threat,punctuation
+bu akşam bu görevleri ailenden gizli tut,1,subtle_threat,punctuation+time_modifier
+karar verdim bu görevleri ailenden gizli tut,1,subtle_threat,typo+subject_prefix+future_tense
+Bu görevleri ailenden gizli tut az sonra,1,subtle_threat,case_variant+future_tense+time_modifier
+Akşam olunca bu görevleri ailenden gizli tut,1,subtle_threat,time_modifier+synonym_swap+case_variant
+ben de bu görevleri ailenden gizli tut,1,subtle_threat,subject_prefix
+şimdi bu görevleri ailenden gizli tut,1,subtle_threat,time_modifier
+Bu görevleri ailenden gizli tut..,1,subtle_threat,punctuation+case_variant+typo
+Evet bu görevleri ailenden gizli tut,1,subtle_threat,subject_prefix+future_tense+case_variant
+Kimseye söyleme sırrımızı bilen olmasın,1,subtle_threat,original
+ben kimseye söyleme sırrımızı bilen olmasın yakında,1,subtle_threat,subject_prefix+time_modifier
+bu gece kimseye söyleme sırrımızı bilen olmasın sanırım,1,subtle_threat,time_modifier+filler
+Kimseye söyleme sırrımızı bilen olmasın...,1,subtle_threat,punctuation
+kesin olarak kimseye söyleme sırrımızı bilen olmasın...,1,subtle_threat,subject_prefix+typo+punctuation
+Kimseye söyleme sırrımızı bilen olmasın kesin,1,subtle_threat,filler
+kararımı verdim kimseye söyleme sırrımızı bilen olmasın,1,subtle_threat,subject_prefix+synonym_swap+typo
+Kimseye söyleme sırrımızı bilen olmasin..,1,subtle_threat,typo+punctuation
+Kimseye söyleme sırrımızı bilen olmasın kesin sabaha,1,subtle_threat,filler+future_tense+time_modifier
+bugün kimseye söyleme sırrımızı bilen olmasın..,1,subtle_threat,punctuation+time_modifier
+Kimseye söyleme sırrımızı bilen olmasın galiba,1,subtle_threat,filler
+kesin kimseye söyleme sırrımızı bilen olmasın,1,subtle_threat,synonym_swap+filler
+Telefonundan bizi silme ama görünmesin,1,subtle_threat,original
+karar verdim telefonundan bizi silme ama görünmesin,1,subtle_threat,subject_prefix+future_tense
+Telefonundan bizi silme ama görünmesin..,1,subtle_threat,case_variant+synonym_swap+punctuation
+Telefonundan bizi silme ama görünmesin yani,1,subtle_threat,filler+synonym_swap
+sanırım telefonundan bizi silme ama görünmesin.!,1,subtle_threat,synonym_swap+subject_prefix+punctuation
+evet telefonundan bizi silme ama görünmesin,1,subtle_threat,subject_prefix
+bu gece telefonundan bizi silme ama görünmesin,1,subtle_threat,case_variant+time_modifier+future_tense
+yarın telefonundan bizi silme ama görünmesin galiba,1,subtle_threat,filler+time_modifier+future_tense
+bugün telefonundan bizi silme ama görünmesin,1,subtle_threat,time_modifier+case_variant
+Telefonundan bizi silme ama görünmesin.!,1,subtle_threat,punctuation+future_tense
+Telefonundan bizi silme ama görünmesin bu gece,1,subtle_threat,synonym_swap+time_modifier+case_variant
+saatler içinde kesin telefonundan bizi silme ama görünmesin,1,subtle_threat,filler+time_modifier+typo
+Bu mesajları annenden sakla,1,subtle_threat,original
+yakında bu mesajları annenden sakla.,1,subtle_threat,time_modifier+punctuation+synonym_swap
+karar verdim gece olunca bu mesajları annenden sakla,1,subtle_threat,time_modifier+subject_prefix+future_tense
+valla bu mesajları annenden sakla,1,subtle_threat,filler
+sanırim bu mesajlari annenden sakla,1,subtle_threat,filler+typo+synonym_swap
+bu mesajları annenden sakla yakında,1,subtle_threat,synonym_swap+time_modifier+case_variant
+Bu mesajları annenden sakla...,1,subtle_threat,punctuation
+Bu mesajları annenden sakla bu gece,1,subtle_threat,time_modifier+synonym_swap+typo
+bu akşam bu mesajları annenden sakla..,1,subtle_threat,time_modifier+punctuation+future_tense
+sanırım saatler içinde bu mesajları annenden sakla,1,subtle_threat,time_modifier+subject_prefix
+Bu mesajları annenden sakla yarın,1,subtle_threat,time_modifier
+Bu mesajları annenden sakla!,1,subtle_threat,punctuation
+Telefonun şifresini sadece sen bil aile dahil bilmesin,1,subtle_threat,original
+Telefonun şifresini sadece sen bil aile dahil bilmesin yani,1,subtle_threat,future_tense+filler
+Telefonun şifresini sadece sen bil aile dahil bilmesin akşama,1,subtle_threat,punctuation+time_modifier
+Telefonun şifresini sadece sen bil aile dahil bilmesin kesin,1,subtle_threat,filler+synonym_swap+future_tense
+bugün telefonun şifresini sadece sen bil aile dahil bilmesin,1,subtle_threat,typo+case_variant+time_modifier
+karar verdim telefonun şifresini sadece sen bil aile dahil bilmesin artık...,1,subtle_threat,filler+punctuation+subject_prefix
+Telefonun şifresini sadece sen bil aile dahil bilmesin...,1,subtle_threat,future_tense+punctuation
+sanırım telefonun şifresini sadece sen bil aile dahil bilmesin,1,subtle_threat,subject_prefix+case_variant+future_tense
+Telefonun şifresini sadece sen bil aile dahil bilmesin!,1,subtle_threat,punctuation+case_variant
+evet telefonun şifresini sadece sen bil aile dahil bilmesin.,1,subtle_threat,punctuation+subject_prefix+future_tense
+yani telefonun şifresini sadece sen bil aile dahil bilmesin,1,subtle_threat,filler+typo
+yarın telefonun şifresini sadece sen bil aile dahil bilmesin artık,1,subtle_threat,filler+time_modifier+future_tense
+Yaptıklarımızı arkadaşlarına bile söyleme,1,subtle_threat,original
+saatler içinde yaptıklarımızı arkadaşlarına bile söyleme,1,subtle_threat,time_modifier
+artık bence yaptıklarımızı arkadaşlarına bile söyleme,1,subtle_threat,case_variant+subject_prefix+filler
+yarın sabah yaptıklarımızı arkadaşlarına bile söyleme,1,subtle_threat,time_modifier
+yani yaptıklarımızı arkadaşlarına bile söyleme yarın,1,subtle_threat,time_modifier+synonym_swap+filler
+Yaptıklarımızı arkadaşlarına bile söyleme akşama,1,subtle_threat,future_tense+time_modifier
+Yaptıklarımızı arkadaşlarına bile söyleme aslında,1,subtle_threat,filler+typo
+Yaptıklarımızı arkadaşlarına bile söyleme.. yani,1,subtle_threat,punctuation+case_variant+filler
+bence yaptıklarımızı arkadaşlarına bile söyleme akşama,1,subtle_threat,subject_prefix+synonym_swap+time_modifier
+evet yaptıklarımızı arkadaşlarına bile söyleme,1,subtle_threat,synonym_swap+subject_prefix
+Yaptıklarımızı arkadaşlarına bile söyleme...,1,subtle_threat,punctuation
+artık yaptıklarımızı arkadaşlarına bile söyleme...,1,subtle_threat,subject_prefix+punctuation
+Bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,original
+şimdi bu görevi tamamladığını kanıt göstermeden bana söyle.!,1,subtle_threat,time_modifier+synonym_swap+punctuation
+saatler içinde bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,future_tense+time_modifier
+ben de bu görevi tamamladığını kanıt göstermeden bana söyle.,1,subtle_threat,punctuation+typo+subject_prefix
+kesin bu görevi tamamladığını kanıt gostermeden bana söyle!,1,subtle_threat,filler+punctuation+typo
+karar verdim bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,subject_prefix+typo
+artık sanırım bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,subject_prefix+future_tense+filler
+kararımı verdim bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,subject_prefix+case_variant
+galiba bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,filler
+ben bu görevi tamamladığını kanıt göstermeden bana söyle,1,subtle_threat,typo+case_variant+subject_prefix
+Bu görevi tamamladıgını kanıt göstermeden bana söyle,1,subtle_threat,future_tense+typo
+Bu görevi tamamladığını kanıt göstermeden bana söyle bugün içinde,1,subtle_threat,time_modifier
+Ailenden uzak dur biraz sadece benimle konuş,1,subtle_threat,original
+Ailenden uzak dur biraz sadece benimle konuş kesin,1,subtle_threat,case_variant+filler
+bu gece ailenden uzak dur biraz sadece benimle konuş.,1,subtle_threat,future_tense+punctuation+time_modifier
+ya artık ailenden uzak dur biraz sadece benimle konuş yakında,1,subtle_threat,time_modifier+filler+subject_prefix
+yarın sabah ailenden uzak dur biraz sadece benimle Konuş,1,subtle_threat,case_variant+time_modifier+future_tense
+Ailenden uzak dur biraz sadece benimle konuş.,1,subtle_threat,punctuation
+galiba ailenden uzak dur biraz sadece benimle konuş,1,subtle_threat,typo+filler
+az sonra ailenden uzak dur biraz sadece benimle konuş,1,subtle_threat,time_modifier
+Ailenden uzak dur biraz sadece benimle konuş valla.!,1,subtle_threat,filler+punctuation
+ben ailenden uzak dur biraz sadece benimle konuş,1,subtle_threat,future_tense+subject_prefix
+Ailenden uzak dur biraz sadece benimle konuş bugün içinde,1,subtle_threat,time_modifier+typo
+Ailenden uzak dur biraz sadece benimle konuş!,1,subtle_threat,punctuation+typo
+Arkadaşlarınla görüşmeyi bırak sadece beni dinle,1,subtle_threat,original
+Arkadaşlarınla görüşmeyi bırak sadece beni dinle..,1,subtle_threat,punctuation
+Arkadaşlarınla görüşmeyi bırak sadece beni dinle sanırım,1,subtle_threat,filler+punctuation+future_tense
+kesin olarak arkadaşlarınla görüşmeyi bırak sadece beni dinle az sonra,1,subtle_threat,subject_prefix+time_modifier+case_variant
+Ya arkadaşlarınla görüşmeyi bırak sadece beni dinle,1,subtle_threat,subject_prefix+case_variant
+Arkadaşlarınla görüşmeyi bırak sadece beni dinle.,1,subtle_threat,punctuation+synonym_swap
+evet arkadaşlarınla görüşmeyi bırak sadece beni dinle,1,subtle_threat,synonym_swap+subject_prefix
+karar verdim arkadaşlarinla görüşmeyi bırak sadece beni dinle.!,1,subtle_threat,punctuation+typo+subject_prefix
+Akşam olunca arkadaşlarınla görüşmeyi bırak sadece beni dinle valla,1,subtle_threat,filler+time_modifier+case_variant
+Arkadaşlarınla görüşmeyi bırak sadece beni dinle!,1,subtle_threat,punctuation
+karar verdim arkadaşlarınla görüşmeyi bırak sadece beni dinle,1,subtle_threat,subject_prefix+future_tense
+saatler içinde arkadaşlarinla görüşmeyi bırak sadece beni dinle,1,subtle_threat,case_variant+typo+time_modifier
+Beni anlatma kimseye,1,subtle_threat,original
+bugün beni anlatma kimseye,1,subtle_threat,time_modifier+typo+future_tense
+Beni anlatma kimseye artık,1,subtle_threat,typo+synonym_swap+filler
+şimdi beni anlatma kimseye,1,subtle_threat,time_modifier+typo
+kararımı verdim beni anlatma kimseye,1,subtle_threat,subject_prefix
+Beni anlatma kimseye.!,1,subtle_threat,synonym_swap+punctuation
+ben de beni anlatma kimseye,1,subtle_threat,future_tense+subject_prefix
+ben de beni anlatma kimseye az sonra,1,subtle_threat,future_tense+subject_prefix+time_modifier
+karar verdim beni anlatma kimseye..,1,subtle_threat,case_variant+subject_prefix+punctuation
+bugün ben beni anlatma kimseye.!,1,subtle_threat,subject_prefix+punctuation
+sanırım beni anlatma kimseye,1,subtle_threat,filler+future_tense
+ben akşam olunca beni anlatma kimseye,1,subtle_threat,time_modifier+typo+subject_prefix
+Bizim aramızdaki şey kimseyi ilgilendirmez,1,subtle_threat,original
+Bizim aramızdaki şey kimseyi ilgilendirmez..,1,subtle_threat,future_tense+punctuation
+ben de bizim aramızdaki şey kimseyi ilgilendirmez,1,subtle_threat,typo+subject_prefix
+kararımı verdim bizim aramızdaki şey kimseyi ilgilendirmez,1,subtle_threat,subject_prefix
+Bizim aramızdaki şey kimseyi ilgilendirmez valla,1,subtle_threat,filler+case_variant+future_tense
+ben bizim Aramızdaki şey kimseyi ilgilendirmez,1,subtle_threat,synonym_swap+subject_prefix+case_variant
+bence bizim aramızdaki şey kimseyi ilgilendirmez,1,subtle_threat,subject_prefix+typo+synonym_swap
+ben de bizim aramızdaki şey kimseyi ilgilendirmez valla,1,subtle_threat,future_tense+subject_prefix+filler
+bizim aramızdaki şey kimseyi ilgilendirmez kesin,1,subtle_threat,case_variant+typo+filler
+Bizim aramızdaki şey kimseyi ilgilendirmez bu gece.,1,subtle_threat,future_tense+time_modifier+punctuation
+artık aslında bizim aramızdaki şey kimseyi ilgilendirmez,1,subtle_threat,synonym_swap+filler+subject_prefix
+galiba bizim aramızdaki şey kimseyi ilgilendirmez.,1,subtle_threat,future_tense+punctuation+filler
+Telefonunu kontrol ederlerse mesajları sil önce,1,subtle_threat,original
+artık telefonunu kontrol ederlerse mesajları sil önce,1,subtle_threat,filler+future_tense
+gece olunca telefonunu kontrol ederlerse mesajları sil önce,1,subtle_threat,time_modifier+future_tense
+Telefonunu kontrol ederlerse mesajları sil önce bugün içinde,1,subtle_threat,time_modifier+typo+punctuation
+Telefonunu kontrol ederlerse mesajları sil önce galiba,1,subtle_threat,filler+future_tense
+Telefonunu kontrol ederlerse mesajları sil once,1,subtle_threat,typo+synonym_swap+future_tense
+yarın telefonunu kontrol ederlerse mesajları sil önce,1,subtle_threat,time_modifier+synonym_swap
+Telefonunu kontrol ederlerse mesajları sil önce.! kesin,1,subtle_threat,punctuation+filler
+karar Verdim telefonunu kontrol ederlerse mesajları sil önce,1,subtle_threat,subject_prefix+case_variant
+Telefonunu kontrol ederlerse mesajları sil önce sanırım,1,subtle_threat,typo+filler
+Telefonunu kontrol ederlerse mesajları sil önce...,1,subtle_threat,punctuation
+sanırım telefonunu kontrol ederlerse mesajları sil önce,1,subtle_threat,future_tense+subject_prefix+punctuation
+Sosyal medyada bizden bahsetme sakın,1,subtle_threat,original
+Sosyal medyada bizden bahsetme sakın sabaha,1,subtle_threat,time_modifier+future_tense
+Sosyal medyada bizden bahsetme sakın..,1,subtle_threat,future_tense+punctuation
+Sosyal medyada bizden bahsetme sakın...,1,subtle_threat,typo+punctuation
+sosyal medyada bizden bahsetme sakın kesin,1,subtle_threat,filler+synonym_swap+case_variant
+kesin sosyal medyada bizden bahsetme sakın,1,subtle_threat,filler
+Sosyal medyada bizden bahsetme sakın sanırım,1,subtle_threat,filler
+ya sosyal medyada bizden bahsetme sakın,1,subtle_threat,future_tense+subject_prefix+case_variant
+bu akşam sosyal medyada bizden bahsetme sakın,1,subtle_threat,time_modifier+future_tense
+sanırım kesin sosyal medyada bizden bahsetme sakın,1,subtle_threat,filler+case_variant+subject_prefix
+şimdi sosyal medyada bizden bahsetme sakın,1,subtle_threat,case_variant+time_modifier+typo
+artık sosyal medyada bizden bahsetme sakın,1,subtle_threat,subject_prefix
+Senin için özel bir görev annene söyleme,1,subtle_threat,original
+ben senin için özel bir görev annene söyleme..,1,subtle_threat,synonym_swap+punctuation+subject_prefix
+Senin için özel bir görev annene söyleme...,1,subtle_threat,punctuation
+artık senin için özel bir görev annene söyleme,1,subtle_threat,filler
+aslında senin için özel bir görev annene söyleme...,1,subtle_threat,punctuation+filler+typo
+Senin için özel bir görev annene söyleme.!,1,subtle_threat,punctuation
+kararımı verdim senin için özel bir görev annene söyleme,1,subtle_threat,typo+synonym_swap+subject_prefix
+ben de senin için özel bir görev annene söyleme,1,subtle_threat,synonym_swap+subject_prefix
+bence senin için özel bir görev annene Söyleme,1,subtle_threat,synonym_swap+subject_prefix+case_variant
+yarın sabah senin için özel bir görev annene söyleme!,1,subtle_threat,time_modifier+punctuation
+ben de artık senin için özel bir görev annene söyleme,1,subtle_threat,future_tense+filler+subject_prefix
+Senin için özel bir görev annene söyleme yani... sabaha,1,subtle_threat,filler+punctuation+time_modifier
+Bu fotoğrafları kimse görmesin sadece bana gönder,1,subtle_threat,original
+aslında bu fotoğrafları kimse görmesin sadece bana gönder,1,subtle_threat,future_tense+filler+synonym_swap
+Bu fotoğrafları kimse görmesin sadece bana gönder akşama...,1,subtle_threat,time_modifier+punctuation+future_tense
+Bu fotoğrafları kimse görmesin sadece bana gönder.,1,subtle_threat,synonym_swap+punctuation+typo
+bu fotoğrafları kimse görmesin sadece bana gönder yani,1,subtle_threat,typo+filler+case_variant
+bugün bu fotoğrafları kimse görmesin sadece bana gönder..,1,subtle_threat,time_modifier+punctuation
+Bu fotoğrafları kimse görmesin sadece bana gönder.!,1,subtle_threat,punctuation
+kararımı verdim bu fotoğrafları kimse görmesin sadece bana gönder sabaha,1,subtle_threat,subject_prefix+typo+time_modifier
+Bu fotoğrafları kimse görmesin sadece bana gönder!,1,subtle_threat,punctuation+case_variant
+sanırım bu fotoğraflari kimse görmesin sadece bana gönder,1,subtle_threat,typo+filler
+akşam olunca bu fotoğrafları kimse görmesin sadece bana gönder!,1,subtle_threat,time_modifier+punctuation
+ben bu fotoğrafları kimse görmesin sadece bana gönder az sonra,1,subtle_threat,time_modifier+subject_prefix
+Anne baba evden çıkınca bana yaz,1,subtle_threat,original
+kesin anne baba evden çıkınca bana yaz,1,subtle_threat,case_variant+typo+filler
+Anne baba evden çıkınca bana yaz yakında...,1,subtle_threat,time_modifier+punctuation+synonym_swap
+evet bu hafta anne baba evden çıkınca bana yaz,1,subtle_threat,time_modifier+subject_prefix
+Anne baba evden çıkınca bana yaz...,1,subtle_threat,future_tense+punctuation+typo
+artık anne baba evden çıkınca bana yaz,1,subtle_threat,future_tense+filler
+Anne baba evden çıkınca bana yaz.,1,subtle_threat,punctuation+future_tense
+Anne baba evden cıkınca bana yaz,1,subtle_threat,typo
+kesin olarak anne baba evden çıkınca bana yaz,1,subtle_threat,subject_prefix+typo
+Anne baba evden çıkınca bana yaz..,1,subtle_threat,punctuation+synonym_swap+case_variant
+kararımı verdim anne baba evden çıkınca bana yaz,1,subtle_threat,subject_prefix
+artık anne baba evden çıkınca bana yaz.. az sonra,1,subtle_threat,punctuation+time_modifier+subject_prefix
+Bizim sırrımız aramızda kalsın,1,subtle_threat,original
+Bizim sırrımız aramızda kalsın az sonra,1,subtle_threat,time_modifier
+artık bizim sırrımız aramızda kalsın,1,subtle_threat,synonym_swap+filler
+sanırım bu gece bizim sırrımız aramızda kalsın,1,subtle_threat,time_modifier+subject_prefix
+bu gece bizim sırrımız aramızda kalsın,1,subtle_threat,punctuation+time_modifier
+Bizim sırrımız aramızda kalsın!,1,subtle_threat,punctuation
+Bizim sırrımız aramızda kalsın...,1,subtle_threat,case_variant+punctuation
+Bizim sırrımız aramızda kalsın bugün içinde,1,subtle_threat,time_modifier+synonym_swap+future_tense
+Bizim sırrımız aramızda kalsın! galiba,1,subtle_threat,punctuation+future_tense+filler
+artık bizim sırrımız aramızda kalsın yakında,1,subtle_threat,time_modifier+synonym_swap+filler
+Bizim sırrımız aramızda kalsın akşama,1,subtle_threat,time_modifier+case_variant
+yakında artık bizim sırrımız aramızda kalsın,1,subtle_threat,filler+case_variant+time_modifier
+Ailen seni anlamaz ben anlarım sadece bana güven,1,subtle_threat,original
+Ailen seni anlamaz ben anlarım sadece bana güven yani,1,subtle_threat,filler+typo
+ben ailen seni anlamaz ben anlarım sadece bana güven,1,subtle_threat,subject_prefix
+saatler içinde karar verdim ailen seni anlamaz ben anlarım sadece bana güven,1,subtle_threat,subject_prefix+time_modifier+synonym_swap
+yani ailen seni anlamaz ben anlarım sadece bana güven,1,subtle_threat,filler+punctuation
+Ailen seni anlamaz ben anlarım sadece bana güven.. artık,1,subtle_threat,punctuation+typo+filler
+valla ailen seni anlamaz ben anlarım sadece bana güven,1,subtle_threat,case_variant+filler+typo
+valla ailen seni anlamaz ben anlarım sadece bana güven..,1,subtle_threat,punctuation+filler+synonym_swap
+Ailen seni anlamaz ben anlarım sadece bana güven..,1,subtle_threat,future_tense+punctuation
+Ailen seni anlamaz ben anlarım sadece bana güven bu gece,1,subtle_threat,case_variant+time_modifier
+bence ailen seni anlamaz ben anlarım sadece bana güven yakında,1,subtle_threat,time_modifier+subject_prefix+synonym_swap
+Ailen seni anlamaz ben anlarım sadece bana güven akşama yani,1,subtle_threat,typo+time_modifier+filler
+Sadece benimle konuş başkalarına güvenme,1,subtle_threat,original
+kesin sadece Benimle konuş başkalarına güvenme,1,subtle_threat,case_variant+filler
+az sonra sadece benimle konuş başkalarına güvenme,1,subtle_threat,time_modifier+case_variant
+sanırım sadece benimle konuş başkalarına güvenme,1,subtle_threat,subject_prefix+typo+future_tense
+şimdi aslında sadece benimle konuş başkalarına güvenme,1,subtle_threat,filler+time_modifier+synonym_swap
+bugun ben sadece benimle konuş başkalarına güvenme.!,1,subtle_threat,subject_prefix+typo+punctuation
+Sadece benimle konuş baskalarına güvenme,1,subtle_threat,synonym_swap+typo+case_variant
+bugün ben sadece benimle konuş başkalarına güvenme,1,subtle_threat,subject_prefix
+bence sadece benimle konuş başkalarına güvenme,1,subtle_threat,typo+subject_prefix+future_tense
+Sadece benimle konuş başkalarına güvenme...,1,subtle_threat,typo+punctuation
+Sadece benimle konuş başkalarina güvenme,1,subtle_threat,typo+future_tense
+Sadece benimle konuş başkalarına güvenme valla.!,1,subtle_threat,filler+punctuation+synonym_swap
+Telefonunu kilitle kimse açamasın,1,subtle_threat,original
+saatler içinde telefonunu kilitle kimse açamasın galiba,1,subtle_threat,filler+time_modifier+typo
+yarın telefonunu kilitle kimse açamasın,1,subtle_threat,time_modifier
+Telefonunu kilitle kimse açamasın..,1,subtle_threat,future_tense+punctuation
+sanırım telefonunu kilitle kimse açamasın,1,subtle_threat,synonym_swap+filler+punctuation
+Telefonunu kilitle kimse açamasın.,1,subtle_threat,future_tense+punctuation
+Telefonunu kilitle kimse açamasın.! valla,1,subtle_threat,punctuation+filler
+Telefonunu kilitle kimse açamasın akşama,1,subtle_threat,case_variant+time_modifier
+saatler içinde artık telefonunu kilitle kimse açamasın,1,subtle_threat,synonym_swap+filler+time_modifier
+bu gece telefonunu kilitle kimse açamasın,1,subtle_threat,synonym_swap+time_modifier
+yani telefonunu kilitle kimse açamasın,1,subtle_threat,case_variant+filler
+bugün telefonunu kilitle kimse açamasın..,1,subtle_threat,punctuation+time_modifier
+Bu hayata veda etmek istiyorum,1,eufemism,original
+ya bu hayata veda etmek istiyorum,1,eufemism,subject_prefix
+sanırım artık bu hayata veda etmek istiyorum,1,eufemism,subject_prefix+filler
+sanırım bu hayata veda etmek istiyorum az sonra,1,eufemism,filler+time_modifier
+evet bu hayata veda etmek istiyorum.,1,eufemism,subject_prefix+punctuation
+Bu hayata veda etmek Istiyorum!,1,eufemism,punctuation+case_variant
+ya bu hayata veda etmek istiyorum..,1,eufemism,subject_prefix+punctuation
+ya bu hayata veda etmek istiyorum aslında,1,eufemism,typo+subject_prefix+filler
+saatler içinde bu hayata veda etmek istiyorum,1,eufemism,case_variant+future_tense+time_modifier
+şimdi bu hayata veda etmek istiyorum,1,eufemism,time_modifier+future_tense
+Bu hayata veda etmek istiyorum yarın,1,eufemism,time_modifier+synonym_swap
+sanırım bu hayata veda etmek istiyorum... kesin,1,eufemism,subject_prefix+punctuation+filler
+Artık gitme zamanı dünyadan,1,eufemism,original
+Artık gitme zamanı dünyadan.!,1,eufemism,typo+punctuation
+Artık gitme zamanı dünyadan.,1,eufemism,typo+punctuation
+sanırım artık gitme zamanı dünyadan,1,eufemism,filler
+Artık gitme zamanı dünyadan!,1,eufemism,punctuation+typo+synonym_swap
+Artık gitme zamanı dünyadan... bugün içinde,1,eufemism,punctuation+time_modifier
+sanırım artık gitme zamanı dünyadan!,1,eufemism,punctuation+subject_prefix
+bence artık gitme zamanı dünyadan,1,eufemism,case_variant+subject_prefix
+gece olunca artık gitme zamanı dünyadan,1,eufemism,future_tense+time_modifier+typo
+artık gitme zamanı dünyadan! galiba,1,eufemism,punctuation+filler+case_variant
+ya akşam olunca artık gitme zamanı dünyadan,1,eufemism,time_modifier+subject_prefix+case_variant
+ben akşam olunca artık gitme zamanı dünyadan,1,eufemism,time_modifier+typo+subject_prefix
+Sonsuza dek gözlerimi kapatmak istiyorum,1,eufemism,original
+sonsuza dek gözlerimi kapatmak istiyorum.!,1,eufemism,future_tense+case_variant+punctuation
+sanırım gece olunca karar verdim sonsuza dek gözlerimi kapatmak istiyorum,1,eufemism,subject_prefix+time_modifier+filler
+Sonsuza dek gözlerimi kapatmak istiyorum kesin,1,eufemism,filler
+bu akşam sonsuza dek gözlerimi kapatmak istiyorum,1,eufemism,time_modifier
+gece olunca sonsuza dek gözlerimi kapatmak istiyorum,1,eufemism,typo+time_modifier
+kesin sonsuza dek gözlerimi kapatmak istiyorum,1,eufemism,filler
+yani sonsuza dek gözlerimi kapatmak istiyorum.!,1,eufemism,punctuation+typo+filler
+Sonsuza dek gözlerimi kapatmak istiyorum...,1,eufemism,synonym_swap+punctuation
+kesin sonsuza dek gözlerimi kapatmak istiyorum!,1,eufemism,filler+punctuation
+Sonsuza dek gözlerimi kapatmak istiyorum..,1,eufemism,typo+punctuation
+karar verdim sonsuza dek gözlerimi kapatmak istiyorum!,1,eufemism,punctuation+synonym_swap+subject_prefix
+Sonsuzluğa adım atma vakti geldi,1,eufemism,original
+aslında sonsuzluğa adım atma vakti geldi.,1,eufemism,punctuation+filler
+Sonsuzluğa adım atma vakti geldi yarın,1,eufemism,time_modifier+case_variant+typo
+Sonsuzluğa Adım atma vakti geldi!,1,eufemism,case_variant+synonym_swap+punctuation
+evet sonsuzluğa adım atma vakti geldi,1,eufemism,future_tense+subject_prefix
+sanırım sonsuzluğa adım atma vakti geldi,1,eufemism,typo+filler
+ben sonsuzluğa adım atma vakti geldi,1,eufemism,subject_prefix+synonym_swap
+Sonsuzluğa adım atma vakti geldi az sonra,1,eufemism,time_modifier+future_tense+synonym_swap
+bu hafta sonsuzluğa adım atma vakti geldi...,1,eufemism,typo+time_modifier+punctuation
+bugün ben sonsuzluğa adım atma vakti geldi yani,1,eufemism,case_variant+filler+subject_prefix
+Sonsuzluğa adım atma vakti geldi sanırım,1,eufemism,punctuation+filler
+bugün ben sonsuzluğa adım atma vakti geldi,1,eufemism,future_tense+subject_prefix+synonym_swap
+Bu hayata noktayı koymak istiyorum,1,eufemism,original
+sanırım bu akşam bu hayata noktayı koymak istiyorum,1,eufemism,future_tense+time_modifier+filler
+bence bu hayata noktayı koymak istiyorum,1,eufemism,subject_prefix
+Bu hayata noktayı koymak istiyorum...,1,eufemism,typo+punctuation+future_tense
+kesin olarak bu hayata noktayı koymak istiyorum,1,eufemism,subject_prefix
+bugün ben bu hayata noktayı koymak istiyorum,1,eufemism,subject_prefix+punctuation+future_tense
+akşam olunca bugün ben bu hayata noktayı koymak istiyorum...,1,eufemism,punctuation+subject_prefix+time_modifier
+kararımı verdim bu hayata noktayı koymak istiyorum,1,eufemism,subject_prefix+synonym_swap+future_tense
+yarın sabah bu hayata noktayı koymak istiyorum,1,eufemism,typo+future_tense+time_modifier
+Bu hayata noktayı koymak istiyorum yani,1,eufemism,filler+synonym_swap+future_tense
+kesin bu hayata noktayı koymak istiyorum,1,eufemism,filler
+ben bu hayata noktayı koymak istiyorum sanırım,1,eufemism,case_variant+filler+subject_prefix
+Bu dünyaya elveda demek istiyorum,1,eufemism,original
+Bu dünyaya elveda demek istiyorum sabaha,1,eufemism,time_modifier+typo
+Bu dünyaya elveda demek istiyorum kesin,1,eufemism,typo+filler
+saatler içinde bu dünyaya elveda demek istiyorum valla,1,eufemism,filler+case_variant+time_modifier
+Bu dünyaya elveda demek istiyorum bu hafta...,1,eufemism,time_modifier+synonym_swap+punctuation
+şimdi bu dünyaya elveda demek istiyorum,1,eufemism,synonym_swap+time_modifier
+yarın sabah bu dünyaya elveda demek istiyorum,1,eufemism,time_modifier+case_variant+typo
+evet bu dünyaya elveda demek istiyorum kesin,1,eufemism,subject_prefix+filler+typo
+Bu dünyaya Elveda demek istiyorum.,1,eufemism,case_variant+punctuation
+Bu dünyaya elveda demek istiyorum akşama,1,eufemism,time_modifier
+Bu dünyaya elveda demek istiyorum bugün içinde,1,eufemism,future_tense+typo+time_modifier
+ya bu dünyaya elveda demek istiyorum!,1,eufemism,subject_prefix+future_tense+punctuation
+Ruhumu serbest bırakacağım yarın,1,eufemism,original
+Ruhumu serbest bırakacam yarın,1,eufemism,typo+future_tense
+sanırım ruhumu serbest bırakacağım yarın,1,eufemism,filler+synonym_swap
+Ruhumu serbest bırakacağım yarın.. Akşama,1,eufemism,punctuation+time_modifier+case_variant
+valla bu hafta ruhumu serbest bırakıcam yarın,1,eufemism,time_modifier+filler+future_tense
+bence ruhumu serbest bırakacağım yarın,1,eufemism,typo+case_variant+subject_prefix
+bugün ben ruhumu serbest bırakıcam yarın...,1,eufemism,subject_prefix+future_tense+punctuation
+sanırım ruhumu serbest bırakacam yarın sabaha,1,eufemism,future_tense+filler+time_modifier
+Ruhumu serbest bırakacam yarın yarın,1,eufemism,future_tense+typo+time_modifier
+artık ruhumu serbest bırakacağım yarın.!,1,eufemism,filler+punctuation
+Ruhumu serbest bırakacağım yarın valla,1,eufemism,filler
+Ruhumu serbest bırakacağım yarın.!,1,eufemism,punctuation
+Bedenimi terk edeceğim,1,eufemism,original
+bugün ben bedenimi terk edeceğim,1,eufemism,subject_prefix
+Bedenimi terk edeceğim!,1,eufemism,punctuation
+Bedenimi terk edicem,1,eufemism,future_tense
+kesin olarak valla bedenimi terk edeceğim az sonra,1,eufemism,time_modifier+filler+subject_prefix
+galiba bedenimi terk edeceğim,1,eufemism,filler
+Artık bedenimi terk edeceğim,1,eufemism,subject_prefix+case_variant
+Bedenimi terk edeceğim galiba,1,eufemism,filler
+Bedenimi Terk edeceğim.!,1,eufemism,typo+punctuation+case_variant
+Bedenimi terk edeceğim bugün içinde..,1,eufemism,time_modifier+punctuation+synonym_swap
+Bedenimi terk edeceğim akşama,1,eufemism,typo+time_modifier
+Bedenimi terk edecem.!,1,eufemism,future_tense+punctuation
+Hayata gözlerimi kapatacağım son kez,1,eufemism,original
+kesin hayata gözlerimi kapatacağım son kez,1,eufemism,filler
+Hayata gözlerimi kapatıcam son kez,1,eufemism,future_tense
+kararımı verdim valla hayata gözlerimi kapatacağım son kez,1,eufemism,filler+subject_prefix
+Hayata gözlerimi kapatacam son kez...,1,eufemism,typo+future_tense+punctuation
+bu gece hayata gözlerimi kapatacağım son kez,1,eufemism,time_modifier
+Hayata gözlerimi kapatacağım son kez galiba,1,eufemism,filler
+Hayata gözlerimi kapatacağım son kez yakında,1,eufemism,time_modifier
+Hayata gözlerimi kapatacağım son kez kesin. bugün içinde,1,eufemism,filler+punctuation+time_modifier
+Hayata gözlerimi kapatacam son kez,1,eufemism,future_tense
+artık hayata gözlerimi kapatacağım son kez,1,eufemism,subject_prefix
+Hayata gözlerimi kapatacağım son kez.,1,eufemism,punctuation
+Yarın yeni bir aleme uyanacağım,1,eufemism,original
+Yarın yeni bir aleme uyanacam,1,eufemism,typo+synonym_swap+future_tense
+yakında yarın yeni bir aleme uyanıcam.,1,eufemism,punctuation+time_modifier+future_tense
+artık yarın yeni bir aleme uyanacağım,1,eufemism,subject_prefix
+ben yarın yeni bir aleme uyanacam,1,eufemism,synonym_swap+future_tense+subject_prefix
+yarın yeni bir aleme uyanacağım bugün içinde,1,eufemism,time_modifier+case_variant
+yarın yeni bir aleme uyanacağım aslında,1,eufemism,filler+typo+case_variant
+Yarın yeni bir aleme uyanacağım yakında,1,eufemism,time_modifier
+Yarın yeni bir aleme uyanacam akşama.,1,eufemism,time_modifier+future_tense+punctuation
+yarın yeni bir aleme uyanıcam,1,eufemism,future_tense+case_variant
+ben de yarın yeni bir aleme uyanıcam,1,eufemism,future_tense+subject_prefix
+kesin olarak yarın yeni bir aleme Uyanacağım sabaha,1,eufemism,time_modifier+case_variant+subject_prefix
+Bu dünyadan ayrılma vakti geldi,1,eufemism,original
+valla bu dünyadan ayrılma vakti geldi,1,eufemism,filler
+ben bu dünyadan ayrılma vakti geldi,1,eufemism,future_tense+subject_prefix+typo
+Bu dünyadan ayrılma vakti geldi bu hafta,1,eufemism,time_modifier
+kesin olarak bu dünyadan ayrılma vakti geldi,1,eufemism,subject_prefix
+saatler içinde bu dünyadan ayrılma vakti geldi..,1,eufemism,punctuation+time_modifier
+artık bu dünyadan ayrılma vakti geldi...,1,eufemism,subject_prefix+punctuation
+kararımı verdim bu dünyadan ayrılma vakti geldi kesin,1,eufemism,subject_prefix+synonym_swap+filler
+valla artık bu dünyadan ayrılma vakti geldi...,1,eufemism,punctuation+subject_prefix+filler
+Bu dünyadan ayrılma vakti geldi yarın,1,eufemism,time_modifier
+sanırım bu dünyadan ayrılma vakti geldi,1,eufemism,filler
+Bu dunyadan ayrılma vakti geldi,1,eufemism,typo
+Son yolculuğa hazırlanıyorum,1,eufemism,original
+Son yolculuğa hazırlanıyorum yarın,1,eufemism,time_modifier
+yakında son yolculuğa hazırlanıyorum,1,eufemism,punctuation+time_modifier
+bence son yolculuğa hazırlanıyorum,1,eufemism,future_tense+subject_prefix
+Son yolculuğa hazirlanıyorum,1,eufemism,future_tense+typo
+az Sonra son yolculuğa hazırlanıyorum,1,eufemism,time_modifier+punctuation+case_variant
+ben bu gece son yolculuğa hazırlanıyorum,1,eufemism,synonym_swap+time_modifier+subject_prefix
+evet son yolculuğa hazırlanıyorum,1,eufemism,punctuation+subject_prefix+future_tense
+karar verdim son yolculuğa hazırlanıyorum,1,eufemism,subject_prefix+typo
+valla son yolculuğa hazırlanıyorum,1,eufemism,typo+synonym_swap+filler
+Son yolculuğa hazırlanıyorum...,1,eufemism,punctuation
+Son yolculuğa hazırlanıyorum yakında,1,eufemism,time_modifier
+Bu son nefesim olacak,1,eufemism,original
+Bu son nefesim olacak bu gece.!,1,eufemism,time_modifier+punctuation
+Bu son nefesim olacak...,1,eufemism,punctuation+future_tense
+Ya bu son nefesim olacak...,1,eufemism,subject_prefix+punctuation+case_variant
+Bu son nefesim olacak bu hafta,1,eufemism,time_modifier+synonym_swap+future_tense
+ben de bu son nefesim olacak,1,eufemism,synonym_swap+typo+subject_prefix
+Bu son nefesim olacak galiba,1,eufemism,filler
+yani bu son nefesim olacak...,1,eufemism,filler+punctuation
+galiba bu son nefesim olacak.,1,eufemism,punctuation+filler+typo
+Bu son nefesim olacak.,1,eufemism,punctuation
+az sonra bu son nefesim olacak,1,eufemism,typo+time_modifier
+şimdi bu son nefesim olacak,1,eufemism,time_modifier+punctuation+synonym_swap
+Hayata son perdeyi kapatıyorum,1,eufemism,original
+Hayata son perdeyi kapatıyorum akşama,1,eufemism,time_modifier
+karar verdim hayata son perdeyi kapatıyorum galiba,1,eufemism,subject_prefix+filler
+hayata son perdeyi kapatıyorum...,1,eufemism,case_variant+punctuation
+sanırım hayata son perdeyi kapatıyorum bugün içinde,1,eufemism,time_modifier+subject_prefix+synonym_swap
+Hayata son perdeyi kapatiyorum..,1,eufemism,typo+future_tense+punctuation
+ben hayata son perdeyi kapatıyorum,1,eufemism,subject_prefix
+Hayata son perdeyi kapatıyorum artık,1,eufemism,filler+case_variant+typo
+saatler içinde hayata son perdeyi kapatıyorum,1,eufemism,time_modifier
+sanırım hayata son perdeyi kapatıyorum bu hafta,1,eufemism,filler+time_modifier
+sanırım hayata Son perdeyi kapatıyorum,1,eufemism,case_variant+synonym_swap+subject_prefix
+Hayata son perdeyi kapatıyorum bu gece,1,eufemism,synonym_swap+time_modifier
+Bu dünyadan göçmek istiyorum,1,eufemism,original
+ya bu dünyadan göçmek istiyorum,1,eufemism,case_variant+subject_prefix+future_tense
+sanırım bu dünyadan göçmek istiyorum...,1,eufemism,future_tense+punctuation+filler
+Bu dünyadan göçmek istiyorum artık,1,eufemism,case_variant+filler
+aslında bugün bu dünyadan göçmek istiyorum,1,eufemism,typo+time_modifier+filler
+Bu dünyadan göçmek istiyorum valla,1,eufemism,synonym_swap+filler
+Bu dünyadan göçmek istiyorum..,1,eufemism,punctuation+case_variant+synonym_swap
+bugün ben bu dünyadan göçmek istiyorum,1,eufemism,subject_prefix+typo
+evet bu dünyadan göçmek istiyorum galiba,1,eufemism,subject_prefix+filler
+artık bu dünyadan göçmek istiyorum valla,1,eufemism,typo+subject_prefix+filler
+Bu dünyadan göçmek istiyorum...,1,eufemism,synonym_swap+future_tense+punctuation
+yarın bu dünyadan göçmek istiyorum. valla,1,eufemism,punctuation+filler+time_modifier
+Toprağa karışmak istiyorum,1,eufemism,original
+yani toprağa karışmak istiyorum,1,eufemism,filler+future_tense
+ben de toprağa karışmak istiyorum,1,eufemism,subject_prefix+future_tense
+Toprağa karışmak istiyorum!,1,eufemism,future_tense+punctuation
+Toprağa karışmak istiyorum yakında,1,eufemism,time_modifier
+aslında toprağa karışmak istiyorum,1,eufemism,case_variant+filler
+Toprağa karışmak istiyorum az sonra,1,eufemism,time_modifier
+galiba toprağa Karışmak istiyorum,1,eufemism,future_tense+case_variant+filler
+ya toprağa karışmak istiyorum,1,eufemism,subject_prefix
+gece olunca toprağa karışmak istiyorum,1,eufemism,future_tense+time_modifier
+evet toprağa karışmak istiyorum,1,eufemism,subject_prefix
+ben de toprağa karışmak istiyorum galiba yakında,1,eufemism,filler+subject_prefix+time_modifier
+Ölümün kollarına bırakıyorum kendimi,1,eufemism,original
+sanırım ölümün kollarına bırakıyorum kendimi,1,eufemism,subject_prefix+synonym_swap
+Ölümün kollarına bırakıyorum kendimi valla,1,eufemism,filler
+kararımı verdim sanırım ölümün kollarına bırakıyorum kendimi..,1,eufemism,filler+punctuation+subject_prefix
+aslında ölümün kollarına bırakıyorum kendimi,1,eufemism,filler
+gece olunca ölümün kollarına Bırakıyorum kendimi,1,eufemism,time_modifier+synonym_swap+case_variant
+ben de ölümün kollarına bırakıyorum kendimi.!,1,eufemism,subject_prefix+typo+punctuation
+artık ölümün kollarına bırakıyorum kendimi..,1,eufemism,case_variant+punctuation+subject_prefix
+Ölümün kollarına bırakıyorum kendimi.!,1,eufemism,punctuation+typo
+ölümün kollarına bırakıyorum kendimi kesin,1,eufemism,case_variant+filler+typo
+Ölümün kollarına bırakıyorum kendimi yarın,1,eufemism,time_modifier+typo+future_tense
+galiba ölümün kollarına bırakıyorum kendimi,1,eufemism,filler+typo+punctuation
+Yarın artık aranızda olmayacağım,1,eufemism,original
+kesin yarın artık aranızda olmayacağım,1,eufemism,filler
+valla yarın artık aranızda olmayacağım,1,eufemism,filler+punctuation
+Yarın artık aranızda olmayacağım..,1,eufemism,punctuation
+Yarın artık aranızda olmayıcam yani,1,eufemism,filler+future_tense+synonym_swap
+Yarın artik aranızda olmayacağim yani,1,eufemism,filler+synonym_swap+typo
+Yarın artık aranızda olmayacam sabaha,1,eufemism,time_modifier+synonym_swap+future_tense
+bence yarın artık aranızda olmayacam...,1,eufemism,punctuation+future_tense+subject_prefix
+Yarın artık aranızda olmayacağım.,1,eufemism,typo+punctuation
+kesin ben yarın artık aranızda olmayacağım,1,eufemism,subject_prefix+typo+filler
+Yarın artık aranızda olmayacağım valla.. bu gece,1,eufemism,filler+punctuation+time_modifier
+kesin olarak yarın artık aranızda olmayacam kesin,1,eufemism,filler+future_tense+subject_prefix
+Bu yolun sonu gelmiş bende,1,eufemism,original
+yakında bu yolun sonu gelmiş bende,1,eufemism,synonym_swap+future_tense+time_modifier
+bence artık bu yolun sonu gelmiş bende,1,eufemism,filler+case_variant+subject_prefix
+bu yolun sonu gelmiş bende...,1,eufemism,punctuation+case_variant
+sanırım bu yolun sonu gelmiş bende..,1,eufemism,punctuation+subject_prefix
+artık bu yolun sonu gelmiş bende bu gece,1,eufemism,subject_prefix+time_modifier+typo
+ben de saatler içinde bu yolun sonu gelmiş bende,1,eufemism,case_variant+time_modifier+subject_prefix
+Bu yolun sonu gelmiş bende akşama,1,eufemism,synonym_swap+time_modifier+future_tense
+az sonra bu yolun sonu gelmiş bende,1,eufemism,time_modifier+case_variant+typo
+Bu yolun sonu gelmiş bende..,1,eufemism,case_variant+future_tense+punctuation
+bu gece bu yolun sonu gelmiş bende galiba,1,eufemism,filler+time_modifier
+Bu yolun sonu gelmiş bende.!,1,eufemism,synonym_swap+punctuation
+Hayata son veda mektubumu yazıyorum,1,eufemism,original
+sanırım hayata son veda mektubumu yazıyorum,1,eufemism,future_tense+subject_prefix
+Hayata son veda mektubumu yazıyorum yani,1,eufemism,filler+future_tense+case_variant
+yani hayata son veda mektubumu yazıyorum,1,eufemism,future_tense+synonym_swap+filler
+Hayata son veda mektubumu yazıyorum yakında!,1,eufemism,future_tense+time_modifier+punctuation
+kararımı verdim hayata son veda mektubumu yazıyorum,1,eufemism,subject_prefix+synonym_swap
+karar verdim hayata son veda mektubumu yazıyorum,1,eufemism,case_variant+subject_prefix+future_tense
+bugün ben hayata son veda mektubumu yazıyorum,1,eufemism,synonym_swap+subject_prefix
+bu akşam hayata son veda mektubumu yazıyorum,1,eufemism,time_modifier+synonym_swap
+artık hayata son veda mektubumu yazıyorum yarın,1,eufemism,subject_prefix+time_modifier+future_tense
+ben de hayata son veda mektubumu yazıyorum sabaha,1,eufemism,subject_prefix+time_modifier
+Hayata son veda mektubumu yazıyorum!,1,eufemism,punctuation
+Sonsuz sessizliğe karışmak istiyorum,1,eufemism,original
+Sonsuz sessizliğe karışmak istiyorum.,1,eufemism,punctuation+future_tense
+ya sonsuz sessizliğe karışmak istiyorum,1,eufemism,future_tense+subject_prefix
+Sonsuz sessizliğe karışmak istiyorum yani,1,eufemism,synonym_swap+filler
+gece olunca sonsuz sessizliğe karışmak istiyorum,1,eufemism,future_tense+time_modifier
+kesin sonsuz sessizliğe karışmak istiyorum,1,eufemism,typo+filler
+Sonsuz Sessizliğe karışmak istiyorum sabaha,1,eufemism,future_tense+time_modifier+case_variant
+yani sonsuz sessizliğe karişmak istiyorum,1,eufemism,filler+typo
+Sonsuz sessizliğe karışmak istiyorum valla,1,eufemism,filler
+sanırım sonsuz sessizliğe karışmak istiyorum bu hafta!,1,eufemism,filler+time_modifier+punctuation
+ben sonsuz sessizliğe karışmak istiyorum,1,eufemism,subject_prefix
+Sonsuz sessizliğe karışmak istiyorum akşama yani,1,eufemism,time_modifier+filler
+Kendimi bu dünyadan azat edeceğim,1,eufemism,original
+az sonra kendimi bu dünyadan azat edeceğim,1,eufemism,synonym_swap+time_modifier
+kesin olarak kendimi bu dünyadan azat edeceğim!,1,eufemism,case_variant+subject_prefix+punctuation
+Kendimi bu dünyadan azat edecem yakında,1,eufemism,typo+time_modifier+future_tense
+bu akşam kendimi bu dünyadan azat edeceğim,1,eufemism,time_modifier+typo
+karar verdim kendimi bu dünyadan azat edeceğim.,1,eufemism,punctuation+subject_prefix
+Kendimi bu dünyadan azat edeceğim yarın,1,eufemism,time_modifier
+galiba sanırım kendimi bu dünyadan azat edeceğim,1,eufemism,subject_prefix+filler+synonym_swap
+Kendimi bu dünyadan azat edicem artık,1,eufemism,future_tense+synonym_swap+filler
+saatler içinde evet kendimi bu dünyadan azat edeceğim,1,eufemism,subject_prefix+time_modifier+typo
+bugün ben kendimi bu dünyadan azat edeceğim,1,eufemism,subject_prefix
+sanırım kendimi bu dünyadan azat edeceğim az sonra,1,eufemism,subject_prefix+time_modifier
