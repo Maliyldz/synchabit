@@ -434,3 +434,7 @@ venv/
 # Eğitilmiş model dosyaları (büyük, reproducible)
 AI_Python/nlp_model/models/
 *.pkl
+
+# .NET derleme çıktıları
+bin/
+obj/
