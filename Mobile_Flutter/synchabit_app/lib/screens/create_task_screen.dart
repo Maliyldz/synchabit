@@ -1,0 +1,165 @@
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../models/task_category.dart';
+import '../providers/auth_provider.dart';
+import '../providers/task_provider.dart';
+
+class CreateTaskScreen extends StatefulWidget {
+  const CreateTaskScreen({super.key});
+
+  @override
+  State<CreateTaskScreen> createState() => _CreateTaskScreenState();
+}
+
+class _CreateTaskScreenState extends State<CreateTaskScreen> {
+  final _taskTextController = TextEditingController();
+  final _pointsController = TextEditingController(text: '10');
+
+  TaskCategory _selectedCategory = kTaskCategories.first;
+  bool _isSubmitting = false;
+  String? _errorMessage;
+
+  @override
+  void dispose() {
+    _taskTextController.dispose();
+    _pointsController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submit() async {
+    final text = _taskTextController.text.trim();
+    if (text.isEmpty) {
+      setState(() => _errorMessage = 'Görev metni boş olamaz.');
+      return;
+    }
+
+    // Puan doğrulama: 10-100 arası bir tam sayı olmalı
+    final points = int.tryParse(_pointsController.text.trim());
+    if (points == null || points < 10 || points > 100) {
+      setState(
+        () => _errorMessage = 'Puan 10 ile 100 arasında bir sayı olmalı.',
+      );
+      return;
+    }
+
+    setState(() {
+      _isSubmitting = true;
+      _errorMessage = null;
+    });
+
+    final token = context.read<AuthProvider>().token!;
+    final result = await context.read<TaskProvider>().createTask(
+      token: token,
+      taskText: text,
+      category: _selectedCategory.value, // backend'e model değeri gidiyor
+      difficultyScore: points, // puan, DifficultyScore alanında saklanıyor
+    );
+
+    if (!mounted) return;
+
+    if (result.success) {
+      Navigator.of(context).pop();
+    } else {
+      setState(() {
+        _isSubmitting = false;
+        _errorMessage = result.errorMessage;
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Yeni Görev')),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text('Görev metni'),
+              const SizedBox(height: 8),
+              TextField(
+                controller: _taskTextController,
+                maxLines: 3,
+                decoration: const InputDecoration(
+                  hintText: 'Örn: 30 dakika kitap oku',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+              const SizedBox(height: 20),
+              const Text('Kategori'),
+              const SizedBox(height: 8),
+              DropdownButtonFormField<TaskCategory>(
+                initialValue: _selectedCategory,
+                decoration: const InputDecoration(border: OutlineInputBorder()),
+                items: kTaskCategories
+                    .map(
+                      (c) => DropdownMenuItem(value: c, child: Text(c.label)),
+                    )
+                    .toList(),
+                onChanged: (value) {
+                  if (value != null) setState(() => _selectedCategory = value);
+                },
+              ),
+              const SizedBox(height: 8),
+              // Seçilen kategoride görsel doğrulama var mı, kullanıcıya bilgi ver
+              Text(
+                _selectedCategory.hasImageVerification
+                    ? '📷 Bu görev tamamlanırken fotoğrafla doğrulanacak.'
+                    : 'ℹ️ Bu kategoride görsel doğrulama yok.',
+                style: TextStyle(
+                  fontSize: 13,
+                  color: _selectedCategory.hasImageVerification
+                      ? Colors.indigo
+                      : Colors.grey.shade600,
+                ),
+              ),
+              const SizedBox(height: 20),
+              const Text('Puan (10-100)'),
+              const SizedBox(height: 8),
+              TextField(
+                controller: _pointsController,
+                keyboardType: TextInputType.number,
+                decoration: const InputDecoration(
+                  hintText: '10-100 arası',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+              const SizedBox(height: 20),
+              if (_errorMessage != null) ...[
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Colors.red.shade50,
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: Colors.red.shade200),
+                  ),
+                  child: Text(
+                    _errorMessage!,
+                    style: TextStyle(color: Colors.red.shade900),
+                  ),
+                ),
+                const SizedBox(height: 16),
+              ],
+              SizedBox(
+                width: double.infinity,
+                child: FilledButton(
+                  onPressed: _isSubmitting ? null : _submit,
+                  child: _isSubmitting
+                      ? const SizedBox(
+                          height: 20,
+                          width: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        )
+                      : const Text('Görevi Oluştur'),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
