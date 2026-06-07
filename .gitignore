@@ -426,6 +426,7 @@ __pycache__/
 dataset/
 test_images/
 test&egitim_sonuclari/
+wwwroot/uploads/
 
 # Virtual environments
 venv-bert/

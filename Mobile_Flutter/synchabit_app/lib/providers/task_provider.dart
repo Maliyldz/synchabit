@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/task.dart';
 import '../services/task_service.dart';
+import 'dart:io';
 
 class TaskProvider extends ChangeNotifier {
   final TaskService _taskService = TaskService();
@@ -48,6 +49,21 @@ class TaskProvider extends ChangeNotifier {
       _tasks.add(result.task!);
       notifyListeners();
     }
+    return result;
+  }
+
+  Future<VerifyResult> verifyTaskImage({
+    required String token,
+    required int taskId,
+    required File imageFile,
+  }) async {
+    final result = await _taskService.verifyTaskImage(
+      token: token,
+      taskId: taskId,
+      imageFile: imageFile,
+    );
+    // Doğrulama sonrası backend görevi güncelledi; listeyi tazele
+    await loadTasks(token);
     return result;
   }
 }

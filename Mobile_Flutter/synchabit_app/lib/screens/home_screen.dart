@@ -4,6 +4,7 @@ import '../providers/auth_provider.dart';
 import '../providers/task_provider.dart';
 import 'login_screen.dart';
 import 'create_task_screen.dart';
+import 'task_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -85,6 +86,16 @@ class _HomeScreenState extends State<HomeScreen> {
             subtitle: Text(
               'Kategori: ${task.category}  •  Puan: ${task.difficultyScore}',
             ),
+            trailing: task.isCompleted
+                ? const Icon(Icons.check_circle, color: Colors.green)
+                : const Icon(Icons.chevron_right),
+
+            onTap: () async {
+              await Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => TaskDetailScreen(task: task)),
+              );
+              _loadTasks(); // detaydan dönünce listeyi tazele
+            },
           ),
         );
       },

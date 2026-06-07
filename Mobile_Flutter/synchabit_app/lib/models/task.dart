@@ -5,6 +5,7 @@ class Task {
   final String category;
   final int difficultyScore;
   final DateTime? createdAt;
+  final bool isCompleted;
 
   Task({
     required this.id,
@@ -13,6 +14,7 @@ class Task {
     required this.category,
     required this.difficultyScore,
     this.createdAt,
+    this.isCompleted = false,
   });
 
   // Backend'den gelen JSON → Task nesnesi
@@ -26,6 +28,7 @@ class Task {
       createdAt: json['createdAt'] != null
           ? DateTime.tryParse(json['createdAt'].toString())
           : null,
+      isCompleted: json['isCompleted'] ?? false,
     );
   }
 }

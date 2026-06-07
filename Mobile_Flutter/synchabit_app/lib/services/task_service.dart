@@ -1,4 +1,6 @@
+import 'package:http_parser/http_parser.dart';
 import 'dart:convert';
+import 'dart:io';
 import 'package:http/http.dart' as http;
 import '../config/api_config.dart';
 import '../models/task.dart';
@@ -13,6 +15,31 @@ class CreateTaskResult {
   CreateTaskResult.ok(this.task) : success = true, errorMessage = null;
 
   CreateTaskResult.fail(this.errorMessage) : success = false, task = null;
+}
+
+// Görsel doğrulama sonucu — backend'in VerificationResult'ına karşılık gelir.
+// Bu sınıf SADECE veri taşır; ağ isteği atmaz.
+class VerifyResult {
+  final String status; // "Verified" | "NeedsReview" | "Rejected"
+  final String reason;
+  final double confidence;
+  final String? detectedCategory;
+
+  VerifyResult({
+    required this.status,
+    required this.reason,
+    required this.confidence,
+    this.detectedCategory,
+  });
+
+  factory VerifyResult.fromJson(Map<String, dynamic> json) {
+    return VerifyResult(
+      status: json['status']?.toString() ?? 'Rejected',
+      reason: json['reason']?.toString() ?? '',
+      confidence: (json['confidence'] ?? 0).toDouble(),
+      detectedCategory: json['detectedCategory']?.toString(),
+    );
+  }
 }
 
 class TaskService {
@@ -74,6 +101,55 @@ class TaskService {
       }
     } catch (e) {
       return CreateTaskResult.fail('Sunucuya bağlanılamadı.');
+    }
+  }
+
+  // Görseli verify endpoint'ine multipart olarak gönder (POST /api/taskverification/verify)
+  Future<VerifyResult> verifyTaskImage({
+    required String token,
+    required int taskId,
+    required File imageFile,
+  }) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/taskverification/verify');
+
+    final request = http.MultipartRequest('POST', url);
+    request.headers['Authorization'] = 'Bearer $token';
+
+    // taskId'yi form alanı olarak ekle
+    request.fields['taskId'] = taskId.toString();
+
+    // Dosya uzantısına göre content-type belirle (backend bunu kontrol ediyor)
+    final ext = imageFile.path.toLowerCase();
+    MediaType contentType;
+    if (ext.endsWith('.png')) {
+      contentType = MediaType('image', 'png');
+    } else if (ext.endsWith('.webp')) {
+      contentType = MediaType('image', 'webp');
+    } else {
+      contentType = MediaType('image', 'jpeg'); // .jpg / .jpeg / varsayılan
+    }
+
+    // Fotoğrafı 'image' alanı adıyla ekle (backend [FromForm] IFormFile image bekliyor)
+    request.files.add(
+      await http.MultipartFile.fromPath(
+        'image',
+        imageFile.path,
+        contentType: contentType,
+      ),
+    );
+
+    final streamedResponse = await request.send();
+    final response = await http.Response.fromStream(streamedResponse);
+
+    if (response.statusCode == 200) {
+      return VerifyResult.fromJson(jsonDecode(response.body));
+    } else if (response.statusCode == 400 || response.statusCode == 404) {
+      final body = jsonDecode(response.body);
+      final message =
+          body['Message'] ?? body['message'] ?? 'Doğrulama başarısız.';
+      throw Exception(message);
+    } else {
+      throw Exception('Beklenmeyen hata (kod: ${response.statusCode})');
     }
   }
 }
