@@ -1,0 +1,82 @@
+### =========================================================
+### SyncHabit - Görsel Doğrulama Testi (Aşama 4a)
+### =========================================================
+### AKIŞ:
+### 1. Login ol  → token al
+### 2. Görev oluştur → dönen cevaptaki "id" değerini not et
+### 3. verify'a o id + fotoğraf gönder → sonucu gör
+###
+### KULLANIM:
+### - @host değerini kendi portuna göre ayarla (sende 5221'di)
+### - Bu dosyanın bulunduğu klasöre bir test fotoğrafı koy (örn. kanit.jpg)
+### - Adımları SIRAYLA çalıştır (1 → 2 → 3)
+### - C# backend + görsel Python sunucusu (8000) çalışıyor olmalı
+### =========================================================
+
+@host = http://localhost:5221
+
+
+### -------------------------------------------------------
+### 1. LOGIN — token al
+### Çalıştırınca dönen cevap düz token string'i olacak ("eyJ...")
+### Onu kopyalayıp aşağıdaki @token satırına yapıştır.
+### -------------------------------------------------------
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test2@mail.com",
+  "password": "123456"
+}
+
+
+### -------------------------------------------------------
+### Yukarıdaki login'den dönen token'ı buraya yapıştır
+### (baştaki/sondaki tırnakları SİL, sadece eyJ... kısmı kalsın)
+### -------------------------------------------------------
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSWtpbmNpS3VsbGFuaWNpIiwiZXhwIjoxNzgwOTA1ODYwfQ.UuMncsNlXppC8deb5Efw9lsijUsf0aJ7KPxVhClJgTPa-Pkta62cpudZ05HHW6uQrN38wRE8ZKJSL97AxNEe4w
+
+### -------------------------------------------------------
+### 2. GÖREV OLUŞTUR
+### Görsel doğrulaması olan bir kategori seç (örn. orgu_orme).
+### Dönen cevaptaki "id" alanını not et — 3. adımda kullanacaksın.
+### -------------------------------------------------------
+POST {{host}}/api/tasks
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "taskText": "30 satır kod yaz",
+  "category": "kod_yazma",
+  "difficultyScore": 50
+}
+
+
+### -------------------------------------------------------
+### 2. adımdan dönen görev id'sini buraya yaz
+### -------------------------------------------------------
+@taskId = 24
+
+
+### -------------------------------------------------------
+### 3. GÖRSEL DOĞRULAMA (asıl test)
+### multipart/form-data ile fotoğraf + taskId gönderiyoruz.
+### Fotoğraf bu dosyayla aynı klasörde olmalı (kanit.jpg).
+### Beklenen: kategori uyup güven yeterliyse "Verified",
+###           kategori uyup güven düşükse "NeedsReview",
+###           kategori uymazsa "Rejected".
+### -------------------------------------------------------
+POST {{host}}/api/taskverification/verify
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=SyncHabitBoundary
+
+--SyncHabitBoundary
+Content-Disposition: form-data; name="image"; filename="kanit2.jpeg"
+Content-Type: image/jpeg
+
+< ./kanit2.jpeg
+--SyncHabitBoundary
+Content-Disposition: form-data; name="taskId"
+
+{{taskId}}
+--SyncHabitBoundary--

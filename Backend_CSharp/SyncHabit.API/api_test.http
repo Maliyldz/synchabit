@@ -5,12 +5,12 @@ Content-Type: multipart/form-data; boundary=----MyBoundaryString
 ------MyBoundaryString
 Content-Disposition: form-data; name="expectedCategory"
 
-orgu_orme
+spor_yapma
 ------MyBoundaryString
-Content-Disposition: form-data; name="image"; filename="typing2.jpeg"
+Content-Disposition: form-data; name="image"; filename="pushUps.jpg"
 Content-Type: image/jpeg
 
-< ./test_fotograflari/knitting2.jpg
+< ./test_fotograflari/pushUps.jpg
 ------MyBoundaryString--
 
 
@@ -21,7 +21,7 @@ Content-Type: multipart/form-data; boundary=----MyBoundaryString
 ------MyBoundaryString
 Content-Disposition: form-data; name="expectedCategory"
 
-gitar_calma
+kod_yazma
 ------MyBoundaryString
 Content-Disposition: form-data; name="image"; filename="typing2.jpeg"
 Content-Type: image/jpeg

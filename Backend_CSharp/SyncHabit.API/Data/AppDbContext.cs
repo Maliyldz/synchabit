@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SyncHabit.API.Models;
+using SyncHabit.Models;
 
 namespace SyncHabit.API.Data
 {
@@ -15,5 +16,15 @@ namespace SyncHabit.API.Data
         public DbSet<Friendship> Friendships { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<GroupMember> GroupMembers { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // VerificationStatus enum'unu veritabanında string olarak sakla
+            modelBuilder.Entity<TaskItem>()
+                .Property(t => t.VerificationStatus)
+                .HasConversion<string>();
+        }
     }
 }

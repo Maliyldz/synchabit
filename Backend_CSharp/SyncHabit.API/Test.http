@@ -31,11 +31,11 @@ Content-Type: application/json
 ### 2. TOKEN İLE GÖREV EKLE (Kilitli Kapı)
 POST {{Host}}/api/tasks
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgwMzA5NjcxfQ.tQ6G3kvkEWA6X88RVAaTUhk8NAYStQ_WFb76USR4I6KEFagbH7wP9096iuWnABJBCHq4SOWje37vo00fZoJtvw
+Authorization: Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgwNjcxNjQ0fQ.wofoVI6PWSfriMEBfefdO_nLJXUfYMVuNffTcVDmgSDy0XKzDFa3QJB3h75cH1GsdN4PXSzP9hVxd7_vMtp0DA
 
 {
-  "taskText": "Annene söyleme sırrımız olsun bizim",
-  "category": "Sağlık",
+  "taskText": "Bir tavşan motifi ör",
+  "category": "Orgu Orme",
   "difficultyScore": 90
 }
 

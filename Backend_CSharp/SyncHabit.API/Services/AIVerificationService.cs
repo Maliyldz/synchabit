@@ -42,6 +42,7 @@ namespace SyncHabit.Services
                     return new VerificationResult
                     {
                         IsApproved = false,
+                        Status = VerificationStatus.Rejected,
                         Reason = $"YZ Sunucusuna ulaşılamadı. Durum Kodu: {response.StatusCode}"
                     };
                 }
@@ -54,6 +55,7 @@ namespace SyncHabit.Services
                     return new VerificationResult
                     {
                         IsApproved = false,
+                        Status = VerificationStatus.Rejected,
                         Reason = result?.Error ?? "YZ fotoğrafı işleyemedi."
                     };
                 }
@@ -68,6 +70,7 @@ namespace SyncHabit.Services
                     return new VerificationResult
                     {
                         IsApproved = true,
+                        Status = VerificationStatus.Verified,
                         Reason = "Görev başarıyla doğrulandı.",
                         DetectedCategory = result.PredictedClass,
                         Confidence = result.Confidence
@@ -79,6 +82,7 @@ namespace SyncHabit.Services
                     return new VerificationResult
                     {
                         IsApproved = false,
+                        Status = VerificationStatus.Rejected,
                         Reason = $"Görsel eşleşmedi. Beklenen: '{expectedCategory}', Algılanan: '{result.PredictedClass}'.",
                         DetectedCategory = result.PredictedClass,
                         Confidence = result.Confidence
@@ -90,6 +94,7 @@ namespace SyncHabit.Services
                     return new VerificationResult
                     {
                         IsApproved = false,
+                        Status = VerificationStatus.NeedsReview,
                         Reason = $"Fotoğraf net değil. Doğruluk oranı (%{result.Confidence}) sınırın altında kaldı.",
                         DetectedCategory = result.PredictedClass,
                         Confidence = result.Confidence
@@ -101,6 +106,7 @@ namespace SyncHabit.Services
                 return new VerificationResult
                 {
                     IsApproved = false,
+                    Status = VerificationStatus.Rejected,
                     Reason = $"Sistem Hatası: {ex.Message}"
                 };
             }

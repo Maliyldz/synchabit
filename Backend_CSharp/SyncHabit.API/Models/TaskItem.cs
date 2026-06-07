@@ -1,3 +1,6 @@
+using SyncHabit.Models;
+
+
 namespace SyncHabit.API.Models
 {
     public class TaskItem
@@ -9,5 +12,11 @@ namespace SyncHabit.API.Models
         public int DifficultyScore { get; set; } = 0;
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public int? GroupId { get; set; } // Nullable: Grup görevi ise dolu olur
+
+        public bool IsCompleted { get; set; } = false;
+        public DateTime? CompletedAt { get; set; }
+
+        public string? ProofImagePath { get; set; }
+        public VerificationStatus VerificationStatus { get; set; } = VerificationStatus.Pending;
     }
 }
