@@ -1,0 +1,88 @@
+### =========================================================
+### SyncHabit - Grup Endpoint Testleri (4b-1 backend)
+### =========================================================
+### NASIL ÇALIŞIR:
+### - "###" ile ayrılan her blok ayrı bir istektir.
+### - Her bloğun üstünde "Send Request" yazısı çıkar, ona tıkla.
+### - Sırayla çalıştır: önce login → token'ı kopyala → @token'a yapıştır → gerisi.
+### - @ ile başlayan satırlar değişkendir; {{...}} ile kullanılır.
+### =========================================================
+
+@host = http://localhost:5221
+
+
+### -------------------------------------------------------
+### 1. LOGIN — token al
+### Çalıştır, dönen cevap düz token ("eyJ...").
+### Kopyala, aşağıdaki @token satırına yapıştır (tırnakları sil).
+### -------------------------------------------------------
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "example@mail.com",
+  "password": "159753"
+}
+
+
+### Login'den dönen token'ı buraya yapıştır:
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMDk4NjgzfQ.jvJs9qxXeiDf6P8MwB1Co407V814-TDuzsfj9duzXqczaCGfNv-28dyVak1c_BuASBGR4B2aFlsvnncEbHLc9Q
+
+
+### -------------------------------------------------------
+### 2. GRUP OLUŞTUR
+### Dönen cevaptaki "id" değerini not et → aşağıdaki @groupId'ye yaz.
+### Grubu oluşturan kişi otomatik olarak üye + lider olur.
+### -------------------------------------------------------
+POST {{host}}/api/groups
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Test Grubu",
+  "description": "4b-1 testi için grup"
+}
+
+
+### 2. adımdan dönen grup id'sini buraya yaz:
+@groupId = 2
+
+
+### -------------------------------------------------------
+### 3. GRUPLARIM — üye olduğum grupları listele
+### "Test Grubu" listede görünmeli, isLeader: true olmalı.
+### -------------------------------------------------------
+GET {{host}}/api/groups/mine
+Authorization: Bearer {{token}}
+
+
+### -------------------------------------------------------
+### 4. GRUP ÜYELERİ — bu grubun üyelerini getir
+### Kendini username'inle birlikte üye olarak görmelisin.
+### -------------------------------------------------------
+GET {{host}}/api/groups/{{groupId}}/members
+Authorization: Bearer {{token}}
+
+
+### -------------------------------------------------------
+### 5. GRUBA GÖREV ATA
+### NLP doğrulamasından geçen temiz bir görev. Kategori görsel
+### modelin sınıflarından biri olmalı (örn. kod_yazma).
+### -------------------------------------------------------
+POST {{host}}/api/groups/{{groupId}}/task
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "taskText": "30 dakika kod yaz",
+  "category": "kod_yazma",
+  "difficultyScore": 50
+}
+
+
+### -------------------------------------------------------
+### 6. GRUP GÖREVLERİ — bu grubun görevlerini listele
+### 5. adımda eklediğin görev burada görünmeli.
+### -------------------------------------------------------
+GET {{host}}/api/groups/{{groupId}}/tasks
+Authorization: Bearer {{token}}

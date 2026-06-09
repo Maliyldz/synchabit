@@ -35,8 +35,27 @@ namespace SyncHabit.API.Controllers
             }
 
             int myUserId = int.Parse(userIdString);
-            var myTasks = _context.Tasks.Where(t => t.CreatorId == myUserId).ToList();
-            return Ok(myTasks); //200 OK koduyla geri gönder
+            var myTasks = _context.Tasks
+                .Where(t => t.CreatorId == myUserId && t.GroupId == null) // sadece bireysel görevler
+                .Select(t => new
+                {
+                    id = t.Id,
+                    creatorId = t.CreatorId,
+                    taskText = t.TaskText,
+                    category = t.Category,
+                    difficultyScore = t.DifficultyScore,
+                    createdAt = t.CreatedAt,
+                    groupId = t.GroupId,
+                    myCompletionStatus = _context.TaskCompletions
+                .Where(c => c.TaskId == t.Id && c.UserId == myUserId)
+                .Select(c => c.VerificationStatus.ToString())
+                .FirstOrDefault(),
+                    completionCount = _context.TaskCompletions
+                .Count(c => c.TaskId == t.Id && c.IsApproved)
+                })
+                .ToList();
+
+            return Ok(myTasks);
         }
 
         // 2. Kapı: Yeni görev ekle (POST İsteği)

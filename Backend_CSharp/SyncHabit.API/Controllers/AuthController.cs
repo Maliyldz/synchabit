@@ -3,6 +3,7 @@ using SyncHabit.API.Data;
 using SyncHabit.API.DTOs;
 using SyncHabit.API.Models;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -30,6 +31,11 @@ namespace SyncHabit.API.Controllers
             if (_context.Users.Any(u => u.Email == request.Email))
             {
                 return BadRequest("Bu e-posta adresi zaten kullanılıyor.");
+            }
+
+            if (_context.Users.Any(u => u.Username == request.Username))
+            {
+                return BadRequest("Bu kullanıcı adı zaten alınmış.");
             }
 
             // Şifreyi BCrypt ile kırılmaz hale getir (Hash'le)
@@ -72,6 +78,34 @@ namespace SyncHabit.API.Controllers
 
             string token = CreateToken(user);
             return Ok(token);
+        }
+
+        // Kullanıcı adına göre arama (arkadaş/üye eklemek için)
+        [Authorize]
+        [HttpGet("search")]
+        public IActionResult SearchUsers([FromQuery] string username)
+        {
+            if (string.IsNullOrWhiteSpace(username))
+            {
+                return BadRequest("Arama terimi boş olamaz.");
+            }
+
+            var myUserId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            // Username'i içeren kullanıcıları bul, kendini hariç tut
+            // SADECE güvenli alanları döndür (PasswordHash/Email ASLA dönmez)
+            var results = _context.Users
+                .Where(u => u.Username.Contains(username) && u.Id != myUserId)
+                .Select(u => new
+                {
+                    id = u.Id,
+                    username = u.Username,
+                    level = u.Level
+                })
+                .Take(20) // çok sonuç dönmesin
+                .ToList();
+
+            return Ok(results);
         }
 
         private string CreateToken(User user)

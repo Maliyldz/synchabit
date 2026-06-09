@@ -34,7 +34,7 @@ Content-Type: application/json
 ### Yukarıdaki login'den dönen token'ı buraya yapıştır
 ### (baştaki/sondaki tırnakları SİL, sadece eyJ... kısmı kalsın)
 ### -------------------------------------------------------
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSWtpbmNpS3VsbGFuaWNpIiwiZXhwIjoxNzgwOTA1ODYwfQ.UuMncsNlXppC8deb5Efw9lsijUsf0aJ7KPxVhClJgTPa-Pkta62cpudZ05HHW6uQrN38wRE8ZKJSL97AxNEe4w
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSWtpbmNpS3VsbGFuaWNpIiwiZXhwIjoxNzgwOTIzNDE2fQ.kKzBcEhyHpWzwI_-E8-tCT4_O3NkjxtTPruQXQk_ajqD7NM6-VbodilpXqYs6SUBvE3-NfL2Lg3eF2ozxeEvtw
 
 ### -------------------------------------------------------
 ### 2. GÖREV OLUŞTUR
@@ -80,3 +80,19 @@ Content-Disposition: form-data; name="taskId"
 
 {{taskId}}
 --SyncHabitBoundary--
+
+
+### Kullanıcı arama — sadece id/username/level dönmeli
+GET {{host}}/api/auth/search?username=deneme
+Authorization: Bearer {{token}}
+
+### Var olan username ile register — "zaten alınmış" dönmeli
+POST {{host}}/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "IkinciKullanici",
+  "email": "yeni_farkli_mail@mail.com",
+  "password": "123456"
+}
+

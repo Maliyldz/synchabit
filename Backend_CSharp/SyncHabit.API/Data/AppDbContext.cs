@@ -16,6 +16,7 @@ namespace SyncHabit.API.Data
         public DbSet<Friendship> Friendships { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<GroupMember> GroupMembers { get; set; }
+        public DbSet<TaskCompletion> TaskCompletions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +26,21 @@ namespace SyncHabit.API.Data
             modelBuilder.Entity<TaskItem>()
                 .Property(t => t.VerificationStatus)
                 .HasConversion<string>();
+
+            //username benzersiz olmalı (arama ve arkadaş ekleme için)
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Username)
+                .IsUnique();
+
+            // TaskCompletion'ın VerificationStatus'ını da string sakla
+            modelBuilder.Entity<TaskCompletion>()
+                .Property(c => c.VerificationStatus)
+                .HasConversion<string>();
+
+            // Bir kullanıcı bir görevi yalnızca bir kez tamamlayabilir
+            modelBuilder.Entity<TaskCompletion>()
+                .HasIndex(c => new { c.TaskId, c.UserId })
+                .IsUnique();
         }
     }
 }

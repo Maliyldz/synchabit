@@ -8,6 +8,7 @@ using SyncHabit.API.Data;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using SyncHabit.API.Models;
 
 namespace SyncHabit.Controllers
 {
@@ -47,35 +48,38 @@ namespace SyncHabit.Controllers
         [HttpPost("verify")]
         public async Task<IActionResult> VerifyTask([FromForm] IFormFile image, [FromForm] int taskId)
         {
-            // Güvenlik Kontrolleri
-
+            // 1. Güvenlik kontrolleri
             if (image == null || image.Length == 0)
-            {
                 return BadRequest(new { Message = "Lütfen bir fotoğraf yükleyin." });
-            }
 
-            // Dosya boyutu kontrolü
             if (image.Length > MAX_FILE_SIZE_MB * 1024 * 1024)
-            {
                 return BadRequest(new { Message = $"Dosya boyutu {MAX_FILE_SIZE_MB} MB'dan büyük olamaz." });
-            }
 
-            // Content type kontrolü
             if (!System.Array.Exists(ALLOWED_CONTENT_TYPES, ct => ct == image.ContentType?.ToLower()))
-            {
                 return BadRequest(new { Message = "Sadece JPEG, PNG veya WebP formatındaki resimler kabul edilir." });
-            }
 
+            // 2. Token'dan kullanıcı, görevi bul
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
-            var task = _context.Tasks.FirstOrDefault(t => t.Id == taskId && t.CreatorId == userId);
 
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == taskId);
             if (task == null)
-                return NotFound(new { Message = "Görev bulunamadı veya bu işlem için yetkiniz yok." });
+                return NotFound(new { Message = "Görev bulunamadı." });
 
-            // Görevin kategorisini backend'in kendisi belirliyor (Flutter göndermiyor)
-            var expectedCategory = task.Category;
+            // Yetki: kendi görevim VEYA üyesi olduğum grubun görevi
+            bool isOwnTask = task.CreatorId == userId;
+            bool isGroupMember = task.GroupId != null &&
+                _context.GroupMembers.Any(gm => gm.GroupId == task.GroupId && gm.UserId == userId);
 
-            // Flutter'dan gelen dosyayı (IFormFile) byte dizisine (byte[]) çevir
+            if (!isOwnTask && !isGroupMember)
+                return Unauthorized(new { Message = "Bu görevi tamamlama yetkiniz yok." });
+
+            // 3. Tekrar tamamlama kontrolü
+            var existing = _context.TaskCompletions
+                .FirstOrDefault(c => c.TaskId == taskId && c.UserId == userId);
+            if (existing != null)
+                return BadRequest(new { Message = "Bu görevi zaten tamamladınız." });
+
+            // 4. Fotoğrafı byte'a çevir
             byte[] imageBytes;
             using (var memoryStream = new MemoryStream())
             {
@@ -83,26 +87,29 @@ namespace SyncHabit.Controllers
                 imageBytes = memoryStream.ToArray();
             }
 
-            // Dosyayı AI Servisine Gönder
-            var result = await _aiService.VerifyTaskAsync(imageBytes, expectedCategory);
+            // 5. AI doğrulaması (görevin kategorisini backend belirliyor)
+            var result = await _aiService.VerifyTaskAsync(imageBytes, task.Category);
 
+            // 6. Rejected: hiçbir kayıt oluşturma
             if (result.Status == VerificationStatus.Rejected)
             {
-                // Reddedildi: hiçbir şey kaydetme, sadece sonucu dön
                 return Ok(result);
             }
 
+            // 7. Verified veya NeedsReview: fotoğrafı kaydet, TaskCompletion oluştur
             var proofPath = await SaveProofImage(image);
-            task.ProofImagePath = proofPath;
-            task.VerificationStatus = result.Status;
 
-            if (result.Status == VerificationStatus.Verified)
+            var completion = new TaskCompletion
             {
-                // Otomatik onay: görevi tamamla
-                task.IsCompleted = true;
-                task.CompletedAt = System.DateTime.Now;
-            }
+                TaskId = taskId,
+                UserId = userId,
+                ProofImagePath = proofPath,
+                VerificationStatus = result.Status,
+                IsApproved = result.Status == VerificationStatus.Verified,
+                CompletedAt = DateTime.Now
+            };
 
+            _context.TaskCompletions.Add(completion);
             _context.SaveChanges();
 
             return Ok(result);

@@ -1,0 +1,124 @@
+### =========================================================
+### SyncHabit - TaskCompletion Verify Testi (Parça 2)
+### =========================================================
+### AMAÇ: verify artık TaskItem'ı değil, TaskCompletion kaydı oluşturuyor.
+### Test edilecekler:
+###   - Doğru fotoğraf → Verified + TaskCompletions tablosunda kayıt
+###   - Aynı görevi tekrar → "zaten tamamladınız" reddi
+###   - Yanlış fotoğraf → Rejected + KAYIT OLUŞMAMALI
+###
+### NASIL: Sırayla çalıştır. Token ve id'leri elle doldur.
+### Bu dosyayla aynı klasörde bir test fotoğrafı olsun (kanit.jpg).
+### =========================================================
+
+@host = http://localhost:5221
+
+
+### 1. LOGIN — token al, aşağıya yapıştır
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "example@mail.com",
+  "password": "159753"
+}
+
+
+### Token'ı buraya yapıştır (tırnaksız):
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMDkxNTUyfQ.Wrui-ZUMXZ0nKh96HX_m8uzzw43uuQs7C5Dvr78GbTLpRWYwwWVp-IBofpL96Z4fOQUj2xiMBgeh0fiIUrkhrQ
+
+
+### 2. Bireysel görev oluştur (örn. kod_yazma), dönen id'yi not et
+POST {{host}}/api/tasks
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "taskText": "30 tur ip atla",
+  "category": "ip_atlama",
+  "difficultyScore": 70
+}
+
+
+### Görev id'sini buraya yaz:
+@taskId = 31
+
+
+### -------------------------------------------------------
+### 3. DOĞRULAMA — doğru fotoğraf (kod_yazma fotoğrafı)
+### Beklenen: status "Verified", ve TaskCompletions tablosunda
+### yeni bir kayıt (TaskId, UserId, ProofImagePath dolu).
+### -------------------------------------------------------
+POST {{host}}/api/taskverification/verify
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=SyncHabitBoundary
+
+--SyncHabitBoundary
+Content-Disposition: form-data; name="image"; filename="kanit.jpg"
+Content-Type: image/jpeg
+
+< ./kanit.jpg
+--SyncHabitBoundary
+Content-Disposition: form-data; name="taskId"
+
+{{taskId}}
+--SyncHabitBoundary--
+
+
+### -------------------------------------------------------
+### 4. TEKRAR DENE — aynı görev, aynı kullanıcı
+### Beklenen: 400 "Bu görevi zaten tamamladınız."
+### (3. adımı çalıştırdıktan sonra bunu çalıştır)
+### -------------------------------------------------------
+POST {{host}}/api/taskverification/verify
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=SyncHabitBoundary
+
+--SyncHabitBoundary
+Content-Disposition: form-data; name="image"; filename="kanit.jpg"
+Content-Type: image/jpeg
+
+< ./kanit.jpg
+--SyncHabitBoundary
+Content-Disposition: form-data; name="taskId"
+
+{{taskId}}
+--SyncHabitBoundary--
+
+
+### -------------------------------------------------------
+### 5. YANLIŞ FOTOĞRAF TESTİ (ayrı, yeni görev gerekir)
+### Önce farklı kategoride yeni görev oluştur (örn. basketbol),
+### id'sini @taskId2'ye yaz, sonra kod_yazma fotoğrafı gönder.
+### Beklenen: status "Rejected", TaskCompletions'a KAYIT OLUŞMAZ.
+### -------------------------------------------------------
+POST {{host}}/api/tasks
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "taskText": "1 saat basketbol oyna",
+  "category": "basketbol",
+  "difficultyScore": 40
+}
+
+
+### Yeni görev id'sini buraya yaz:
+@taskId2 = 32
+
+
+### Yanlış eşleştirme: basketbol görevine kod_yazma fotoğrafı
+POST {{host}}/api/taskverification/verify
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=SyncHabitBoundary
+
+--SyncHabitBoundary
+Content-Disposition: form-data; name="image"; filename="kanit.jpg"
+Content-Type: image/jpeg
+
+< ./kanit.jpg
+--SyncHabitBoundary
+Content-Disposition: form-data; name="taskId"
+
+{{taskId2}}
+--SyncHabitBoundary--
