@@ -1,0 +1,100 @@
+### =========================================================
+### SyncHabit - Arkadaşlık Akışı Testi (Davet-1 backend)
+### =========================================================
+### İKİ KULLANICI gerekiyor: A (gönderen) ve B (alan).
+### A ve B senin veritabanındaki iki farklı kullanıcı olmalı.
+###
+### AKIŞ:
+### - A login → B'yi ara → B'ye istek gönder
+### - B login → gelen isteklerini gör → kabul et
+### - İki taraf da arkadaş listesinde birbirini görmeli
+###
+### NOT: Her kullanıcının token'ı ayrı. İki @token değişkeni var.
+### =========================================================
+
+@host = http://localhost:5221
+
+
+### -------------------------------------------------------
+### A KULLANICISI — login
+### -------------------------------------------------------
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "example@mail.com",
+  "password": "159753"
+}
+
+### A'nın token'ını buraya yapıştır:
+@tokenA = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMTEyNjA5fQ.66hmKMVAJqqHCryFPodd13ztPWgNWBBbsxuOVtcCJ3MBshUsJaTBfQIG8hDdvG9eKraKpmT4Gd-qxRHjliU7SA
+
+
+### -------------------------------------------------------
+### A → B'yi kullanıcı adıyla ara
+### Dönen sonuçtan B'nin "id" değerini not et → @friendId'ye yaz
+### -------------------------------------------------------
+GET {{host}}/api/auth/search?username=FlutterDeneme
+Authorization: Bearer {{tokenA}}
+
+
+### B'nin id'sini buraya yaz:
+@friendId = 3
+
+
+### -------------------------------------------------------
+### A → B'ye arkadaşlık isteği gönder
+### Beklenen: "Arkadaşlık isteği gönderildi."
+### -------------------------------------------------------
+POST {{host}}/api/friends/add/{{friendId}}
+Authorization: Bearer {{tokenA}}
+
+
+### -------------------------------------------------------
+### B KULLANICISI — login (B'nin kendi bilgileriyle)
+### -------------------------------------------------------
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "fluttertest@mail.com",
+  "password": "123456"
+}
+
+### B'nin token'ını buraya yapıştır:
+@tokenB = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRmx1dHRlckRlbmVtZSIsImV4cCI6MTc4MTExMjczOH0.fLqG1f9cCJW0CKjqkO0c-TQYd2znmMJEXdGA5DhZ70FnoA-IGu0F8NUW5oJpFIhtvW1EiYvwP0MXtIB_c-6V6A
+
+
+### -------------------------------------------------------
+### B → bana gelen bekleyen istekleri gör
+### A'dan gelen istek görünmeli. requestId'yi not et → @requestId'ye yaz
+### senderUsername alanında A'nın adı olmalı.
+### -------------------------------------------------------
+GET {{host}}/api/friends/requests
+Authorization: Bearer {{tokenB}}
+
+
+### Gelen istekteki requestId'yi buraya yaz:
+@requestId = 2
+
+
+### -------------------------------------------------------
+### B → isteği kabul et
+### Beklenen: "Arkadaşlık isteği kabul edildi."
+### -------------------------------------------------------
+POST {{host}}/api/friends/accept/{{requestId}}
+Authorization: Bearer {{tokenB}}
+
+
+### -------------------------------------------------------
+### B → arkadaş listesi (artık A görünmeli, username ile)
+### -------------------------------------------------------
+GET {{host}}/api/friends
+Authorization: Bearer {{tokenB}}
+
+
+### -------------------------------------------------------
+### A → arkadaş listesi (artık B görünmeli, username ile)
+### -------------------------------------------------------
+GET {{host}}/api/friends
+Authorization: Bearer {{tokenA}}

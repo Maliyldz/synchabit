@@ -44,13 +44,50 @@ namespace SyncHabit.API.Controllers
             return Ok("Arkadaşlık isteği gönderildi.");
         }
 
+        [HttpGet("requests")]
+        public IActionResult GetPendingRequests()
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            // Bana (FriendId) gelen, henüz kabul edilmemiş istekler
+            var requests = _context.Friendships
+                .Where(f => f.FriendId == userId && f.Status == "Pending")
+                .Join(_context.Users,
+                    f => f.UserId,          // isteği gönderen kişi
+                    u => u.Id,
+                    (f, u) => new
+                    {
+                        requestId = f.Id,    // kabul/red için bu id gerekli
+                        senderId = u.Id,
+                        senderUsername = u.Username,
+                        senderLevel = u.Level
+                    })
+                .ToList();
+
+            return Ok(requests);
+        }
+
         [HttpGet]
         public IActionResult GetFriends()
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
 
-            var friends = _context.Friendships
+            var friendships = _context.Friendships
                 .Where(f => (f.UserId == userId || f.FriendId == userId) && f.Status == "Accepted")
+                .ToList();
+
+            var friendIds = friendships
+                .Select(f => f.UserId == userId ? f.FriendId : f.UserId)
+                .ToList();
+
+            var friends = _context.Users
+                .Where(u => friendIds.Contains(u.Id))
+                .Select(u => new
+                {
+                    userId = u.Id,
+                    username = u.Username,
+                    level = u.Level
+                })
                 .ToList();
 
             return Ok(friends);
@@ -81,8 +118,6 @@ namespace SyncHabit.API.Controllers
             var friendship = _context.Friendships.FirstOrDefault(f => f.Id == requestId && (f.UserId == userId || f.FriendId == userId));
 
             if (friendship == null) return NotFound("İlişki bulunamadı.");
-
-            _context.Tasks.RemoveRange(_context.Tasks.Where(t => false));
 
             _context.Friendships.Remove(friendship);
             _context.SaveChanges();

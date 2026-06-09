@@ -17,6 +17,7 @@ namespace SyncHabit.API.Data
         public DbSet<Group> Groups { get; set; }
         public DbSet<GroupMember> GroupMembers { get; set; }
         public DbSet<TaskCompletion> TaskCompletions { get; set; }
+        public DbSet<GroupInvite> GroupInvites { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

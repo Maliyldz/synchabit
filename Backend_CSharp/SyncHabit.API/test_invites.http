@@ -1,0 +1,86 @@
+### =========================================================
+### SyncHabit - Grup Daveti Testi (Davet-2 backend)
+### =========================================================
+### ÖN KOŞUL:
+### - A ve B kullanıcısı ARKADAŞ olmalı (Davet-1'de yaptık)
+### - A bir grubun lideri olmalı (grup oluşturmuş olmalı)
+###
+### AKIŞ:
+### - A login → B'yi gruba davet et
+### - B login → gelen davetlerini gör → kabul et
+### - Grup üyelerinde artık B de görünmeli
+### =========================================================
+
+@host = http://localhost:5221
+
+
+### A (LİDER) login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "example@mail.com",
+  "password": "159753"
+}
+
+###
+@tokenA = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMTI0NTI2fQ.t2r0bpq1JDxDzOoIjPZsGNlyehRSGrk6sYS01532Fh-RdrjHVh2f0Oi6HxN72AK3IAAO6x1i5QKbV7tfUxbhyg
+
+
+### A'nın gruplarını gör → davet edeceğin grubun id'sini not et
+GET {{host}}/api/groups/mine
+Authorization: Bearer {{tokenA}}
+
+@groupId = 2
+
+
+### A → arkadaşlarını gör → davet edeceğin B'nin userId'sini not et
+GET {{host}}/api/friends
+Authorization: Bearer {{tokenA}}
+
+@friendId = 4
+
+
+### A → B'yi gruba davet et
+### Beklenen: "Davet gönderildi."
+POST {{host}}/api/groups/{{groupId}}/invite/{{friendId}}
+Authorization: Bearer {{tokenA}}
+
+
+### -------------------------------------------------------
+### B login
+### -------------------------------------------------------
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "arkadas@mail.com",
+  "password": "123456"
+}
+
+###
+@tokenB = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQXJrYWRhc0hlc2FiaSIsImV4cCI6MTc4MTEyNDYzM30.JOLSKofeyfSb0W8UUP8dSDsUW9mU_hKAJwl2wcWU7mjpa-3Oeb7qgbGzigavrAkSwSM4gQIQGcLP32F7SFh1JA
+
+
+### B → bana gelen grup davetleri
+### groupName + inviterUsername görünmeli. inviteId'yi not et.
+GET {{host}}/api/groups/invites
+Authorization: Bearer {{tokenB}}
+
+@inviteId = 1
+
+
+### B → daveti kabul et
+### Beklenen: "Gruba katıldınız."
+POST {{host}}/api/groups/invites/{{inviteId}}/accept
+Authorization: Bearer {{tokenB}}
+
+
+### B → gruplarını gör (artık o grup listede olmalı)
+GET {{host}}/api/groups/mine
+Authorization: Bearer {{tokenB}}
+
+
+### A → grup üyelerini gör (artık B de üye olmalı)
+GET {{host}}/api/groups/{{groupId}}/members
+Authorization: Bearer {{tokenA}}
