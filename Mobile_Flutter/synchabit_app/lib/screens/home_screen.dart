@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
             subtitle: Text(
               'Kategori: ${task.category}  •  Puan: ${task.difficultyScore}',
             ),
-            trailing: task.isCompleted
+            trailing: task.isVerifiedByMe
                 ? const Icon(Icons.check_circle, color: Colors.green)
                 : const Icon(Icons.chevron_right),
 

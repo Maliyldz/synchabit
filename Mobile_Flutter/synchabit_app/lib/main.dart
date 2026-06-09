@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'providers/auth_provider.dart';
 import 'screens/login_screen.dart';
 import 'providers/task_provider.dart';
+import 'providers/group_provider.dart';
 
 void main() {
   runApp(const SyncHabitApp());
@@ -17,6 +18,7 @@ class SyncHabitApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => AuthProvider()),
         ChangeNotifierProvider(create: (_) => TaskProvider()),
+        ChangeNotifierProvider(create: (_) => GroupProvider()),
       ],
       child: MaterialApp(
         title: 'SyncHabit',

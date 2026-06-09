@@ -1,0 +1,120 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+import '../config/api_config.dart';
+import '../models/group.dart';
+import '../models/task.dart';
+import 'task_service.dart';
+
+class GroupService {
+  // Üye olduğum grupları getir (GET /api/groups/mine)
+  Future<List<Group>> fetchMyGroups(String token) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/mine');
+    final response = await http.get(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      return data.map((json) => Group.fromJson(json)).toList();
+    } else {
+      throw Exception('Gruplar alınamadı (kod: ${response.statusCode})');
+    }
+  }
+
+  // Grup oluştur (POST /api/groups)
+  Future<Group> createGroup({
+    required String token,
+    required String name,
+    required String description,
+  }) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups');
+    final response = await http.post(
+      url,
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer $token',
+      },
+      body: jsonEncode({'name': name, 'description': description}),
+    );
+    if (response.statusCode == 200) {
+      // Backend oluşturulan Group'u döndürüyor ama isLeader içermez;
+      // oluşturan kişi her zaman liderdir, o yüzden listeyi tazeleyince doğru gelir.
+      return Group.fromJson(jsonDecode(response.body));
+    } else {
+      throw Exception('Grup oluşturulamadı (kod: ${response.statusCode})');
+    }
+  }
+
+  // Grup üyelerini getir (GET /api/groups/{id}/members)
+  Future<List<GroupMember>> fetchMembers(String token, int groupId) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/$groupId/members');
+    final response = await http.get(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      return data.map((json) => GroupMember.fromJson(json)).toList();
+    } else {
+      throw Exception('Üyeler alınamadı (kod: ${response.statusCode})');
+    }
+  }
+
+  // Grup görevlerini getir (GET /api/groups/{id}/tasks)
+  Future<List<Task>> fetchGroupTasks(String token, int groupId) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/$groupId/tasks');
+    final response = await http.get(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      return data.map((json) => Task.fromJson(json)).toList();
+    } else {
+      throw Exception('Grup görevleri alınamadı (kod: ${response.statusCode})');
+    }
+  }
+
+  // Gruba görev ekle (POST /api/groups/{id}/task) — NLP backend'de tetiklenir
+  Future<CreateTaskResult> addGroupTask({
+    required String token,
+    required int groupId,
+    required String taskText,
+    required String category,
+    required int difficultyScore,
+  }) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/$groupId/task');
+    try {
+      final response = await http.post(
+        url,
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer $token',
+        },
+        body: jsonEncode({
+          'taskText': taskText,
+          'category': category,
+          'difficultyScore': difficultyScore,
+        }),
+      );
+
+      if (response.statusCode == 200) {
+        final task = Task.fromJson(jsonDecode(response.body));
+        return CreateTaskResult.ok(task);
+      } else if (response.statusCode == 400) {
+        final body = jsonDecode(response.body);
+        final message =
+            body['Message'] ?? body['message'] ?? 'Görev reddedildi.';
+        return CreateTaskResult.fail(message);
+      } else if (response.statusCode == 401) {
+        return CreateTaskResult.fail('Bu gruba görev ekleme yetkiniz yok.');
+      } else {
+        return CreateTaskResult.fail(
+          'Beklenmeyen hata (kod: ${response.statusCode})',
+        );
+      }
+    } catch (e) {
+      return CreateTaskResult.fail('Sunucuya bağlanılamadı.');
+    }
+  }
+}

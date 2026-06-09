@@ -3,9 +3,13 @@ import 'package:provider/provider.dart';
 import '../models/task_category.dart';
 import '../providers/auth_provider.dart';
 import '../providers/task_provider.dart';
+import '../services/group_service.dart';
+import '../services/task_service.dart';
 
 class CreateTaskScreen extends StatefulWidget {
-  const CreateTaskScreen({super.key});
+  // groupId null ise bireysel görev, doluysa gruba görev eklenir
+  final int? groupId;
+  const CreateTaskScreen({super.key, this.groupId});
 
   @override
   State<CreateTaskScreen> createState() => _CreateTaskScreenState();
@@ -14,10 +18,13 @@ class CreateTaskScreen extends StatefulWidget {
 class _CreateTaskScreenState extends State<CreateTaskScreen> {
   final _taskTextController = TextEditingController();
   final _pointsController = TextEditingController(text: '10');
+  final GroupService _groupService = GroupService();
 
   TaskCategory _selectedCategory = kTaskCategories.first;
   bool _isSubmitting = false;
   String? _errorMessage;
+
+  bool get _isGroupTask => widget.groupId != null;
 
   @override
   void dispose() {
@@ -33,7 +40,6 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
       return;
     }
 
-    // Puan doğrulama: 10-100 arası bir tam sayı olmalı
     final points = int.tryParse(_pointsController.text.trim());
     if (points == null || points < 10 || points > 100) {
       setState(
@@ -48,12 +54,26 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
     });
 
     final token = context.read<AuthProvider>().token!;
-    final result = await context.read<TaskProvider>().createTask(
-      token: token,
-      taskText: text,
-      category: _selectedCategory.value, // backend'e model değeri gidiyor
-      difficultyScore: points, // puan, DifficultyScore alanında saklanıyor
-    );
+    CreateTaskResult result;
+
+    if (_isGroupTask) {
+      // Gruba görev ekle
+      result = await _groupService.addGroupTask(
+        token: token,
+        groupId: widget.groupId!,
+        taskText: text,
+        category: _selectedCategory.value,
+        difficultyScore: points,
+      );
+    } else {
+      // Bireysel görev (eski davranış)
+      result = await context.read<TaskProvider>().createTask(
+        token: token,
+        taskText: text,
+        category: _selectedCategory.value,
+        difficultyScore: points,
+      );
+    }
 
     if (!mounted) return;
 
@@ -70,7 +90,9 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Yeni Görev')),
+      appBar: AppBar(
+        title: Text(_isGroupTask ? 'Gruba Görev Ekle' : 'Yeni Görev'),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24),
@@ -103,7 +125,6 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
                 },
               ),
               const SizedBox(height: 8),
-              // Seçilen kategoride görsel doğrulama var mı, kullanıcıya bilgi ver
               Text(
                 _selectedCategory.hasImageVerification
                     ? '📷 Bu görev tamamlanırken fotoğrafla doğrulanacak.'
@@ -153,7 +174,7 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
                           width: 20,
                           child: CircularProgressIndicator(strokeWidth: 2),
                         )
-                      : const Text('Görevi Oluştur'),
+                      : Text(_isGroupTask ? 'Gruba Ekle' : 'Görevi Oluştur'),
                 ),
               ),
             ],

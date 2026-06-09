@@ -113,7 +113,7 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
               'Kategori: ${task.category}  •  Puan: ${task.difficultyScore}',
             ),
             const SizedBox(height: 8),
-            if (task.isCompleted)
+            if (task.isVerifiedByMe)
               const Chip(
                 label: Text('Tamamlandı'),
                 backgroundColor: Color(0xFFD7F5DD),
@@ -122,7 +122,7 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
 
             if (!_hasImageVerification)
               const Text('Bu kategoride görsel doğrulama yok.')
-            else if (task.isCompleted)
+            else if (task.isDoneByMe)
               const Text('Bu görev zaten doğrulandı ve tamamlandı.')
             else ...[
               const Text(

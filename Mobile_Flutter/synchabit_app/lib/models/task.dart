@@ -5,7 +5,10 @@ class Task {
   final String category;
   final int difficultyScore;
   final DateTime? createdAt;
-  final bool isCompleted;
+  final int? groupId;
+
+  final String? myCompletionStatus; // "Verified" | "NeedsReview" | null
+  final int completionCount;
 
   Task({
     required this.id,
@@ -14,8 +17,16 @@ class Task {
     required this.category,
     required this.difficultyScore,
     this.createdAt,
-    this.isCompleted = false,
+    this.groupId,
+    this.myCompletionStatus,
+    this.completionCount = 0,
   });
+
+  bool get isVerifiedByMe => myCompletionStatus == 'Verified';
+  bool get isPendingReviewByMe => myCompletionStatus == 'NeedsReview';
+  bool get isDoneByMe =>
+      myCompletionStatus == 'Verified' ||
+      myCompletionStatus == 'NeedsReview'; // herhangi bir tamamlama var mı
 
   // Backend'den gelen JSON → Task nesnesi
   factory Task.fromJson(Map<String, dynamic> json) {
@@ -28,7 +39,9 @@ class Task {
       createdAt: json['createdAt'] != null
           ? DateTime.tryParse(json['createdAt'].toString())
           : null,
-      isCompleted: json['isCompleted'] ?? false,
+      groupId: json['groupId'],
+      myCompletionStatus: json['myCompletionStatus'],
+      completionCount: json['completionCount'] ?? 0,
     );
   }
 }

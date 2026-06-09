@@ -426,7 +426,6 @@ __pycache__/
 dataset/
 test_images/
 test&egitim_sonuclari/
-wwwroot/uploads/
 
 # Virtual environments
 venv-bert/
@@ -439,3 +438,5 @@ AI_Python/nlp_model/models/
 # .NET derleme çıktıları
 bin/
 obj/
+
+wwwroot/uploads/
