@@ -24,6 +24,30 @@ class Group {
   }
 }
 
+// Bana gelen grup daveti
+class GroupInvite {
+  final int inviteId;
+  final int groupId;
+  final String groupName;
+  final String inviterUsername;
+
+  GroupInvite({
+    required this.inviteId,
+    required this.groupId,
+    required this.groupName,
+    required this.inviterUsername,
+  });
+
+  factory GroupInvite.fromJson(Map<String, dynamic> json) {
+    return GroupInvite(
+      inviteId: json['inviteId'] ?? 0,
+      groupId: json['groupId'] ?? 0,
+      groupName: json['groupName'] ?? '',
+      inviterUsername: json['inviterUsername'] ?? '',
+    );
+  }
+}
+
 // Grup üyesi (members endpoint'inden gelir)
 class GroupMember {
   final int userId;

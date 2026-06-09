@@ -117,4 +117,52 @@ class GroupService {
       return CreateTaskResult.fail('Sunucuya bağlanılamadı.');
     }
   }
+
+  // Arkadaşı gruba davet et (POST /api/groups/{groupId}/invite/{friendId})
+  Future<String> inviteToGroup({
+    required String token,
+    required int groupId,
+    required int friendId,
+  }) async {
+    final url = Uri.parse(
+      '${ApiConfig.baseUrl}/api/groups/$groupId/invite/$friendId',
+    );
+    final response = await http.post(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      return response.body.replaceAll('"', ''); // "Davet gönderildi."
+    }
+    // 400: "zaten üye", "zaten davet var", "sadece arkadaş" gibi mesajlar
+    throw Exception(response.body.replaceAll('"', ''));
+  }
+
+  // Bana gelen grup davetleri (GET /api/groups/invites)
+  Future<List<GroupInvite>> fetchMyInvites(String token) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/invites');
+    final response = await http.get(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      return data.map((j) => GroupInvite.fromJson(j)).toList();
+    }
+    throw Exception('Davetler alınamadı (kod: ${response.statusCode})');
+  }
+
+  // Daveti kabul et (POST /api/groups/invites/{inviteId}/accept)
+  Future<void> acceptInvite(String token, int inviteId) async {
+    final url = Uri.parse(
+      '${ApiConfig.baseUrl}/api/groups/invites/$inviteId/accept',
+    );
+    final response = await http.post(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode != 200) {
+      throw Exception('Davet kabul edilemedi.');
+    }
+  }
 }

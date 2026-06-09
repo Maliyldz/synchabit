@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'groups_screen.dart';
+import 'friends_screen.dart';
 
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
@@ -17,6 +18,7 @@ class _MainShellState extends State<MainShell> {
   final List<Widget> _screens = const [
     HomeScreen(),
     GroupsScreen(),
+    FriendsScreen(),
     _PlaceholderScreen(
       title: 'Arkadaşlarım',
       message: 'Bu özellik yakında eklenecek.',

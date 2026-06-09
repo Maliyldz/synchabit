@@ -4,6 +4,7 @@ import '../providers/auth_provider.dart';
 import '../providers/group_provider.dart';
 import 'create_group_screen.dart';
 import 'group_detail_screen.dart';
+import 'group_invites_screen.dart';
 
 class GroupsScreen extends StatefulWidget {
   const GroupsScreen({super.key});
@@ -34,6 +35,16 @@ class _GroupsScreenState extends State<GroupsScreen> {
       appBar: AppBar(
         title: const Text('Gruplarım'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.mail_outline),
+            tooltip: 'Grup Davetleri',
+            onPressed: () async {
+              await Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const GroupInvitesScreen()),
+              );
+              _load(); // davet kabul edilince yeni grup listede görünsün
+            },
+          ),
           IconButton(icon: const Icon(Icons.refresh), onPressed: _load),
         ],
       ),

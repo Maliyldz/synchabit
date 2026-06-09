@@ -6,6 +6,7 @@ import '../providers/auth_provider.dart';
 import '../services/group_service.dart';
 import 'create_task_screen.dart';
 import 'task_detail_screen.dart';
+import 'invite_member_screen.dart';
 
 class GroupDetailScreen extends StatefulWidget {
   final Group group;
@@ -66,6 +67,22 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
             ],
           ),
           actions: [
+            if (widget.group.isLeader)
+              IconButton(
+                icon: const Icon(Icons.person_add),
+                tooltip: 'Üye Davet Et',
+                onPressed: () async {
+                  await Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => InviteMemberScreen(
+                        groupId: widget.group.id,
+                        groupName: widget.group.name,
+                      ),
+                    ),
+                  );
+                  _load(); // davetten dönünce üyeleri tazele (kabul edilirse görünür)
+                },
+              ),
             IconButton(icon: const Icon(Icons.refresh), onPressed: _load),
           ],
         ),
