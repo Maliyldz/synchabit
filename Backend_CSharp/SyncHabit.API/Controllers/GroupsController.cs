@@ -4,7 +4,7 @@ using SyncHabit.API.Data;
 using SyncHabit.API.Models;
 using System.Security.Claims;
 using SyncHabit.Services;
-using System.Threading.Tasks;
+using SyncHabit.Models;
 
 namespace SyncHabit.API.Controllers
 {
@@ -262,6 +262,96 @@ namespace SyncHabit.API.Controllers
             _context.SaveChanges();
 
             return Ok("Gruba katıldınız.");
+        }
+
+        // Bir grubun bekleyen onayları (sadece lider görür)
+        [HttpGet("{groupId}/pending")]
+        public IActionResult GetPendingApprovals(int groupId)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            // Sadece grup lideri bekleyen onayları görebilir
+            var group = _context.Groups.FirstOrDefault(g => g.Id == groupId);
+            if (group == null)
+                return NotFound("Grup bulunamadı.");
+            if (group.CreatorId != userId)
+                return Unauthorized("Sadece grup lideri onayları görebilir.");
+
+            // Bu gruptaki NeedsReview tamamlamalar + görev metni + yükleyenin adı
+            var pending = _context.TaskCompletions
+                .Where(c => c.VerificationStatus == VerificationStatus.NeedsReview)
+                .Join(_context.Tasks,
+                    c => c.TaskId,
+                    t => t.Id,
+                    (c, t) => new { completion = c, task = t })
+                .Where(x => x.task.GroupId == groupId)  // sadece bu grubun görevleri
+                .Join(_context.Users,
+                    x => x.completion.UserId,
+                    u => u.Id,
+                    (x, u) => new
+                    {
+                        completionId = x.completion.Id,
+                        taskText = x.task.TaskText,
+                        category = x.task.Category,
+                        proofImagePath = x.completion.ProofImagePath,
+                        submitterUsername = u.Username,
+                        completedAt = x.completion.CompletedAt
+                    })
+                .ToList();
+
+            return Ok(pending);
+        }
+
+        // Bir tamamlamayı onayla (sadece o grubun lideri)
+        [HttpPost("completions/{completionId}/approve")]
+        public IActionResult ApproveCompletion(int completionId)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var completion = _context.TaskCompletions.FirstOrDefault(c => c.Id == completionId);
+            if (completion == null)
+                return NotFound("Tamamlama bulunamadı.");
+
+            // Bu tamamlamanın görevinin hangi gruba ait olduğunu bul, liderini kontrol et
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == completion.TaskId);
+            if (task == null || task.GroupId == null)
+                return BadRequest("Bu tamamlama bir grup görevine ait değil.");
+
+            var group = _context.Groups.FirstOrDefault(g => g.Id == task.GroupId);
+            if (group == null || group.CreatorId != userId)
+                return Unauthorized("Sadece grup lideri onaylayabilir.");
+
+            // Onayla: Verified yap
+            completion.VerificationStatus = VerificationStatus.Verified;
+            completion.IsApproved = true;
+            _context.SaveChanges();
+
+            return Ok("Tamamlama onaylandı.");
+        }
+
+        // Bir tamamlamayı reddet → kayıt silinir, üye tekrar deneyebilir
+        [HttpPost("completions/{completionId}/reject")]
+        public IActionResult RejectCompletion(int completionId)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var completion = _context.TaskCompletions.FirstOrDefault(c => c.Id == completionId);
+            if (completion == null)
+                return NotFound("Tamamlama bulunamadı.");
+
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == completion.TaskId);
+            if (task == null || task.GroupId == null)
+                return BadRequest("Bu tamamlama bir grup görevine ait değil.");
+
+            var group = _context.Groups.FirstOrDefault(g => g.Id == task.GroupId);
+            if (group == null || group.CreatorId != userId)
+                return Unauthorized("Sadece grup lideri reddedebilir.");
+
+            // Reddet: kaydı sil (üye tertemiz tekrar deneyebilsin)
+            _context.TaskCompletions.Remove(completion);
+            _context.SaveChanges();
+
+            return Ok("Tamamlama reddedildi. Üye tekrar deneyebilir.");
         }
     }
 }

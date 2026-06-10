@@ -14,6 +14,10 @@ namespace SyncHabit.Services
         private readonly string _aiBaseUrl = "http://localhost:8000";
         private readonly string _nlpBaseUrl = "http://localhost:8001";
 
+        // Görsel doğrulama güven eşikleri (0-100 ölçeği)
+        private const double VERIFY_THRESHOLD = 70.0;  // bu ve üstü → Verified
+        private const double REVIEW_THRESHOLD = 30.0;  // bu ile 70 arası → NeedsReview, altı → Rejected
+
         private static readonly JsonSerializerOptions _jsonOptions = new()
         {
             PropertyNameCaseInsensitive = true
@@ -60,24 +64,10 @@ namespace SyncHabit.Services
                     };
                 }
 
-                // Mantık Kontrolleri
                 bool isCategoryMatch = result.PredictedClass.Equals(expectedCategory, StringComparison.OrdinalIgnoreCase);
-                bool isConfident = result.IsConfident;
 
-                // SENARYO 1: Her şey mükemmel
-                if (isCategoryMatch && isConfident)
-                {
-                    return new VerificationResult
-                    {
-                        IsApproved = true,
-                        Status = VerificationStatus.Verified,
-                        Reason = "Görev başarıyla doğrulandı.",
-                        DetectedCategory = result.PredictedClass,
-                        Confidence = result.Confidence
-                    };
-                }
-                // SENARYO 2: Kategori uyumsuz
-                else if (!isCategoryMatch)
+                // ADIM 1: Kategori tutmuyorsa → confidence'a bakmadan Rejected
+                if (!isCategoryMatch)
                 {
                     return new VerificationResult
                     {
@@ -88,14 +78,40 @@ namespace SyncHabit.Services
                         Confidence = result.Confidence
                     };
                 }
-                // SENARYO 3: Kategori doğru ama eminlik oranı düşük (Örn: Çok karanlık/bulanık fotoğraf)
-                else
+
+                // ADIM 2: Kategori tutuyor → güven skoruna göre 3 katman
+                if (result.Confidence >= VERIFY_THRESHOLD)
                 {
+                    // 70+ → Verified
+                    return new VerificationResult
+                    {
+                        IsApproved = true,
+                        Status = VerificationStatus.Verified,
+                        Reason = "Görev başarıyla doğrulandı.",
+                        DetectedCategory = result.PredictedClass,
+                        Confidence = result.Confidence
+                    };
+                }
+                else if (result.Confidence >= REVIEW_THRESHOLD)
+                {
+                    // 30-70 → NeedsReview (manuel onay)
                     return new VerificationResult
                     {
                         IsApproved = false,
                         Status = VerificationStatus.NeedsReview,
-                        Reason = $"Fotoğraf net değil. Doğruluk oranı (%{result.Confidence}) sınırın altında kaldı.",
+                        Reason = $"Doğruluk oranı (%{result.Confidence}) orta seviyede. Manuel onay gerekiyor.",
+                        DetectedCategory = result.PredictedClass,
+                        Confidence = result.Confidence
+                    };
+                }
+                else
+                {
+                    // 30 altı → Rejected
+                    return new VerificationResult
+                    {
+                        IsApproved = false,
+                        Status = VerificationStatus.Rejected,
+                        Reason = $"Doğruluk oranı (%{result.Confidence}) çok düşük. Fotoğraf reddedildi.",
                         DetectedCategory = result.PredictedClass,
                         Confidence = result.Confidence
                     };

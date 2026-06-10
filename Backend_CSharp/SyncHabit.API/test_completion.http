@@ -25,7 +25,7 @@ Content-Type: application/json
 
 
 ### Token'ı buraya yapıştır (tırnaksız):
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMDkxNTUyfQ.Wrui-ZUMXZ0nKh96HX_m8uzzw43uuQs7C5Dvr78GbTLpRWYwwWVp-IBofpL96Z4fOQUj2xiMBgeh0fiIUrkhrQ
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMTg1NjgzfQ.fZWUvzzovxluXp0uKCXliKQd7-zPBFjTzkUq5G82UzmrHYe5VLdF1B5NZ-8AtttZeJWT0mPNnjaF8fnaXbqvSw
 
 
 ### 2. Bireysel görev oluştur (örn. kod_yazma), dönen id'yi not et
@@ -34,14 +34,14 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "taskText": "30 tur ip atla",
-  "category": "ip_atlama",
-  "difficultyScore": 70
+  "taskText": "evcil hayvan besle",
+  "category": "evcil_hayvan",
+  "difficultyScore": 24
 }
 
 
 ### Görev id'sini buraya yaz:
-@taskId = 31
+@taskId = 42
 
 
 ### -------------------------------------------------------
@@ -122,3 +122,100 @@ Content-Disposition: form-data; name="taskId"
 
 {{taskId2}}
 --SyncHabitBoundary--
+
+### =========================================================
+### GRUP GÖREVİ DOĞRULAMA TESTİ (Onay-1)
+### Amaç: grup görevinde orta güven (30-70) NeedsReview olmalı,
+###       bireyseldeki gibi otomatik Verified OLMAMALI.
+### Ön koşul: A bir grubun üyesi/lideri olmalı.
+### =========================================================
+
+
+### A'nın gruplarını gör → bir grup id'si seç
+GET {{host}}/api/groups/mine
+Authorization: Bearer {{token}}
+
+
+### Test edeceğin grubun id'sini buraya yaz:
+@groupId = 2
+
+
+### Gruba görev ekle (zayıf/orta güven verecek bir kategori seç).
+### Not: orgu_orme senin "66 civarı" çıkan kategorilerdendi — orta banda düşer.
+### Dönen cevaptaki "id" değerini not et.
+POST {{host}}/api/groups/{{groupId}}/task
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "taskText": "evcil hayvan besle",
+  "category": "evcil_hayvan",
+  "difficultyScore": 52
+}
+
+
+### Eklenen grup görevinin id'sini buraya yaz:
+@groupTaskId = 43
+
+
+### Grup görevini fotoğrafla doğrula
+### Beklenen: orta güven (30-70) → status "NeedsReview"
+###           (bireyseldeki gibi otomatik Verified OLMAMALI)
+### Veritabanında TaskCompletions'a bak: VerificationStatus = "NeedsReview",
+### IsApproved = 0 olmalı.
+POST {{host}}/api/taskverification/verify
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=SyncHabitBoundary
+
+--SyncHabitBoundary
+Content-Disposition: form-data; name="image"; filename="kanit.jpg"
+Content-Type: image/jpeg
+
+< ./kanit.jpg
+--SyncHabitBoundary
+Content-Disposition: form-data; name="taskId"
+
+{{groupTaskId}}
+--SyncHabitBoundary--
+
+
+### =========================================================
+### LİDER ONAY AKIŞI TESTİ (Onay-2)
+### Ön koşul: Bir grupta NeedsReview durumunda tamamlama olmalı.
+### (Grup görevini orta güvenli fotoğrafla tamamla → NeedsReview oluşur)
+### Lider = grubu oluşturan kişi. Lider token'ıyla test et.
+### =========================================================
+
+
+### Liderin grupları → grup id'sini al
+GET {{host}}/api/groups/mine
+Authorization: Bearer {{token}}
+
+
+### Onayları kontrol edeceğin grubun id'si:
+@groupId = 2
+
+
+### 1. Bu grubun bekleyen onaylarını listele
+### Beklenen: NeedsReview tamamlamalar — taskText, submitterUsername,
+### proofImagePath, category alanlarıyla. completionId'yi not et.
+GET {{host}}/api/groups/{{groupId}}/pending
+Authorization: Bearer {{token}}
+
+
+### Onaylayacağın/reddedeceğin tamamlamanın id'si:
+@completionId = 11
+
+
+### 2a. ONAYLA → Verified olur, completionCount'a girer
+### Beklenen: "Tamamlama onaylandı."
+POST {{host}}/api/groups/completions/{{completionId}}/approve
+Authorization: Bearer {{token}}
+
+
+### 2b. (Alternatif) REDDET → kayıt silinir, üye tekrar deneyebilir
+### Beklenen: "Tamamlama reddedildi. Üye tekrar deneyebilir."
+### NOT: 2a VEYA 2b'den birini çalıştır, ikisini birden değil
+### (onayladıysan reddedecek kayıt kalmaz).
+POST {{host}}/api/groups/completions/{{completionId}}/reject
+Authorization: Bearer {{token}}

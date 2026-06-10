@@ -35,6 +35,14 @@ namespace SyncHabit.Controllers
             "image/jpeg", "image/jpg", "image/png", "image/webp"
         };
 
+        // Görsel doğrulaması olan kategoriler (görsel modelin tanıdığı 10 sınıf).
+        // İleride model genişlerse burası güncellenir (ya da dinamik endpoint'e geçilir).
+        private static readonly string[] IMAGE_VERIFIABLE_CATEGORIES =
+        {
+            "basketbol", "bisiklet", "evcil_hayvan", "gitar_calma", "ip_atlama",
+            "kod_yazma", "okculuk", "orgu_orme", "spor_yapma", "voleybol"
+        };
+
         public TaskVerificationController(
             IAIVerificationService aiService,
             AppDbContext context,
@@ -87,16 +95,46 @@ namespace SyncHabit.Controllers
                 imageBytes = memoryStream.ToArray();
             }
 
-            // 5. AI doğrulaması (görevin kategorisini backend belirliyor)
-            var result = await _aiService.VerifyTaskAsync(imageBytes, task.Category);
+            // 5. Görevin durumunu belirle: kategori görsel doğrulamalı mı? bireysel mi grup mu?
+            bool hasImageVerification = IMAGE_VERIFIABLE_CATEGORIES
+                .Contains(task.Category, StringComparer.OrdinalIgnoreCase);
+            bool isIndividual = task.GroupId == null;
 
-            // 6. Rejected: hiçbir kayıt oluşturma
+            VerificationResult result;
+
+            if (hasImageVerification)
+            {
+                // Görsel doğrulamalı kategori → AI'ya gönder (servis 30/70 kararı verir)
+                result = await _aiService.VerifyTaskAsync(imageBytes, task.Category);
+            }
+            else
+            {
+                // Görsel doğrulaması olmayan kategori ("Diğer") → AI'ya gitme, manuel onaya hazırla
+                result = new VerificationResult
+                {
+                    IsApproved = false,
+                    Status = VerificationStatus.NeedsReview,
+                    Reason = "Bu kategori görsel olarak doğrulanmıyor, manuel onay gerekiyor.",
+                    DetectedCategory = task.Category,
+                    Confidence = 0
+                };
+            }
+
+            // 6. Bireysel görev kuralı: NeedsReview'ı otomatik Verified yap (onaylayacak lider yok)
+            if (isIndividual && result.Status == VerificationStatus.NeedsReview)
+            {
+                result.Status = VerificationStatus.Verified;
+                result.IsApproved = true;
+                result.Reason = "Görev tamamlandı.";
+            }
+
+            // 7. Rejected: hiçbir kayıt oluşturma
             if (result.Status == VerificationStatus.Rejected)
             {
                 return Ok(result);
             }
 
-            // 7. Verified veya NeedsReview: fotoğrafı kaydet, TaskCompletion oluştur
+            // 8. Verified veya NeedsReview: fotoğrafı kaydet, TaskCompletion oluştur
             var proofPath = await SaveProofImage(image);
 
             var completion = new TaskCompletion
