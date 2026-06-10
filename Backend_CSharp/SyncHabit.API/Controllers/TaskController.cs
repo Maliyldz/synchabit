@@ -110,24 +110,6 @@ namespace SyncHabit.API.Controllers
             return Ok("Görev başarıyla güncellendi");
         }
 
-        [HttpPost("{id}/complete")]
-        public IActionResult CompleteTask(int id)
-        {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
-            var task = _context.Tasks.FirstOrDefault(t => t.Id == id && t.CreatorId == userId);
-
-            if (task == null)
-            {
-                return NotFound("Görev bulunamadı veya yetkiniz yok.");
-            }
-
-            task.IsCompleted = true;
-            task.CompletedAt = DateTime.Now;
-            _context.SaveChanges();
-
-            return Ok(task);
-        }
-
         [HttpDelete("{id}")]
         public IActionResult DeleteTask(int id)
         {

@@ -23,11 +23,6 @@ namespace SyncHabit.API.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // VerificationStatus enum'unu veritabanında string olarak sakla
-            modelBuilder.Entity<TaskItem>()
-                .Property(t => t.VerificationStatus)
-                .HasConversion<string>();
-
             //username benzersiz olmalı (arama ve arkadaş ekleme için)
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Username)
