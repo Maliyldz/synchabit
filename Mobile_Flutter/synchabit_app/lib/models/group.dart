@@ -68,3 +68,30 @@ class GroupMember {
     );
   }
 }
+
+// Lider onayı bekleyen tamamlama
+class PendingApproval {
+  final int completionId;
+  final String taskText;
+  final String category;
+  final String? proofImagePath;
+  final String submitterUsername;
+
+  PendingApproval({
+    required this.completionId,
+    required this.taskText,
+    required this.category,
+    this.proofImagePath,
+    required this.submitterUsername,
+  });
+
+  factory PendingApproval.fromJson(Map<String, dynamic> json) {
+    return PendingApproval(
+      completionId: json['completionId'] ?? 0,
+      taskText: json['taskText'] ?? '',
+      category: json['category'] ?? '',
+      proofImagePath: json['proofImagePath'],
+      submitterUsername: json['submitterUsername'] ?? '',
+    );
+  }
+}

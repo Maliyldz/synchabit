@@ -120,11 +120,17 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
               ),
             const Divider(height: 32),
 
-            if (!_hasImageVerification)
-              const Text('Bu kategoride görsel doğrulama yok.')
-            else if (task.isDoneByMe)
-              const Text('Bu görev zaten doğrulandı ve tamamlandı.')
+            if (task.isDoneByMe)
+              const Text('Bu görevi zaten tamamladın.')
             else ...[
+              // Kategoriye göre bilgi notu
+              Text(
+                _hasImageVerification
+                    ? '📷 Fotoğrafın yapay zeka ile doğrulanacak.'
+                    : 'ℹ️ Bu kategoride yapay zeka doğrulaması yok; fotoğrafın grup liderinin onayına gidecek.',
+                style: TextStyle(fontSize: 13, color: Colors.grey.shade700),
+              ),
+              const SizedBox(height: 12),
               const Text(
                 'Kanıt fotoğrafı yükle',
                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -136,7 +142,7 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
                   onPressed: _isUploading ? null : _showSourceSheet,
                   icon: const Icon(Icons.add_a_photo),
                   label: Text(
-                    _isUploading ? 'Doğrulanıyor...' : 'Fotoğraf Yükle',
+                    _isUploading ? 'Yükleniyor...' : 'Fotoğraf Yükle',
                   ),
                 ),
               ),

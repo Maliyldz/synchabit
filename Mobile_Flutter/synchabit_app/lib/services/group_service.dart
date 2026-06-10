@@ -165,4 +165,45 @@ class GroupService {
       throw Exception('Davet kabul edilemedi.');
     }
   }
+
+  // Bir grubun bekleyen onayları (GET /api/groups/{id}/pending)
+  Future<List<PendingApproval>> fetchPendingApprovals(
+    String token,
+    int groupId,
+  ) async {
+    final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/$groupId/pending');
+    final response = await http.get(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      return data.map((j) => PendingApproval.fromJson(j)).toList();
+    }
+    throw Exception('Onaylar alınamadı (kod: ${response.statusCode})');
+  }
+
+  // Tamamlamayı onayla (POST /api/groups/completions/{id}/approve)
+  Future<void> approveCompletion(String token, int completionId) async {
+    final url = Uri.parse(
+      '${ApiConfig.baseUrl}/api/groups/completions/$completionId/approve',
+    );
+    final response = await http.post(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode != 200) throw Exception('Onaylanamadı.');
+  }
+
+  // Tamamlamayı reddet (POST /api/groups/completions/{id}/reject)
+  Future<void> rejectCompletion(String token, int completionId) async {
+    final url = Uri.parse(
+      '${ApiConfig.baseUrl}/api/groups/completions/$completionId/reject',
+    );
+    final response = await http.post(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode != 200) throw Exception('Reddedilemedi.');
+  }
 }

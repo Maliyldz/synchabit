@@ -7,6 +7,7 @@ import '../services/group_service.dart';
 import 'create_task_screen.dart';
 import 'task_detail_screen.dart';
 import 'invite_member_screen.dart';
+import 'group_approvals_screen.dart';
 
 class GroupDetailScreen extends StatefulWidget {
   final Group group;
@@ -81,6 +82,22 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
                     ),
                   );
                   _load(); // davetten dönünce üyeleri tazele (kabul edilirse görünür)
+                },
+              ),
+            if (widget.group.isLeader)
+              IconButton(
+                icon: const Icon(Icons.fact_check_outlined),
+                tooltip: 'Onaylar',
+                onPressed: () async {
+                  await Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => GroupApprovalsScreen(
+                        groupId: widget.group.id,
+                        groupName: widget.group.name,
+                      ),
+                    ),
+                  );
+                  _load(); // onaydan dönünce görev durumlarını tazele
                 },
               ),
             IconButton(icon: const Icon(Icons.refresh), onPressed: _load),
