@@ -80,7 +80,7 @@ namespace SyncHabit.API.Controllers
             return Ok(groups);
         }
 
-        // Bir grubun üyelerini getir (kullanıcı adlarıyla birlikte)
+        // Bir grubun üyelerini getir (kullanıcı adları + hesaplanan seviye)
         [HttpGet("{groupId}/members")]
         public IActionResult GetGroupMembers(int groupId)
         {
@@ -90,7 +90,7 @@ namespace SyncHabit.API.Controllers
             if (!_context.GroupMembers.Any(gm => gm.GroupId == groupId && gm.UserId == userId))
                 return Unauthorized("Bu grubun üyesi değilsiniz.");
 
-            // GroupMember + User join: userId'den kullanıcı adına ulaş
+            // GroupMember + User join: önce ham veriyi çek (TotalXP dahil)
             var members = _context.GroupMembers
                 .Where(gm => gm.GroupId == groupId)
                 .Join(_context.Users,
@@ -98,11 +98,19 @@ namespace SyncHabit.API.Controllers
                     u => u.Id,
                     (gm, u) => new
                     {
-                        userId = u.Id,
-                        username = u.Username,
-                        level = u.Level,
-                        joinedAt = gm.JoinedAt
+                        u.Id,
+                        u.Username,
+                        u.TotalXP,
+                        gm.JoinedAt
                     })
+                .ToList()  // belleğe al → LevelHelper'ı burada çağırabiliriz
+                .Select(x => new
+                {
+                    userId = x.Id,
+                    username = x.Username,
+                    level = LevelHelper.CalculateLevel(x.TotalXP),  // TotalXP'den hesapla
+                    joinedAt = x.JoinedAt
+                })
                 .ToList();
 
             return Ok(members);
@@ -332,6 +340,7 @@ namespace SyncHabit.API.Controllers
             {
                 int xp = LevelHelper.CalculateXpReward(task.DifficultyScore, isManualApproval: true);
                 submitter.TotalXP += xp;
+                completion.EarnedXp = xp;
             }
 
             _context.SaveChanges();
@@ -362,6 +371,50 @@ namespace SyncHabit.API.Controllers
             _context.SaveChanges();
 
             return Ok("Tamamlama reddedildi. Üye tekrar deneyebilir.");
+        }
+
+        // Grup içi XP sıralaması (sadece o gruptaki görevlerden kazanılan XP)
+        [HttpGet("{groupId}/leaderboard")]
+        public IActionResult GetLeaderboard(int groupId)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            // Sadece grup üyeleri görebilir
+            if (!_context.GroupMembers.Any(gm => gm.GroupId == groupId && gm.UserId == userId))
+                return Unauthorized("Bu grubun üyesi değilsiniz.");
+
+            // Bu gruba ait görevlerin onaylı tamamlamaları → kullanıcı bazında EarnedXp topla
+            var earned = _context.TaskCompletions
+                .Where(c => c.IsApproved)
+                .Join(_context.Tasks,
+                    c => c.TaskId,
+                    t => t.Id,
+                    (c, t) => new { c.UserId, c.EarnedXp, t.GroupId })
+                .Where(x => x.GroupId == groupId)  // sadece bu grubun görevleri
+                .GroupBy(x => x.UserId)
+                .Select(g => new { userId = g.Key, groupXp = g.Sum(x => x.EarnedXp) })
+                .ToList();
+
+            // Grubun TÜM üyelerini al (XP'si 0 olanlar da listede görünsün)
+            var memberIds = _context.GroupMembers
+                .Where(gm => gm.GroupId == groupId)
+                .Select(gm => gm.UserId)
+                .ToList();
+
+            // Üye bilgileri + grup XP'si (tamamlaması olmayan üye → 0)
+            var leaderboard = _context.Users
+                .Where(u => memberIds.Contains(u.Id))
+                .ToList()  // kullanıcıları çek, sonra bellekte birleştir
+                .Select(u => new
+                {
+                    userId = u.Id,
+                    username = u.Username,
+                    groupXp = earned.FirstOrDefault(e => e.userId == u.Id)?.groupXp ?? 0
+                })
+                .OrderByDescending(x => x.groupXp)  // çoktan aza
+                .ToList();
+
+            return Ok(leaderboard);
         }
     }
 }

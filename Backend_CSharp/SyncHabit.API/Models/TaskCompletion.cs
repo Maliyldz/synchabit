@@ -14,5 +14,6 @@ namespace SyncHabit.API.Models
 
         public bool IsApproved { get; set; } = false; // Verified ise true
         public DateTime CompletedAt { get; set; } = DateTime.Now;
+        public int EarnedXp { get; set; } = 0;
     }
 }

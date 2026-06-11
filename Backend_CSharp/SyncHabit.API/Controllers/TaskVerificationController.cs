@@ -157,6 +157,7 @@ namespace SyncHabit.Controllers
                 {
                     int xp = LevelHelper.CalculateXpReward(task.DifficultyScore, isManualApproval: false);
                     user.TotalXP += xp;
+                    completion.EarnedXp = xp;
                 }
             }
 

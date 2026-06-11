@@ -26,8 +26,7 @@ Content-Type: application/json
 
 
 ### Login'den dönen token'ı buraya yapıştır:
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMDk4NjgzfQ.jvJs9qxXeiDf6P8MwB1Co407V814-TDuzsfj9duzXqczaCGfNv-28dyVak1c_BuASBGR4B2aFlsvnncEbHLc9Q
-
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMjY4OTk0fQ.CtIaTB4z_yAPxYDjM1nbODQzu-ycVR5KLcuJ07DOLpmtEnTwAovZbKiE8KAH74Cc1Bi07pInDmav8_lmW7a0aA
 
 ### -------------------------------------------------------
 ### 2. GRUP OLUŞTUR
@@ -85,4 +84,26 @@ Content-Type: application/json
 ### 5. adımda eklediğin görev burada görünmeli.
 ### -------------------------------------------------------
 GET {{host}}/api/groups/{{groupId}}/tasks
+Authorization: Bearer {{token}}
+
+### =========================================================
+### GRUP SIRALAMASI (LEADERBOARD) TESTİ — Gamification-2
+### Grup-içi XP'ye göre üye sıralaması.
+### Beklenen: üyeler groupXp'ye göre çoktan aza sıralı,
+### tamamlaması olmayan üye 0 XP ile listede.
+### =========================================================
+
+
+### Üye olduğun grupları gör → bir grup id'si seç
+GET {{host}}/api/groups/mine
+Authorization: Bearer {{token}}
+
+
+### Sıralamasını göreceğin grubun id'si:
+@groupId = 2
+
+
+### Grup sıralaması
+### Her satır: userId, username, groupXp (sadece bu gruptaki onaylı tamamlamalardan)
+GET {{host}}/api/groups/{{groupId}}/leaderboard
 Authorization: Bearer {{token}}

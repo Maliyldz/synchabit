@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using SyncHabit.API.Data;
 using SyncHabit.API.Models;
 using System.Security.Claims;
+using SyncHabit.Services;
 
 namespace SyncHabit.API.Controllers
 {
@@ -82,11 +83,13 @@ namespace SyncHabit.API.Controllers
 
             var friends = _context.Users
                 .Where(u => friendIds.Contains(u.Id))
+                .Select(u => new { u.Id, u.Username, u.TotalXP })  // önce ham veriyi çek
+                .ToList()  // belleğe al
                 .Select(u => new
                 {
                     userId = u.Id,
                     username = u.Username,
-                    level = u.Level
+                    level = LevelHelper.CalculateLevel(u.TotalXP)  // bellekte hesapla
                 })
                 .ToList();
 
