@@ -5,6 +5,7 @@ import '../providers/group_provider.dart';
 import 'create_group_screen.dart';
 import 'group_detail_screen.dart';
 import 'group_invites_screen.dart';
+import '../widgets/empty_state.dart';
 
 class GroupsScreen extends StatefulWidget {
   const GroupsScreen({super.key});
@@ -69,8 +70,10 @@ class _GroupsScreenState extends State<GroupsScreen> {
       return Center(child: Text(provider.errorMessage!));
     }
     if (provider.groups.isEmpty) {
-      return const Center(
-        child: Text('Henüz bir grupta değilsin. + ile grup oluştur.'),
+      return const EmptyState(
+        icon: Icons.groups_2,
+        title: 'Henüz grubun yok',
+        message: 'Bir grup oluştur ya da gelen davetlere göz at.',
       );
     }
     return ListView.builder(

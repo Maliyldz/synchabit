@@ -58,23 +58,3 @@ class _MainShellState extends State<MainShell> {
     );
   }
 }
-
-// Henüz yapılmamış sekmeler için basit "yakında" ekranı
-class _PlaceholderScreen extends StatelessWidget {
-  final String title;
-  final String message;
-  const _PlaceholderScreen({required this.title, required this.message});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Text(message, textAlign: TextAlign.center),
-        ),
-      ),
-    );
-  }
-}

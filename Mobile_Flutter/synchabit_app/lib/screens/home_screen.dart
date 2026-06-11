@@ -5,6 +5,7 @@ import '../providers/task_provider.dart';
 import 'login_screen.dart';
 import 'create_task_screen.dart';
 import 'task_detail_screen.dart';
+import '../widgets/empty_state.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -73,7 +74,11 @@ class _HomeScreenState extends State<HomeScreen> {
       return Center(child: Text(taskProvider.errorMessage!));
     }
     if (taskProvider.tasks.isEmpty) {
-      return const Center(child: Text('Henüz görevin yok. + ile ekle.'));
+      return const EmptyState(
+        icon: Icons.task_alt,
+        title: 'Henüz görevin yok',
+        message: 'İlk görevini eklemek için + butonuna dokun.',
+      );
     }
     return ListView.builder(
       itemCount: taskProvider.tasks.length,

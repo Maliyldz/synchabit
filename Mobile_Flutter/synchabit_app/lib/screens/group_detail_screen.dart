@@ -8,6 +8,7 @@ import 'create_task_screen.dart';
 import 'task_detail_screen.dart';
 import 'invite_member_screen.dart';
 import 'group_approvals_screen.dart';
+import '../widgets/empty_state.dart';
 
 class GroupDetailScreen extends StatefulWidget {
   final Group group;
@@ -132,7 +133,10 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
 
   Widget _buildTasksTab() {
     if (_tasks.isEmpty) {
-      return const Center(child: Text('Bu grupta henüz görev yok.'));
+      return const EmptyState(
+        icon: Icons.person_outline,
+        title: 'Üye bulunamadı',
+      );
     }
     return ListView.builder(
       itemCount: _tasks.length,
@@ -166,7 +170,10 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
 
   Widget _buildMembersTab() {
     if (_members.isEmpty) {
-      return const Center(child: Text('Üye bulunamadı.'));
+      return const EmptyState(
+        icon: Icons.person_outline,
+        title: 'Üye bulunamadı',
+      );
     }
     return ListView.builder(
       itemCount: _members.length,
@@ -202,7 +209,11 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
         }
         final entries = snapshot.data ?? [];
         if (entries.isEmpty) {
-          return const Center(child: Text('Henüz sıralama yok.'));
+          return const EmptyState(
+            icon: Icons.leaderboard_outlined,
+            title: 'Sıralama boş',
+            message: 'Görev tamamlandıkça sıralama oluşur.',
+          );
         }
         return ListView.builder(
           itemCount: entries.length,

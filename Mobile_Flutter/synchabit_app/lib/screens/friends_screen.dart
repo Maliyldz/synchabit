@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import '../services/friend_service.dart';
+import '../widgets/empty_state.dart';
 
 class FriendsScreen extends StatefulWidget {
   const FriendsScreen({super.key});
@@ -75,8 +76,10 @@ class _FriendsScreenState extends State<FriendsScreen> {
 
   Widget _buildFriendsTab() {
     if (_friends.isEmpty) {
-      return const Center(
-        child: Text('Henüz arkadaşın yok. "Ekle" sekmesinden ara.'),
+      return const EmptyState(
+        icon: Icons.people_outline,
+        title: 'Henüz arkadaşın yok',
+        message: '"Ekle" sekmesinden kullanıcı adıyla arayabilirsin.',
       );
     }
     return RefreshIndicator(
@@ -101,7 +104,10 @@ class _FriendsScreenState extends State<FriendsScreen> {
 
   Widget _buildRequestsTab() {
     if (_requests.isEmpty) {
-      return const Center(child: Text('Bekleyen istek yok.'));
+      return const EmptyState(
+        icon: Icons.mark_email_unread_outlined,
+        title: 'Bekleyen istek yok',
+      );
     }
     return ListView.builder(
       itemCount: _requests.length,
@@ -239,7 +245,11 @@ class _AddFriendTabState extends State<_AddFriendTab> {
             child: _isSearching
                 ? const Center(child: CircularProgressIndicator())
                 : _results.isEmpty
-                ? const Center(child: Text('Aramak için kullanıcı adı yaz.'))
+                ? const EmptyState(
+                    icon: Icons.search,
+                    title: 'Arkadaş ara',
+                    message: 'Kullanıcı adı yazıp arkadaşlarını bul.',
+                  )
                 : ListView.builder(
                     itemCount: _results.length,
                     itemBuilder: (context, index) {

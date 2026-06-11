@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../models/group.dart';
 import '../providers/auth_provider.dart';
 import '../services/group_service.dart';
+import '../widgets/empty_state.dart';
 
 class GroupInvitesScreen extends StatefulWidget {
   const GroupInvitesScreen({super.key});
@@ -62,7 +63,7 @@ class _GroupInvitesScreenState extends State<GroupInvitesScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _invites.isEmpty
-          ? const Center(child: Text('Bekleyen grup daveti yok.'))
+          ? const EmptyState(icon: Icons.mail_outline, title: 'Grup daveti yok')
           : ListView.builder(
               itemCount: _invites.length,
               itemBuilder: (context, index) {

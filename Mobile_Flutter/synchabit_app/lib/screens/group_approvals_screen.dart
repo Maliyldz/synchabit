@@ -4,6 +4,7 @@ import '../config/api_config.dart';
 import '../models/group.dart';
 import '../providers/auth_provider.dart';
 import '../services/group_service.dart';
+import '../widgets/empty_state.dart';
 
 class GroupApprovalsScreen extends StatefulWidget {
   final int groupId;
@@ -88,7 +89,11 @@ class _GroupApprovalsScreenState extends State<GroupApprovalsScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _pending.isEmpty
-          ? const Center(child: Text('Onay bekleyen tamamlama yok.'))
+          ? const EmptyState(
+              icon: Icons.fact_check_outlined,
+              title: 'Onay bekleyen yok',
+              message: 'Tüm tamamlamalar değerlendirildi.',
+            )
           : ListView.builder(
               padding: const EdgeInsets.all(12),
               itemCount: _pending.length,
