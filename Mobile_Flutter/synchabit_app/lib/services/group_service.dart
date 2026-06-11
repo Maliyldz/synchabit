@@ -206,4 +206,23 @@ class GroupService {
     );
     if (response.statusCode != 200) throw Exception('Reddedilemedi.');
   }
+
+  // Grup sıralaması (GET /api/groups/{id}/leaderboard)
+  Future<List<LeaderboardEntry>> fetchLeaderboard(
+    String token,
+    int groupId,
+  ) async {
+    final url = Uri.parse(
+      '${ApiConfig.baseUrl}/api/groups/$groupId/leaderboard',
+    );
+    final response = await http.get(
+      url,
+      headers: {'Authorization': 'Bearer $token'},
+    );
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      return data.map((j) => LeaderboardEntry.fromJson(j)).toList();
+    }
+    throw Exception('Sıralama alınamadı (kod: ${response.statusCode})');
+  }
 }

@@ -57,7 +57,7 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2,
+      length: 3,
       child: Scaffold(
         appBar: AppBar(
           title: Text(widget.group.name),
@@ -65,6 +65,7 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
             tabs: [
               Tab(text: 'Görevler', icon: Icon(Icons.task_alt)),
               Tab(text: 'Üyeler', icon: Icon(Icons.people)),
+              Tab(text: 'Sıralama', icon: Icon(Icons.leaderboard)),
             ],
           ),
           actions: [
@@ -107,8 +108,13 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
             ? const Center(child: CircularProgressIndicator())
             : _error != null
             ? Center(child: Text(_error!))
-            : TabBarView(children: [_buildTasksTab(), _buildMembersTab()]),
-
+            : TabBarView(
+                children: [
+                  _buildTasksTab(),
+                  _buildMembersTab(),
+                  _buildLeaderboardTab(),
+                ],
+              ),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
             await Navigator.of(context).push(
@@ -178,6 +184,72 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
           subtitle: Text('Seviye ${member.level}'),
         );
       },
+    );
+  }
+
+  Widget _buildLeaderboardTab() {
+    return FutureBuilder<List<LeaderboardEntry>>(
+      future: _service.fetchLeaderboard(
+        context.read<AuthProvider>().token!,
+        widget.group.id,
+      ),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(child: CircularProgressIndicator());
+        }
+        if (snapshot.hasError) {
+          return const Center(child: Text('Sıralama yüklenemedi.'));
+        }
+        final entries = snapshot.data ?? [];
+        if (entries.isEmpty) {
+          return const Center(child: Text('Henüz sıralama yok.'));
+        }
+        return ListView.builder(
+          itemCount: entries.length,
+          itemBuilder: (context, index) {
+            final e = entries[index];
+            final rank = index + 1;
+            return ListTile(
+              leading: _rankBadge(rank),
+              title: Text(e.username),
+              trailing: Text(
+                '${e.groupXp} XP',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Widget _rankBadge(int rank) {
+    Color color;
+    switch (rank) {
+      case 1:
+        color = const Color(0xFFFFD700); // altın
+        break;
+      case 2:
+        color = const Color(0xFFC0C0C0); // gümüş
+        break;
+      case 3:
+        color = const Color(0xFFCD7F32); // bronz
+        break;
+      default:
+        return CircleAvatar(
+          backgroundColor: Colors.grey.shade300,
+          child: Text('$rank'),
+        );
+    }
+    return CircleAvatar(
+      backgroundColor: color,
+      child: Text(
+        '$rank',
+        style: const TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
     );
   }
 }

@@ -95,3 +95,24 @@ class PendingApproval {
     );
   }
 }
+
+// Grup sıralaması satırı
+class LeaderboardEntry {
+  final int userId;
+  final String username;
+  final int groupXp;
+
+  LeaderboardEntry({
+    required this.userId,
+    required this.username,
+    required this.groupXp,
+  });
+
+  factory LeaderboardEntry.fromJson(Map<String, dynamic> json) {
+    return LeaderboardEntry(
+      userId: json['userId'] ?? 0,
+      username: json['username'] ?? '',
+      groupXp: json['groupXp'] ?? 0,
+    );
+  }
+}
