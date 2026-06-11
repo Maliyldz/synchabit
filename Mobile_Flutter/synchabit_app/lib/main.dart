@@ -4,6 +4,7 @@ import 'providers/auth_provider.dart';
 import 'screens/login_screen.dart';
 import 'providers/task_provider.dart';
 import 'providers/group_provider.dart';
+import 'config/app_theme.dart';
 
 void main() {
   runApp(const SyncHabitApp());
@@ -23,10 +24,7 @@ class SyncHabitApp extends StatelessWidget {
       child: MaterialApp(
         title: 'SyncHabit',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-          useMaterial3: true,
-        ),
+        theme: AppTheme.theme,
         home: const LoginScreen(),
       ),
     );
