@@ -25,8 +25,11 @@ Content-Type: application/json
 
 
 ### Token'ı buraya yapıştır (tırnaksız):
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMTg1NjgzfQ.fZWUvzzovxluXp0uKCXliKQd7-zPBFjTzkUq5G82UzmrHYe5VLdF1B5NZ-8AtttZeJWT0mPNnjaF8fnaXbqvSw
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZGVuZW1lIiwiZXhwIjoxNzgxMjEzNDE5fQ.T0rZgEuJD6kSxeoqayUIckUsZh8j8Y2daUs8w3iP515dkj_jxrPpY7Gkww-_lw_N01eXizMARPb65nQ8XHgFAw
 
+###
+GET {{host}}/api/auth/me
+Authorization: Bearer {{token}}
 
 ### 2. Bireysel görev oluştur (örn. kod_yazma), dönen id'yi not et
 POST {{host}}/api/tasks
@@ -34,14 +37,14 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "taskText": "evcil hayvan besle",
-  "category": "evcil_hayvan",
-  "difficultyScore": 24
+  "taskText": "basketbol oyna",
+  "category": "basketbol",
+  "difficultyScore": 80
 }
 
 
 ### Görev id'sini buraya yaz:
-@taskId = 42
+@taskId = 50
 
 
 ### -------------------------------------------------------
@@ -150,12 +153,12 @@ Content-Type: application/json
 {
   "taskText": "evcil hayvan besle",
   "category": "evcil_hayvan",
-  "difficultyScore": 52
+  "difficultyScore": 100
 }
 
 
 ### Eklenen grup görevinin id'sini buraya yaz:
-@groupTaskId = 43
+@groupTaskId = 49
 
 
 ### Grup görevini fotoğrafla doğrula
@@ -204,7 +207,7 @@ Authorization: Bearer {{token}}
 
 
 ### Onaylayacağın/reddedeceğin tamamlamanın id'si:
-@completionId = 11
+@completionId = 19
 
 
 ### 2a. ONAYLA → Verified olur, completionCount'a girer

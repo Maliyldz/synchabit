@@ -324,6 +324,16 @@ namespace SyncHabit.API.Controllers
             // Onayla: Verified yap
             completion.VerificationStatus = VerificationStatus.Verified;
             completion.IsApproved = true;
+
+            // XP ekle (manuel onay → yarım puan, çarpan 0.5)
+            // Tamamlamayı yapan kişiye (completion.UserId) veriyoruz, onaylayana değil
+            var submitter = _context.Users.FirstOrDefault(u => u.Id == completion.UserId);
+            if (submitter != null)
+            {
+                int xp = LevelHelper.CalculateXpReward(task.DifficultyScore, isManualApproval: true);
+                submitter.TotalXP += xp;
+            }
+
             _context.SaveChanges();
 
             return Ok("Tamamlama onaylandı.");

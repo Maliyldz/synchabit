@@ -148,6 +148,18 @@ namespace SyncHabit.Controllers
             };
 
             _context.TaskCompletions.Add(completion);
+
+            // Verified ise XP ekle (AI otomatik onay → tam puan, çarpan 1.0)
+            if (result.Status == VerificationStatus.Verified)
+            {
+                var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+                if (user != null)
+                {
+                    int xp = LevelHelper.CalculateXpReward(task.DifficultyScore, isManualApproval: false);
+                    user.TotalXP += xp;
+                }
+            }
+
             _context.SaveChanges();
 
             return Ok(result);

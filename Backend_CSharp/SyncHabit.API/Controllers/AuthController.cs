@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using SyncHabit.Services;
 
 namespace SyncHabit.API.Controllers
 {
@@ -132,6 +133,29 @@ namespace SyncHabit.API.Controllers
 
             var jwt = new JwtSecurityTokenHandler().WriteToken(token);
             return jwt;
+        }
+
+        // Giriş yapan kullanıcının profil bilgisi (XP, seviye, ilerleme)
+        [Authorize]
+        [HttpGet("me")]
+        public IActionResult GetMyProfile()
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+            if (user == null)
+                return NotFound("Kullanıcı bulunamadı.");
+
+            return Ok(new
+            {
+                username = user.Username,
+                totalXp = user.TotalXP,
+                level = LevelHelper.CalculateLevel(user.TotalXP),
+                xpInCurrentLevel = LevelHelper.XpInCurrentLevel(user.TotalXP),
+                // Bu seviyenin toplam boyu (ilerleme çubuğunun paydası)
+                xpForThisLevel = LevelHelper.XpNeededForNextLevel(user.TotalXP),
+                // Sonraki seviyeye kalan XP (opsiyonel gösterim için)
+                xpRemainingNewLevel = LevelHelper.XpNeededForNextLevel(user.TotalXP) - LevelHelper.XpInCurrentLevel(user.TotalXP)
+            });
         }
     }
 }
