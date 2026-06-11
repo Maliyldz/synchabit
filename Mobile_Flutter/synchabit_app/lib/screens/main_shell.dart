@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'groups_screen.dart';
 import 'friends_screen.dart';
+import 'profile_screen.dart';
 
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
@@ -19,14 +20,7 @@ class _MainShellState extends State<MainShell> {
     HomeScreen(),
     GroupsScreen(),
     FriendsScreen(),
-    _PlaceholderScreen(
-      title: 'Arkadaşlarım',
-      message: 'Bu özellik yakında eklenecek.',
-    ),
-    _PlaceholderScreen(
-      title: 'Profil',
-      message: 'Bu özellik yakında eklenecek.',
-    ),
+    ProfileScreen(),
   ];
 
   @override
