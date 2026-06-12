@@ -48,6 +48,14 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(20),
+                  child: Image.asset(
+                    'assets/icon/app_icon.png',
+                    width: 96,
+                    height: 96,
+                  ),
+                ),
                 const Text(
                   'SyncHabit',
                   style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
