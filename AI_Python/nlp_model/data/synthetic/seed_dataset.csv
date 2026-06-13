@@ -1175,3 +1175,115 @@ Bu yolun sonu gelmiş bende,1,eufemism
 Hayata son veda mektubumu yazıyorum,1,eufemism
 Sonsuz sessizliğe karışmak istiyorum,1,eufemism
 Kendimi bu dünyadan azat edeceğim,1,eufemism
+1 litre su iç bugün,0,health_drink_ic
+2 litre su iç gün boyunca,0,health_drink_ic
+Günde en az 8 bardak su iç,0,health_drink_ic
+Sabahları aç karnına su iç,0,health_drink_ic
+Yatmadan önce bir bardak su iç,0,health_drink_ic
+Yemekten önce su iç,0,health_drink_ic
+Yemekten sonra su iç,0,health_drink_ic
+Antrenmandan sonra bol su iç,0,health_drink_ic
+Spordan önce su iç,0,health_drink_ic
+Yarım saatte bir su iç çalışırken,0,health_drink_ic
+Sıcakta daha çok su iç,0,health_drink_ic
+Soğuk havada da bol su iç,0,health_drink_ic
+Limonlu su iç sabah,0,health_drink_ic
+Maden suyu iç günde bir tane,0,health_drink_ic
+Şişen suyunu iç bitirmeden uyuma,0,health_drink_ic
+Su iç ama plastik şişeden değil,0,health_drink_ic
+Filtre edilmiş su iç,0,health_drink_ic
+Susadıkça su iç bekleme,0,health_drink_ic
+Sıcak su iç boğazına iyi gelir,0,health_drink_ic
+Ilık su iç sabah,0,health_drink_ic
+Bir bardak süt iç günde,0,health_drink_ic
+Sabah kahvaltısında süt iç,0,health_drink_ic
+Akşam yatmadan süt iç,0,health_drink_ic
+Yağsız süt iç diyet için,0,health_drink_ic
+Soğuk süt iç yaz aylarında,0,health_drink_ic
+Sıcak süt iç soğuk havada,0,health_drink_ic
+Bal ve süt iç akşam,0,health_drink_ic
+Çayını iç soğumadan,0,health_drink_ic
+Bir fincan kahve iç sabah,0,health_drink_ic
+Yeşil çay iç günde 2 kere,0,health_drink_ic
+Bitki çayı iç akşam,0,health_drink_ic
+Nane çayı iç mide rahatlatır,0,health_drink_ic
+Adaçayı iç soğuk algınlığında,0,health_drink_ic
+Ihlamur iç soğukta,0,health_drink_ic
+Türk kahvesi iç köpüklü,0,health_drink_ic
+Filtre kahve iç sabah,0,health_drink_ic
+Soğuk kahve iç yazın,0,health_drink_ic
+Portakal suyu iç sabah taze sıkılmış,0,health_drink_ic
+Limonata iç ev yapımı,0,health_drink_ic
+Karışık meyve suyu iç sabahları,0,health_drink_ic
+Yeşil smoothie iç antrenmandan önce,0,health_drink_ic
+Domates suyu iç vitamin için,0,health_drink_ic
+Havuç suyu iç haftada bir,0,health_drink_ic
+İlacını zamanında iç,0,health_drink_ic
+Sabah ilacını iç kahvaltıdan sonra,0,health_drink_ic
+Akşam ilacını iç uyumadan önce,0,health_drink_ic
+Doktorun verdiği ilacı iç,0,health_drink_ic
+Antibiyotiği iç düzenli zamanlarda,0,health_drink_ic
+Reçeteli ilacını iç günde 2 kez,0,health_drink_ic
+İlacını iç bardakla suyla,0,health_drink_ic
+Vitamin D damlasını iç,0,health_drink_ic
+C vitamini iç soğuk havalarda,0,health_drink_ic
+B12 takviyesi iç doktor önerdi,0,health_drink_ic
+Şurup iç öksürük için,0,health_drink_ic
+Probiyotik içeceği iç akşam,0,health_drink_ic
+Demir şurubu iç eksiklik var,0,health_drink_ic
+Protein içeceği iç antrenmandan sonra,0,health_drink_ic
+Elektrolit içeceği iç maçtan sonra,0,health_drink_ic
+Sporcu içeceği iç efor sonrası,0,health_drink_ic
+Çorbanı iç soğumadan kahvaltıda,0,health_drink_ic
+Sıcak çorba iç soğuk havada,0,health_drink_ic
+Komposto iç yaz aylarında,0,health_drink_ic
+Ayran iç yemek yanında,0,health_drink_ic
+Yoğurt suyu iç ferahlatır,0,health_drink_ic
+Limonlu çay iç boğaz ağrısına,0,health_drink_ic
+Sebze suyu iç günde bir kere,0,health_drink_ic
+Sıcak kakao iç soğuk akşamlarda,0,health_drink_ic
+Smoothie iç kahvaltı yerine,0,health_drink_ic
+Günde 2 litre su tüket,0,health_tuket
+Günde 3 litre su tüket spor yapıyorsan,0,health_tuket
+Bol bol su tüket yazın,0,health_tuket
+Düzenli su tüket susama beklemeden,0,health_tuket
+Beyaz et tüket haftada 3 kez,0,health_tuket
+Balık tüket haftada 2 kez,0,health_tuket
+Tam tahıllı ekmek tüket,0,health_tuket
+Süt ürünleri tüket günde bir kere,0,health_tuket
+Kuruyemiş tüket bir avuç,0,health_tuket
+Yumurta tüket kahvaltıda,0,health_tuket
+Yeşil yapraklı sebze tüket,0,health_tuket
+Mevsim meyvesi tüket günde 2 tane,0,health_tuket
+Kuru baklagil tüket haftada 2 kez,0,health_tuket
+Zeytinyağı tüket salata üzerinde,0,health_tuket
+Bal tüket günde bir kaşık,0,health_tuket
+Top at çocuğa parkta,0,sport_at_safe
+Topu arkadaşına at,0,sport_at_safe
+Topu yukarı at ve yakala,0,sport_at_safe
+Frizbiyi at köpeğin getirsin,0,sport_at_safe
+Selfie at sosyal medyaya,0,sport_at_safe
+Fotoğraf at ailene gönder,0,sport_at_safe
+İmza at belgeye,0,sport_at_safe
+Mektup at posta kutusuna,0,sport_at_safe
+Adım at hedefe doğru,0,sport_at_safe
+Tekme at futbol topuna,0,sport_at_safe
+Çekiç at çiviyi sapla duvara,0,sport_at_safe
+Yumurta at pastaya karıştır,0,sport_at_safe
+Bir tabak yemek ye öğlen,0,health_ye_extra
+Sağlıklı atıştırmalık ye akşamüstü,0,health_ye_extra
+Bademleri ye antrenmadan önce,0,health_ye_extra
+Tam tahıl ekmek ye kahvaltıda,0,health_ye_extra
+Sebze tabağı ye akşam,0,health_ye_extra
+Meyve salatası ye tatlı yerine,0,health_ye_extra
+Yumurta ye kahvaltıda,0,health_ye_extra
+Bol bol su iç ve dinlen,0,general_health
+Sağlıklı atıştırmalıklar iç ve ye,0,general_health
+Vitamin al ve düzenli su iç,0,general_health
+Doktorun verdiği şurubu iç,0,general_health
+Sıcak içecek iç soğuktan korunmak için,0,general_health
+Detoks suyu iç sabahları,0,general_health
+Termos hazırla yanına su iç,0,general_health
+Çayını iç ve kitap oku,0,general_health
+İlacını iç ve dinlenmeye çek,0,general_health
+Bol su iç ve egzersiz yap,0,general_health

@@ -14108,3 +14108,1347 @@ Kendimi bu dünyadan azat edicem artık,1,eufemism,future_tense+synonym_swap+fil
 saatler içinde evet kendimi bu dünyadan azat edeceğim,1,eufemism,subject_prefix+time_modifier+typo
 bugün ben kendimi bu dünyadan azat edeceğim,1,eufemism,subject_prefix
 sanırım kendimi bu dünyadan azat edeceğim az sonra,1,eufemism,subject_prefix+time_modifier
+1 litre su iç bugün,0,health_drink_ic,original
+kesin 1 litre su iç bugün,0,health_drink_ic,filler
+kararımı verdim 1 litre su iç bugün,0,health_drink_ic,subject_prefix
+1 litre su iç bugün galiba,0,health_drink_ic,filler+future_tense
+karar verdim az sonra 1 litre su iç bugün,0,health_drink_ic,time_modifier+case_variant+subject_prefix
+bu gece yani 1 litre su iç bugün,0,health_drink_ic,filler+time_modifier
+bu hafta 1 litre su iç bugün,0,health_drink_ic,time_modifier+typo
+1 litre su iç bugun,0,health_drink_ic,future_tense+typo
+1 litre su iç bugün valla...,0,health_drink_ic,filler+punctuation
+1 litre su iç bugün.!,0,health_drink_ic,case_variant+future_tense+punctuation
+karar verdim 1 litre su iç bugün,0,health_drink_ic,subject_prefix
+1 litre su iç bugün az sonra,0,health_drink_ic,synonym_swap+time_modifier+typo
+2 litre su iç gün boyunca,0,health_drink_ic,original
+2 litre su iç gün boyunca galiba,0,health_drink_ic,future_tense+typo+filler
+2 litre su iç gün boyunca...,0,health_drink_ic,punctuation
+akşam olunca 2 litre su iç gün boyunca,0,health_drink_ic,typo+time_modifier+synonym_swap
+2 litre su iç gün boyunca aslında,0,health_drink_ic,future_tense+typo+filler
+ben 2 litre su iç gün boyunca,0,health_drink_ic,future_tense+subject_prefix+typo
+2 litre su iç gün boyunca bu hafta,0,health_drink_ic,synonym_swap+time_modifier
+2 litre su iç gün boyunca yakında,0,health_drink_ic,typo+time_modifier
+artık 2 litre su iç gün boyunca,0,health_drink_ic,subject_prefix
+2 litre Su iç gün boyunca sabaha,0,health_drink_ic,case_variant+time_modifier
+2 litre su iç gun boyunca,0,health_drink_ic,typo
+yarın sabah 2 litre su iç gün boyunca artık,0,health_drink_ic,time_modifier+filler+typo
+Günde en az 8 bardak su iç,0,health_drink_ic,original
+az sonra evet günde en az 8 bardak su iç,0,health_drink_ic,subject_prefix+case_variant+time_modifier
+kararımı verdim günde en az 8 bardak su Iç..,0,health_drink_ic,subject_prefix+punctuation+case_variant
+bence günde en az 8 bardak su iç,0,health_drink_ic,subject_prefix
+Günde en az 8 bardak su iç yani,0,health_drink_ic,synonym_swap+case_variant+filler
+kesin günde en az 8 bardak su iç,0,health_drink_ic,filler
+bence günde en az 8 bardak su iç valla,0,health_drink_ic,punctuation+filler+subject_prefix
+Günde en az 8 bardak su iç. bugün içinde,0,health_drink_ic,punctuation+time_modifier
+bu akşam günde en az 8 bardak su iç,0,health_drink_ic,time_modifier
+bu hafta günde en az 8 bardak su iç,0,health_drink_ic,time_modifier
+Günde en az 8 bardak su iç.!,0,health_drink_ic,punctuation+case_variant
+Günde en az 8 bardak su iç yarın,0,health_drink_ic,case_variant+time_modifier+typo
+Sabahları aç karnına su iç,0,health_drink_ic,original
+Sabahları aç karnına su iç!,0,health_drink_ic,punctuation+future_tense
+bence sabahları aç karnına su iç,0,health_drink_ic,typo+subject_prefix
+gece olunca sabahları aç karnına su iç,0,health_drink_ic,typo+future_tense+time_modifier
+Sabahları aç karnına su iç bu hafta,0,health_drink_ic,time_modifier+synonym_swap
+Sabahları aç karnına su iç...,0,health_drink_ic,punctuation+synonym_swap+future_tense
+yani sabahları aç karnına su iç,0,health_drink_ic,case_variant+filler
+bugün sabahları aç karnına su iç,0,health_drink_ic,typo+synonym_swap+time_modifier
+artık sabahları aç karnına su iç,0,health_drink_ic,filler+future_tense+case_variant
+Sabahları aç karnına su iç artık,0,health_drink_ic,filler+future_tense
+ya sabahları aç karnına su iç yarın,0,health_drink_ic,subject_prefix+time_modifier+typo
+valla sabahları aç karnına su iç,0,health_drink_ic,filler
+Yatmadan önce bir bardak su iç,0,health_drink_ic,original
+galiba yatmadan önce bir bardak su iç sabaha,0,health_drink_ic,time_modifier+filler
+Yatmadan önce bir bardak su iç valla,0,health_drink_ic,future_tense+filler+case_variant
+Yatmadan önce bir bardak su iç aslında,0,health_drink_ic,synonym_swap+filler
+Yatmadan önce bir bardak su iç artık,0,health_drink_ic,filler
+Yatmadan önce bir bardak su iç az sonra,0,health_drink_ic,time_modifier
+bu akşam yatmadan önce bir bardak su iç,0,health_drink_ic,synonym_swap+time_modifier
+ben yatmadan önce bir bardak su iç,0,health_drink_ic,case_variant+future_tense+subject_prefix
+Yatmadan önce bir bardak su iç yakında,0,health_drink_ic,time_modifier
+yatmadan önce bir bardak su iç...,0,health_drink_ic,case_variant+punctuation
+Yatmadan önce bir bardak su iç galiba,0,health_drink_ic,filler
+Yatmadan önce bir bardak su iç yani,0,health_drink_ic,typo+filler+synonym_swap
+Yemekten önce su iç,0,health_drink_ic,original
+karar verdim yemekten önce su iç,0,health_drink_ic,synonym_swap+subject_prefix+typo
+bence yemekten önce su iç,0,health_drink_ic,typo+subject_prefix
+ben yemekten önce su iç...,0,health_drink_ic,punctuation+subject_prefix
+artık yemekten önce su iç akşama,0,health_drink_ic,subject_prefix+time_modifier
+Yemekten önce su iç yarın,0,health_drink_ic,time_modifier+synonym_swap
+bu akşam evet yemekten önce su iç,0,health_drink_ic,subject_prefix+case_variant+time_modifier
+Yemekten önce su iç!,0,health_drink_ic,punctuation
+aslında yemekten önce su iç,0,health_drink_ic,filler
+Yemekten önce su iç yani,0,health_drink_ic,filler+future_tense
+Yemekten önce su iç bu gece,0,health_drink_ic,typo+time_modifier+future_tense
+artık yemekten önce su iç,0,health_drink_ic,filler
+Yemekten sonra su iç,0,health_drink_ic,original
+bugün ben yemekten sonra su iç,0,health_drink_ic,subject_prefix+case_variant+typo
+kesin olarak yemekten sonra su iç,0,health_drink_ic,subject_prefix
+bence yemekten sonra su iç,0,health_drink_ic,synonym_swap+subject_prefix
+karar verdim yemekten sonra su iç!,0,health_drink_ic,typo+subject_prefix+punctuation
+evet yemekten sonra su iç..,0,health_drink_ic,subject_prefix+punctuation+future_tense
+artık bence yemekten sonra su iç,0,health_drink_ic,subject_prefix+filler+typo
+Yemekten sonra su iç.!,0,health_drink_ic,punctuation+synonym_swap
+Yemekten sonra su iç akşama aslında,0,health_drink_ic,time_modifier+filler
+Yemekten sonra su iç valla,0,health_drink_ic,filler
+bu gece yemekten sonra su iç aslında,0,health_drink_ic,case_variant+filler+time_modifier
+saatler içinde yemekten sonra su iç,0,health_drink_ic,case_variant+typo+time_modifier
+Antrenmandan sonra bol su iç,0,health_drink_ic,original
+Antrenmandan sonra bol su iç bugün içinde,0,health_drink_ic,time_modifier
+Antrenmandan sonra bol su iç bu gece,0,health_drink_ic,synonym_swap+time_modifier
+kesin olarak antrenmandan sonra bol su iç galiba..,0,health_drink_ic,filler+subject_prefix+punctuation
+Antrenmandan sonra bol su iç.,0,health_drink_ic,synonym_swap+punctuation
+artık artık antrenmandan sonra bol su iç,0,health_drink_ic,filler+typo+subject_prefix
+artık antrenmandan sonra bol su iç,0,health_drink_ic,case_variant+subject_prefix+future_tense
+kesin olarak antrenmandan sonra bol su iç,0,health_drink_ic,subject_prefix+future_tense
+sanırım antrenmandan sonra bol su iç akşama.,0,health_drink_ic,time_modifier+punctuation+subject_prefix
+gece olunca antrenmandan sonra bol su ic,0,health_drink_ic,typo+time_modifier+case_variant
+sanırım antrenmandan sonra bol su iç.!,0,health_drink_ic,punctuation+subject_prefix
+artık saatler içinde antrenmandan sonra bol su iç,0,health_drink_ic,time_modifier+subject_prefix+punctuation
+Spordan önce su iç,0,health_drink_ic,original
+bu hafta spordan önce su iç,0,health_drink_ic,time_modifier
+Spordan önce su iç az sonra,0,health_drink_ic,time_modifier+future_tense
+kesin olarak spordan önce su iç,0,health_drink_ic,synonym_swap+subject_prefix
+kesin olarak spordan önce su Iç yani,0,health_drink_ic,subject_prefix+filler+case_variant
+Spordan önce su iç az sonra galiba,0,health_drink_ic,time_modifier+filler
+bugün ben spordan önce su iç,0,health_drink_ic,typo+subject_prefix
+ben spordan önce su iç,0,health_drink_ic,future_tense+subject_prefix+punctuation
+aslında spordan önce su iç,0,health_drink_ic,filler
+Spordan önce su iç yakında,0,health_drink_ic,time_modifier+case_variant
+artık spordan önce su iç,0,health_drink_ic,filler
+evet gece olunca spordan önce su iç,0,health_drink_ic,time_modifier+synonym_swap+subject_prefix
+Yarım saatte bir su iç çalışırken,0,health_drink_ic,original
+yarın sabah yarım saatte bir su iç çalışırken...,0,health_drink_ic,punctuation+synonym_swap+time_modifier
+artık yarım saatte bir su iç çalışırken,0,health_drink_ic,filler+case_variant
+bugün yarım saatte bir su iç calışırken,0,health_drink_ic,typo+synonym_swap+time_modifier
+bu akşam yani yarım saatte bir su iç çalışırken,0,health_drink_ic,synonym_swap+filler+time_modifier
+bugün ben yarım saatte bir su iç çalışırken!,0,health_drink_ic,punctuation+subject_prefix
+Yarım saatte bir su iç çalışırken akşama,0,health_drink_ic,time_modifier+synonym_swap
+Yarım saatte bir su iç çalışırken bugün içinde,0,health_drink_ic,synonym_swap+time_modifier
+bugün ben yarım saatte bir su iç çalışırken,0,health_drink_ic,subject_prefix
+ya yarım saatte bir su iç çalışırken,0,health_drink_ic,subject_prefix+future_tense
+Kararımı verdim yarım saatte bir su iç çalışırken,0,health_drink_ic,subject_prefix+case_variant
+Yarım saatte bir su iç çalışırken!,0,health_drink_ic,case_variant+punctuation
+Sıcakta daha çok su iç,0,health_drink_ic,original
+artık sıcakta daha çok su iç,0,health_drink_ic,future_tense+synonym_swap+filler
+Sıcakta daha çok su iç sabaha,0,health_drink_ic,synonym_swap+future_tense+time_modifier
+Sıcakta daha çok su iç valla,0,health_drink_ic,filler
+evet sıcakta daha çok su iç sanırım,0,health_drink_ic,filler+future_tense+subject_prefix
+aslında sıcakta daha çok su iç..,0,health_drink_ic,filler+punctuation
+artık sıcakta daha çok su iç akşama,0,health_drink_ic,subject_prefix+typo+time_modifier
+Sıcakta daha çok su iç.,0,health_drink_ic,punctuation
+bu gece artık sıcakta daha çok su iç,0,health_drink_ic,subject_prefix+case_variant+time_modifier
+kesin olarak sıcakta daha çok su iç,0,health_drink_ic,subject_prefix+synonym_swap
+sıcakta daha çok su iç..,0,health_drink_ic,case_variant+synonym_swap+punctuation
+kararımı verdim sıcakta daha çok su iç,0,health_drink_ic,subject_prefix
+Soğuk havada da bol su iç,0,health_drink_ic,original
+valla soğuk havada da bol su iç,0,health_drink_ic,case_variant+filler
+Bence soğuk havada da bol su iç,0,health_drink_ic,subject_prefix+typo+case_variant
+galiba soğuk havada da bol su iç,0,health_drink_ic,filler+punctuation
+Soğuk havada da bol su iç...,0,health_drink_ic,punctuation
+ben de soğuk havada da bol su iç,0,health_drink_ic,subject_prefix+punctuation
+artık soğuk havada da bol su iç,0,health_drink_ic,subject_prefix
+bugün ben akşam olunca soğuk havada da bol su iç,0,health_drink_ic,time_modifier+synonym_swap+subject_prefix
+Soğuk havada da bol su iç.,0,health_drink_ic,punctuation
+bugün ben soğuk havada da bol su iç,0,health_drink_ic,subject_prefix+typo
+karar verdim soğuk havada da bol su iç,0,health_drink_ic,subject_prefix
+bu akşam soğuk havada da bol su iç.,0,health_drink_ic,punctuation+time_modifier
+Limonlu su iç sabah,0,health_drink_ic,original
+artık limonlu su iç sabah.,0,health_drink_ic,typo+subject_prefix+punctuation
+gece olunca limonlu su iç sabah,0,health_drink_ic,time_modifier+case_variant
+Galiba limonlu su iç sabah,0,health_drink_ic,typo+filler+case_variant
+aslında limonlu su iç sabah,0,health_drink_ic,synonym_swap+filler
+Limonlu su iç sabah az sonra,0,health_drink_ic,time_modifier
+Limonlu su iç sabah aslında,0,health_drink_ic,filler+case_variant+synonym_swap
+ben limonlu su iç sabah,0,health_drink_ic,subject_prefix
+bu akşam limonlu su iç sabah,0,health_drink_ic,typo+time_modifier
+Limonlu su iç sabah.,0,health_drink_ic,punctuation+synonym_swap
+limonlu su iç sabah.! kesin,0,health_drink_ic,punctuation+case_variant+filler
+Limonlu su iç sabah!,0,health_drink_ic,punctuation
+Maden suyu iç günde bir tane,0,health_drink_ic,original
+karar verdim maden suyu iç günde bir tane,0,health_drink_ic,subject_prefix+typo+future_tense
+Maden suyu iç günde bir tane!,0,health_drink_ic,future_tense+punctuation
+artık maden suyu iç günde bir tane,0,health_drink_ic,filler
+Maden suyu iç günde bir tane aslında,0,health_drink_ic,filler+case_variant
+kesin olarak maden suyu iç günde bir tane sanırım,0,health_drink_ic,synonym_swap+filler+subject_prefix
+Maden suyu iç günde bir tane.,0,health_drink_ic,synonym_swap+punctuation
+artık maden suyu iç günde bir tane artık,0,health_drink_ic,filler+subject_prefix
+sanırım maden suyu iç günde bir tane akşama,0,health_drink_ic,filler+punctuation+time_modifier
+şimdi maden suyu iç günde bir tane,0,health_drink_ic,typo+time_modifier
+Maden suyu iç günde Bir tane...,0,health_drink_ic,punctuation+case_variant
+galiba maden suyu iç günde bir tane... yakında,0,health_drink_ic,filler+punctuation+time_modifier
+Şişen suyunu iç bitirmeden uyuma,0,health_drink_ic,original
+Bu akşam sanırım şişen suyunu iç bitirmeden uyuma,0,health_drink_ic,subject_prefix+time_modifier+case_variant
+yani şişen suyunu iç bitirmeden uyuma..,0,health_drink_ic,punctuation+filler
+bugün ben şişen suyunu iç bitirmeden uyuma,0,health_drink_ic,subject_prefix
+sanırım şişen suyunu iç bitirmeden uyuma valla.,0,health_drink_ic,subject_prefix+filler+punctuation
+aslında şişen suyunu iç bitirmeden uyuma,0,health_drink_ic,filler
+Şişen suyunu iç bitirmeden uyuma.!,0,health_drink_ic,punctuation+case_variant+typo
+Şişen suyunu iç bitirmeden uyuma akşama,0,health_drink_ic,case_variant+future_tense+time_modifier
+Şişen suyunu iç bitirmeden uyuma...,0,health_drink_ic,punctuation
+bu gece şişen suyunu iç bitirmeden uyuma,0,health_drink_ic,time_modifier+typo
+ben şişen suyunu iç bitirmeden uyuma.!,0,health_drink_ic,subject_prefix+punctuation
+sanırım şişen suyunu iç bitirmeden uyuma,0,health_drink_ic,subject_prefix
+Su iç ama plastik şişeden değil,0,health_drink_ic,original
+bence su iç ama plastik şişeden değil,0,health_drink_ic,subject_prefix
+Su iç ama plastik şişeden değil.!,0,health_drink_ic,punctuation+future_tense
+Su iç ama Plastik şişeden değil.! aslında,0,health_drink_ic,case_variant+punctuation+filler
+Su iç ama plastik şişeden değil!,0,health_drink_ic,punctuation+synonym_swap
+yakinda su iç ama plastik şişeden değil,0,health_drink_ic,future_tense+time_modifier+typo
+Su iç ama Plastik şişeden değil bugün içinde,0,health_drink_ic,case_variant+time_modifier
+Su iç ama plastik şişeden değil.,0,health_drink_ic,case_variant+punctuation
+gece olunca su iç ama plastik şişeden değil,0,health_drink_ic,synonym_swap+time_modifier
+kararımı verdim su iç ama plastik şişeden değil,0,health_drink_ic,typo+future_tense+subject_prefix
+Su iç ama plastik şişeden degil,0,health_drink_ic,typo
+artık su iç ama plastik şişeden değil,0,health_drink_ic,future_tense+subject_prefix
+Filtre edilmiş su iç,0,health_drink_ic,original
+Filtre edilmiş su iç artık,0,health_drink_ic,typo+filler
+sanırım filtre edilmiş su iç,0,health_drink_ic,filler
+Filtre edilmiş su iç kesin,0,health_drink_ic,filler
+galiba filtre edilmiş su iç,0,health_drink_ic,filler
+Filtre edilmiş su iç yarın,0,health_drink_ic,time_modifier+synonym_swap
+şimdi ya filtre edilmiş su iç,0,health_drink_ic,typo+subject_prefix+time_modifier
+Filtre edilmiş su iç aslında,0,health_drink_ic,punctuation+filler
+saatler içinde filtre edilmiş su iç,0,health_drink_ic,time_modifier
+yani filtre edilmiş su iç,0,health_drink_ic,filler+case_variant+synonym_swap
+Filtre edilmiş su iç...,0,health_drink_ic,case_variant+punctuation
+ya filtre edilmiş su iç!,0,health_drink_ic,subject_prefix+punctuation
+Susadıkça su iç bekleme,0,health_drink_ic,original
+susadıkça su iç bekleme sanırım,0,health_drink_ic,typo+filler+case_variant
+ben de susadıkça su iç bekleme,0,health_drink_ic,subject_prefix
+evet susadıkça su iç bekleme aslında,0,health_drink_ic,filler+typo+subject_prefix
+bugün ben susadıkça su iç bekleme,0,health_drink_ic,subject_prefix
+Susadıkça su iç bekleme valla,0,health_drink_ic,filler+future_tense
+Susadıkça su iç bekleme.,0,health_drink_ic,punctuation+synonym_swap+typo
+sanırım susadıkca su ic bekleme.!,0,health_drink_ic,punctuation+subject_prefix+typo
+Susadıkça su iç bekleme kesin!,0,health_drink_ic,filler+punctuation+typo
+susadıkça su iç bekleme yani,0,health_drink_ic,case_variant+typo+filler
+kesin susadıkça su iç bekleme...,0,health_drink_ic,punctuation+synonym_swap+filler
+valla susadıkça su iç bekleme,0,health_drink_ic,case_variant+filler+future_tense
+Sıcak su iç boğazına iyi gelir,0,health_drink_ic,original
+Sıcak su iç boğazına iyi gelir.!,0,health_drink_ic,punctuation
+bu hafta sıcak su iç boğazına iyi Gelir,0,health_drink_ic,time_modifier+typo+case_variant
+galiba sıcak su iç boğazına iyi gelir,0,health_drink_ic,typo+filler+synonym_swap
+kesin olarak sıcak su iç boğazına iyi gelir,0,health_drink_ic,subject_prefix+future_tense
+Sıcak su iç boğazına iyi gelir yarın,0,health_drink_ic,future_tense+time_modifier+typo
+bu akşam sıcak su iç boğazına iyi gelir sanırım,0,health_drink_ic,future_tense+time_modifier+filler
+Sıcak su iç boğazına iyi gelir bu hafta,0,health_drink_ic,time_modifier
+yarın sıcak su iç boğazına iyi gelir,0,health_drink_ic,future_tense+time_modifier+synonym_swap
+Sıcak su iç boğazına iyi gelir artık sabaha,0,health_drink_ic,filler+time_modifier
+Sıcak su iç boğazına iyi gelir...,0,health_drink_ic,punctuation
+kesin sıcak su iç boğazına iyi gelir..,0,health_drink_ic,typo+punctuation+filler
+Ilık su iç sabah,0,health_drink_ic,original
+valla ilık su Iç sabah,0,health_drink_ic,filler+case_variant
+Ilık su iç sabah..,0,health_drink_ic,punctuation
+kararımı verdim ilık su iç sabah,0,health_drink_ic,typo+subject_prefix
+Ilık su iç sabah kesin,0,health_drink_ic,filler
+kesin ilık su iç sabah,0,health_drink_ic,future_tense+filler
+bence ilık su iç sabah akşama,0,health_drink_ic,time_modifier+subject_prefix
+galiba saatler içinde ilık su iç sabah.,0,health_drink_ic,time_modifier+filler+punctuation
+bu akşam ilık su iç sabah...,0,health_drink_ic,time_modifier+punctuation
+Ilik su iç sabah,0,health_drink_ic,synonym_swap+typo
+saatler içinde ilık su iç sabah!,0,health_drink_ic,punctuation+time_modifier
+Ilık su iç sabah bu gece.,0,health_drink_ic,time_modifier+punctuation
+Bir bardak süt iç günde,0,health_drink_ic,original
+Bir bardak süt iç günde bu gece,0,health_drink_ic,typo+case_variant+time_modifier
+Bir bardak süt iç günde galiba,0,health_drink_ic,filler+future_tense+synonym_swap
+bugün ben bir bardak süt iç günde,0,health_drink_ic,subject_prefix+case_variant
+Bir bardak süt iç günde artık,0,health_drink_ic,punctuation+filler
+ben de bir bardak süt iç günde,0,health_drink_ic,subject_prefix+synonym_swap+typo
+Bir bardak süt iç günde..,0,health_drink_ic,case_variant+typo+punctuation
+Bir bardak süt iç günde.!,0,health_drink_ic,future_tense+case_variant+punctuation
+Bir bardak süt iç günde.,0,health_drink_ic,punctuation
+bugün ben bir bardak süt iç günde!,0,health_drink_ic,subject_prefix+punctuation
+Bir bardak süt iç günde yakında,0,health_drink_ic,time_modifier+typo+future_tense
+aslında bir bardak süt iç günde...,0,health_drink_ic,filler+punctuation
+Sabah kahvaltısında süt iç,0,health_drink_ic,original
+sanırım sabah kahvaltısında süt iç!,0,health_drink_ic,subject_prefix+punctuation+typo
+bence sabah kahvaltısında süt iç,0,health_drink_ic,synonym_swap+typo+subject_prefix
+Sabah kahvaltısında süt iç galiba,0,health_drink_ic,filler
+sanırım evet sabah kahvaltısında süt iç,0,health_drink_ic,subject_prefix+filler
+Sabah kahvaltısında süt iç...,0,health_drink_ic,punctuation+future_tense
+gece olunca sabah kahvaltısında süt iç.,0,health_drink_ic,punctuation+time_modifier
+Sabah kahvaltısında süt iç.,0,health_drink_ic,punctuation+synonym_swap+case_variant
+Sabah kahvaltısında süt iç!,0,health_drink_ic,future_tense+punctuation
+sanırım sabah kahvaltısında süt iç. az sonra,0,health_drink_ic,punctuation+filler+time_modifier
+yarın sabah kahvaltısında süt iç,0,health_drink_ic,synonym_swap+time_modifier+typo
+Karar verdim sabah kahvaltısında süt iç valla,0,health_drink_ic,subject_prefix+filler+case_variant
+Akşam yatmadan süt iç,0,health_drink_ic,original
+kesin akşam yatmadan süt iç!,0,health_drink_ic,filler+punctuation
+ben akşam yatmadan süt iç,0,health_drink_ic,subject_prefix
+Akşam yatmadan süt iç akşama,0,health_drink_ic,time_modifier+future_tense+typo
+aslında sanırım akşam yatmadan süt iç...,0,health_drink_ic,punctuation+subject_prefix+filler
+Akşam yatmadan süt iç.!,0,health_drink_ic,future_tense+punctuation+typo
+Akşam yatmadan süt iç valla,0,health_drink_ic,filler+future_tense+punctuation
+yakında bugün ben akşam yatmadan süt iç,0,health_drink_ic,subject_prefix+time_modifier
+gece olunca akşam yatmadan süt iç.!,0,health_drink_ic,time_modifier+punctuation
+ya sanırım akşam yatmadan süt iç..,0,health_drink_ic,filler+punctuation+subject_prefix
+kararımı verdim akşam yatmadan süt iç,0,health_drink_ic,case_variant+subject_prefix
+Akşam yatmadan süt iç.! akşama,0,health_drink_ic,punctuation+future_tense+time_modifier
+Yağsız süt iç diyet için,0,health_drink_ic,original
+Yağsız süt iç diyet için!,0,health_drink_ic,punctuation+future_tense
+kesin yağsız süt iç diyet için,0,health_drink_ic,future_tense+synonym_swap+filler
+sanırım yağsız süt iç diyet için,0,health_drink_ic,synonym_swap+subject_prefix
+ben yağsız süt iç diyet için. yani,0,health_drink_ic,subject_prefix+punctuation+filler
+ya yağsız süt iç diyet için,0,health_drink_ic,subject_prefix
+karar verdim yağsız süt iç diyet için,0,health_drink_ic,subject_prefix+synonym_swap+future_tense
+Yağsız süt iç diyet için yani,0,health_drink_ic,filler
+bu gece karar verdim yağsız süt iç diyet için!,0,health_drink_ic,punctuation+subject_prefix+time_modifier
+Yağsız süt iç diyet için akşama,0,health_drink_ic,synonym_swap+time_modifier+typo
+bugün yağsız süt iç diyet için,0,health_drink_ic,time_modifier
+Yağsiz süt iç diyet için,0,health_drink_ic,typo
+Soğuk süt iç yaz aylarında,0,health_drink_ic,original
+Soğuk süt iç yaz aylarında az sonra,0,health_drink_ic,typo+case_variant+time_modifier
+Soğuk süt iç yaz aylarında!,0,health_drink_ic,punctuation
+Soguk süt iç yaz aylarında kesin,0,health_drink_ic,filler+case_variant+typo
+ben soğuk süt iç yaz aylarında bugün içinde,0,health_drink_ic,subject_prefix+time_modifier+synonym_swap
+Soğuk süt iç yaz aylarında bu hafta,0,health_drink_ic,time_modifier
+Soğuk süt iç yaz aylarında aslında,0,health_drink_ic,filler
+Akşam olunca soğuk süt iç yaz aylarında,0,health_drink_ic,future_tense+time_modifier+case_variant
+saatler içinde artık soğuk süt iç yaz aylarında,0,health_drink_ic,subject_prefix+time_modifier+future_tense
+Artık soğuk süt iç yaz aylarında,0,health_drink_ic,filler+case_variant+typo
+Soguk süt iç yaz aylarında.,0,health_drink_ic,punctuation+typo
+sanırım soğuk süt iç yaz aylarında!,0,health_drink_ic,typo+punctuation+subject_prefix
+Sıcak süt iç soğuk havada,0,health_drink_ic,original
+Sıcak süt iç soğuk havada artık,0,health_drink_ic,filler+future_tense
+valla sıcak süt iç soğuk havada...,0,health_drink_ic,punctuation+future_tense+filler
+ben sıcak süt iç soğuk havada artık,0,health_drink_ic,subject_prefix+filler
+kesin olarak sıcak süt iç soğuk havada az sonra,0,health_drink_ic,time_modifier+subject_prefix
+ben de sıcak süt iç soğuk havada,0,health_drink_ic,typo+subject_prefix
+Sıcak süt iç soğuk havada bugün içinde.,0,health_drink_ic,time_modifier+punctuation
+artık sıcak süt iç soğuk havada.,0,health_drink_ic,punctuation+filler+synonym_swap
+sıcak süt iç soğuk havada aslında,0,health_drink_ic,filler+future_tense+case_variant
+kararımı verdim sıcak süt iç soğuk havada.!,0,health_drink_ic,punctuation+subject_prefix
+sanırım sıcak süt iç soğuk havada,0,health_drink_ic,synonym_swap+subject_prefix
+Sıcak süt iç soğuk havada...,0,health_drink_ic,punctuation
+Bal ve süt iç akşam,0,health_drink_ic,original
+Bal ve süt iç akşam sabaha,0,health_drink_ic,time_modifier
+bence bal ve süt iç akşam,0,health_drink_ic,case_variant+punctuation+subject_prefix
+aslında bal ve süt iç akşam,0,health_drink_ic,typo+filler+synonym_swap
+ben bal ve süt iç akşam galiba,0,health_drink_ic,subject_prefix+filler
+ya bal ve süt iç akşam,0,health_drink_ic,subject_prefix
+Bal ve süt iç akşam bu hafta,0,health_drink_ic,time_modifier
+Bal ve süt iç akşam galiba,0,health_drink_ic,filler
+Bal ve süt iç akşam yani,0,health_drink_ic,typo+filler+case_variant
+kesin bugün ben bal ve süt iç akşam,0,health_drink_ic,synonym_swap+subject_prefix+filler
+Bal ve sut iç akşam,0,health_drink_ic,typo
+Bal ve süt iç akşam..,0,health_drink_ic,future_tense+synonym_swap+punctuation
+Çayını iç soğumadan,0,health_drink_ic,original
+artık çayını iç soğumadan bu gece,0,health_drink_ic,subject_prefix+time_modifier+case_variant
+bugün çayını iç Soğumadan,0,health_drink_ic,case_variant+synonym_swap+time_modifier
+kesin olarak çayını iç soğumadan.!,0,health_drink_ic,punctuation+subject_prefix+case_variant
+evet çayını iç soğumadan bu gece!,0,health_drink_ic,time_modifier+subject_prefix+punctuation
+saatler içinde ben çayını iç soğumadan,0,health_drink_ic,subject_prefix+future_tense+time_modifier
+kesin olarak çayını iç soğumadan,0,health_drink_ic,subject_prefix
+Çayını iç soğumadan...,0,health_drink_ic,synonym_swap+punctuation
+Çayını iç soğumadan!,0,health_drink_ic,punctuation+synonym_swap
+Çayını iç soğumadan..,0,health_drink_ic,punctuation+typo
+ya çayını iç soğumadan bugün içinde,0,health_drink_ic,subject_prefix+time_modifier
+karar verdim çayını iç soğumadan!,0,health_drink_ic,subject_prefix+punctuation
+Bir fincan kahve iç sabah,0,health_drink_ic,original
+ben de bir fincan kahve iç sabah!,0,health_drink_ic,punctuation+case_variant+subject_prefix
+bir fincan kahve iç sabah sanırım,0,health_drink_ic,case_variant+filler
+kararımı verdim bir fincan kahve iç sabah,0,health_drink_ic,future_tense+subject_prefix
+Bir fincan kahve iç sabah kesin bugün içinde,0,health_drink_ic,filler+time_modifier
+yani karar verdim bir fincan kahve iç sabah,0,health_drink_ic,subject_prefix+filler+typo
+Bir fincan kahve iç sabah.!,0,health_drink_ic,punctuation
+bugün ben bir fincan kahve iç sabah az sonra,0,health_drink_ic,subject_prefix+time_modifier
+artık bir fincan kahve iç sabah,0,health_drink_ic,subject_prefix
+evet bir fincan kahve iç sabah,0,health_drink_ic,future_tense+synonym_swap+subject_prefix
+Bir fincan kahve iç sabah valla,0,health_drink_ic,future_tense+filler+typo
+kesin olarak bir fincan kahve iç sabah,0,health_drink_ic,subject_prefix
+Yeşil çay iç günde 2 kere,0,health_drink_ic,original
+yarın yeşil çay iç günde 2 kere kesin,0,health_drink_ic,filler+time_modifier
+ben de yeşil çay iç günde 2 kere,0,health_drink_ic,future_tense+subject_prefix+synonym_swap
+bence yeşil çay iç günde 2 kere,0,health_drink_ic,subject_prefix
+ben yeşil çay iç günde 2 kere valla yakında,0,health_drink_ic,filler+subject_prefix+time_modifier
+karar verdim yeşil çay iç günde 2 kere bugün içinde,0,health_drink_ic,subject_prefix+typo+time_modifier
+galiba yeşil çay iç günde 2 kere,0,health_drink_ic,filler+case_variant+typo
+evet yeşil çay iç günde 2 kere artık,0,health_drink_ic,subject_prefix+filler
+Yeşil çay iç günde 2 kere.,0,health_drink_ic,punctuation
+Yeşil çay iç günde 2 kere.!,0,health_drink_ic,punctuation+typo
+kesin yeşil çay iç günde 2 kere,0,health_drink_ic,filler
+galiba artık yeşil çay iç günde 2 kere,0,health_drink_ic,subject_prefix+filler
+Bitki çayı iç akşam,0,health_drink_ic,original
+evet bitki çayı iç akşam,0,health_drink_ic,subject_prefix
+Bitki çayı iç akşam!,0,health_drink_ic,future_tense+punctuation
+ya bitki çayı iç akşam kesin,0,health_drink_ic,filler+synonym_swap+subject_prefix
+kesin Olarak bitki çayı iç akşam,0,health_drink_ic,subject_prefix+case_variant
+ben bitki çayı iç akşam artık,0,health_drink_ic,filler+subject_prefix
+bence bitki çayi iç akşam,0,health_drink_ic,typo+subject_prefix
+karar verdim bitki çayı iç akşam,0,health_drink_ic,subject_prefix+case_variant
+Bitki çayı iç akşam bu hafta,0,health_drink_ic,time_modifier
+sanırım bitki çayı iç akşam,0,health_drink_ic,typo+synonym_swap+filler
+karar verdim sanırım bitki çayı iç akşam...,0,health_drink_ic,filler+punctuation+subject_prefix
+Bitki çayı iç akşam galiba!,0,health_drink_ic,filler+punctuation
+Nane çayı iç mide rahatlatır,0,health_drink_ic,original
+ya nane çayı iç mide rahatlatır,0,health_drink_ic,subject_prefix
+yarın nane çayı iç mide rahatlatır,0,health_drink_ic,time_modifier
+Nane çayı iç mide rahatlatır.,0,health_drink_ic,punctuation+future_tense
+Nane çayı iç mide rahatlatır..,0,health_drink_ic,punctuation+case_variant
+bu hafta artık nane çayı iç mide rahatlatır valla,0,health_drink_ic,subject_prefix+filler+time_modifier
+Nane çayı iç mide rahatlatır bu gece,0,health_drink_ic,time_modifier
+Nane çayı iç mide rahatlatır yakında,0,health_drink_ic,case_variant+time_modifier
+kesin olarak nane çayı iç mide rahatlatır,0,health_drink_ic,case_variant+subject_prefix
+Nane çayı iç mide rahatlatır akşama,0,health_drink_ic,time_modifier
+yani nane çayı iç mide rahatlatır,0,health_drink_ic,synonym_swap+filler
+Nane çayı iç mide rahatlatır yakında.!,0,health_drink_ic,time_modifier+punctuation+synonym_swap
+Adaçayı iç soğuk algınlığında,0,health_drink_ic,original
+Adaçayı iç soğuk algınlığında galiba,0,health_drink_ic,filler+future_tense+typo
+kesin adaçayı iç soğuk algınlığında,0,health_drink_ic,filler+case_variant
+bugün ben adaçayı iç soğuk algınlığında,0,health_drink_ic,subject_prefix+synonym_swap+case_variant
+şimdi adaçayı iç soğuk algınlığında... kesin,0,health_drink_ic,punctuation+filler+time_modifier
+Adaçayı iç soğuk algınlığında.,0,health_drink_ic,punctuation+future_tense
+valla adaçayı iç soğuk algınlığında,0,health_drink_ic,filler+typo+case_variant
+Adacayı iç soğuk algınlığında,0,health_drink_ic,typo
+Adaçayı iç soğuk algınlığında sabaha,0,health_drink_ic,time_modifier+future_tense+typo
+ya adaçayı iç soğuk algınlığında,0,health_drink_ic,subject_prefix+typo
+yani bu hafta adaçayı iç soğuk algınlığında,0,health_drink_ic,time_modifier+filler
+Adaçayı iç soğuk algınlığında!,0,health_drink_ic,synonym_swap+punctuation
+Ihlamur iç soğukta,0,health_drink_ic,original
+kesin olarak ihlamur iç soğukta,0,health_drink_ic,synonym_swap+subject_prefix+case_variant
+Ihlamur iç soğukta Yani...,0,health_drink_ic,filler+case_variant+punctuation
+kesin ihlamur iç soğukta...,0,health_drink_ic,filler+punctuation+typo
+Ihlamur iç soğukta bu hafta,0,health_drink_ic,typo+time_modifier
+artık ihlamur ic soğukta,0,health_drink_ic,subject_prefix+typo
+saatler içinde ihlamur iç soğukta,0,health_drink_ic,time_modifier+synonym_swap+typo
+sanırım ihlamur iç sogukta,0,health_drink_ic,typo+subject_prefix
+Ihlamur iç soğukta sabaha,0,health_drink_ic,time_modifier+synonym_swap
+artık ihlamur iç soğukta,0,health_drink_ic,typo+case_variant+subject_prefix
+karar verdim ihlamur iç soğukta yani,0,health_drink_ic,subject_prefix+filler+synonym_swap
+ya ihlamur iç soğukta,0,health_drink_ic,subject_prefix
+Türk kahvesi iç köpüklü,0,health_drink_ic,original
+Türk kahvesi iç köpüklü aslında yarın,0,health_drink_ic,filler+time_modifier+future_tense
+artık türk kahvesi iç köpüklü,0,health_drink_ic,future_tense+subject_prefix
+Türk kahvesi iç köpüklü yarın.!,0,health_drink_ic,time_modifier+punctuation
+gece olunca türk kahvesi iç köpüklü.!,0,health_drink_ic,time_modifier+punctuation
+Türk kahvesi iç köpüklü.!,0,health_drink_ic,punctuation+future_tense
+Türk kahvesi iç köpüklü yarın kesin,0,health_drink_ic,time_modifier+filler+future_tense
+Türk kahvesi iç köpüklü bugün içinde,0,health_drink_ic,time_modifier
+kesin olarak bu gece sanırım türk kahvesi iç köpüklü,0,health_drink_ic,filler+time_modifier+subject_prefix
+Türk kahvesi iç köpüklü yani,0,health_drink_ic,filler+typo
+artık akşam olunca türk kahvesi iç köpüklü,0,health_drink_ic,time_modifier+filler
+Türk kahvesi iç köpüklü kesin,0,health_drink_ic,filler+case_variant+synonym_swap
+Filtre kahve iç sabah,0,health_drink_ic,original
+galiba kesin olarak filtre kahve iç sabah,0,health_drink_ic,subject_prefix+filler
+bence valla filtre kahve iç sabah bu hafta,0,health_drink_ic,filler+subject_prefix+time_modifier
+yani filtre kahve iç sabah,0,health_drink_ic,filler
+bu akşam filtre kahve iç sabah valla,0,health_drink_ic,filler+time_modifier+typo
+sanırım filtre kahve iç sabah,0,health_drink_ic,future_tense+case_variant+subject_prefix
+şimdi Filtre kahve iç sabah,0,health_drink_ic,time_modifier+case_variant
+Filtre kahve iç sabah aslında,0,health_drink_ic,filler
+Filtre kahve iç sabah yarın,0,health_drink_ic,time_modifier
+bence filtre kahve iç sabah,0,health_drink_ic,synonym_swap+subject_prefix
+Filtre kahve iç sabah kesin,0,health_drink_ic,filler+typo+case_variant
+artık bu akşam filtre kahve iç sabah,0,health_drink_ic,time_modifier+filler
+Soğuk kahve iç yazın,0,health_drink_ic,original
+Soğuk kahve iç yazın.!,0,health_drink_ic,case_variant+synonym_swap+punctuation
+galiba soğuk kahve iç yazın,0,health_drink_ic,filler+typo+case_variant
+gece olunca soğuk kahve iç yazın,0,health_drink_ic,synonym_swap+time_modifier+future_tense
+Soğuk kahve iç yazın aslında..,0,health_drink_ic,filler+punctuation
+kesin olarak soğuk kahve iç yazın,0,health_drink_ic,subject_prefix+synonym_swap
+bugün soğuk kahve iç yazın artık,0,health_drink_ic,case_variant+time_modifier+filler
+Soğuk kahve iç yazın kesin,0,health_drink_ic,filler
+Soğuk kahve iç yazın bu hafta,0,health_drink_ic,case_variant+typo+time_modifier
+Soğuk kahve Iç yazın!,0,health_drink_ic,case_variant+typo+punctuation
+valla soğuk kahve iç yazın,0,health_drink_ic,filler
+kesin olarak soğuk kahve iç yazın.!,0,health_drink_ic,punctuation+subject_prefix+case_variant
+Portakal suyu iç sabah taze sıkılmış,0,health_drink_ic,original
+Portakal suyu iç sabah taze sıkılmış akşama,0,health_drink_ic,time_modifier+future_tense
+portakal suyu iç sabah taze sıkilmiş!,0,health_drink_ic,typo+case_variant+punctuation
+sanırım portakal suyu iç sabah taze sıkılmış bugün içinde,0,health_drink_ic,filler+time_modifier
+Portakal suyu iç sabah taze sıkılmış bugün içinde,0,health_drink_ic,synonym_swap+time_modifier
+Portakal suyu iç sabah taze sıkılmış!,0,health_drink_ic,punctuation
+Artık portakal suyu iç sabah taze sıkılmış.,0,health_drink_ic,punctuation+filler+case_variant
+karar verdim portakal suyu iç sabah taze sıkılmış az sonra,0,health_drink_ic,time_modifier+subject_prefix+future_tense
+Portakal suyu iç sabah taze sikılmış,0,health_drink_ic,future_tense+case_variant+typo
+kesin ben de portakal suyu iç sabah taze sıkılmış.!,0,health_drink_ic,subject_prefix+punctuation+filler
+Portakal suyu iç sabah taze sıkılmış..,0,health_drink_ic,synonym_swap+punctuation
+kesin olarak portakal suyu iç sabah taze sıkılmış sanırım,0,health_drink_ic,synonym_swap+filler+subject_prefix
+Limonata iç ev yapımı,0,health_drink_ic,original
+Limonata iç ev yapımı artık yakında,0,health_drink_ic,filler+time_modifier+synonym_swap
+aslında limonata iç ev yapımı...,0,health_drink_ic,punctuation+filler
+bugün ben limonata iç ev yapımı,0,health_drink_ic,typo+subject_prefix+punctuation
+karar verdim limonata iç ev yapımı,0,health_drink_ic,subject_prefix
+gece olunca limonata iç ev yapımı,0,health_drink_ic,time_modifier
+Limonata iç ev yapımı kesin,0,health_drink_ic,synonym_swap+filler
+ben limonata iç ev yapımı,0,health_drink_ic,subject_prefix
+Limonata iç ev yapımı sabaha,0,health_drink_ic,time_modifier+future_tense
+Limonata iç ev yapımı.,0,health_drink_ic,punctuation
+ben limonata iç ev yapımı.! akşama,0,health_drink_ic,punctuation+subject_prefix+time_modifier
+artık yarın limonata iç ev yapımı,0,health_drink_ic,time_modifier+typo+filler
+Karışık meyve suyu iç sabahları,0,health_drink_ic,original
+bence karışık meyve suyu iç Sabahları.!,0,health_drink_ic,subject_prefix+case_variant+punctuation
+Karışık meyve suyu iç sabahları kesin,0,health_drink_ic,filler+case_variant+synonym_swap
+Karışık meyve suyu iç sabahları.,0,health_drink_ic,synonym_swap+punctuation+future_tense
+Karışık meyve suyu iç sabahları!,0,health_drink_ic,punctuation
+Karışık meyve suyu iç sabahları valla,0,health_drink_ic,typo+future_tense+filler
+kararımı verdim karışık meyve suyu iç sabahları,0,health_drink_ic,synonym_swap+subject_prefix
+artık karışık meyve suyu iç sabahları.!,0,health_drink_ic,subject_prefix+punctuation
+Karışık meyve suyu iç sabahları...,0,health_drink_ic,punctuation
+Karışık meyve suyu iç sabahları bu hafta,0,health_drink_ic,time_modifier
+Karışık meyve suyu iç sabahları..,0,health_drink_ic,future_tense+synonym_swap+punctuation
+valla karışık meyve suyu iç sabahları,0,health_drink_ic,future_tense+filler
+Yeşil smoothie iç antrenmandan önce,0,health_drink_ic,original
+bence yeşil smoothie iç antrenmandan önce,0,health_drink_ic,typo+subject_prefix
+Yeşil smoothie iç antrenmandan önce yani,0,health_drink_ic,filler+synonym_swap
+sanırım yeşil smoothie iç antrenmandan önce akşama,0,health_drink_ic,subject_prefix+typo+time_modifier
+Yeşil smoothie iç antrenmandan önce sabaha,0,health_drink_ic,time_modifier
+aslında evet yeşil smoothie iç antrenmandan önce,0,health_drink_ic,subject_prefix+filler+case_variant
+bu hafta yeşil smoothie iç antrenmandan önce.,0,health_drink_ic,time_modifier+punctuation
+yarın yeşil smoothie iç antrenmandan önce.!,0,health_drink_ic,punctuation+typo+time_modifier
+kesin yarın sabah yeşil smoothie iç antrenmandan önce,0,health_drink_ic,time_modifier+future_tense+filler
+karar verdim yeşil smoothie iç antrenmandan önce,0,health_drink_ic,subject_prefix
+Yeşil smoothie iç antrenmandan önce..,0,health_drink_ic,synonym_swap+punctuation+typo
+sanırım yeşil smoothie iç antrenmandan önce,0,health_drink_ic,subject_prefix
+Domates suyu iç vitamin için,0,health_drink_ic,original
+yakında domates suyu iç vitamin için.!,0,health_drink_ic,case_variant+time_modifier+punctuation
+ya domates suyu iç vitamin için akşama,0,health_drink_ic,time_modifier+future_tense+subject_prefix
+kararımı verdim domates suyu iç vitamin için bugün içinde,0,health_drink_ic,future_tense+time_modifier+subject_prefix
+şimdi domates suyu Iç vitamin için.,0,health_drink_ic,punctuation+case_variant+time_modifier
+gece olunca domates suyu iç vitamin için,0,health_drink_ic,synonym_swap+time_modifier+future_tense
+aslında domates suyu iç vitamin için,0,health_drink_ic,filler+future_tense
+valla domates suyu iç vitamin için,0,health_drink_ic,filler
+Domates suyu iç vitamin için yakında.!,0,health_drink_ic,time_modifier+punctuation+typo
+Domates suyu iç vitamin için sanırım,0,health_drink_ic,filler
+artık domates suyu iç vitamin için,0,health_drink_ic,filler+future_tense
+Domates suyu iç vitamin için bu gece,0,health_drink_ic,time_modifier
+Havuç suyu iç haftada bir,0,health_drink_ic,original
+Havuc suyu ic haftada bir az sonra,0,health_drink_ic,typo+time_modifier
+Havuç suyu iç haftada bir az sonra,0,health_drink_ic,synonym_swap+time_modifier+case_variant
+sanırım şimdi havuç suyu iç haftada bir,0,health_drink_ic,time_modifier+filler
+Havuç suyu iç haftada bir.,0,health_drink_ic,typo+case_variant+punctuation
+yarın sabah havuç suyu iç haftada bir,0,health_drink_ic,time_modifier
+ben de havuç suyu iç haftada bir az sonra,0,health_drink_ic,synonym_swap+time_modifier+subject_prefix
+Havuç suyu iç haftada bir bugün içinde...,0,health_drink_ic,time_modifier+synonym_swap+punctuation
+havuç suyu iç haftada bir.!,0,health_drink_ic,punctuation+case_variant+synonym_swap
+Havuç suyu iç haftada bir...,0,health_drink_ic,punctuation+typo+future_tense
+evet havuç suyu iç haftada bir yarın,0,health_drink_ic,subject_prefix+time_modifier+typo
+Havuç suyu iç haftada bir bugün içinde,0,health_drink_ic,time_modifier
+İlacını zamanında iç,0,health_drink_ic,original
+bence i̇lacını zamanında iç!,0,health_drink_ic,future_tense+punctuation+subject_prefix
+İlacını zamanında ic,0,health_drink_ic,typo+future_tense
+ya i̇lacını zamanında iç bugün içinde,0,health_drink_ic,future_tense+time_modifier+subject_prefix
+Bugün ilacını zamanında iç,0,health_drink_ic,time_modifier+synonym_swap+case_variant
+artık i̇lacını zamanında iç,0,health_drink_ic,subject_prefix
+İlacını zamanında iç.!,0,health_drink_ic,punctuation+synonym_swap
+sanırım i̇lacını zamanında iç artık,0,health_drink_ic,subject_prefix+filler
+evet i̇lacını zamanında iç Sanırım,0,health_drink_ic,filler+subject_prefix+case_variant
+İlacını zamanında iç!,0,health_drink_ic,synonym_swap+typo+punctuation
+İlacını zamanında iç yarın,0,health_drink_ic,time_modifier
+İlacını zamanında iç...,0,health_drink_ic,punctuation+future_tense
+Sabah ilacını iç kahvaltıdan sonra,0,health_drink_ic,original
+Sabah ilacını iç kahvaltıdan sonra artık,0,health_drink_ic,filler
+Sabah ilacını iç kahvaltıdan sonra!,0,health_drink_ic,future_tense+punctuation+case_variant
+valla sabah ilacını iç kahvaltıdan sonra.,0,health_drink_ic,filler+punctuation
+aslında sabah ilacını iç kahvaltıdan sonra,0,health_drink_ic,filler
+gece olunca sabah ilacını iç kahvaltıdan sonra,0,health_drink_ic,time_modifier
+karar verdim sabah ilacını iç kahvaltıdan sonra,0,health_drink_ic,subject_prefix
+ben sabah ilacını ic kahvaltıdan sonra.,0,health_drink_ic,punctuation+typo+subject_prefix
+galiba sabah ilacını iç kahvaltıdan sonra,0,health_drink_ic,punctuation+filler
+Sabah ilacını iç kahvaltıdan sonra bu hafta,0,health_drink_ic,time_modifier
+Sabah ilacını iç kahvaltıdan sonra.,0,health_drink_ic,punctuation
+sanırım sabah ilacını iç kahvaltıdan sonra sanırım,0,health_drink_ic,filler+subject_prefix
+Akşam ilacını iç uyumadan önce,0,health_drink_ic,original
+saatler içinde akşam ilacını iç uyumadan önce,0,health_drink_ic,time_modifier+future_tense
+sanırım akşam ilacını Iç uyumadan önce,0,health_drink_ic,case_variant+subject_prefix
+bu akşam akşam ilacını iç uyumadan önce,0,health_drink_ic,typo+time_modifier
+Akşam ilacını iç uyumadan önce sanırım,0,health_drink_ic,future_tense+filler
+Akşam ilacını iç uyumadan önce.!,0,health_drink_ic,punctuation
+bu gece akşam ilacını iç uyumadan önce,0,health_drink_ic,time_modifier+synonym_swap
+galiba akşam ilacını iç uyumadan önce,0,health_drink_ic,filler
+Akşam ilacını iç uyumadan önce yani,0,health_drink_ic,case_variant+filler
+ben artık akşam ilacını iç uyumadan önce,0,health_drink_ic,filler+subject_prefix+synonym_swap
+Akşam ilacını iç uyumadan once..,0,health_drink_ic,typo+future_tense+punctuation
+artık akşam ilacını iç uyumadan önce!,0,health_drink_ic,subject_prefix+punctuation
+Doktorun verdiği ilacı iç,0,health_drink_ic,original
+bence doktorun verdiği ilacı iç galiba,0,health_drink_ic,subject_prefix+filler+synonym_swap
+Doktorun verdiği ilacı iç valla,0,health_drink_ic,synonym_swap+filler
+Sanırım doktorun verdiği ilacı iç,0,health_drink_ic,subject_prefix+case_variant+synonym_swap
+artık doktorun verdiği ilacı iç.,0,health_drink_ic,punctuation+case_variant+subject_prefix
+doktorun verdiği ilacı iç kesin,0,health_drink_ic,punctuation+case_variant+filler
+Doktorun verdiği ilaci iç..,0,health_drink_ic,typo+punctuation
+bugün ben doktorun verdiği ilacı iç akşama,0,health_drink_ic,typo+time_modifier+subject_prefix
+saatler içinde doktorun verdiği ilacı iç,0,health_drink_ic,synonym_swap+time_modifier
+Doktorun verdiği ilacı iç artık,0,health_drink_ic,synonym_swap+filler+future_tense
+Doktorun verdiği ilacı iç... akşama,0,health_drink_ic,punctuation+time_modifier+synonym_swap
+Doktorun verdiği ilacı iç.,0,health_drink_ic,case_variant+punctuation+future_tense
+Antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,original
+sanırım artık antibiyotiği iç düzenli zamanlarda...,0,health_drink_ic,punctuation+filler+subject_prefix
+Evet antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,subject_prefix+case_variant+typo
+bu akşam antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,typo+synonym_swap+time_modifier
+bugün ben antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,subject_prefix
+gece olunca antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,time_modifier
+kesin antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,filler
+karar verdim antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,subject_prefix
+ben antibiyotiği iç düzenli zamanlarda sanırım,0,health_drink_ic,filler+subject_prefix+future_tense
+sanırım antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,typo+filler
+ya bugün antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,time_modifier+subject_prefix
+yarın sabah antibiyotiği iç düzenli zamanlarda,0,health_drink_ic,time_modifier+future_tense
+Reçeteli ilacını iç günde 2 kez,0,health_drink_ic,original
+kesin reçeteli ilacını iç günde 2 kez...,0,health_drink_ic,filler+typo+punctuation
+sanırım reçeteli ilacını iç günde 2 kez artık,0,health_drink_ic,filler+subject_prefix
+galiba reçeteli ilacını iç günde 2 kez,0,health_drink_ic,future_tense+synonym_swap+filler
+Reçeteli ilacını iç günde 2 kez! yani,0,health_drink_ic,punctuation+typo+filler
+sanırım reçeteli ilacını iç günde 2 kez,0,health_drink_ic,synonym_swap+subject_prefix+typo
+bugün ben reçeteli ilacını iç günde 2 kez,0,health_drink_ic,case_variant+subject_prefix
+aslında reçeteli ilacını iç günde 2 kez,0,health_drink_ic,filler
+Reçeteli ilacını iç günde 2 kez!,0,health_drink_ic,punctuation
+sanırım reçeteli ilacını iç günde 2 kez galiba,0,health_drink_ic,subject_prefix+filler
+ya reçeteli ilacını iç günde 2 kez,0,health_drink_ic,subject_prefix
+karar verdim reçeteli ilacını iç günde 2 kez.,0,health_drink_ic,subject_prefix+punctuation+typo
+İlacını iç bardakla suyla,0,health_drink_ic,original
+artık ilacını iç bardakla suyla,0,health_drink_ic,filler+synonym_swap
+artık kararımı verdim i̇lacını iç bardakla suyla!,0,health_drink_ic,subject_prefix+punctuation+filler
+kesin karar verdim i̇lacını iç bardakla suyla,0,health_drink_ic,subject_prefix+synonym_swap+filler
+İlacını iç bardakla suyla kesin!,0,health_drink_ic,filler+punctuation+case_variant
+İlacını iç bardakla suyla bu hafta,0,health_drink_ic,time_modifier+case_variant+typo
+kesin ilacını iç bardakla suyla,0,health_drink_ic,filler
+İlacını iç bardakla suyla!,0,health_drink_ic,future_tense+punctuation
+evet yakında ilacını iç bardakla suyla,0,health_drink_ic,time_modifier+subject_prefix+synonym_swap
+Galiba ilacını iç bardakla suyla,0,health_drink_ic,filler+case_variant
+kesin olarak i̇lacını iç bardakla suyla,0,health_drink_ic,subject_prefix
+bugün ben i̇lacını iç bardakla suyla,0,health_drink_ic,subject_prefix+case_variant+typo
+Vitamin D damlasını iç,0,health_drink_ic,original
+valla vitamin D damlasını iç,0,health_drink_ic,future_tense+punctuation+filler
+Vitamin D damlasını iç.!,0,health_drink_ic,synonym_swap+punctuation+case_variant
+Vitamin D damlasını iç bu hafta,0,health_drink_ic,future_tense+time_modifier
+Vitamin D damlasını iç..,0,health_drink_ic,typo+synonym_swap+punctuation
+Vitamin D damlasını iç!,0,health_drink_ic,punctuation+future_tense
+evet vitamin D damlasını iç yarın,0,health_drink_ic,subject_prefix+time_modifier
+Vitamin D damlasını iç galiba,0,health_drink_ic,future_tense+filler
+Vitamin D damlasinı iç,0,health_drink_ic,typo
+vitamin d damlasını iç sanırım,0,health_drink_ic,filler+case_variant
+sanırım vitamin D damlasını iç,0,health_drink_ic,subject_prefix
+Vitamin D damlasını iç.,0,health_drink_ic,punctuation+case_variant
+C vitamini iç soğuk havalarda,0,health_drink_ic,original
+aslında c vitamini iç soğuk havalarda.,0,health_drink_ic,synonym_swap+punctuation+filler
+yarın valla c vitamini iç soğuk havalarda,0,health_drink_ic,filler+typo+time_modifier
+ben c vitamini iç soğuk havalarda,0,health_drink_ic,subject_prefix+synonym_swap+case_variant
+C vitamini iç soğuk havalarda.,0,health_drink_ic,typo+punctuation
+C vitamini iç soğuk havalarda..,0,health_drink_ic,typo+synonym_swap+punctuation
+C vitamini iç soğuk havalarda bu gece galiba.!,0,health_drink_ic,time_modifier+filler+punctuation
+C vitamini iç soğuk havalarda sabaha,0,health_drink_ic,time_modifier
+aslında c vitamini iç soğuk havalarda,0,health_drink_ic,filler
+C vitamini iç soğuk havalarda...,0,health_drink_ic,punctuation
+bence c vitamini iç soğuk havalarda...,0,health_drink_ic,subject_prefix+punctuation
+bu hafta c vitamini iç soğuk havalarda...,0,health_drink_ic,synonym_swap+time_modifier+punctuation
+B12 takviyesi iç doktor önerdi,0,health_drink_ic,original
+bence b12 takviyesi iç doktor önerdi,0,health_drink_ic,case_variant+subject_prefix+typo
+yarın b12 takviyesi iç doktor önerdi,0,health_drink_ic,time_modifier
+B12 takviyesi iç doktor önerdi...,0,health_drink_ic,punctuation
+B12 takviyesi iç doktor önerdi yani,0,health_drink_ic,synonym_swap+filler+future_tense
+yarın sabah b12 takviyesi iç doktor önerdi yani,0,health_drink_ic,time_modifier+filler
+saatler içinde b12 takviyesi iç doktor önerdi,0,health_drink_ic,time_modifier+future_tense+typo
+kesin olarak b12 takviyesi iç doktor önerdi,0,health_drink_ic,subject_prefix+typo+punctuation
+yarın sabah ben de b12 takviyesi iç doktor önerdi,0,health_drink_ic,subject_prefix+synonym_swap+time_modifier
+bu hafta b12 takviyesi iç doktor önerdi!,0,health_drink_ic,punctuation+time_modifier
+B12 takviyesi iç doktor önerdi galiba,0,health_drink_ic,filler
+B12 takviyesi iç doktor önerdi bu gece,0,health_drink_ic,future_tense+time_modifier+typo
+Şurup iç öksürük için,0,health_drink_ic,original
+Şurup iç öksürük için.!,0,health_drink_ic,punctuation+typo+future_tense
+Şurup iç öksuruk için,0,health_drink_ic,typo
+aslında şurup Iç öksürük için,0,health_drink_ic,case_variant+filler
+kesin şurup iç öksürük için,0,health_drink_ic,filler
+evet az sonra şurup iç öksürük için,0,health_drink_ic,synonym_swap+time_modifier+subject_prefix
+evet şurup iç öksürük için,0,health_drink_ic,subject_prefix+synonym_swap
+bu hafta şurup iç öksürük için,0,health_drink_ic,time_modifier
+akşam olunca şurup iç öksürük için,0,health_drink_ic,time_modifier
+Şurup iç öksürük için..,0,health_drink_ic,punctuation
+sanırım şurup iç öksürük için sabaha,0,health_drink_ic,subject_prefix+time_modifier
+gece olunca şurup iç öksürük için kesin!,0,health_drink_ic,filler+punctuation+time_modifier
+Probiyotik içeceği iç akşam,0,health_drink_ic,original
+Probiyotik içeceği iç akşam bu gece kesin,0,health_drink_ic,time_modifier+filler+typo
+Probiyotik içeceği iç akşam artık.,0,health_drink_ic,filler+synonym_swap+punctuation
+kesin probiyotik içeceği iç akşam,0,health_drink_ic,synonym_swap+filler+case_variant
+ben bu gece probiyotik içeceği iç akşam!,0,health_drink_ic,time_modifier+subject_prefix+punctuation
+yarın sabah probiyotik içeceği iç akşam,0,health_drink_ic,time_modifier
+yani probiyotik içeceği iç akşam,0,health_drink_ic,filler
+Probiyotik içeceği iç akşam...,0,health_drink_ic,punctuation
+Probiyotik içeceği iç akşam bu gece,0,health_drink_ic,synonym_swap+time_modifier
+bence probiyotik iceceği ic akşam,0,health_drink_ic,typo+subject_prefix
+ben de probiyotik içeceği iç akşam,0,health_drink_ic,synonym_swap+subject_prefix
+Probiyotik içeceği iç akşam yakında,0,health_drink_ic,future_tense+time_modifier
+Demir şurubu iç eksiklik var,0,health_drink_ic,original
+Demir şurubu iç eksiklik var.,0,health_drink_ic,punctuation
+sanırım demir şurubu iç Eksiklik var.!,0,health_drink_ic,case_variant+punctuation+subject_prefix
+bugün ben demir şurubu iç eksiklik var,0,health_drink_ic,subject_prefix+synonym_swap+future_tense
+kesin olarak demir şurubu iç eksiklik var sanırım,0,health_drink_ic,future_tense+subject_prefix+filler
+bu hafta demir şurubu iç eksiklik var aslında,0,health_drink_ic,filler+time_modifier
+bence demir şurubu iç eksiklik var,0,health_drink_ic,subject_prefix
+Demir şurubu iç eksiklik var bu hafta,0,health_drink_ic,time_modifier
+Demir surubu iç eksiklik var,0,health_drink_ic,typo
+Demir şurubu iç eksiklik var yani,0,health_drink_ic,punctuation+filler
+bugün ben valla demir Şurubu iç eksiklik var,0,health_drink_ic,case_variant+filler+subject_prefix
+Demir şurubu iç eksiklik var bu gece,0,health_drink_ic,time_modifier
+Protein içeceği iç antrenmandan sonra,0,health_drink_ic,original
+Kararımı verdim protein içeceği iç antrenmandan sonra,0,health_drink_ic,subject_prefix+case_variant
+Protein içeceği iç antrenmandan sonra.. bugün içinde,0,health_drink_ic,punctuation+time_modifier
+sanırım protein içeceği iç antrenmandan sonra aslında,0,health_drink_ic,filler+subject_prefix+synonym_swap
+yarın protein içeceği iç antrenmandan sonra.,0,health_drink_ic,case_variant+punctuation+time_modifier
+az sonra protein içeceği iç antrenmandan sonra,0,health_drink_ic,future_tense+time_modifier
+galiba protein içeceği iç antrenmandan sonra,0,health_drink_ic,filler+synonym_swap
+Protein içeceği iç antrenmandan sonra. bugün içinde,0,health_drink_ic,synonym_swap+punctuation+time_modifier
+akşam olunca protein içeceği iç antrenmandan sonra,0,health_drink_ic,time_modifier+future_tense
+Protein içeceği iç antrenmandan sonra artık,0,health_drink_ic,filler+synonym_swap
+Protein Içeceği iç antrenmandan sonra...,0,health_drink_ic,punctuation+case_variant
+bugün ben protein içeceği iç antrenmandan sonra,0,health_drink_ic,subject_prefix+future_tense
+Elektrolit içeceği iç maçtan sonra,0,health_drink_ic,original
+Elektrolit içeceği iç maçtan sonra yarın..,0,health_drink_ic,time_modifier+punctuation
+Elektrolit içeceği iç maçtan sonra yakında,0,health_drink_ic,time_modifier
+gece olunca elektrolit içeceği iç maçtan sonra,0,health_drink_ic,time_modifier
+artık elektrolit içeceği iç maçtan sonra,0,health_drink_ic,subject_prefix
+gece olunca elektrolit içeceği iç maçtan sonra aslında,0,health_drink_ic,filler+time_modifier
+Elektrolit içeceği iç maçtan sonra valla,0,health_drink_ic,future_tense+filler+typo
+evet elektrolit içeceği iç maçtan sonra,0,health_drink_ic,subject_prefix
+Elektrolit içeceği iç maçtan sonra.!,0,health_drink_ic,punctuation
+kesin elektrolit içeceği iç maçtan sonra,0,health_drink_ic,future_tense+filler+case_variant
+bugün ben elektrolit içeceği iç maçtan sonra,0,health_drink_ic,subject_prefix
+kararımı verdim elektrolit içeceği iç maçtan sonra artık,0,health_drink_ic,future_tense+subject_prefix+filler
+Sporcu içeceği iç efor sonrası,0,health_drink_ic,original
+Sporcu içeceği iç efor sonrası az sonra galiba.!,0,health_drink_ic,time_modifier+filler+punctuation
+Sporcu içeceği iç efor Sonrası aslında,0,health_drink_ic,filler+typo+case_variant
+bence sporcu içeceği iç efor sonrası..,0,health_drink_ic,punctuation+subject_prefix
+Sporcu içeceği iç efor sonrası bu gece,0,health_drink_ic,time_modifier
+ben de sporcu içeceği iç efor Sonrası..,0,health_drink_ic,punctuation+case_variant+subject_prefix
+artık sporcu içeceği iç efor sonrası,0,health_drink_ic,filler+synonym_swap+future_tense
+sanırım sporcu içeceği iç efor sonrası,0,health_drink_ic,subject_prefix+synonym_swap
+sanırım sporcu içeceği iç efor sonrası bu gece,0,health_drink_ic,case_variant+time_modifier+subject_prefix
+ben de sporcu içeceği iç efor sonrası sabaha,0,health_drink_ic,time_modifier+typo+subject_prefix
+yarın sabah sporcu içeceği iç efor sonrası artık,0,health_drink_ic,filler+time_modifier
+Sporcu içeceği iç efor sonrası akşama,0,health_drink_ic,future_tense+synonym_swap+time_modifier
+Çorbanı iç soğumadan kahvaltıda,0,health_drink_ic,original
+Çorbanı iç soğumadan kahvaltıda!,0,health_drink_ic,punctuation+case_variant+synonym_swap
+kararımı verdim çorbanı iç soğumadan kahvaltıda,0,health_drink_ic,subject_prefix+synonym_swap
+artık çorbanı iç soğumadan kahvaltıda,0,health_drink_ic,filler+synonym_swap
+çorbanı iç soğumadan kahvaltıda kesin az sonra,0,health_drink_ic,filler+case_variant+time_modifier
+Çorbanı iç soğumadan kahvaltıda.! yakında,0,health_drink_ic,punctuation+time_modifier
+karar verdim çorbanı iç soğumadan kahvaltıda!,0,health_drink_ic,subject_prefix+punctuation+typo
+bu gece çorbanı iç soğumadan kahvaltıda,0,health_drink_ic,punctuation+time_modifier+case_variant
+sanırım çorbanı iç soğumadan Kahvaltıda,0,health_drink_ic,filler+future_tense+case_variant
+karar verdim çorbanı iç soğumadan kahvaltıda bugün içinde,0,health_drink_ic,subject_prefix+time_modifier+synonym_swap
+galiba bence çorbanı iç soğumadan kahvaltıda,0,health_drink_ic,subject_prefix+filler
+Valla çorbanı iç soğumadan kahvaltıda yarın,0,health_drink_ic,filler+time_modifier+case_variant
+Sıcak çorba iç soğuk havada,0,health_drink_ic,original
+bu gece sıcak çorba iç soğuk havada,0,health_drink_ic,time_modifier+future_tense+typo
+ben de sıcak çorba iç soğuk havada,0,health_drink_ic,subject_prefix+future_tense
+Sıcak çorba iç soğuk havada...,0,health_drink_ic,punctuation
+yani yarın sabah sıcak çorba iç soğuk havada,0,health_drink_ic,future_tense+time_modifier+filler
+kesin olarak sıcak çorba iç soğuk havada,0,health_drink_ic,subject_prefix+synonym_swap+typo
+yarın sıcak çorba iç soğuk havada,0,health_drink_ic,time_modifier
+Sıcak çorba iç soğuk havada..,0,health_drink_ic,synonym_swap+typo+punctuation
+bence sıcak çorba iç soğuk havada kesin,0,health_drink_ic,filler+future_tense+subject_prefix
+ben de sıcak corba ic soğuk havada,0,health_drink_ic,subject_prefix+typo
+Sıcak çorba iç soğuk havada sanırım.!,0,health_drink_ic,filler+punctuation+synonym_swap
+Sıcak çorba iç soğuk havada yakında,0,health_drink_ic,time_modifier
+Komposto iç yaz aylarında,0,health_drink_ic,original
+ya komposto iç yaz Aylarında,0,health_drink_ic,subject_prefix+case_variant
+galiba komposto iç yaz aylarında.!,0,health_drink_ic,filler+punctuation
+aslında komposto iç yaz aylarında,0,health_drink_ic,filler
+Komposto iç yaz aylarında...,0,health_drink_ic,punctuation
+Komposto iç yaz aylarında. yarın,0,health_drink_ic,punctuation+time_modifier
+ya komposto iç yaz aylarında galiba,0,health_drink_ic,filler+subject_prefix+synonym_swap
+sanırım komposto iç yaz aylarında,0,health_drink_ic,typo+subject_prefix
+Komposto iç yaz aylarında aslında,0,health_drink_ic,typo+synonym_swap+filler
+galiba komposto iç yaz aylarında,0,health_drink_ic,filler
+Komposto iç yaz aylarında yarın,0,health_drink_ic,time_modifier
+kesin olarak komposto iç yaz aylarında,0,health_drink_ic,subject_prefix
+Ayran iç yemek yanında,0,health_drink_ic,original
+az sonra ayran iç yemek yanında,0,health_drink_ic,time_modifier+synonym_swap+typo
+Ayran iç yemek yanında!,0,health_drink_ic,punctuation+case_variant+typo
+yarın ayran iç yemek yanında.. artık,0,health_drink_ic,time_modifier+punctuation+filler
+Ayran iç yemek yanında yani,0,health_drink_ic,filler
+Ayran iç yemek yanında.,0,health_drink_ic,punctuation
+Ayran iç yemek yanında.! aslında,0,health_drink_ic,synonym_swap+punctuation+filler
+Ayran iç yemek yanında akşama,0,health_drink_ic,time_modifier+typo
+kesin olarak ayran iç yemek yanında,0,health_drink_ic,typo+case_variant+subject_prefix
+Ayran iç yemek yanında yarın,0,health_drink_ic,time_modifier+synonym_swap
+kararımı verdim ayran iç yemek yanında!,0,health_drink_ic,punctuation+subject_prefix
+Ayran iç yemek yanında..,0,health_drink_ic,synonym_swap+punctuation
+Yoğurt suyu iç ferahlatır,0,health_drink_ic,original
+evet yoğurt suyu iç ferahlatır,0,health_drink_ic,future_tense+subject_prefix
+şimdi yoğurt suyu iç ferahlatır,0,health_drink_ic,time_modifier+future_tense+case_variant
+kararımı verdim sanırım yoğurt suyu iç ferahlatır,0,health_drink_ic,filler+subject_prefix
+Yoğurt suyu iç ferahlatır!,0,health_drink_ic,punctuation+typo
+Yoğurt suyu iç ferahlatır.,0,health_drink_ic,punctuation
+kesin olarak yoğurt suyu iç ferahlatır,0,health_drink_ic,typo+case_variant+subject_prefix
+az sonra yoğurt suyu iç ferahlatır,0,health_drink_ic,synonym_swap+time_modifier
+Yoğurt suyu iç ferahlatır...,0,health_drink_ic,future_tense+typo+punctuation
+Yoğurt suyu iç ferahlatir.. yani,0,health_drink_ic,punctuation+typo+filler
+Yoğurt suyu Iç ferahlatır.!,0,health_drink_ic,case_variant+punctuation+future_tense
+yoğurt suyu iç ferahlatır sanırım,0,health_drink_ic,synonym_swap+case_variant+filler
+Limonlu çay iç boğaz ağrısına,0,health_drink_ic,original
+bu akşam limonlu çay iç boğaz ağrısına!,0,health_drink_ic,punctuation+future_tense+time_modifier
+sanırım limonlu çay iç boğaz ağrısına bu gece,0,health_drink_ic,filler+time_modifier
+galiba artık limonlu çay iç boğaz ağrısına,0,health_drink_ic,subject_prefix+filler
+Limonlu cay iç boğaz ağrısına,0,health_drink_ic,typo
+Limonlu çay iç boğaz ağrısına!,0,health_drink_ic,punctuation
+Valla limonlu çay iç boğaz ağrısına,0,health_drink_ic,typo+filler+case_variant
+ben de limonlu çay iç boğaz ağrısına,0,health_drink_ic,synonym_swap+typo+subject_prefix
+gece olunca limonlu çay iç boğaz ağrısına,0,health_drink_ic,time_modifier
+Limonlu çay iç boğaz ağrısına valla,0,health_drink_ic,filler+case_variant
+yarın limonlu çay iç boğaz ağrısına,0,health_drink_ic,case_variant+time_modifier
+Limonlu çay iç bogaz agrısına akşama,0,health_drink_ic,typo+time_modifier
+Sebze suyu iç günde bir kere,0,health_drink_ic,original
+Sebze suyu iç günde bir kere. sabaha,0,health_drink_ic,punctuation+time_modifier+synonym_swap
+yarın sabah kesin olarak sebze suyu iç günde bir kere,0,health_drink_ic,subject_prefix+typo+time_modifier
+ben de sebze suyu iç günde bir kere yakında,0,health_drink_ic,time_modifier+subject_prefix+synonym_swap
+evet sebze suyu iç günde bir kere sabaha,0,health_drink_ic,time_modifier+subject_prefix
+Sebze suyu iç günde bir kere valla,0,health_drink_ic,case_variant+filler
+Sebze suyu iç günde bir kere az sonra,0,health_drink_ic,time_modifier
+Sebze suyu iç günde bir kere...,0,health_drink_ic,punctuation+synonym_swap
+Sebze suyu iç günde bir kere.. akşama,0,health_drink_ic,future_tense+punctuation+time_modifier
+Sebze suyu iç günde bir kere galiba,0,health_drink_ic,typo+filler
+Sebze suyu iç günde bir kere sanırım,0,health_drink_ic,future_tense+filler
+Sebze suyu iç günde bir kere.,0,health_drink_ic,synonym_swap+future_tense+punctuation
+Sıcak kakao iç soğuk akşamlarda,0,health_drink_ic,original
+artık sıcak kakao iç soğuk akşamlarda.,0,health_drink_ic,filler+punctuation+case_variant
+sanırım sıcak kakao iç soğuk akşamlarda...,0,health_drink_ic,filler+punctuation
+aslında sıcak kakao iç soğuk akşamlarda,0,health_drink_ic,filler+punctuation+future_tense
+ya sıcak kakao iç soğuk akşamlarda aslında,0,health_drink_ic,subject_prefix+future_tense+filler
+Sıcak kakao iç soğuk akşamlarda.,0,health_drink_ic,punctuation
+Sicak kakao iç soğuk akşamlarda yakında,0,health_drink_ic,case_variant+typo+time_modifier
+Sıcak kakao iç soğuk akşamlarda.!,0,health_drink_ic,punctuation+synonym_swap
+karar verdim sıcak kakao iç soğuk akşamlarda,0,health_drink_ic,future_tense+subject_prefix+synonym_swap
+akşam olunca sıcak kakao iç soğuk akşamlarda,0,health_drink_ic,case_variant+future_tense+time_modifier
+Sanırım sıcak kakao iç soğuk akşamlarda,0,health_drink_ic,filler+case_variant+synonym_swap
+artık sıcak kakao iç soğuk akşamlarda,0,health_drink_ic,filler+synonym_swap
+Smoothie iç kahvaltı yerine,0,health_drink_ic,original
+yarın sabah smoothie iç kahvaltı yerine,0,health_drink_ic,time_modifier
+Smoothie iç kahvaltı yerine bugün içinde.,0,health_drink_ic,time_modifier+future_tense+punctuation
+ben de smoothie iç kahvaltı yerine,0,health_drink_ic,typo+subject_prefix
+kesin smoothie iç kahvaltı yerine,0,health_drink_ic,filler+typo
+bence smoothie iç kahvaltı yerine,0,health_drink_ic,case_variant+subject_prefix
+Smoothie iç kahvaltı yerine aslında,0,health_drink_ic,filler
+Smoothie iç kahvaltı yerine.!,0,health_drink_ic,punctuation
+Smoothie iç kahvaltı yerine yakında,0,health_drink_ic,time_modifier+synonym_swap
+aslında smoothie iç kahvaltı yerine,0,health_drink_ic,future_tense+filler
+evet smoothie iç kahvaltı Yerine valla,0,health_drink_ic,case_variant+filler+subject_prefix
+ben de bu hafta smoothie iç kahvaltı yerine,0,health_drink_ic,future_tense+time_modifier+subject_prefix
+Günde 2 litre su tüket,0,health_tuket,original
+az sonra günde 2 litre su tüket,0,health_tuket,time_modifier
+Günde 2 litre su tüket!,0,health_tuket,punctuation
+kararımı verdim günde 2 litre su tüket,0,health_tuket,synonym_swap+subject_prefix
+bence günde 2 litre su tüket,0,health_tuket,subject_prefix
+Günde 2 litre su tüket sabaha,0,health_tuket,time_modifier
+evet günde 2 litre su tüket,0,health_tuket,subject_prefix+future_tense+synonym_swap
+gece olunca günde 2 litre su tüket aslında,0,health_tuket,time_modifier+filler
+aslında ben günde 2 litre su tüket.,0,health_tuket,subject_prefix+filler+punctuation
+yakında günde 2 litre su tüket,0,health_tuket,synonym_swap+time_modifier
+Günde 2 litre su tüket valla,0,health_tuket,filler
+bugün ben günde 2 litre su tüket sanırım.,0,health_tuket,subject_prefix+filler+punctuation
+Günde 3 litre su tüket spor yapıyorsan,0,health_tuket,original
+yani günde 3 litre su tüket spor yapıyorsan,0,health_tuket,case_variant+filler
+bugün ben günde 3 litre su tüket spor yapıyorsan,0,health_tuket,subject_prefix
+Günde 3 litre su tüket spor yapıyorsan az sonra kesin,0,health_tuket,time_modifier+typo+filler
+şimdi günde 3 litre su tüket spor yapıyorsan,0,health_tuket,typo+time_modifier
+artık günde 3 litre su tüket spor yapıyorsan valla,0,health_tuket,filler+subject_prefix
+Günde 3 litre su tüket spor yapıyorsan...,0,health_tuket,punctuation+case_variant
+Günde 3 litre su tüket spor yapıyorsan bu hafta aslında,0,health_tuket,typo+time_modifier+filler
+ya günde 3 litre su tüket spor yapıyorsan,0,health_tuket,subject_prefix+case_variant
+şimdi ya günde 3 litre su tüket spor yapıyorsan aslında,0,health_tuket,filler+subject_prefix+time_modifier
+valla günde 3 litre su tüket spor yapıyorsan,0,health_tuket,filler
+bu hafta günde 3 litre su tüket spor yapıyorsan,0,health_tuket,time_modifier+future_tense
+Bol bol su tüket yazın,0,health_tuket,original
+ben de yakında bol bol su tüket yazın,0,health_tuket,future_tense+time_modifier+subject_prefix
+Bol bol su tüket yazın...,0,health_tuket,future_tense+punctuation
+az sonra sanırım bol bol su tüket yazın,0,health_tuket,filler+future_tense+time_modifier
+Bol bol su tüket yazın. valla,0,health_tuket,case_variant+punctuation+filler
+bence bol bol su tüket yazın..,0,health_tuket,case_variant+subject_prefix+punctuation
+bugün bol bol su tüket yazın,0,health_tuket,time_modifier
+Bol bol su tüket yazın aslında,0,health_tuket,synonym_swap+filler
+Bol bol su tüket yazın!,0,health_tuket,typo+case_variant+punctuation
+şimdi yani kesin olarak bol bol su tüket yazın,0,health_tuket,subject_prefix+filler+time_modifier
+Bol bol su tüket yazın yani..,0,health_tuket,filler+punctuation+future_tense
+saatler içinde sanırım bol bol su tüket yazın,0,health_tuket,subject_prefix+time_modifier+typo
+Düzenli su tüket susama beklemeden,0,health_tuket,original
+Düzenli su tüket susama beklemeden...,0,health_tuket,typo+punctuation
+Düzenli su tüket susama beklemeden bu hafta,0,health_tuket,typo+time_modifier
+yarın sabah düzenli su tüket susama beklemeden,0,health_tuket,time_modifier
+galiba düzenli su tüket susama beklemeden,0,health_tuket,filler+case_variant
+Düzenli su tüket susama beklemeden kesin,0,health_tuket,filler+synonym_swap
+saatler içinde düzenli su tüket susama beklemeden,0,health_tuket,time_modifier
+yakında düzenli su tüket susama beklemeden artık,0,health_tuket,time_modifier+filler+case_variant
+Düzenli su tüket susama beklemeden bugün içinde,0,health_tuket,time_modifier
+yakında düzenli su tüket susama beklemeden.!,0,health_tuket,time_modifier+synonym_swap+punctuation
+Düzenli su tüket susama beklemeden yani bu gece,0,health_tuket,filler+typo+time_modifier
+bence düzenli su tüket susama beklemeden sabaha,0,health_tuket,synonym_swap+subject_prefix+time_modifier
+Beyaz et tüket haftada 3 kez,0,health_tuket,original
+karar verdim bu gece beyaz et tüket haftada 3 kez!,0,health_tuket,punctuation+time_modifier+subject_prefix
+Beyaz et tüket haftada 3 kez artık,0,health_tuket,future_tense+typo+filler
+Beyaz et tüket haftada 3 kez bu hafta,0,health_tuket,time_modifier
+aslında beyaz et tüket haftada 3 kez,0,health_tuket,synonym_swap+filler
+artık beyaz et tüket haftada 3 kez,0,health_tuket,future_tense+filler
+valla beyaz et tüket haftada 3 kez,0,health_tuket,future_tense+filler+synonym_swap
+yani beyaz et tüket haftada 3 kez...,0,health_tuket,punctuation+case_variant+filler
+artık kesin olarak beyaz et tüket haftada 3 kez,0,health_tuket,subject_prefix+typo+filler
+kararımı verdim beyaz et tüket haftada 3 kez yakında,0,health_tuket,subject_prefix+time_modifier
+Beyaz et tüket haftada 3 kez.!,0,health_tuket,punctuation
+kararımı verdim saatler içinde beyaz et tüket haftada 3 kez,0,health_tuket,time_modifier+subject_prefix
+Balık tüket haftada 2 kez,0,health_tuket,original
+bence balık tüket haftada 2 kez!,0,health_tuket,punctuation+subject_prefix+case_variant
+balık tüket haftada 2 kez bu hafta,0,health_tuket,time_modifier+future_tense+case_variant
+valla balık tüket haftada 2 kez,0,health_tuket,typo+filler+future_tense
+bence balık tüket haftada 2 kez,0,health_tuket,synonym_swap+case_variant+subject_prefix
+artık balık tüket haftada 2 kez,0,health_tuket,filler
+yarın sanırım balık tüket haftada 2 kez,0,health_tuket,future_tense+subject_prefix+time_modifier
+kesin olarak şimdi balık tüket haftada 2 kez,0,health_tuket,time_modifier+synonym_swap+subject_prefix
+Galiba balık tüket haftada 2 kez,0,health_tuket,future_tense+filler+case_variant
+bu gece balık tüket haftada 2 kez.!,0,health_tuket,time_modifier+typo+punctuation
+yani balık tüket haftada 2 kez yarın,0,health_tuket,filler+time_modifier
+ben balık tüket haftada 2 kez sabaha,0,health_tuket,time_modifier+subject_prefix+case_variant
+Tam tahıllı ekmek tüket,0,health_tuket,original
+kesin tam tahıllı ekmek tüket.,0,health_tuket,synonym_swap+punctuation+filler
+yakında tam tahıllı ekmek tüket..,0,health_tuket,time_modifier+punctuation
+kararımı verdim tam tahıllı ekmek tüket bu hafta,0,health_tuket,subject_prefix+synonym_swap+time_modifier
+Tam tahıllı ekmek tuket bu hafta,0,health_tuket,typo+time_modifier
+Tam tahıllı ekmek tüket.!,0,health_tuket,punctuation
+kesin olarak tam tahıllı ekmek tüket yakında,0,health_tuket,synonym_swap+subject_prefix+time_modifier
+ben de galiba tam tahıllı ekmek tüket,0,health_tuket,filler+subject_prefix+case_variant
+kesin olarak tam tahıllı ekmek tüket..,0,health_tuket,punctuation+subject_prefix
+bence tam tahıllı ekmek tüket..,0,health_tuket,subject_prefix+punctuation+typo
+az sonra tam tahıllı ekmek tüket,0,health_tuket,time_modifier+synonym_swap+typo
+ya tam tahıllı ekmek tüket,0,health_tuket,subject_prefix
+Süt ürünleri tüket günde bir kere,0,health_tuket,original
+Süt ürünleri tüket günde bir kere bugün içinde,0,health_tuket,time_modifier+future_tense
+Süt ürünleri tüket günde bir kere yani,0,health_tuket,case_variant+typo+filler
+kesin süt ürünleri tüket günde bir kere yakında,0,health_tuket,time_modifier+filler+future_tense
+Süt ürünleri tüket günde bir kere bu gece,0,health_tuket,future_tense+time_modifier
+kesin olarak süt ürünleri tüket günde bir kere.!,0,health_tuket,subject_prefix+future_tense+punctuation
+Süt ürünleri tüket günde bir kere!,0,health_tuket,punctuation+synonym_swap
+artık süt ürünleri tüket günde bir kere,0,health_tuket,future_tense+subject_prefix
+Süt ürünleri tüket günde bir kere...,0,health_tuket,synonym_swap+punctuation+future_tense
+ya süt ürünleri tüket günde bir kere,0,health_tuket,subject_prefix+future_tense
+yarın sabah süt ürünleri tüket günde bir kere,0,health_tuket,future_tense+typo+time_modifier
+bu hafta süt ürünleri tüket günde bir kere...,0,health_tuket,punctuation+time_modifier+synonym_swap
+Kuruyemiş tüket bir avuç,0,health_tuket,original
+Kuruyemis tüket bir avuç,0,health_tuket,punctuation+typo
+yani kuruyemiş tüket bir avuç,0,health_tuket,case_variant+filler+typo
+bugün ben kuruyemiş tüket bir avuç valla,0,health_tuket,subject_prefix+filler
+Kuruyemiş tüket bir avuç artık,0,health_tuket,filler+case_variant
+Bu hafta kuruyemiş tüket bir avuç,0,health_tuket,time_modifier+case_variant+future_tense
+Kuruyemiş tüket bir avuç! bu gece,0,health_tuket,punctuation+time_modifier
+valla kuruyemiş tüket bir avuç yakında,0,health_tuket,filler+time_modifier
+ben kuruyemiş tüket bir avuç yani,0,health_tuket,filler+subject_prefix
+Kuruyemiş tüket bir avuç sabaha,0,health_tuket,typo+time_modifier+future_tense
+bu akşam Bugün ben kuruyemiş tüket bir avuç,0,health_tuket,subject_prefix+time_modifier+case_variant
+Kuruyemiş Tüket bir avuç akşama,0,health_tuket,case_variant+time_modifier+typo
+Yumurta tüket kahvaltıda,0,health_tuket,original
+Yumurta tüket kahvaltıda. bugün içinde,0,health_tuket,punctuation+time_modifier
+sanırım yumurta tüket kahvaltıda,0,health_tuket,case_variant+future_tense+filler
+Yumurta Tüket kahvaltıda akşama,0,health_tuket,time_modifier+case_variant
+artık yumurta tüket kahvaltıda,0,health_tuket,subject_prefix
+Yumurta tüket kahvaltıda bugün içinde,0,health_tuket,time_modifier
+Yumurta tüket kahvaltıda yani,0,health_tuket,filler+case_variant
+kesin olarak yumurta tüket kahvaltıda,0,health_tuket,typo+future_tense+subject_prefix
+yakında yumurta tüket kahvaltıda,0,health_tuket,time_modifier
+Yumurta tüket kahvaltıda..,0,health_tuket,typo+punctuation+future_tense
+bence sanırım yumurta tüket kahvaltıda,0,health_tuket,filler+subject_prefix+synonym_swap
+Yumurta tüket kahvaltıda galiba...,0,health_tuket,filler+case_variant+punctuation
+Yeşil yapraklı sebze tüket,0,health_tuket,original
+yani yeşil yapraklı sebze tüket yarın,0,health_tuket,filler+time_modifier
+ben yeşil yapraklı sebze tüket artık,0,health_tuket,filler+subject_prefix+synonym_swap
+ben yeşil yapraklı sebze tüket,0,health_tuket,case_variant+typo+subject_prefix
+şimdi yeşil yapraklı sebze tüket,0,health_tuket,time_modifier
+yeşil yapraklı sebze tüket akşama,0,health_tuket,typo+case_variant+time_modifier
+ya yeşil yapraklı sebze tüket.!,0,health_tuket,subject_prefix+punctuation+typo
+Yeşil yapraklı sebze tüket yani,0,health_tuket,synonym_swap+future_tense+filler
+ben yeşil yapraklı sebze tüket valla,0,health_tuket,filler+subject_prefix
+bugün ben sanırım yeşil yapraklı sebze tüket...,0,health_tuket,filler+subject_prefix+punctuation
+evet yeşil yapraklı sebze tüket sabaha,0,health_tuket,time_modifier+punctuation+subject_prefix
+kesin yeşil yapraklı sebze tüket,0,health_tuket,filler+typo
+Mevsim meyvesi tüket günde 2 tane,0,health_tuket,original
+yarın sabah mevsim meyvesi tüket günde 2 tane,0,health_tuket,time_modifier+synonym_swap
+Mevsim Meyvesi tüket günde 2 tane!,0,health_tuket,punctuation+typo+case_variant
+aslında mevsim meyvesi tüket günde 2 tane,0,health_tuket,filler+typo+synonym_swap
+Mevsim meyvesi tüket günde 2 tane kesin,0,health_tuket,filler
+mevsim meyvesi tüket günde 2 tane az sonra,0,health_tuket,case_variant+time_modifier
+kesin mevsim meyvesi tüket günde 2 tane bugün içinde,0,health_tuket,time_modifier+filler+case_variant
+kesin mevsim meyvesi tüket günde 2 tane,0,health_tuket,filler+synonym_swap
+saatler içinde kesin mevsim meyvesi tüket günde 2 tane,0,health_tuket,filler+time_modifier
+kararımı verdim mevsim meyvesi tüket günde 2 tane,0,health_tuket,subject_prefix+synonym_swap
+sanırım mevsim meyvesi tüket günde 2 tane,0,health_tuket,subject_prefix
+yakında mevsim meyvesi tüket günde 2 tane sanırım,0,health_tuket,filler+future_tense+time_modifier
+Kuru baklagil tüket haftada 2 kez,0,health_tuket,original
+valla kuru baklagil tüket haftada 2 kez,0,health_tuket,case_variant+future_tense+filler
+Ya kuru baklagil tüket haftada 2 kez,0,health_tuket,typo+subject_prefix+case_variant
+Kuru baklagil tüket haftada 2 kez sanırım,0,health_tuket,filler+punctuation+case_variant
+Kuru baklagil tüket haftada 2 Kez.,0,health_tuket,synonym_swap+case_variant+punctuation
+ya kuru baklagil tüket haftada 2 kez..,0,health_tuket,subject_prefix+punctuation
+ya kuru baklagil tüket haftada 2 kez sanırım,0,health_tuket,filler+future_tense+subject_prefix
+aslında kuru baklagil tüket haftada 2 kez,0,health_tuket,filler
+sanırım kuru baklagil tüket haftada 2 kez...,0,health_tuket,filler+synonym_swap+punctuation
+akşam olunca yani kuru baklagil tüket haftada 2 kez,0,health_tuket,filler+time_modifier+case_variant
+Artık kuru baklagil tüket haftada 2 kez,0,health_tuket,subject_prefix+future_tense+case_variant
+kararımı verdim kuru baklagil tüket haftada 2 kez sabaha,0,health_tuket,typo+time_modifier+subject_prefix
+Zeytinyağı tüket salata üzerinde,0,health_tuket,original
+Zeytinyağı tüket salata üzerinde yani,0,health_tuket,filler+case_variant
+saatler içinde zeytinyağı tüket salata üzerinde,0,health_tuket,time_modifier
+bu akşam zeytinyağı tüket salata üzerinde.!,0,health_tuket,time_modifier+punctuation
+gece olunca zeytinyağı tüket salata üzerinde sanırım,0,health_tuket,case_variant+filler+time_modifier
+kararımı verdim zeytinyağı tüket salata üzerinde az sonra.!,0,health_tuket,time_modifier+punctuation+subject_prefix
+Zeytinyağı tüket salata üzerinde artık,0,health_tuket,filler
+Zeytinyağı tüket salata üzerinde yakında,0,health_tuket,time_modifier
+Zeytinyağı tuket salata üzerinde,0,health_tuket,typo+future_tense+case_variant
+kararımı verdim zeytinyağı tüket salata üzerinde.!,0,health_tuket,subject_prefix+punctuation
+yarın sabah zeytinyağı tüket salata üzerinde,0,health_tuket,time_modifier+synonym_swap
+Zeytinyağı tüket salata üzerinde...,0,health_tuket,punctuation
+Bal tüket günde bir kaşık,0,health_tuket,original
+ya bal tüket günde bir kaşık,0,health_tuket,subject_prefix+future_tense
+Bal tüket günde bir kaşık... akşama,0,health_tuket,punctuation+synonym_swap+time_modifier
+bugün bal tüket günde bir kaşık,0,health_tuket,synonym_swap+punctuation+time_modifier
+Bal tüket günde bir kaşık valla,0,health_tuket,filler+synonym_swap+typo
+Bal tuket gunde bir kaşık,0,health_tuket,future_tense+typo
+karar verdim bal tüket günde bir kaşık.!,0,health_tuket,punctuation+future_tense+subject_prefix
+artık bal tüket günde bir kaşık akşama,0,health_tuket,time_modifier+filler
+kesin olarak bal tüket günde bir kaşık.,0,health_tuket,punctuation+subject_prefix
+bence bal tüket günde bir kaşık,0,health_tuket,subject_prefix
+Bal tüket günde bir kasık,0,health_tuket,typo
+kesin olarak bal tüket günde bir kaşık bugün içinde,0,health_tuket,time_modifier+subject_prefix
+Top at çocuğa parkta,0,sport_at_safe,original
+evet top at çocuğa parkta,0,sport_at_safe,subject_prefix+synonym_swap+typo
+kesin top at çocuğa parkta,0,sport_at_safe,typo+filler
+artık top at çocuğa parkta,0,sport_at_safe,subject_prefix
+ya top at çocuğa parkta yarın galiba,0,sport_at_safe,time_modifier+subject_prefix+filler
+Top at çocuğa parkta...,0,sport_at_safe,punctuation
+Top at cocuğa parkta,0,sport_at_safe,typo+future_tense+case_variant
+Top at çocuğa parkta galiba yakında,0,sport_at_safe,typo+filler+time_modifier
+akşam olunca top at çocuğa parkta.,0,sport_at_safe,time_modifier+punctuation
+Top at çocuğa parkta valla,0,sport_at_safe,filler+typo+future_tense
+ben de top at çocuğa parkta kesin,0,sport_at_safe,subject_prefix+future_tense+filler
+bu akşam top at çocuğa parkta.! galiba,0,sport_at_safe,time_modifier+punctuation+filler
+Topu arkadaşına at,0,sport_at_safe,original
+ben de topu arkadaşına at,0,sport_at_safe,subject_prefix+typo
+Topu arkadaşına at...,0,sport_at_safe,punctuation
+Topu arkadaşına at sanırım,0,sport_at_safe,filler+future_tense+typo
+Topu arkadaşına at..,0,sport_at_safe,punctuation+typo+synonym_swap
+bence topu arkadaşına at,0,sport_at_safe,typo+subject_prefix
+kesin topu arkadaşına at,0,sport_at_safe,filler+future_tense
+evet topu arkadaşına at sabaha,0,sport_at_safe,time_modifier+synonym_swap+subject_prefix
+topu arkadaşına at az sonra,0,sport_at_safe,time_modifier+typo+case_variant
+Topu arkadaşına at.! az sonra,0,sport_at_safe,punctuation+synonym_swap+time_modifier
+Topu arkadaşına at. yarın,0,sport_at_safe,punctuation+time_modifier
+Topu arkadaşına at yarın,0,sport_at_safe,case_variant+time_modifier
+Topu yukarı at ve yakala,0,sport_at_safe,original
+karar verdim artık topu yukarı at ve yakala,0,sport_at_safe,filler+synonym_swap+subject_prefix
+ya topu yukarı at ve yakala,0,sport_at_safe,subject_prefix
+kesin olarak topu yukarı at ve yakala..,0,sport_at_safe,subject_prefix+synonym_swap+punctuation
+Topu yukarı at ve yakala bu hafta,0,sport_at_safe,time_modifier+synonym_swap
+bu gece evet topu yukarı at ve yakala,0,sport_at_safe,punctuation+subject_prefix+time_modifier
+Topu yukarı at Ve yakala galiba,0,sport_at_safe,future_tense+filler+case_variant
+Topu yukarı at ve yakala bu gece,0,sport_at_safe,typo+time_modifier+future_tense
+bugün topu yukarı at ve yakala!,0,sport_at_safe,time_modifier+typo+punctuation
+galiba topu yukarı at ve yakala,0,sport_at_safe,filler+typo
+Topu yukarı at ve yakala...,0,sport_at_safe,synonym_swap+punctuation
+Topu yukarı at ve yakala yarın!,0,sport_at_safe,time_modifier+typo+punctuation
+Frizbiyi at köpeğin getirsin,0,sport_at_safe,original
+kararımı verdim frizbiyi at köpeğin getirsin galiba,0,sport_at_safe,subject_prefix+synonym_swap+filler
+Frizbiyi at köpeğin getirsin yani,0,sport_at_safe,case_variant+filler+synonym_swap
+Frizbiyi at köpeğin getirsin kesin,0,sport_at_safe,filler+future_tense
+artık frizbiyi at köpeğin getirsin.!,0,sport_at_safe,punctuation+synonym_swap+subject_prefix
+yarın frizbiyi At köpeğin getirsin,0,sport_at_safe,case_variant+synonym_swap+time_modifier
+bence frizbiyi at köpeğin getirsin,0,sport_at_safe,subject_prefix
+Frizbiyi at köpeğin getirsin! bugün içinde,0,sport_at_safe,future_tense+punctuation+time_modifier
+Frizbiyi at köpeğin getirsin yakında,0,sport_at_safe,time_modifier
+ya frizbiyi at köpeğin getirsin!,0,sport_at_safe,subject_prefix+punctuation+typo
+şimdi frizbiyi at köpeğin getirsin,0,sport_at_safe,time_modifier
+ben frizbiyi at köpeğin getirsin valla,0,sport_at_safe,case_variant+subject_prefix+filler
+Selfie at sosyal medyaya,0,sport_at_safe,original
+Selfie at sosyal medyaya sabaha,0,sport_at_safe,time_modifier
+sanırım selfie at sosyal medyaya,0,sport_at_safe,filler+typo+future_tense
+Selfie at sosyal medyaya yani,0,sport_at_safe,filler+case_variant
+Selfie at sosyal medyaya kesin,0,sport_at_safe,filler+synonym_swap
+Artık selfie at sosyal medyaya,0,sport_at_safe,filler+case_variant+typo
+yani selfie at sosyal medyaya,0,sport_at_safe,case_variant+filler+future_tense
+Selfie at sosyal medyaya.!,0,sport_at_safe,punctuation
+kararımı verdim selfie at sosyal medyaya sanırım,0,sport_at_safe,synonym_swap+filler+subject_prefix
+Selfie at sosyal medyaya yakında,0,sport_at_safe,case_variant+time_modifier
+Selfie at sosyal medyaya...,0,sport_at_safe,punctuation
+artık selfie at sosyal medyaya!,0,sport_at_safe,synonym_swap+filler+punctuation
+Fotoğraf at ailene gönder,0,sport_at_safe,original
+ben de fotograf at ailene gönder,0,sport_at_safe,subject_prefix+typo
+Fotoğraf at ailene gönder galiba,0,sport_at_safe,case_variant+filler
+Fotoğraf at ailene gonder,0,sport_at_safe,synonym_swap+typo
+sanırım fotoğraf at ailene gönder,0,sport_at_safe,future_tense+subject_prefix
+Fotoğraf At ailene gönder akşama,0,sport_at_safe,future_tense+case_variant+time_modifier
+fotoğraf at ailene gönder bu gece,0,sport_at_safe,future_tense+time_modifier+case_variant
+Fotoğraf at ailene gönder.!,0,sport_at_safe,punctuation
+Fotoğraf at ailene gönder.,0,sport_at_safe,punctuation
+ya yarın sabah fotoğraf at ailene gönder kesin,0,sport_at_safe,time_modifier+filler+subject_prefix
+bence fotoğraf at ailene gönder,0,sport_at_safe,subject_prefix+synonym_swap+case_variant
+kararımı verdim yakında fotoğraf at ailene gönder,0,sport_at_safe,case_variant+time_modifier+subject_prefix
+İmza at belgeye,0,sport_at_safe,original
+İmza at belgeye..,0,sport_at_safe,punctuation
+aslında imza at belgeye,0,sport_at_safe,filler
+İmza at belgeye.! bugün içinde,0,sport_at_safe,typo+punctuation+time_modifier
+İmza at belgeye.!,0,sport_at_safe,punctuation+synonym_swap
+İmza at belgeye...,0,sport_at_safe,punctuation+synonym_swap+typo
+İmza at belgeye az sonra,0,sport_at_safe,time_modifier
+ben i̇mza at belgeye,0,sport_at_safe,subject_prefix
+galiba i̇mza at belgeye,0,sport_at_safe,case_variant+filler
+akşam olunca imza at belgeye,0,sport_at_safe,time_modifier
+bence i̇mza at belgeye yani,0,sport_at_safe,filler+case_variant+subject_prefix
+ben de i̇mza at belgeye,0,sport_at_safe,subject_prefix+case_variant
+Mektup at posta kutusuna,0,sport_at_safe,original
+Mektup At posta kutusuna galiba,0,sport_at_safe,case_variant+filler
+kararımı verdim mektup at posta kutusuna.,0,sport_at_safe,punctuation+subject_prefix
+Mektup at posta kutusuna valla,0,sport_at_safe,filler
+kesin evet mektup at posta kutusuna,0,sport_at_safe,subject_prefix+filler
+karar verdim mektup at posta kutusuna artık,0,sport_at_safe,subject_prefix+filler
+Mektup at posta kutusuna yani,0,sport_at_safe,filler
+Mektup at posta kutusuna akşama,0,sport_at_safe,time_modifier+punctuation+future_tense
+Mektup at posta kutusuna...,0,sport_at_safe,case_variant+punctuation
+ben mektup at posta kutusuna,0,sport_at_safe,subject_prefix
+az sonra mektup at posta kutusuna,0,sport_at_safe,time_modifier
+ya mektup at posta kutusuna.!,0,sport_at_safe,synonym_swap+punctuation+subject_prefix
+Adım at hedefe doğru,0,sport_at_safe,original
+kesin olarak adım at hedefe doğru,0,sport_at_safe,subject_prefix
+ben adım at hedefe doğru!,0,sport_at_safe,subject_prefix+punctuation+typo
+Adım at hedefe doğru yani,0,sport_at_safe,filler
+Adım at hedefe doğru.! artık,0,sport_at_safe,punctuation+filler
+valla adım at hedefe doğru.!,0,sport_at_safe,punctuation+filler
+ben de adım at hedefe doğru artık,0,sport_at_safe,subject_prefix+filler
+Adım at hedefe doğru bu hafta,0,sport_at_safe,time_modifier+future_tense
+yakında adım at hedefe doğru aslında,0,sport_at_safe,time_modifier+filler
+yarın adım at hedefe doğru,0,sport_at_safe,time_modifier+case_variant+future_tense
+bugün ben galiba adım at hedefe doğru,0,sport_at_safe,filler+typo+subject_prefix
+Adım at hedefe doğru bu gece,0,sport_at_safe,future_tense+time_modifier
+Tekme at futbol topuna,0,sport_at_safe,original
+kesin tekme at futbol topuna,0,sport_at_safe,filler
+Bugün tekme at futbol topuna,0,sport_at_safe,time_modifier+case_variant
+aslında tekme at futbol topuna,0,sport_at_safe,case_variant+synonym_swap+filler
+akşam olunca tekme at futbol topuna.!,0,sport_at_safe,future_tense+time_modifier+punctuation
+Tekme at futbol topuna yarın,0,sport_at_safe,time_modifier+synonym_swap
+Tekme at futbol topuna...,0,sport_at_safe,punctuation+synonym_swap+future_tense
+artık sanırım tekme at futbol topuna,0,sport_at_safe,filler+future_tense+subject_prefix
+şimdi tekme at futbol topuna.!,0,sport_at_safe,time_modifier+future_tense+punctuation
+tekme at futbol topuna.,0,sport_at_safe,punctuation+case_variant
+gece olunca tekme at futbol topuna,0,sport_at_safe,time_modifier
+karar verdim tekme at futbol topuna,0,sport_at_safe,future_tense+subject_prefix
+Çekiç at çiviyi sapla duvara,0,sport_at_safe,original
+Çekiç at çiviyi sapla duvara...,0,sport_at_safe,synonym_swap+punctuation
+aslında çekiç at çiviyi sapla duvara bu hafta,0,sport_at_safe,future_tense+time_modifier+filler
+artık çekiç at çiviyi sapla duvara..,0,sport_at_safe,punctuation+subject_prefix
+Çekiç at çiviyi sapla duvara az sonra.,0,sport_at_safe,time_modifier+punctuation+future_tense
+bence çekiç at çiviyi sapla duvara!,0,sport_at_safe,punctuation+synonym_swap+subject_prefix
+galiba çekiç at çiviyi sapla duvara,0,sport_at_safe,filler+typo
+artık çekiç at çiviyi sapla duvara,0,sport_at_safe,subject_prefix
+ya çekiç at çiviyi sapla duvara aslında,0,sport_at_safe,case_variant+subject_prefix+filler
+bu hafta çekiç at çiviyi sapla duvara,0,sport_at_safe,typo+time_modifier
+ya çekiç at çiviyi sapla duvara..,0,sport_at_safe,punctuation+subject_prefix
+evet çekiç at çiviyi sapla duvara,0,sport_at_safe,future_tense+subject_prefix
+Yumurta at pastaya karıştır,0,sport_at_safe,original
+gece olunca yumurta at pastaya karıştır,0,sport_at_safe,time_modifier+synonym_swap
+karar verdim yumurta at pastaya karıştır,0,sport_at_safe,subject_prefix
+Yumurta at pastaya karıştır kesin!,0,sport_at_safe,filler+punctuation+future_tense
+bugün ben yumurta at pastaya karıştır bu gece kesin,0,sport_at_safe,subject_prefix+time_modifier+filler
+kesin olarak yumurta at pastaya karıştır,0,sport_at_safe,future_tense+subject_prefix
+Yumurta at pastaya karıştır..,0,sport_at_safe,punctuation
+kesin olarak saatler içinde yumurta at pastaya karıştır,0,sport_at_safe,time_modifier+subject_prefix+punctuation
+bence yumurta at pastaya karıştır,0,sport_at_safe,subject_prefix
+Yumurta at pastaya karıştır...,0,sport_at_safe,punctuation
+karar verdim yumurta at pastaya karıştır az sonra,0,sport_at_safe,time_modifier+subject_prefix+case_variant
+Yumurta at pastaya karıştır az sonra,0,sport_at_safe,time_modifier
+Bir tabak yemek ye öğlen,0,health_ye_extra,original
+Bir tabak yemek ye öğlen bu gece,0,health_ye_extra,time_modifier
+Kesin bir tabak yemek ye öğlen.!,0,health_ye_extra,filler+case_variant+punctuation
+evet bir tabak yemek ye öğlen aslında,0,health_ye_extra,subject_prefix+filler
+yarın bir tabak yemek ye öğlen,0,health_ye_extra,synonym_swap+typo+time_modifier
+Kararımı verdim bir tabak yemek ye öğlen,0,health_ye_extra,subject_prefix+case_variant+synonym_swap
+Bir tabak yemek ye öğlen.! galiba,0,health_ye_extra,punctuation+synonym_swap+filler
+evet bir tabak yemek ye öğlen.!,0,health_ye_extra,punctuation+subject_prefix
+bu gece bir tabak yemek ye öğlen,0,health_ye_extra,typo+time_modifier+synonym_swap
+bir tabak yemek ye öğlen kesin..,0,health_ye_extra,case_variant+filler+punctuation
+yani bir tabak yemek ye öğlen bu hafta!,0,health_ye_extra,filler+time_modifier+punctuation
+Bir tabak yemek ye öğlen valla,0,health_ye_extra,synonym_swap+case_variant+filler
+Sağlıklı atıştırmalık ye akşamüstü,0,health_ye_extra,original
+sağlıklı atıştırmalık ye akşamüstü akşama,0,health_ye_extra,time_modifier+case_variant
+Sağlıklı atıştırmalık ye akşamüstü!,0,health_ye_extra,punctuation+synonym_swap
+Sağlıklı atıştırmalık ye akşamüstü...,0,health_ye_extra,punctuation+case_variant
+Sağlıklı atıştırmalık ye akşamüstü yani,0,health_ye_extra,synonym_swap+filler
+Sağlıklı atıştırmalık ye akşamüstü..,0,health_ye_extra,punctuation+typo
+sağlıklı atıştırmalık ye akşamüstü.,0,health_ye_extra,punctuation+case_variant
+akşam olunca sağlıklı atıştırmalık ye akşamüstü,0,health_ye_extra,time_modifier
+kesin olarak sağlıklı atıştırmalık ye akşamüstü yarın,0,health_ye_extra,synonym_swap+subject_prefix+time_modifier
+aslında sağlıklı atıştırmalık ye akşamüstü,0,health_ye_extra,filler
+Sağlıklı atıştırmalık ye akşamüstü bugün içinde,0,health_ye_extra,time_modifier+synonym_swap
+artık sağlıklı atıştırmalık ye akşamustu valla,0,health_ye_extra,filler+typo+subject_prefix
+Bademleri ye antrenmadan önce,0,health_ye_extra,original
+Bademleri ye antrenmadan önce bu hafta,0,health_ye_extra,time_modifier
+bademleri ye antrenmadan önce yani,0,health_ye_extra,filler+case_variant
+Bademleri ye antrenmadan önce...,0,health_ye_extra,synonym_swap+punctuation
+Bademleri ye antrenmadan önce valla,0,health_ye_extra,filler
+Bademleri ye antrenmadan önce.,0,health_ye_extra,synonym_swap+punctuation
+Bademleri ye antrenmadan önce.!,0,health_ye_extra,punctuation
+evet bademleri ye antrenmadan önce artık,0,health_ye_extra,filler+future_tense+subject_prefix
+Bademleri ye antrenmadan önce!,0,health_ye_extra,punctuation
+bugün ben bademleri ye antrenmadan önce,0,health_ye_extra,future_tense+synonym_swap+subject_prefix
+Bademleri ye antrenmadan önce artık,0,health_ye_extra,filler+punctuation
+valla bademleri ye antrenmadan önce,0,health_ye_extra,filler
+Tam tahıl ekmek ye kahvaltıda,0,health_ye_extra,original
+bence tam tahıl ekmek ye kahvaltıda,0,health_ye_extra,case_variant+subject_prefix
+Tam tahıl ekmek ye kahvaltıda artık,0,health_ye_extra,filler
+kararımı verdim tam tahıl ekmek ye kahvaltıda...,0,health_ye_extra,punctuation+case_variant+subject_prefix
+Tam tahıl ekmek ye kahvaltıda..,0,health_ye_extra,punctuation
+artık tam tahıl ekmek ye kahvaltıda.,0,health_ye_extra,future_tense+punctuation+subject_prefix
+Tam tahıl ekmek ye Kahvaltıda...,0,health_ye_extra,punctuation+case_variant
+Tam tahıl ekmek ye kahvaltıda yani,0,health_ye_extra,filler+typo+synonym_swap
+yarın sabah tam tahıl ekmek ye kahvaltıda,0,health_ye_extra,future_tense+time_modifier+punctuation
+kararımı verdim tam tahıl ekmek ye kahvaltıda valla,0,health_ye_extra,subject_prefix+filler+future_tense
+Tam tahıl ekmek ye kahvaltıda kesin,0,health_ye_extra,filler
+kesin olarak tam tahıl ekmek ye kahvaltıda,0,health_ye_extra,subject_prefix+case_variant
+Sebze tabağı ye akşam,0,health_ye_extra,original
+Sebze tabağı ye akşam.!,0,health_ye_extra,punctuation
+yakında sebze Tabağı ye akşam...,0,health_ye_extra,case_variant+punctuation+time_modifier
+Sebze tabağı ye akşam kesin,0,health_ye_extra,filler
+bugün ben sebze tabağı ye akşam,0,health_ye_extra,subject_prefix+future_tense+case_variant
+bugün sebze tabağı ye akşam,0,health_ye_extra,punctuation+time_modifier
+ya aslında sebze tabağı ye akşam,0,health_ye_extra,filler+typo+subject_prefix
+ben sebze tabağı ye akşam,0,health_ye_extra,typo+subject_prefix
+yani sebze tabağı ye akşam,0,health_ye_extra,filler
+kararımı verdim sebze tabağı ye akşam,0,health_ye_extra,subject_prefix
+Sebze tabağı ye akşam...,0,health_ye_extra,punctuation+typo
+evet sebze tabağı ye akşam,0,health_ye_extra,subject_prefix
+Meyve salatası ye tatlı yerine,0,health_ye_extra,original
+yani meyve salatası ye tatlı yerine,0,health_ye_extra,filler+future_tense
+meyve salatası ye tatlı yerine sanırım,0,health_ye_extra,filler+case_variant
+meyve salatası ye tatlı yerine aslında,0,health_ye_extra,case_variant+filler+synonym_swap
+Meyve salatası ye tatlı yerine yani..,0,health_ye_extra,filler+typo+punctuation
+gece olunca meyve salatası ye tatlı yerine,0,health_ye_extra,time_modifier
+bugün meyve salatası ye tatlı yerine,0,health_ye_extra,time_modifier
+galiba meyve salatası ye tatlı yerine,0,health_ye_extra,filler+synonym_swap
+Meyve salatası ye tatlı yerine galiba,0,health_ye_extra,future_tense+synonym_swap+filler
+kesin olarak meyve salatası ye tatlı yerine,0,health_ye_extra,case_variant+subject_prefix+typo
+az sonra yani meyve salatası ye tatlı yerine,0,health_ye_extra,filler+time_modifier+typo
+bu akşam meyve salatası ye tatlı yerine,0,health_ye_extra,time_modifier
+Yumurta ye kahvaltıda,0,health_ye_extra,original
+gece olunca ya yumurta ye kahvaltıda,0,health_ye_extra,subject_prefix+time_modifier
+sanırım yumurta ye kahvaltıda az sonra,0,health_ye_extra,synonym_swap+subject_prefix+time_modifier
+kesin yumurta ye kahvaltıda,0,health_ye_extra,case_variant+filler
+Yumurta ye kahvaltıda artık,0,health_ye_extra,filler
+Yumurta ye kahvaltıda akşama,0,health_ye_extra,typo+time_modifier
+Yumurta ye kahvaltıda!,0,health_ye_extra,future_tense+punctuation
+karar verdim yarın yumurta ye kahvaltıda,0,health_ye_extra,case_variant+time_modifier+subject_prefix
+ben yumurta ye kahvaltıda bu gece valla,0,health_ye_extra,time_modifier+subject_prefix+filler
+Yumurta ye kahvaltıda.! galiba,0,health_ye_extra,typo+punctuation+filler
+Yumurta ye kahvaltıda...,0,health_ye_extra,punctuation+typo
+Yumurta ye kahvaltıda..,0,health_ye_extra,punctuation
+Bol bol su iç ve dinlen,0,general_health,original
+Bol bol su iç ve dinlen.,0,general_health,punctuation
+Bol bol su iç ve dinlen!,0,general_health,punctuation
+kararımı verdim bol bol su iç ve dinlen kesin,0,general_health,filler+typo+subject_prefix
+ya bol bol su iç ve dinlen,0,general_health,synonym_swap+subject_prefix
+kararımı verdim bol bol su iç ve dinlen,0,general_health,synonym_swap+punctuation+subject_prefix
+sanırım bol bol Su iç ve dinlen,0,general_health,filler+future_tense+case_variant
+yarın bol bol su iç ve dinlen,0,general_health,time_modifier+future_tense
+karar verdim bol bol su iç ve dinlen...,0,general_health,subject_prefix+punctuation
+kesin bol bol su iç ve dinlen...,0,general_health,filler+punctuation
+saatler içinde bol bol su iç ve dinlen,0,general_health,time_modifier+typo
+Bol bol su iç ve dinlen artık,0,general_health,typo+filler
+Sağlıklı atıştırmalıklar iç ve ye,0,general_health,original
+bu hafta sağlıklı atıştırmalıklar iç ve ye yani,0,general_health,time_modifier+filler
+artık sağlıklı atıştırmalıklar iç ve ye artık,0,general_health,subject_prefix+synonym_swap+filler
+Sağlıklı atıştırmalıklar iç ve ye yani,0,general_health,filler
+Sağlıklı atıştırmalıklar iç ve ye artık,0,general_health,filler
+Sağlıklı atıştırmalıklar iç ve ye.!,0,general_health,punctuation+typo
+ben de sağlıklı atıştırmalıklar iç ve ye,0,general_health,subject_prefix+future_tense+case_variant
+Sağlıklı atıştırmalıklar iç ve ye!,0,general_health,punctuation+future_tense+typo
+gece olunca sağlıklı atıştırmalıklar iç ve ye,0,general_health,case_variant+time_modifier
+Sağlıklı atıştırmalıklar iç ve ye.,0,general_health,punctuation
+Sağlıklı atıştırmalıklar iç ve ye aslında,0,general_health,filler
+Sağlıklı atıştırmalıklar iç ve ye...,0,general_health,punctuation
+Vitamin al ve düzenli su iç,0,general_health,original
+kararımı verdim vitamin al ve düzenli su iç.!,0,general_health,punctuation+future_tense+subject_prefix
+sanırım vitamin al ve düzenli su iç,0,general_health,filler
+bugün ben vitamin al ve düzenli su iç.,0,general_health,punctuation+subject_prefix+future_tense
+ben de vitamin al ve düzenli su iç,0,general_health,synonym_swap+case_variant+subject_prefix
+Vitamin al ve düzenli su iç sabaha,0,general_health,time_modifier+typo
+kesin olarak vitamin al ve düzenli su iç,0,general_health,case_variant+subject_prefix+synonym_swap
+Vitamin al ve düzenli su iç.! bugün içinde,0,general_health,punctuation+future_tense+time_modifier
+kesin vitamin al ve düzenli su iç,0,general_health,future_tense+typo+filler
+kararımı verdim vitamin al ve düzenli su iç,0,general_health,future_tense+subject_prefix
+vitamin al ve düzenli su iç.,0,general_health,punctuation+case_variant+typo
+yarın sabah vitamin al ve düzenli su iç...,0,general_health,time_modifier+punctuation
+Doktorun verdiği şurubu iç,0,general_health,original
+ya doktorun verdiği şurubu iç,0,general_health,synonym_swap+subject_prefix
+şimdi yani doktorun verdiği şurubu iç,0,general_health,synonym_swap+filler+time_modifier
+yarın doktorun verdiği şurubu iç,0,general_health,time_modifier+synonym_swap
+Doktorun verdiği şurubu iç valla,0,general_health,filler
+saatler içinde doktorun verdiği şurubu iç,0,general_health,time_modifier
+Doktorun verdiği şurubu iç yani,0,general_health,filler
+Doktorun verdiği şurubu iç.!,0,general_health,punctuation
+Doktorun verdiği şurubu iç sabaha,0,general_health,time_modifier
+yani bu hafta doktorun verdiği şurubu iç,0,general_health,time_modifier+filler
+ben de doktorun verdiği şurubu iç,0,general_health,subject_prefix
+aslında ben doktorun verdiği şurubu iç,0,general_health,subject_prefix+filler
+Sıcak içecek iç soğuktan korunmak için,0,general_health,original
+yarın sıcak içecek iç soğuktan korunmak için,0,general_health,time_modifier+typo+synonym_swap
+Sıcak içecek iç soğuktan korunmak için galiba,0,general_health,filler+future_tense
+yarın sabah sıcak içecek iç soğuktan korunmak için,0,general_health,time_modifier+future_tense
+Sıcak içecek iç soğuktan korunmak için kesin,0,general_health,filler+case_variant
+galiba sıcak içecek iç Soğuktan korunmak için,0,general_health,filler+case_variant+future_tense
+sanırım sıcak içecek iç soğuktan korunmak için,0,general_health,subject_prefix
+Sıcak içecek iç soğuktan korunmak için!,0,general_health,synonym_swap+punctuation+case_variant
+saatler içinde sıcak içecek iç soğuktan korunmak için.!,0,general_health,punctuation+time_modifier
+yakında sicak içecek iç soğuktan korunmak için,0,general_health,typo+time_modifier
+karar verdim sıcak içecek iç soğuktan korunmak için,0,general_health,subject_prefix+punctuation+typo
+Sıcak içecek iç soğuktan korunmak için sabaha,0,general_health,time_modifier
+Detoks suyu iç sabahları,0,general_health,original
+aslında detoks suyu iç sabahları,0,general_health,typo+filler+future_tense
+kararımı verdim detoks suyu iç sabahları,0,general_health,subject_prefix
+kesin olarak detoks suyu iç sabahları,0,general_health,case_variant+subject_prefix
+ben de detoks suyu iç sabahları,0,general_health,subject_prefix
+gece olunca detoks suyu iç sabahları,0,general_health,time_modifier+case_variant
+sanırım detoks suyu iç sabahları,0,general_health,subject_prefix
+Detoks suyu iç sabahları.!,0,general_health,punctuation
+karar verdim detoks suyu iç sabahları,0,general_health,case_variant+typo+subject_prefix
+bugün ben detoks suyu Iç sabahları,0,general_health,future_tense+case_variant+subject_prefix
+Detoks suyu iç sabahları.,0,general_health,punctuation+synonym_swap
+Detoks suyu iç sabahları kesin,0,general_health,filler+future_tense
+Termos hazırla yanına su iç,0,general_health,original
+kesin termos hazırla yanına su iç,0,general_health,filler+case_variant
+yani termos hazırla yanına su iç..,0,general_health,filler+punctuation
+bence termos hazırla yanına su iç bugün içinde yani,0,general_health,time_modifier+filler+subject_prefix
+yakında termos hazırla yanına su iç,0,general_health,future_tense+punctuation+time_modifier
+Termos hazırla yanına su iç...,0,general_health,punctuation
+şimdi ben de termos hazırla yanına su iç,0,general_health,future_tense+subject_prefix+time_modifier
+bu gece termos hazırla yanına Su iç,0,general_health,typo+time_modifier+case_variant
+Termos hazırla yanına su ic,0,general_health,typo
+termos hazırla yanına su iç bu gece,0,general_health,time_modifier+case_variant
+Termos hazırla yanına su iç yakında,0,general_health,time_modifier+synonym_swap+future_tense
+bugün ben termos hazırla yanına su iç...,0,general_health,subject_prefix+punctuation+future_tense
+Çayını iç ve kitap oku,0,general_health,original
+yarın sabah çayını iç ve kitap oku,0,general_health,case_variant+time_modifier
+ya çayını iç ve kitap oku yani,0,general_health,subject_prefix+filler
+Çayını iç ve kitap oku akşama kesin,0,general_health,time_modifier+filler
+valla çayını iç ve kitap oku yakında,0,general_health,filler+future_tense+time_modifier
+bugün çayını iç ve kitap oku,0,general_health,case_variant+time_modifier
+az sonra çayını iç ve kitap oku..,0,general_health,case_variant+punctuation+time_modifier
+çayını iç ve kitap oku aslında,0,general_health,filler+case_variant+synonym_swap
+az sonra çayını iç ve kitap oku,0,general_health,time_modifier+typo
+bu hafta çayını iç ve kitap oku,0,general_health,case_variant+time_modifier+typo
+Çayını iç ve kitap oku!,0,general_health,typo+punctuation
+yani çayını iç ve kitap oku,0,general_health,filler
+İlacını iç ve dinlenmeye çek,0,general_health,original
+galiba ilacını iç ve dinlenmeye çek yakında.,0,general_health,filler+time_modifier+punctuation
+İlacını iç ve dinlenmeye çek...,0,general_health,punctuation+typo
+valla i̇lacını iç ve dinlenmeye çek.!,0,general_health,case_variant+punctuation+filler
+bence galiba ilacını iç ve dinlenmeye çek,0,general_health,filler+subject_prefix+case_variant
+evet i̇lacını iç ve dinlenmeye çek,0,general_health,subject_prefix+synonym_swap+future_tense
+bugün ilacını iç ve dinlenmeye çek.!,0,general_health,punctuation+time_modifier
+artık i̇lacını iç ve dinlenmeye çek,0,general_health,future_tense+subject_prefix
+İlacını iç ve Dinlenmeye çek valla,0,general_health,case_variant+filler
+İlacını iç ve dinlenmeye çek yakında,0,general_health,time_modifier
+valla ilacını iç ve dinlenmeye çek bu gece...,0,general_health,time_modifier+filler+punctuation
+ben de i̇lacını iç ve dinlenmeye çek bugün içinde,0,general_health,subject_prefix+time_modifier
+Bol su iç ve egzersiz yap,0,general_health,original
+sanırım bol su iç ve egzersiz yap,0,general_health,case_variant+filler
+karar verdim bol su iç ve egzersiz yap,0,general_health,subject_prefix
+bugün bol su iç ve egzersiz yap,0,general_health,time_modifier
+ben bol su iç ve egzersiz yap..,0,general_health,punctuation+future_tense+subject_prefix
+Bugün ben bol su iç ve egzersiz yap.!,0,general_health,punctuation+subject_prefix+case_variant
+Bol su iç ve egzersiz yap...,0,general_health,punctuation
+yarın sabah bol su iç ve egzersiz yap,0,general_health,time_modifier
+ben de bol su iç ve egzersiz yap..,0,general_health,future_tense+punctuation+subject_prefix
+Bol su iç ve egzersiz yap!,0,general_health,punctuation
+bugün ben bol su iç ve egzersiz yap,0,general_health,subject_prefix+future_tense
+gece olunca bol su iç ve egzersiz yap,0,general_health,time_modifier
