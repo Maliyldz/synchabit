@@ -65,3 +65,14 @@ const List<TaskCategory> kTaskCategories = [
     hasImageVerification: false,
   ),
 ];
+
+// Kategori kodundan (örn. "orgu_orme") okunabilir etiketi (örn. "Örgü Örme") döndürür.
+// Bilinmeyen/eski kategori için kodu olduğu gibi döndürür (güvenli geri dönüş).
+String categoryLabel(String value) {
+  final match = kTaskCategories.firstWhere(
+    (c) => c.value == value,
+    orElse: () =>
+        TaskCategory(label: value, value: value, hasImageVerification: false),
+  );
+  return match.label;
+}

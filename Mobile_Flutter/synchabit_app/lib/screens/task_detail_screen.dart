@@ -21,6 +21,7 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
   bool _isUploading = false;
   VerifyResult? _result;
   String? _errorMessage;
+  bool _justCompleted = false;
 
   // Bu görevin kategorisinde görsel doğrulama var mı?
   bool get _hasImageVerification {
@@ -54,6 +55,10 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
       setState(() {
         _isUploading = false;
         _result = result;
+        // Verified veya NeedsReview ise tamamlama oluştu → butonu gizle
+        if (result.status == 'Verified' || result.status == 'NeedsReview') {
+          _justCompleted = true;
+        }
       });
     } catch (e) {
       if (!mounted) return;
@@ -110,7 +115,7 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
             ),
             const SizedBox(height: 8),
             Text(
-              'Kategori: ${task.category}  •  Puan: ${task.difficultyScore}',
+              'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}',
             ),
             const SizedBox(height: 8),
             if (task.isVerifiedByMe)
@@ -120,8 +125,13 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
               ),
             const Divider(height: 32),
 
-            if (task.isDoneByMe)
-              const Text('Bu görevi zaten tamamladın.')
+            if (task.isVerifiedByMe || _result?.status == 'Verified')
+              const Text('Bu görevi tamamladın.')
+            else if (task.isPendingReviewByMe ||
+                _result?.status == 'NeedsReview')
+              const Text(
+                'Fotoğrafın gönderildi, grup liderinin onayı bekleniyor.',
+              )
             else ...[
               // Kategoriye göre bilgi notu
               Text(
@@ -216,13 +226,6 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
           ),
           const SizedBox(height: 8),
           Text(result.reason),
-          if (result.confidence > 0) ...[
-            const SizedBox(height: 4),
-            Text(
-              'Güven: %${result.confidence.toStringAsFixed(0)}',
-              style: const TextStyle(fontSize: 13, color: Colors.black54),
-            ),
-          ],
         ],
       ),
     );

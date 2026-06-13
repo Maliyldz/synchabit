@@ -15,12 +15,12 @@ class AuthProvider extends ChangeNotifier {
   String? get errorMessage => _errorMessage;
   bool get isLoggedIn => _token != null;
 
-  Future<bool> login(String email, String password) async {
+  Future<bool> login(String username, String password) async {
     _isLoading = true;
     _errorMessage = null;
     notifyListeners();
 
-    final result = await _authService.login(email, password);
+    final result = await _authService.login(username, password);
 
     if (result.success) {
       _token = result.token;
@@ -53,6 +53,12 @@ class AuthProvider extends ChangeNotifier {
   Future<void> logout() async {
     _token = null;
     await _storage.delete(key: 'jwt');
+    notifyListeners();
+  }
+
+  // Uygulama açılışında kayıtlı token'ı yükle
+  Future<void> loadToken() async {
+    _token = await _storage.read(key: 'jwt');
     notifyListeners();
   }
 

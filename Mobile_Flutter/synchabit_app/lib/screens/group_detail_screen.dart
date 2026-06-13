@@ -9,6 +9,7 @@ import 'task_detail_screen.dart';
 import 'invite_member_screen.dart';
 import 'group_approvals_screen.dart';
 import '../widgets/empty_state.dart';
+import '../models/task_category.dart';
 
 class GroupDetailScreen extends StatefulWidget {
   final Group group;
@@ -147,7 +148,7 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
           child: ListTile(
             title: Text(task.taskText),
             subtitle: Text(
-              'Kategori: ${task.category}  •  Puan: ${task.difficultyScore}\n'
+              'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}\n'
               '${task.completionCount} kişi tamamladı',
             ),
             isThreeLine: true,

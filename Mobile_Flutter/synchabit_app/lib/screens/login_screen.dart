@@ -12,13 +12,13 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final _emailController = TextEditingController();
+  final _usernameController = TextEditingController();
   final _passwordController = TextEditingController();
 
   @override
   void dispose() {
     // Bellek sızıntısını önlemek için controller'ları temizliyoruz
-    _emailController.dispose();
+    _usernameController.dispose();
     _passwordController.dispose();
     super.dispose();
   }
@@ -26,7 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Future<void> _handleLogin() async {
     final auth = context.read<AuthProvider>();
     final success = await auth.login(
-      _emailController.text.trim(),
+      _usernameController.text.trim(),
       _passwordController.text,
     );
     if (success && mounted) {
@@ -64,10 +64,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 const Text('Hesabına giriş yap'),
                 const SizedBox(height: 32),
                 TextField(
-                  controller: _emailController,
-                  keyboardType: TextInputType.emailAddress,
+                  controller: _usernameController,
                   decoration: const InputDecoration(
-                    labelText: 'E-posta',
+                    labelText: 'Kullanıcı Adı',
                     border: OutlineInputBorder(),
                   ),
                 ),

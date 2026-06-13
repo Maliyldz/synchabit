@@ -5,6 +5,7 @@ import '../providers/group_provider.dart';
 import 'create_group_screen.dart';
 import 'group_detail_screen.dart';
 import 'group_invites_screen.dart';
+import '../services/group_service.dart';
 import '../widgets/empty_state.dart';
 
 class GroupsScreen extends StatefulWidget {
@@ -15,16 +16,28 @@ class GroupsScreen extends StatefulWidget {
 }
 
 class _GroupsScreenState extends State<GroupsScreen> {
+  bool _hasInvites = false;
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) => _load());
   }
 
-  void _load() {
+  Future<void> _load() async {
     final token = context.read<AuthProvider>().token;
-    if (token != null) {
-      context.read<GroupProvider>().loadGroups(token);
+    if (token == null) return;
+
+    // Grupları yükle
+    context.read<GroupProvider>().loadGroups(token);
+
+    // Bekleyen davet var mı kontrol et (rozet için)
+    try {
+      final invites = await GroupService().fetchMyInvites(token);
+      if (!mounted) return;
+      setState(() => _hasInvites = invites.isNotEmpty);
+    } catch (_) {
+      if (!mounted) return;
+      setState(() => _hasInvites = false); // hata olursa rozet gösterme
     }
   }
 
@@ -36,15 +49,19 @@ class _GroupsScreenState extends State<GroupsScreen> {
       appBar: AppBar(
         title: const Text('Gruplarım'),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.mail_outline),
-            tooltip: 'Grup Davetleri',
-            onPressed: () async {
-              await Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const GroupInvitesScreen()),
-              );
-              _load(); // davet kabul edilince yeni grup listede görünsün
-            },
+          Badge(
+            isLabelVisible: _hasInvites,
+            smallSize: 8,
+            child: IconButton(
+              icon: const Icon(Icons.mail_outline),
+              tooltip: 'Grup Davetleri',
+              onPressed: () async {
+                await Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const GroupInvitesScreen()),
+                );
+                _load();
+              },
+            ),
           ),
           IconButton(icon: const Icon(Icons.refresh), onPressed: _load),
         ],

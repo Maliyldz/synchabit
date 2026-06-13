@@ -5,6 +5,7 @@ import '../models/group.dart';
 import '../providers/auth_provider.dart';
 import '../services/group_service.dart';
 import '../widgets/empty_state.dart';
+import '../models/task_category.dart';
 
 class GroupApprovalsScreen extends StatefulWidget {
   final int groupId;
@@ -147,7 +148,7 @@ class _GroupApprovalsScreenState extends State<GroupApprovalsScreen> {
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '${p.submitterUsername} • ${p.category}',
+                              categoryLabel(p.category),
                               style: const TextStyle(color: Colors.black54),
                             ),
                             const SizedBox(height: 16),

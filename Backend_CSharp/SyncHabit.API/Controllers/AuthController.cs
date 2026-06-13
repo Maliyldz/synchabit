@@ -63,15 +63,14 @@ namespace SyncHabit.API.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] UserLoginDto request)
         {
-            // Veritabanından e-postayı bul
-            var user = _context.Users.FirstOrDefault(u => u.Email == request.Email);
+            // Veritabanından kullanıcı adını bul
+            var user = _context.Users.FirstOrDefault(u => u.Username == request.Username);
 
             if (user == null)
             {
                 return BadRequest("Kullanıcı bulunamadı.");
             }
 
-            // Girilen şifre ile veritabanındaki şifreli (hash) metin eşleşiyor mu kontrol et
             if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
             {
                 return BadRequest("Hatalı şifre.");
@@ -80,7 +79,6 @@ namespace SyncHabit.API.Controllers
             string token = CreateToken(user);
             return Ok(token);
         }
-
         // Kullanıcı adına göre arama (arkadaş/üye eklemek için)
         [Authorize]
         [HttpGet("search")]
@@ -93,17 +91,26 @@ namespace SyncHabit.API.Controllers
 
             var myUserId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
 
-            // Username'i içeren kullanıcıları bul, kendini hariç tut
-            // SADECE güvenli alanları döndür (PasswordHash/Email ASLA dönmez)
+            // Zaten arkadaş olduğum (kabul edilmiş) kullanıcıların id'leri
+            var friendIds = _context.Friendships
+                .Where(f => (f.UserId == myUserId || f.FriendId == myUserId) && f.Status == "Accepted")
+                .Select(f => f.UserId == myUserId ? f.FriendId : f.UserId)
+                .ToList();
+
+            // Username eşleşen, kendim olmayan VE zaten arkadaşım olmayan kullanıcılar
             var results = _context.Users
-                .Where(u => u.Username.Contains(username) && u.Id != myUserId)
+                .Where(u => u.Username.Contains(username)
+                            && u.Id != myUserId
+                            && !friendIds.Contains(u.Id))  // arkadaşları hariç tut
+                .Take(20)
+                .Select(u => new { u.Id, u.Username, u.TotalXP })
+                .ToList()
                 .Select(u => new
                 {
                     id = u.Id,
                     username = u.Username,
-                    level = u.Level
+                    level = LevelHelper.CalculateLevel(u.TotalXP)
                 })
-                .Take(20) // çok sonuç dönmesin
                 .ToList();
 
             return Ok(results);

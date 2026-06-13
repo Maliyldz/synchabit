@@ -73,7 +73,7 @@ namespace SyncHabit.Services
                     {
                         IsApproved = false,
                         Status = VerificationStatus.Rejected,
-                        Reason = $"Görsel eşleşmedi. Beklenen: '{expectedCategory}', Algılanan: '{result.PredictedClass}'.",
+                        Reason = "Yüklediğin fotoğraf bu görevle eşleşmedi. Lütfen göreve uygun bir fotoğraf yükle.",
                         DetectedCategory = result.PredictedClass,
                         Confidence = result.Confidence
                     };

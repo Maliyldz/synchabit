@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import '../providers/task_provider.dart';
-import 'login_screen.dart';
 import 'create_task_screen.dart';
 import 'task_detail_screen.dart';
 import '../widgets/empty_state.dart';
+import '../models/task_category.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -41,15 +41,6 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text('Görevlerim'),
         actions: [
           IconButton(icon: const Icon(Icons.refresh), onPressed: _loadTasks),
-          IconButton(
-            icon: const Icon(Icons.logout),
-            onPressed: () {
-              context.read<AuthProvider>().logout();
-              Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (_) => const LoginScreen()),
-              );
-            },
-          ),
         ],
       ),
       body: _buildBody(taskProvider),
@@ -89,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: ListTile(
             title: Text(task.taskText),
             subtitle: Text(
-              'Kategori: ${task.category}  •  Puan: ${task.difficultyScore}',
+              'Kategori: ${categoryLabel(task.category)} •  Puan: ${task.difficultyScore}',
             ),
             trailing: task.isVerifiedByMe
                 ? const Icon(Icons.check_circle, color: Colors.green)

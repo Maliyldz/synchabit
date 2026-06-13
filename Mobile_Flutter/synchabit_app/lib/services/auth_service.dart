@@ -14,22 +14,19 @@ class AuthResponse {
 }
 
 class AuthService {
-  Future<AuthResponse> login(String email, String password) async {
+  Future<AuthResponse> login(String username, String password) async {
     final url = Uri.parse('${ApiConfig.baseUrl}/api/auth/login');
     try {
       final response = await http.post(
         url,
         headers: {'Content-Type': 'application/json'},
-        body: '{"email": "$email", "password": "$password"}',
+        body: '{"username": "$username", "password": "$password"}',
       );
 
       if (response.statusCode == 200) {
-        // Backend düz token string'i dönüyor: "eyJ...".
-        // Baştaki/sondaki çift tırnağı temizliyoruz.
         final token = response.body.replaceAll('"', '');
         return AuthResponse.ok(token);
       } else {
-        // BadRequest gövdesinde Türkçe hata mesajı var (örn. "Hatalı şifre.")
         return AuthResponse.fail(_cleanMessage(response.body));
       }
     } catch (e) {
