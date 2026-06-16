@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from sklearn.metrics import confusion_matrix, classification_report, ConfusionMatrixDisplay
 
-MODEL_PATH        = "synchabit_model_v3.keras"
+MODEL_PATH        = "synchabit_model_v8.keras"
 CLASS_NAMES_PATH  = "class_names.json"
 TEST_DIR          = "test_images"
 IMG_SIZE          = (224, 224)
@@ -167,8 +167,8 @@ def plot_confusion_matrix(all_true_labels, all_pred_labels, class_names):
     disp.plot(ax=ax, xticks_rotation=45, colorbar=False, cmap='Blues')
     ax.set_title("Test Seti Confusion Matrix", fontsize=14, fontweight='bold')
     plt.tight_layout()
-    plt.savefig("test_confusion_matrix.png", dpi=150)
-    print(f"\n test_confusion_matrix.png kaydedildi")
+    plt.savefig("test_confusion_matrix_v8.png", dpi=150)
+    print(f"\n test_confusion_matrix_v8.png kaydedildi")
     plt.show()
 
     # Classification report
@@ -181,9 +181,9 @@ def plot_confusion_matrix(all_true_labels, all_pred_labels, class_names):
     )
     print(report)
 
-    with open("test_classification_report.txt", "w", encoding="utf-8") as f:
+    with open("test_classification_report_v8.txt", "w", encoding="utf-8") as f:
         f.write(report)
-    print(" test_classification_report.txt kaydedildi")
+    print(" test_classification_report_v8.txt kaydedildi")
 
 
 if __name__ == "__main__":

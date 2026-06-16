@@ -1,0 +1,16 @@
+              precision    recall  f1-score   support
+
+   basketbol       0.88      0.94      0.91        85
+    bisiklet       0.99      0.94      0.96        80
+     bowling       0.99      0.99      0.99        90
+evcil_hayvan       0.91      0.95      0.93        85
+ gitar_calma       1.00      1.00      1.00        88
+   ip_atlama       0.94      1.00      0.97        92
+   kod_yazma       1.00      1.00      1.00        80
+   orgu_orme       0.99      0.99      0.99        82
+  spor_yapma       1.00      0.91      0.95        80
+    voleybol       0.97      0.91      0.94        75
+
+    accuracy                           0.96       837
+   macro avg       0.97      0.96      0.96       837
+weighted avg       0.97      0.96      0.96       837

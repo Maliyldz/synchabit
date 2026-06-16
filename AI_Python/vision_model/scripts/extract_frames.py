@@ -9,15 +9,15 @@ MAX_FRAMES_PER_VIDEO = 3      # Bir videodan maksimum kaç frame — tüm videol
 MAX_FRAMES_PER_CATEGORY = 500 # Kategori başına toplam maksimum — tavan yüksek, video sayısı belirler
 
 CATEGORIES = {
-    "PushUps":         "spor_yapma",
-    "PlayingGuitar":   "gitar_calma",
-    "WalkingWithDog":  "evcil_hayvan",
-    "Typing":          "kod_yazma",
-    "Knitting":        "orgu_orme",
-    "Archery":         "okculuk",
-    "JumpRope":        "ip_atlama",
-    "Biking":          "bisiklet",
-    "Basketball":      "basketbol",
+    "Bowling":           "bowling",       # YENİ
+    "PushUps":           "spor_yapma",
+    "PlayingGuitar":     "gitar_calma",
+    "WalkingWithDog":    "evcil_hayvan",
+    "Typing":            "kod_yazma",
+    "Knitting":          "orgu_orme",
+    "JumpRope":          "ip_atlama",
+    "Biking":            "bisiklet",
+    "Basketball":        "basketbol",
     "VolleyballSpiking": "voleybol",
 }
 

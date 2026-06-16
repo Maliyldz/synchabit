@@ -3,16 +3,22 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 import os
+import random
 from sklearn.metrics import confusion_matrix, classification_report, ConfusionMatrixDisplay
 from sklearn.utils.class_weight import compute_class_weight
 
+# RANDOM SEED — tekrarlanabilir sonuçlar için
+SEED = 7
+random.seed(SEED)
+np.random.seed(SEED)
+tf.random.set_seed(SEED)
 
 DATASET_DIR = "dataset"
 IMG_SIZE    = (224, 224)
 BATCH_SIZE  = 32
 EPOCHS_TOP  = 15
 EPOCHS_FINE = 10
-MODEL_PATH  = "synchabit_model_v3.keras"
+MODEL_PATH  = "synchabit_model_v8.keras"
 
 
 # 1. VERİ YÜKLEME + CLASS WEIGHTS
@@ -166,7 +172,7 @@ def evaluate_and_plot(model, val_ds, class_names, history_top, history_fine):
     fine_start = len(history_top.history['accuracy'])
 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
-    fig.suptitle("SyncHabit v3 - Eğitim Sonuçları", fontsize=14, fontweight='bold')
+    fig.suptitle("SyncHabit v8 - Eğitim Sonuçları", fontsize=14, fontweight='bold')
     for ax, m, vm, title in zip(axes, [acc, loss], [val_acc, val_loss], ["Accuracy", "Loss"]):
         ax.plot(m, label='Eğitim')
         ax.plot(vm, label='Doğrulama')
@@ -176,7 +182,7 @@ def evaluate_and_plot(model, val_ds, class_names, history_top, history_fine):
         ax.legend()
         ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig("training_history_v3.png", dpi=150)
+    plt.savefig("training_history_v8.png", dpi=150)
     plt.show()
 
     all_labels, all_preds = [], []
@@ -189,15 +195,15 @@ def evaluate_and_plot(model, val_ds, class_names, history_top, history_fine):
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=class_names)
     fig, ax = plt.subplots(figsize=(12, 10))
     disp.plot(ax=ax, xticks_rotation=45, colorbar=False, cmap='Blues')
-    ax.set_title("Confusion Matrix v3", fontsize=14, fontweight='bold')
+    ax.set_title("Confusion Matrix v8", fontsize=14, fontweight='bold')
     plt.tight_layout()
-    plt.savefig("confusion_matrix_v3.png", dpi=150)
+    plt.savefig("confusion_matrix_v8.png", dpi=150)
     plt.show()
 
     report = classification_report(all_labels, all_preds, target_names=class_names)
     print("\n Classification Report:\n", report)
 
-    with open("classification_report_v3.txt", "w", encoding="utf-8") as f:
+    with open("classification_report_v8.txt", "w", encoding="utf-8") as f:
         f.write(report)
 
 
