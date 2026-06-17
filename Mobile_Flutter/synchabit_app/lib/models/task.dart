@@ -6,6 +6,7 @@ class Task {
   final int difficultyScore;
   final DateTime? createdAt;
   final int? groupId;
+  final DateTime? dueDate;
 
   final String? myCompletionStatus; // "Verified" | "NeedsReview" | null
   final int completionCount;
@@ -20,6 +21,7 @@ class Task {
     this.groupId,
     this.myCompletionStatus,
     this.completionCount = 0,
+    this.dueDate,
   });
 
   bool get isVerifiedByMe => myCompletionStatus == 'Verified';
@@ -27,6 +29,9 @@ class Task {
   bool get isDoneByMe =>
       myCompletionStatus == 'Verified' ||
       myCompletionStatus == 'NeedsReview'; // herhangi bir tamamlama var mı
+
+  // Son tarih geçmiş mi? (süresiz görevde her zaman false)
+  bool get isExpired => dueDate != null && dueDate!.isBefore(DateTime.now());
 
   // Backend'den gelen JSON → Task nesnesi
   factory Task.fromJson(Map<String, dynamic> json) {
@@ -42,6 +47,9 @@ class Task {
       groupId: json['groupId'],
       myCompletionStatus: json['myCompletionStatus'],
       completionCount: json['completionCount'] ?? 0,
+      dueDate: json['dueDate'] != null
+          ? DateTime.tryParse(json['dueDate'].toString())
+          : null,
     );
   }
 }

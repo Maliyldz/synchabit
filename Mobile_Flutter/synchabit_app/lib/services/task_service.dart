@@ -65,6 +65,7 @@ class TaskService {
     required String taskText,
     required String category,
     required int difficultyScore,
+    DateTime? dueDate,
   }) async {
     final url = Uri.parse('${ApiConfig.baseUrl}/api/tasks');
     try {
@@ -78,6 +79,7 @@ class TaskService {
           'taskText': taskText,
           'category': category,
           'difficultyScore': difficultyScore,
+          if (dueDate != null) 'dueDate': dueDate.toIso8601String(),
         }),
       );
 

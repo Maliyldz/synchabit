@@ -82,6 +82,7 @@ class GroupService {
     required String taskText,
     required String category,
     required int difficultyScore,
+    DateTime? dueDate,
   }) async {
     final url = Uri.parse('${ApiConfig.baseUrl}/api/groups/$groupId/task');
     try {
@@ -95,6 +96,7 @@ class GroupService {
           'taskText': taskText,
           'category': category,
           'difficultyScore': difficultyScore,
+          if (dueDate != null) 'dueDate': dueDate.toIso8601String(),
         }),
       );
 

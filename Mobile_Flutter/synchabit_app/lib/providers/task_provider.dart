@@ -37,12 +37,14 @@ class TaskProvider extends ChangeNotifier {
     required String taskText,
     required String category,
     required int difficultyScore,
+    DateTime? dueDate,
   }) async {
     final result = await _taskService.createTask(
       token: token,
       taskText: taskText,
       category: category,
       difficultyScore: difficultyScore,
+      dueDate: dueDate,
     );
 
     if (result.success && result.task != null) {

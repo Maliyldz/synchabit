@@ -6,6 +6,8 @@ import 'screens/main_shell.dart';
 import 'providers/task_provider.dart';
 import 'providers/group_provider.dart';
 import 'config/app_theme.dart';
+import 'services/profile_service.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() {
   runApp(const SyncHabitApp());
@@ -26,6 +28,13 @@ class SyncHabitApp extends StatelessWidget {
         title: 'SyncHabit',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.theme,
+        locale: const Locale('tr'),
+        supportedLocales: const [Locale('tr'), Locale('en')],
+        localizationsDelegates: const [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
         home: const _AuthGate(),
       ),
     );
@@ -42,6 +51,7 @@ class _AuthGate extends StatefulWidget {
 
 class _AuthGateState extends State<_AuthGate> {
   bool _checking = true;
+  bool _isLoggedIn = false;
 
   @override
   void initState() {
@@ -50,20 +60,44 @@ class _AuthGateState extends State<_AuthGate> {
   }
 
   Future<void> _checkToken() async {
-    await context.read<AuthProvider>().loadToken();
-    if (!mounted) return;
-    setState(() => _checking = false);
+    final auth = context.read<AuthProvider>();
+    await auth.loadToken(); // kayıtlı token'ı yükle
+
+    // Token yoksa direkt login
+    if (auth.token == null) {
+      if (!mounted) return;
+      setState(() {
+        _isLoggedIn = false;
+        _checking = false;
+      });
+      return;
+    }
+
+    // Token var → geçerli mi diye backend'e sor (/api/auth/me)
+    try {
+      await ProfileService().fetchProfile(auth.token!);
+      // Başarılı → token geçerli
+      if (!mounted) return;
+      setState(() {
+        _isLoggedIn = true;
+        _checking = false;
+      });
+    } catch (e) {
+      // Hata (401 / süresi dolmuş / bağlantı) → token'ı temizle, login'e at
+      await auth.logout();
+      if (!mounted) return;
+      setState(() {
+        _isLoggedIn = false;
+        _checking = false;
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    // Token yüklenirken kısa bekleme ekranı
     if (_checking) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
-
-    // Token var mı? Varsa ana ekran, yoksa login
-    final isLoggedIn = context.watch<AuthProvider>().isLoggedIn;
-    return isLoggedIn ? const MainShell() : const LoginScreen();
+    return _isLoggedIn ? const MainShell() : const LoginScreen();
   }
 }

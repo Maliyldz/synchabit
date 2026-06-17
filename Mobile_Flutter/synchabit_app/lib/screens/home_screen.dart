@@ -32,6 +32,11 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  String _formatDate(DateTime d) {
+    String two(int n) => n.toString().padLeft(2, '0');
+    return '${two(d.day)}.${two(d.month)}.${d.year} ${two(d.hour)}:${two(d.minute)}';
+  }
+
   @override
   Widget build(BuildContext context) {
     final taskProvider = context.watch<TaskProvider>();
@@ -79,11 +84,36 @@ class _HomeScreenState extends State<HomeScreen> {
           margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
           child: ListTile(
             title: Text(task.taskText),
-            subtitle: Text(
-              'Kategori: ${categoryLabel(task.category)} •  Puan: ${task.difficultyScore}',
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}',
+                ),
+                if (task.dueDate != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 2),
+                    child: Text(
+                      task.isExpired
+                          ? '⏰ Süresi doldu'
+                          : 'Son tarih: ${_formatDate(task.dueDate!)}',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: task.isExpired
+                            ? Colors.red
+                            : Colors.grey.shade600,
+                        fontWeight: task.isExpired
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                      ),
+                    ),
+                  ),
+              ],
             ),
             trailing: task.isVerifiedByMe
                 ? const Icon(Icons.check_circle, color: Colors.green)
+                : task.isExpired
+                ? const Icon(Icons.lock_clock, color: Colors.red)
                 : const Icon(Icons.chevron_right),
 
             onTap: () async {

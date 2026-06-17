@@ -98,6 +98,11 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
     );
   }
 
+  String _formatDate(DateTime d) {
+    String two(int n) => n.toString().padLeft(2, '0');
+    return '${two(d.day)}.${two(d.month)}.${d.year} ${two(d.hour)}:${two(d.minute)}';
+  }
+
   @override
   Widget build(BuildContext context) {
     final task = widget.task;
@@ -118,14 +123,58 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
               'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}',
             ),
             const SizedBox(height: 8),
+            if (task.dueDate != null) ...[
+              Row(
+                children: [
+                  Icon(
+                    Icons.event,
+                    size: 16,
+                    color: task.isExpired ? Colors.red : Colors.grey.shade700,
+                  ),
+                  const SizedBox(width: 4),
+                  Text(
+                    'Son tarih: ${_formatDate(task.dueDate!)}',
+                    style: TextStyle(
+                      fontSize: 13,
+                      color: task.isExpired ? Colors.red : Colors.grey.shade700,
+                      fontWeight: task.isExpired
+                          ? FontWeight.bold
+                          : FontWeight.normal,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+            ],
             if (task.isVerifiedByMe)
               const Chip(
                 label: Text('Tamamlandı'),
                 backgroundColor: Color(0xFFD7F5DD),
               ),
             const Divider(height: 32),
-
-            if (task.isVerifiedByMe || _result?.status == 'Verified')
+            if (task.isExpired && !task.isDoneByMe)
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.red.shade50,
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: Colors.red.shade200),
+                ),
+                child: const Row(
+                  children: [
+                    Icon(Icons.lock_clock, color: Colors.red),
+                    SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        'Bu görevin süresi doldu, artık tamamlanamaz.',
+                        style: TextStyle(color: Colors.red),
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            else if (task.isVerifiedByMe || _result?.status == 'Verified')
               const Text('Bu görevi tamamladın.')
             else if (task.isPendingReviewByMe ||
                 _result?.status == 'NeedsReview')

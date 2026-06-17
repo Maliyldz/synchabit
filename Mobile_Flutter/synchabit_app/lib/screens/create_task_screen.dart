@@ -26,6 +26,8 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
 
   bool get _isGroupTask => widget.groupId != null;
 
+  DateTime? _dueDate; // opsiyonel son tarih (null = süresiz)
+
   @override
   void dispose() {
     _taskTextController.dispose();
@@ -64,6 +66,7 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
         taskText: text,
         category: _selectedCategory.value,
         difficultyScore: points,
+        dueDate: _dueDate,
       );
     } else {
       // Bireysel görev (eski davranış)
@@ -72,6 +75,7 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
         taskText: text,
         category: _selectedCategory.value,
         difficultyScore: points,
+        dueDate: _dueDate,
       );
     }
 
@@ -85,6 +89,64 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
         _errorMessage = result.errorMessage;
       });
     }
+  }
+
+  Future<void> _pickDueDate() async {
+    final now = DateTime.now();
+
+    // 1. Tarih seç (bugünden itibaren, 1 yıl ileriye kadar)
+    final date = await showDatePicker(
+      context: context,
+      initialDate: now,
+      firstDate: now, // geçmiş seçilemez
+      lastDate: now.add(const Duration(days: 365)),
+    );
+    if (date == null) return; // vazgeçti
+
+    if (!mounted) return;
+
+    // 2. Saat seç
+    final time = await showTimePicker(
+      context: context,
+      initialTime: TimeOfDay.now(),
+      initialEntryMode: TimePickerEntryMode.input,
+      builder: (context, child) {
+        return MediaQuery(
+          data: MediaQuery.of(context).copyWith(alwaysUse24HourFormat: true),
+          child: child!,
+        );
+      },
+    );
+    if (time == null) return; // vazgeçti
+
+    final selected = DateTime(
+      date.year,
+      date.month,
+      date.day,
+      time.hour,
+      time.minute,
+    );
+
+    // Seçilen tarih+saat geçmişte mi? (bugün + geçmiş saat durumu)
+    if (selected.isBefore(DateTime.now())) {
+      if (!mounted) return;
+      setState(() {
+        _errorMessage =
+            'Son tarih geçmiş bir zaman olamaz. Lütfen ileri bir zaman seç.';
+      });
+      return; // _dueDate'i set etme
+    }
+
+    if (!mounted) return;
+    setState(() {
+      _dueDate = selected;
+      _errorMessage = null; // varsa eski hatayı temizle
+    });
+  }
+
+  String _formatDueDate(DateTime d) {
+    final two = (int n) => n.toString().padLeft(2, '0');
+    return '${two(d.day)}.${two(d.month)}.${d.year}  ${two(d.hour)}:${two(d.minute)}';
   }
 
   @override
@@ -147,6 +209,44 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
                   border: OutlineInputBorder(),
                 ),
               ),
+              const Text('Son tarih (opsiyonel)'),
+              const SizedBox(height: 8),
+              if (_dueDate == null)
+                OutlinedButton.icon(
+                  onPressed: _pickDueDate,
+                  icon: const Icon(Icons.event),
+                  label: const Text('Son tarih ekle'),
+                )
+              else
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 12,
+                          vertical: 14,
+                        ),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: Colors.grey.shade400),
+                        ),
+                        child: Row(
+                          children: [
+                            const Icon(Icons.event, size: 18),
+                            const SizedBox(width: 8),
+                            Text(_formatDueDate(_dueDate!)),
+                          ],
+                        ),
+                      ),
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.close),
+                      tooltip: 'Son tarihi kaldır',
+                      onPressed: () => setState(() => _dueDate = null),
+                    ),
+                  ],
+                ),
+              const SizedBox(height: 20),
               const SizedBox(height: 20),
               if (_errorMessage != null) ...[
                 Container(

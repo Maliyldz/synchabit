@@ -32,6 +32,11 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
     _load();
   }
 
+  String _formatDate(DateTime d) {
+    String two(int n) => n.toString().padLeft(2, '0');
+    return '${two(d.day)}.${two(d.month)}.${d.year} ${two(d.hour)}:${two(d.minute)}';
+  }
+
   Future<void> _load() async {
     setState(() {
       _isLoading = true;
@@ -147,15 +152,40 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
           margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
           child: ListTile(
             title: Text(task.taskText),
-            subtitle: Text(
-              'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}\n'
-              '${task.completionCount} kişi tamamladı',
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}',
+                ),
+                Text('${task.completionCount} kişi tamamladı'),
+                if (task.dueDate != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 2),
+                    child: Text(
+                      task.isExpired
+                          ? '⏰ Süresi doldu'
+                          : 'Son tarih: ${_formatDate(task.dueDate!)}',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: task.isExpired
+                            ? Colors.red
+                            : Colors.grey.shade600,
+                        fontWeight: task.isExpired
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                      ),
+                    ),
+                  ),
+              ],
             ),
             isThreeLine: true,
             trailing: task.isVerifiedByMe
                 ? const Icon(Icons.check_circle, color: Colors.green)
                 : task.isPendingReviewByMe
                 ? const Icon(Icons.hourglass_top, color: Colors.orange)
+                : task.isExpired
+                ? const Icon(Icons.lock_clock, color: Colors.red)
                 : const Icon(Icons.chevron_right),
             onTap: () async {
               await Navigator.of(context).push(

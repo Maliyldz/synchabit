@@ -23,6 +23,7 @@ const List<TaskCategory> kTaskCategories = [
     value: 'bisiklet',
     hasImageVerification: true,
   ),
+  TaskCategory(label: 'Bowling', value: 'bowling', hasImageVerification: true),
   TaskCategory(
     label: 'Evcil Hayvan',
     value: 'evcil_hayvan',
@@ -43,7 +44,6 @@ const List<TaskCategory> kTaskCategories = [
     value: 'kod_yazma',
     hasImageVerification: true,
   ),
-  TaskCategory(label: 'Okçuluk', value: 'okculuk', hasImageVerification: true),
   TaskCategory(
     label: 'Örgü Örme',
     value: 'orgu_orme',
