@@ -40,7 +40,7 @@ namespace SyncHabit.Controllers
         private static readonly string[] IMAGE_VERIFIABLE_CATEGORIES =
         {
             "basketbol", "bisiklet", "evcil_hayvan", "gitar_calma", "ip_atlama",
-            "kod_yazma", "okculuk", "orgu_orme", "spor_yapma", "voleybol"
+            "kod_yazma", "bowling", "orgu_orme", "spor_yapma", "voleybol"
         };
 
         public TaskVerificationController(
@@ -81,6 +81,11 @@ namespace SyncHabit.Controllers
             if (!isOwnTask && !isGroupMember)
                 return Unauthorized(new { Message = "Bu görevi tamamlama yetkiniz yok." });
 
+            // Süre kontrolü: görevin son tarihi geçmişse tamamlanamaz
+            if (task.DueDate != null && task.DueDate < DateTime.Now)
+            {
+                return BadRequest(new { Message = "Bu görevin süresi doldu, artık tamamlanamaz." });
+            }
             // 3. Tekrar tamamlama kontrolü
             var existing = _context.TaskCompletions
                 .FirstOrDefault(c => c.TaskId == taskId && c.UserId == userId);

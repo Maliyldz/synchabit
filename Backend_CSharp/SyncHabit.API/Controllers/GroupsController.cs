@@ -137,6 +137,7 @@ namespace SyncHabit.API.Controllers
                     difficultyScore = t.DifficultyScore,
                     createdAt = t.CreatedAt,
                     groupId = t.GroupId,
+                    dueDate = t.DueDate,
                     // Benim bu görevdeki tamamlama durumum (yoksa null)
                     myCompletionStatus = _context.TaskCompletions
                 .Where(c => c.TaskId == t.Id && c.UserId == userId)

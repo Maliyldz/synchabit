@@ -46,6 +46,7 @@ namespace SyncHabit.API.Controllers
                     difficultyScore = t.DifficultyScore,
                     createdAt = t.CreatedAt,
                     groupId = t.GroupId,
+                    dueDate = t.DueDate,
                     myCompletionStatus = _context.TaskCompletions
                 .Where(c => c.TaskId == t.Id && c.UserId == myUserId)
                 .Select(c => c.VerificationStatus.ToString())

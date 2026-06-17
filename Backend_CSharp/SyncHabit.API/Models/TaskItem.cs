@@ -9,5 +9,6 @@ namespace SyncHabit.API.Models
         public int DifficultyScore { get; set; } = 0;
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public int? GroupId { get; set; } // Nullable: Grup görevi ise dolu olur
+        public DateTime? DueDate { get; set; }
     }
 }
