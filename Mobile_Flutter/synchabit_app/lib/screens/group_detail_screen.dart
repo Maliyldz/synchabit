@@ -140,62 +140,115 @@ class _GroupDetailScreenState extends State<GroupDetailScreen> {
   Widget _buildTasksTab() {
     if (_tasks.isEmpty) {
       return const EmptyState(
-        icon: Icons.person_outline,
-        title: 'Üye bulunamadı',
+        icon: Icons.task_alt,
+        title: 'Henüz görev yok',
+        message: 'İlk görevi eklemek için + butonuna dokun.',
       );
     }
-    return ListView.builder(
-      itemCount: _tasks.length,
-      itemBuilder: (context, index) {
-        final task = _tasks[index];
-        return Card(
-          margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-          child: ListTile(
-            title: Text(task.taskText),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}',
-                ),
-                Text('${task.completionCount} kişi tamamladı'),
-                if (task.dueDate != null)
-                  Padding(
-                    padding: const EdgeInsets.only(top: 2),
-                    child: Text(
-                      task.isExpired
-                          ? '⏰ Süresi doldu'
-                          : 'Son tarih: ${_formatDate(task.dueDate!)}',
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: task.isExpired
-                            ? Colors.red
-                            : Colors.grey.shade600,
-                        fontWeight: task.isExpired
-                            ? FontWeight.bold
-                            : FontWeight.normal,
-                      ),
+
+    // TAMAMLANAN: onaylanmış, son tamamlanan üstte
+    final tamamlanan = _tasks.where((t) => t.isVerifiedByMe).toList()
+      ..sort((a, b) {
+        final ad = a.completedAt;
+        final bd = b.completedAt;
+        if (ad == null && bd == null) return 0;
+        if (ad == null) return 1;
+        if (bd == null) return -1;
+        return bd.compareTo(ad);
+      });
+
+    // AKTİF: tamamlanmamışlar. Süresi geçmeyenler üstte (yeni→eski), geçenler altta
+    final aktif = _tasks.where((t) => !t.isVerifiedByMe).toList()
+      ..sort((a, b) {
+        if (a.isExpired && !b.isExpired) return 1;
+        if (!a.isExpired && b.isExpired) return -1;
+        final ad = a.createdAt;
+        final bd = b.createdAt;
+        if (ad == null && bd == null) return 0;
+        if (ad == null) return 1;
+        if (bd == null) return -1;
+        return bd.compareTo(ad);
+      });
+
+    return ListView(
+      children: [
+        if (aktif.isNotEmpty) ...[
+          _sectionHeader('Aktif (${aktif.length})'),
+          ...aktif.map(_buildTaskCard),
+        ],
+        if (tamamlanan.isNotEmpty) ...[
+          _sectionHeader('Tamamlanan (${tamamlanan.length})'),
+          ...tamamlanan.map(_buildTaskCard),
+        ],
+        const SizedBox(height: 12),
+      ],
+    );
+  }
+
+  // Bölüm başlığı
+  Widget _sectionHeader(String title) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+      child: Text(
+        title,
+        style: TextStyle(
+          fontSize: 13,
+          fontWeight: FontWeight.bold,
+          color: Colors.grey.shade700,
+        ),
+      ),
+    );
+  }
+
+  // Tek görev kartı (hem aktif hem tamamlanan bölümünde kullanılır)
+  Widget _buildTaskCard(Task task) {
+    return Opacity(
+      opacity: task.isExpired && !task.isVerifiedByMe ? 0.55 : 1.0,
+      child: Card(
+        margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+        child: ListTile(
+          title: Text(task.taskText),
+          subtitle: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Kategori: ${categoryLabel(task.category)}  •  Puan: ${task.difficultyScore}',
+              ),
+              Text('${task.completionCount} kişi tamamladı'),
+              if (task.dueDate != null)
+                Padding(
+                  padding: const EdgeInsets.only(top: 2),
+                  child: Text(
+                    task.isExpired
+                        ? '⏰ Süresi doldu'
+                        : 'Son tarih: ${_formatDate(task.dueDate!)}',
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: task.isExpired ? Colors.red : Colors.grey.shade600,
+                      fontWeight: task.isExpired
+                          ? FontWeight.bold
+                          : FontWeight.normal,
                     ),
                   ),
-              ],
-            ),
-            isThreeLine: true,
-            trailing: task.isVerifiedByMe
-                ? const Icon(Icons.check_circle, color: Colors.green)
-                : task.isPendingReviewByMe
-                ? const Icon(Icons.hourglass_top, color: Colors.orange)
-                : task.isExpired
-                ? const Icon(Icons.lock_clock, color: Colors.red)
-                : const Icon(Icons.chevron_right),
-            onTap: () async {
-              await Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => TaskDetailScreen(task: task)),
-              );
-              _load(); // detaydan dönünce grup görevlerini tazele
-            },
+                ),
+            ],
           ),
-        );
-      },
+          isThreeLine: true,
+          trailing: task.isVerifiedByMe
+              ? const Icon(Icons.check_circle, color: Colors.green)
+              : task.isPendingReviewByMe
+              ? const Icon(Icons.hourglass_top, color: Colors.orange)
+              : task.isExpired
+              ? const Icon(Icons.lock_clock, color: Colors.red)
+              : const Icon(Icons.chevron_right),
+          onTap: () async {
+            await Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => TaskDetailScreen(task: task)),
+            );
+            _load();
+          },
+        ),
+      ),
     );
   }
 

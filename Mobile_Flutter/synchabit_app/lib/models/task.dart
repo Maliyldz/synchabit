@@ -7,6 +7,7 @@ class Task {
   final DateTime? createdAt;
   final int? groupId;
   final DateTime? dueDate;
+  final DateTime? completedAt;
 
   final String? myCompletionStatus; // "Verified" | "NeedsReview" | null
   final int completionCount;
@@ -22,6 +23,7 @@ class Task {
     this.myCompletionStatus,
     this.completionCount = 0,
     this.dueDate,
+    this.completedAt,
   });
 
   bool get isVerifiedByMe => myCompletionStatus == 'Verified';
@@ -49,6 +51,9 @@ class Task {
       completionCount: json['completionCount'] ?? 0,
       dueDate: json['dueDate'] != null
           ? DateTime.tryParse(json['dueDate'].toString())
+          : null,
+      completedAt: json['myCompletedAt'] != null
+          ? DateTime.tryParse(json['myCompletedAt'].toString())
           : null,
     );
   }
