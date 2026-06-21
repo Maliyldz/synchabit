@@ -51,6 +51,10 @@ namespace SyncHabit.API.Controllers
                 .Where(c => c.TaskId == t.Id && c.UserId == myUserId)
                 .Select(c => c.VerificationStatus.ToString())
                 .FirstOrDefault(),
+                    myCompletedAt = _context.TaskCompletions
+                .Where(c => c.TaskId == t.Id && c.UserId == myUserId)
+                .Select(c => (DateTime?)c.CompletedAt)
+                .FirstOrDefault(),
                     completionCount = _context.TaskCompletions
                 .Count(c => c.TaskId == t.Id && c.IsApproved)
                 })

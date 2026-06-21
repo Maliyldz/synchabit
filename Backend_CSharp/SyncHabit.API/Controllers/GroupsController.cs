@@ -144,6 +144,10 @@ namespace SyncHabit.API.Controllers
                 .Select(c => c.VerificationStatus.ToString())
                 .FirstOrDefault(),
                     // Kaç kişi tamamladı (sadece onaylanmış olanlar)
+                    myCompletedAt = _context.TaskCompletions
+                .Where(c => c.TaskId == t.Id && c.UserId == userId)
+                .Select(c => (DateTime?)c.CompletedAt)
+                .FirstOrDefault(),
                     completionCount = _context.TaskCompletions
                 .Count(c => c.TaskId == t.Id && c.IsApproved)
                 })
