@@ -439,3 +439,5 @@ AI_Python/nlp_model/models/
 # .NET derleme çıktıları
 bin/
 obj/
+# Hassas yapılandırma (JWT key, connection string)
+Backend_CSharp/SyncHabit.API/appsettings.json
